@@ -1,0 +1,81 @@
+---
+layout: page
+title: People
+permalink: /people/
+order: 1
+---
+
+{% assign professors = site.data.people | where_exp: "person", "person.programme == 'professor'"%}
+
+{% assign postdocs = site.data.people | where_exp: "person", "person.programme == 'Postdoc'"%}
+{% assign postdocsActive = postdocs | where_exp: "postdoc", "postdoc.status == 's'"%}
+{% assign postdocsAlumni = postdocs | where_exp: "postdoc", "postdoc.status == 'a'"%}
+
+{% assign phds = site.data.people | where_exp: "person", "person.programme == 'PhD'"%}
+{% assign phdsActive = phds | where_exp: "phd", "phd.status == 's'"%}
+{% assign phdsAlumni = phds | where_exp: "phd", "phd.status == 'a'"%}
+
+{% assign mscs = site.data.people | where_exp: "person", "person.programme == 'MSc'"%}
+{% assign mscsActive = mscs | where_exp: "msc", "msc.status == 's'"%}
+{% assign mscsAlumni = mscs | where_exp: "msc", "msc.status == 'a'"%}
+
+<h1>Faculty</h1>
+<ul>
+{% for person in professors %}
+  <li>
+    {{person.name}} ({{person.status}})
+  </li>
+{% endfor %}
+</ul>
+
+<h1>Postdoctoral fellows</h1>
+<ul>
+{% for person in postdocsActive %}
+  <li>
+    {{person.name}} ({{person.programme}})
+  </li>
+{% endfor %}
+</ul>
+
+<h1>Current students</h1>
+<ul>
+{% for person in phdsActive %}
+  <li>
+    {{person.name}} ({{person.programme}})
+  </li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for person in mscsActive %}
+  <li>
+    {{person.name}} ({{person.programme}})
+  </li>
+{% endfor %}
+</ul>
+
+
+<h1>Alumni</h1>
+<ul>
+{% for person in postdocsAlumni %}
+  <li>
+    {{person.name}} ({{person.programme}})
+  </li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for person in phdsAlumni %}
+  <li>
+    {{person.name}} ({{person.programme}})
+  </li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for person in mscsAlumni %}
+  <li>
+    {{person.name}} ({{person.programme}})
+  </li>
+{% endfor %}
+</ul>
