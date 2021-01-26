@@ -5,17 +5,19 @@ permalink: /people/
 order: 1
 ---
 
-{% assign professors = site.data.people | where_exp: "person", "person.programme == 'professor'"%}
+{% assign professors = site.data.people | where_exp: "person", "person.programme == 'professor'" | sort: "name"%}
 
-{% assign postdocs = site.data.people | where_exp: "person", "person.programme == 'Postdoc'"%}
+{% assign postdocs = site.data.people | where_exp: "person", "person.programme == 'Postdoc'" | sort: "name"%}
 {% assign postdocsActive = postdocs | where_exp: "postdoc", "postdoc.status == 's'"%}
 {% assign postdocsAlumni = postdocs | where_exp: "postdoc", "postdoc.status == 'a'"%}
 
-{% assign phds = site.data.people | where_exp: "person", "person.programme == 'PhD'"%}
+{% assign visitors = site.data.people | where_exp: "person", "person.programme == 'visiting'" | sort: "name"%}
+
+{% assign phds = site.data.people | where_exp: "person", "person.programme == 'PhD'" | sort: "name"%}
 {% assign phdsActive = phds | where_exp: "phd", "phd.status == 's'"%}
 {% assign phdsAlumni = phds | where_exp: "phd", "phd.status == 'a'"%}
 
-{% assign mscs = site.data.people | where_exp: "person", "person.programme == 'MSc'"%}
+{% assign mscs = site.data.people | where_exp: "person", "person.programme == 'MSc'" | sort: "name"%}
 {% assign mscsActive = mscs | where_exp: "msc", "msc.status == 's'"%}
 {% assign mscsAlumni = mscs | where_exp: "msc", "msc.status == 'a'"%}
 
@@ -36,6 +38,17 @@ order: 1
   </li>
 {% endfor %}
 </ul>
+
+{% if visitors.size > 0 %}
+    <h1>Visiting</h1>
+    <ul>
+    {% for person in visitors %}
+      <li>
+        {{person.name}}
+      </li>
+    {% endfor %}
+    </ul>
+{% endif %}
 
 <h1>Current students</h1>
 <ul>
