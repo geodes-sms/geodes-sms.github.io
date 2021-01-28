@@ -21,61 +21,11 @@ order: 1
 {% assign mscsActive = mscs | where_exp: "msc", "msc.status == 's'"%}
 {% assign mscsAlumni = mscs | where_exp: "msc", "msc.status == 'a'"%}
 
-<h1>Faculty</h1>
-<ul>
-  <li><a href="http://www.iro.umontreal.ca/~sahraouh/">Houari Sahraoui</a> (Full Professor)</li>
-  <li><a href="http://www-ens.iro.umontreal.ca/~syriani/">Eugene Syriani</a> (Associate Professor)</li>
-  <li><a href="https://michalis.famelis.info/">Michalis Famelis</a> (Assistant Professor)</li>
-</ul>
-
-<h1>Postdoctoral fellows</h1>
-<ul>
-{% for person in postdocsActive %}
-  {% include printPerson.html %}
-{% endfor %}
-</ul>
-
-{% if visitors.size > 0 %}
-    <h1>Visiting</h1>
-    <ul>
-    {% for person in visitors %}
-      <li>
-        {{person.name}}
-      </li>
-    {% endfor %}
-    </ul>
-{% endif %}
-
-<h1>PhD students</h1>
-<ul>
-{% for person in phdsActive %}
-    {% include printPerson.html %}
-{% endfor %}
-</ul>
-
-<h1>Master's students</h1>
-<ul>
-{% for person in mscsActive %}
-  {% include printPerson.html %}
-{% endfor %}
-</ul>
 
 
-<h1>Alumni</h1>
-<ul>
-{% for person in postdocsAlumni %}
-  {% include printPerson.html printPosition = "on" %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for person in phdsAlumni %}
-  {% include printPerson.html printPosition = "on" %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for person in mscsAlumni %}
-  {% include printPerson.html printPosition = "on" %}
-{% endfor %}
-</ul>
+{% include printFaculty.html %}
+{% include printCurrentPeopleBlock.html group=postdocsActive title="Postdoctoral fellows" %}
+{% include printCurrentPeopleBlock.html group=visitors title="Visiting" %}
+{% include printCurrentPeopleBlock.html group=phdsActive title="PhD students" %}
+{% include printCurrentPeopleBlock.html group=mscsActive title="Master's students" %}
+{% include printAlumni.html postdocs=postdocsAlumni phds=phdsAlumni mscs=mscsAlumni %}
