@@ -1,0 +1,5 @@
+{% if person.website%}
+    <li><a href="{{person.website}}">{{person.name}}</a>{% if include.printPosition == "on" %} ({{person.programme}}){% endif %}</li>
+{% else%}
+    <li>{{person.name}}</a>{% if include.printPosition == "on" %} ({{person.programme}}){% endif %}</li>
+{% endif %}

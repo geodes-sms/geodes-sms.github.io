@@ -23,19 +23,15 @@ order: 1
 
 <h1>Faculty</h1>
 <ul>
-{% for person in professors %}
-  <li>
-    {{person.name}} ({{person.status}})
-  </li>
-{% endfor %}
+  <li><a href="http://www.iro.umontreal.ca/~sahraouh/">Houari Sahraoui</a> (Full Professor)</li>
+  <li><a href="http://www-ens.iro.umontreal.ca/~syriani/">Eugene Syriani</a> (Associate Professor)</li>
+  <li><a href="https://michalis.famelis.info/">Michalis Famelis</a> (Assistant Professor)</li>
 </ul>
 
 <h1>Postdoctoral fellows</h1>
 <ul>
 {% for person in postdocsActive %}
-  <li>
-    {{person.name}} ({{person.programme}})
-  </li>
+  {% include printPerson.html %}
 {% endfor %}
 </ul>
 
@@ -50,20 +46,17 @@ order: 1
     </ul>
 {% endif %}
 
-<h1>Current students</h1>
+<h1>PhD students</h1>
 <ul>
 {% for person in phdsActive %}
-  <li>
-    {{person.name}} ({{person.programme}})
-  </li>
+    {% include printPerson.html %}
 {% endfor %}
 </ul>
 
+<h1>Master's students</h1>
 <ul>
 {% for person in mscsActive %}
-  <li>
-    {{person.name}} ({{person.programme}})
-  </li>
+  {% include printPerson.html %}
 {% endfor %}
 </ul>
 
@@ -71,24 +64,18 @@ order: 1
 <h1>Alumni</h1>
 <ul>
 {% for person in postdocsAlumni %}
-  <li>
-    {{person.name}} ({{person.programme}})
-  </li>
+  {% include printPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for person in phdsAlumni %}
-  <li>
-    {{person.name}} ({{person.programme}})
-  </li>
+  {% include printPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for person in mscsAlumni %}
-  <li>
-    {{person.name}} ({{person.programme}})
-  </li>
+  {% include printPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
