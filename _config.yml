@@ -29,13 +29,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: umontrealgeodes
 github_username:  geodes-sms
-address: >- # this means to ignore newlines until "baseurl:"
+address: |-
   Département d'informatique et de recherche opérationnelle
   Université de Montréal
   C.P. 6128 Succursale Centre-ville
   Montréal (QC) CANADA H3C 3J7
-
-
 
 # Build settings
 theme: minima
