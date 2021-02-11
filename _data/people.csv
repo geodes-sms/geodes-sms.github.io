@@ -1,7 +1,7 @@
-name,programme,status,website
-Michalis Famelis,professor,Assistant Professor
-Houari Sahraoui,professor,Full Professor
-Eugene Syriani,professor,Associate Professor
+name,programme,status,website,image
+Michalis Famelis,professor,Assistant Professor,https://michalis.famelis.info/,/img/michalis.jpg
+Houari Sahraoui,professor,Full Professor,http://www.iro.umontreal.ca/~sahraouh/,/img/houari.jpg
+Eugene Syriani,professor,Associate Professor,http://www-ens.iro.umontreal.ca/~syriani/,/img/eugene.jpg
 A. Bouchoucha,MSc,a,http://www-etud.iro.umontreal.ca/~bouchoar/
 A. Ndiaye,MSc,a,
 A. Seriai,PhD,a,

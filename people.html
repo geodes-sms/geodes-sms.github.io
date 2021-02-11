@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-order: 1
+order: 2
 ---
 
 {% assign professors = site.data.people | where_exp: "person", "person.programme == 'professor'" | sort: "name"%}
@@ -21,9 +21,9 @@ order: 1
 {% assign mscsActive = mscs | where_exp: "msc", "msc.status == 's'"%}
 {% assign mscsAlumni = mscs | where_exp: "msc", "msc.status == 'a'"%}
 
+{% include printFaculty-circles.html %}
+<!--{% include printFaculty.html %}-->
 
-
-{% include printFaculty.html %}
 {% include printCurrentPeopleBlock.html group=postdocsActive title="Postdoctoral fellows" %}
 {% include printCurrentPeopleBlock.html group=visitors title="Visiting" %}
 {% include printCurrentPeopleBlock.html group=phdsActive title="PhD students" %}

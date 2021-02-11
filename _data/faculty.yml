@@ -1,0 +1,12 @@
+- name: Houari Sahraoui
+  image: houari.jpg
+  position: Full Professor
+  website: http://www.iro.umontreal.ca/~sahraouh/
+- name: Eugene Syriani
+  image: eugene.jpg
+  position: Assossiate Professor
+  website: http://www-ens.iro.umontreal.ca/~syriani/
+- name: Michalis Famelis
+  image: michalis.jpg
+  position: Assistant Professor
+  website: https://michalis.famelis.info/
