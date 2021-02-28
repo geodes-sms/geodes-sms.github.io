@@ -5,16 +5,17 @@ permalink: /people/
 order: 2
 ---
 
-{% assign postdocs = site.data.people | where_exp: "person", "person.position == 'Postdoc'" | sort: "name"%}
-{% assign visitors = site.data.people | where_exp: "person", "person.position == 'visiting'" | sort: "name"%}
-{% assign phds = site.data.people | where_exp: "person", "person.position == 'PhD'" | sort: "name"%}
-{% assign mscs = site.data.people | where_exp: "person", "person.position == 'MSc'" | sort: "name"%}
+{% assign faculty = site.data.people.faculty%}
+{% assign postdocs = site.data.people.people | where_exp: "person", "person.position == 'Postdoc'" | sort: "name"%}
+{% assign visitors = site.data.people.people | where_exp: "person", "person.position == 'visiting'" | sort: "name"%}
+{% assign phds = site.data.people.people | where_exp: "person", "person.position == 'PhD'" | sort: "name"%}
+{% assign mscs = site.data.people.people | where_exp: "person", "person.position == 'MSc'" | sort: "name"%}
 
-{% assign postdocsAlumni = site.data.alumni | where_exp: "person", "person.programme == 'Postdoc'"%}
-{% assign phdsAlumni = site.data.alumni | where_exp: "person", "person.programme == 'PhD'"%}
-{% assign mscsAlumni = site.data.alumni | where_exp: "person", "person.programme == 'MSc'"%}
+{% assign postdocsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'Postdoc'"%}
+{% assign phdsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'PhD'"%}
+{% assign mscsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'MSc'"%}
 
-{% include team/printFaculty-circles.html %}
+{% include team/printFaculty-circles.html faculty=faculty%}
 {% include team/printCurrentPeopleBlock.html group=postdocs title="Postdoctoral fellows" %}
 {% include team/printCurrentPeopleBlock.html group=visitors title="Visiting" %}
 {% include team/printCurrentPeopleBlock.html group=phds title="PhD students" %}

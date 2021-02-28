@@ -1,7 +1,7 @@
 <h1>Faculty</h1>
 
 <div class="list-circles">
-  {% for item in site.data.faculty %}
+  {% for item in {{include.faculty}} %}
     <div class="list-circles-item">      
       {% if item.image %}
         {% if item.website %}
