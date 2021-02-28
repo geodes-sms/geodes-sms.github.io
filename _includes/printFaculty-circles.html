@@ -2,16 +2,20 @@
 
 <div class="list-circles">
   {% for item in site.data.faculty %}
-    <div class="list-circles-item">
+    <div class="list-circles-item">      
       {% if item.image %}
         {% if item.website %}
-          <a href="{{ item.website }}"><img src="/images/{{ item.image }}" class="item-img" /></a>
+          <a href="{{ item.website }}"><img src="/images/people/{{ item.image }}" class="item-img" /></a>
         {% else %}
-          <img src="/images/{{ item.image }}" class="item-img" />
+          <img src="/images/people/{{ item.image }}" class="item-img" />
         {% endif %}
       {% endif %}
       {% if item.name %}
-        <div class="item-name"><b>{{ item.name }}</b></div>
+        {% if item.website %}
+          <div class="item-name"><a href="{{ item.website }}">{{ item.name }}</a></div>
+        {% else %}
+          <div class="item-name">{{ item.name }}</div>
+        {% endif %} 
       {% endif %} 
       {% if item.position %}
         <div class="item-desc">{{ item.position }}</div>
