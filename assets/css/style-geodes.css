@@ -1,0 +1,12 @@
+.home-split-main{
+  @extend .home;
+  text-align:justify;
+  margin-top:10px;
+  width:70%;
+  float:left;
+}
+
+.home-split-news{
+    width:30%;
+    float: right;
+}

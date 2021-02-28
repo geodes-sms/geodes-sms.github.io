@@ -62,3 +62,4 @@ plugins:
 
 site-css:
 - "/assets/css/team.css"
+- "/assets/css/style-geodes.css"
