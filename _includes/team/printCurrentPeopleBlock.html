@@ -2,7 +2,7 @@
     <h1>{{include.title}}</h1>
     <ul>
     {% for person in {{include.group}} %}
-      {% include printPerson.html %}
+      {% include team/printPerson.html %}
     {% endfor %}
     </ul>
 {% endif %}

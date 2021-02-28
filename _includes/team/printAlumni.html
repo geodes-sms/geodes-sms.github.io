@@ -1,18 +1,18 @@
 <h1>Alumni</h1>
 <ul>
 {% for person in {{include.postdocs}} %}
-  {% include printPerson.html printPosition = "on" %}
+  {% include team/printPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for person in {{include.phds}} %}
-  {% include printPerson.html printPosition = "on" %}
+  {% include team/printPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for person in {{include.mscs}} %}
-  {% include printPerson.html printPosition = "on" %}
+  {% include team/printPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
