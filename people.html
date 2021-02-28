@@ -5,27 +5,18 @@ permalink: /people/
 order: 2
 ---
 
-{% assign professors = site.data.people | where_exp: "person", "person.programme == 'professor'" | sort: "name"%}
+{% assign postdocs = site.data.people | where_exp: "person", "person.position == 'Postdoc'" | sort: "name"%}
+{% assign visitors = site.data.people | where_exp: "person", "person.position == 'visiting'" | sort: "name"%}
+{% assign phds = site.data.people | where_exp: "person", "person.position == 'PhD'" | sort: "name"%}
+{% assign mscs = site.data.people | where_exp: "person", "person.position == 'MSc'" | sort: "name"%}
 
-{% assign postdocs = site.data.people | where_exp: "person", "person.programme == 'Postdoc'" | sort: "name"%}
-{% assign postdocsActive = postdocs | where_exp: "postdoc", "postdoc.status == 's'"%}
-{% assign postdocsAlumni = postdocs | where_exp: "postdoc", "postdoc.status == 'a'"%}
+{% assign postdocsAlumni = site.data.alumni | where_exp: "person", "person.programme == 'Postdoc'"%}
+{% assign phdsAlumni = site.data.alumni | where_exp: "person", "person.programme == 'PhD'"%}
+{% assign mscsAlumni = site.data.alumni | where_exp: "person", "person.programme == 'MSc'"%}
 
-{% assign visitors = site.data.people | where_exp: "person", "person.programme == 'visiting'" | sort: "name"%}
-
-{% assign phds = site.data.people | where_exp: "person", "person.programme == 'PhD'" | sort: "name"%}
-{% assign phdsActive = phds | where_exp: "phd", "phd.status == 's'"%}
-{% assign phdsAlumni = phds | where_exp: "phd", "phd.status == 'a'"%}
-
-{% assign mscs = site.data.people | where_exp: "person", "person.programme == 'MSc'" | sort: "name"%}
-{% assign mscsActive = mscs | where_exp: "msc", "msc.status == 's'"%}
-{% assign mscsAlumni = mscs | where_exp: "msc", "msc.status == 'a'"%}
-
-{% include printFaculty-circles.html %}
-<!--{% include printFaculty.html %}-->
-
-{% include printCurrentPeopleBlock.html group=postdocsActive title="Postdoctoral fellows" %}
-{% include printCurrentPeopleBlock.html group=visitors title="Visiting" %}
-{% include printCurrentPeopleBlock.html group=phdsActive title="PhD students" %}
-{% include printCurrentPeopleBlock.html group=mscsActive title="Master's students" %}
-{% include printAlumni.html postdocs=postdocsAlumni phds=phdsAlumni mscs=mscsAlumni %}
+{% include team/printFaculty-circles.html %}
+{% include team/printCurrentPeopleBlock.html group=postdocs title="Postdoctoral fellows" %}
+{% include team/printCurrentPeopleBlock.html group=visitors title="Visiting" %}
+{% include team/printCurrentPeopleBlock.html group=phds title="PhD students" %}
+{% include team/printCurrentPeopleBlock.html group=mscs title="Master's students" %}
+{% include team/printAlumni.html postdocs=postdocsAlumni phds=phdsAlumni mscs=mscsAlumni %}
