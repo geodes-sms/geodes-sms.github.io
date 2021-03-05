@@ -1,12 +1,16 @@
 # How to contribute
 
-## Running the site locally.
+## Running the site locally
 
 1. Clone the repo.
 
 2. Run `bundle exec jekyll serve` from the root directory.
 
 3. Browse `localhost:4000`.
+
+## Automated deployment
+
+Upon each change in the repo, a GitHub Pages job is initiated, taking care of building and deploying the site.
 
 ## Adding data
 
