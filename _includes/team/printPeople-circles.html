@@ -1,0 +1,28 @@
+<h1>{{include.title}}</h1>
+
+<div class="list-circles">
+  {% for item in {{include.people}} %}
+    <div class="list-circles-person">      
+      {% if item.image %}
+        {% if item.website %}
+          <a href="{{ item.website }}"><img src="/images/people/people/{{ item.image }}" class="item-img" /></a>
+        {% else %}
+          <img src="/images/people/people/{{ item.image }}" class="item-img" />
+        {% endif %}
+      {% else %}
+        {% if item.website %}
+          <a href="{{ item.website }}"><img src="/images/people/people/person.jpg" class="item-img" /></a>
+        {% else %}
+          <img src="/images/people/people/person.jpg" class="item-img" />
+        {% endif %}
+      {% endif %}
+      {% if item.name %}
+        {% if item.website %}
+          <div class="item-name"><a href="{{ item.website }}">{{ item.name }}</a></div>
+        {% else %}
+          <div class="item-name">{{ item.name }}</div>
+        {% endif %} 
+      {% endif %} 
+    </div>
+  {% endfor %}
+</div>

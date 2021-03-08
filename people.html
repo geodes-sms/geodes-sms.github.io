@@ -16,8 +16,12 @@ order: 2
 {% assign mscsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'MSc'"%}
 
 {% include team/printFaculty-circles.html faculty=faculty%}
-{% include team/printCurrentPeopleBlock.html group=postdocs title="Postdoctoral fellows" %}
-{% include team/printCurrentPeopleBlock.html group=visitors title="Visiting" %}
-{% include team/printCurrentPeopleBlock.html group=phds title="PhD students" %}
-{% include team/printCurrentPeopleBlock.html group=mscs title="Master's students" %}
+<hr class="people-separator">
+{% include team/printPeople-circles.html people=postdocs title="Postdoctoral fellows" %}
+<hr class="people-separator">
+{% include team/printPeople-circles.html people=phds title="PhD students" %}
+<hr class="people-separator">
+{% include team/printPeople-circles.html people=mscs title="Master's students" %}
+<hr class="people-separator">
 {% include team/printAlumni.html postdocs=postdocsAlumni phds=phdsAlumni mscs=mscsAlumni %}
+<!--{% include team/printCurrentPeopleBlock.html group=visitors title="Visiting" %}-->

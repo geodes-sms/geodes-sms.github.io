@@ -2,7 +2,7 @@
 
 <div class="list-circles">
   {% for item in {{include.faculty}} %}
-    <div class="list-circles-item">      
+    <div class="list-circles-faculty">      
       {% if item.image %}
         {% if item.website %}
           <a href="{{ item.website }}"><img src="/images/people/faculty/{{ item.image }}" class="item-img" /></a>

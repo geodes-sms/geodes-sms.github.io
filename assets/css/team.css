@@ -2,6 +2,16 @@
 
 /* --- General --- */
 
+hr.people-separator{
+    border:none;
+    height:2px;
+    background-color:#333;
+    width:40%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
 /* --- Lists of circles --- */
 
 .list-circles {
@@ -16,7 +26,7 @@
 }
 
 
-.list-circles-item {
+.list-circles-faculty {
   display: inline-block;
   width: 240px;
   vertical-align: top;
@@ -24,34 +34,71 @@
   padding: 20px;
 }
 
-.list-circles-item:hover {
+.list-circles-person{
+  display: inline-block;
+  width: 160px;
+  vertical-align: top;
+  margin: 0;
+  padding: 20px;
+}
+
+.list-circles-faculty:hover {
   background: #fafafa;
 }
 
-.list-circles-item .item-img {
+.list-circles-person:hover {
+  background: #fafafa;
+}
+
+.list-circles-faculty .item-img {
   max-width: 200px;
   height: 200px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  
 }
 
-.list-circles-item .item-desc {
+.list-circles-person .item-img {
+  max-width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.list-circles-faculty .item-desc {
   font-size: 16px;
 }
 
-.list-circles-item .item-links {
+.list-circles-person .item-desc {
+  font-size: 16px;
+}
+
+.list-circles-faculty .item-links {
   margin-top: 5px;
 }
 
-.list-circles-item .item-link {
+.list-circles-person .item-links {
+  margin-top: 5px;
+}
+
+.list-circles-faculty .item-link {
   margin:0 3px;
   color: #00994C;
   text-decoration: none !important;
 }
 
-.list-circles-item .item-link:hover {
+.list-circles-person .item-link {
+  margin:0 3px;
+  color: #00994C;
+  text-decoration: none !important;
+}
+
+.list-circles-faculty .item-link:hover {
+  color: #00994C;
+}
+
+.list-circles-person .item-link:hover {
   color: #00994C;
 }
 

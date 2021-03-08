@@ -1,5 +1,5 @@
-- name: Sana Alwidian
-  image:
+- name: Sanaa Alwidian
+  image: 
   position: Postdoc
   website: 
 - name: Istvan David
@@ -7,16 +7,16 @@
   position: Postdoc
   website: http://istvandavid.com
 - name: Jessie Galasso-Carbonnel
-  image: 
+  image: jessie.png
   position: Postdoc
   website: 
 - name: Théo Le Calvar
-  image: 
+  image: theo.jpg
   position: Postdoc
   website: 
   
 - name: Chihab Eddine Mokaddem
-  image:
+  image: chihab.jpg
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~mokaddec/
 - name: Israel Emilio Martinez Meriño
@@ -32,11 +32,11 @@
   position: PhD
   website: https://mweyssow.github.io/
 - name: MohammadAmin Zaheri
-  image: 
+  image: mohammadamin.png
   position: PhD
   website: 
 - name: Mouna Dhaouadi
-  image: 
+  image: mouna.jpeg
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~dhaouadm/
 - name: Oussama Ben Sghaier
@@ -44,7 +44,7 @@
   position: PhD
   website: https://www.linkedin.com/in/oussama-ben-sghaier/
 - name: Sogol Faridmoayer
-  image: 
+  image: sogol.jpg
   position: PhD
   website: 
 - name: Vasco Sousa
@@ -52,7 +52,7 @@
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~dasilvav/
 - name: Zahra Varaminy
-  image: 
+  image: zahra.jpg
   position: PhD
   website:
   
@@ -89,7 +89,7 @@
   position: MSc
   website:
 - name: Song Yang
-  image: 
+  image: song.jpg
   position: MSc
   website:
 - name: Sébastien Ehouan
