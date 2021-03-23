@@ -1,0 +1,71 @@
+- name: Optimization of task sequencing and allocation
+  startYear: 2021
+  endYear: 2022
+  funding: Mitacs Accelerate
+  PI: 
+  partners: National Bank of Canada
+  logo: mitacs.jpg
+  description:
+  
+- name: Semantic versioning of model changes in decision support systems
+  startYear: 2020
+  endYear: 2022
+  funding: Mitacs Accelerate
+  PI:
+  partners: Technology Evaluation Centers
+  logo: mitacs.jpg
+  description:
+  
+- name: Constraint resolution as primitive operator for multi-paradigm model transformations
+  startYear: 2020
+  endYear: 2021
+  funding: Recherche, Formation & Innovation en Pays de Loire, AtlanSTIC 2020
+  PI:
+  partners: ESEO-Tech, IVADO
+  logo: rfi.jpg
+  description:
+  
+- name: From domain-specific languages to domain-specific environments
+  startYear: 2020
+  endYear: 2025
+  funding: NSERC Discovery Grant
+  PI: 
+  partners:
+  logo: nserc.png
+  description:
+  
+- name: Management of smart production lines
+  startYear: 2018
+  endYear: 2019
+  funding: Relations internationales et francophones Quebec-Bavaria
+  PI: 
+  partners: Fortiss
+  logo: rifqb.jpg
+  description:
+  
+- name: Improving the modernization of legacy applications
+  startYear: 2017
+  endYear: 
+  funding: NSERC Engage Plus Grant
+  PI:
+  partners: Fresche Legacy
+  logo: nserc.png
+  description:
+  
+- name: Automating the modernization of legacy applications
+  startYear: 2016
+  endYear: 
+  funding: NSERC Engage Grant
+  PI: 
+  partners: Fresche Legacy
+  logo: nserc.png
+  description:
+  
+- name: Collaborative modeling among cross-domain teams
+  startYear: 2015
+  endYear: 2020
+  funding: NSERC Discovery Grant
+  PI: 
+  partners:
+  logo: nserc.png
+  description:
