@@ -1,0 +1,30 @@
+---
+layout: page
+title: Research
+permalink: /research/
+order: 1
+---
+
+<h1>Publications</h1>
+
+The list of publications can be found on our <a href="https://scholar.google.be/citations?hl=en&user=6tBH8MAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar profile</a>.
+
+<hr class="people-separator">
+
+<h1>Recently funded projects</h1>
+
+{% assign fundedProjects = site.data.projects.funded%}
+
+{% for project in fundedProjects %}
+    {% include projects/funded.html project=project %}
+{% endfor %}
+
+<hr class="people-separator">
+
+<h1>Tools</h1>
+
+{% assign tools = site.data.projects.tools%}
+
+{% for tool in tools %}
+    {% include projects/tool.html tool=tool %}
+{% endfor %}
