@@ -24,14 +24,14 @@
   url: http://www-ens.iro.umontreal.ca/~syriani/files/TxtME.zip
   logo: 
   partners: 
-  description: TxtME is a stand-alone web-based customizable domain-specific textual modeling editor. It provides built-in handy IDE features, such as syntax highlighting, automatic text completion, and error detection. Download TxtME.
+  description: TxtME is a stand-alone web-based customizable domain-specific textual modeling editor. It provides built-in handy IDE features, such as syntax highlighting, automatic text completion, and error detection.
 
 - name: T-Core
   startYear: 
   url: https://github.com/geodes-sms/tcore
   logo: 
   partners: 
-  description: T-Core is a python framework for building your own domain-specific model transformation languages. Download the T-Core package.
+  description: T-Core is a python framework for building your own domain-specific model transformation languages.
   
 - name: DSMCompare
   startYear: 2018
@@ -94,7 +94,7 @@
   url: https://github.com/geodes-sms/py-t-core
   logo: 
   partners: 
-  description: Py-T-Core is a python framework for building your own domain-specific model transformation languages
+  description: Py-T-Core is a python framework for building your own domain-specific model transformation languages.
 
 - name: MU-MMINT
   startYear: 2015
