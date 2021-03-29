@@ -1,0 +1,6 @@
+<h1>Master's students</h1>
+<ul>
+{% for person in {{include.mscs}} %}
+  {% include team/printPerson.html %}
+{% endfor %}
+</ul>
