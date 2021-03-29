@@ -80,7 +80,8 @@ table tr:nth-child(odd) {
 .labelCell {
   text-align:center;
   font-size:90%;
-  background-color: #FEE6AA;
+  
+  background-image: linear-gradient(170deg, #FFCF7A, #FEE6AA);
   width:25%;
   padding: 0px;
 }
