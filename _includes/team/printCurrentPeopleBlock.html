@@ -1,8 +1,0 @@
-{% if {{include.group}}.size > 0 %}
-    <h1>{{include.title}}</h1>
-    <ul>
-    {% for person in {{include.group}} %}
-      {% include team/printPerson.html %}
-    {% endfor %}
-    </ul>
-{% endif %}

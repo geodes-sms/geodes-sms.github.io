@@ -1,8 +1,11 @@
-<div style="border-left:2px solid #EF4E36;background-color:#FFFFFF;margin-bottom:10px;height:50px">
-    <div style="width:80px;margin-left:2px;float: left">
-        <img src="/images/logos/{{ include.project.logo }}" height="20" />
-    </div>
-    <div style="margin-left:2px">
-    {{ include.project.name }} ({{include.project.startYear}}-{{include.project.endYear}})
-    </div>
-</div>
+<tr>
+    <td>
+        <img src="/images/logos/{{ include.project.logo }}" style="width:100px;">
+    </td>
+    <td>
+        {{ include.project.name }}<br>
+        {{include.project.funding}}<br>
+        In partnership with {{include.project.partners}}.<br>
+        {{include.project.startYear}}-{{include.project.endYear}}
+    </td>
+</tr>
