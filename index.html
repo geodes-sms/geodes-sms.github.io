@@ -1,0 +1,44 @@
+---
+layout: home
+title: Home
+permalink: /
+order: 0
+---
+
+{% assign postdocs = site.data.people.people | where_exp: "person", "person.position == 'Postdoc'" %}
+{% assign phds = site.data.people.people | where_exp: "person", "person.position == 'PhD'" %}
+{% assign mscs = site.data.people.people | where_exp: "person", "person.position == 'MSc'" %}
+
+{% assign postdocsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'Postdoc'"%}
+{% assign phdsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'PhD'"%}
+{% assign mscsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'MSc'"%}
+
+<h3>About GEODES</h3>
+
+GEODES is the software engineering group of the <a href="https://www.umontreal.ca">University of Montreal, Canada</a>, as part of the <a href="https://diro.umontreal.ca/english/home">Department of Computer Science and Operational Research (DIRO)</a>.<br/><br/>
+<!-- There are {{ mscs.size }} master's students, {{ phds.size }} doctoral students, and {{ postdocs.size }} post-doctoral fellows affiliated with the group currently. -->
+
+<i>TODO: research areas, focus. (Normally, a mission statement would come here.)</i> <br/><br/>
+
+<i>TODO: team photo</i> <br/><br/>
+
+
+<h3>GEODES in numbers</h3>
+
+{% assign teamsize = 3 | plus: postdocs.size | plus: phds.size %}
+
+{% assign alumnisize = postdocsAlumni.size | plus: phdsAlumni.size | plus: mscsAlumni.size %}
+
+<table class="numbers">
+    <tr>
+        <td class="numberCell">{{ teamsize }}</td><td class="numberCell">{{ mscs.size }}</td><td class="numberCell">150+</td><td class="numberCell">35+</td><td class="numberCell">100+</td>
+    </tr>
+    <tr>
+        <td class="labelCell">Researchers</td><td class="labelCell">Students</td><td class="labelCell">Alumni</td><td class="labelCell">Events</td><td class="labelCell">Projects</td>
+    </tr>
+</table>
+
+
+Since 1992, more than thirty students have obtained a PhD degree from the group, and more then a hundred students have graduated with a Master's degree. Many of these students are professors in Quebec, Canada, and around the world (ÉTS, Laval, Polytechnique, UQAM, Ottawa, DePaul, Houston, Indiana, Michigan, United Arab Emirates, etc.), and others occupy key positions at large tech companies.<br/>
+We have organized over 35 scientific events, highlighted by the 2020 edition of the ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS).<br/>
+The team has participated in over a hundred successful projects, typically in collaboration with other universities, local SMEs and large industrial groups of the information technology sector.

@@ -14,7 +14,7 @@
 table {
     font-size:100%;
     margin-bottom: 30px;
-    width: 110%;
+    width: 100%;
     text-align: left;
     color: #000000;
     border-collapse: collapse;
@@ -47,4 +47,36 @@ table tr:nth-child(odd) {
 
 .description{
     text-align:justify;
+}
+
+.numbers {
+  border-collapse: separate;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.numberCell {
+  text-align:center;
+  font-size:150%;
+  font-weight: 500;
+  color: #EF4E36;
+  width:20%;
+  padding: 0px;
+}
+
+.alumniNumberCell {
+  text-align:center;
+  font-size:130%;
+  font-weight: 500;
+  color: #F58634;
+  width:20%;
+  padding: 0px;
+}
+
+.labelCell {
+  text-align:center;
+  background-color: #FEE6AA;
+  font-size:100%;
+  width:20%;
+  padding: 0px;
 }
