@@ -1,5 +1,5 @@
 - name: Sanaa Alwidian
-  image: 
+  image: sanaa.jpg
   position: Postdoc
   website: 
 - name: Istvan David
@@ -20,27 +20,27 @@
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~mokaddec/
 - name: Israel Emilio Martinez Meriño
-  image: 
+  image: emilio.jpg
   position: PhD
   website: 
 - name: Manouchehr Zadahmad
-  image: 
+  image: manouchehr.jpg
   position: PhD
   website: https://www.linkedin.com/in/manouchehr-zadahmad/
 - name: Martin Weyssow
-  image: 
+  image: martin.png
   position: PhD
   website: https://mweyssow.github.io/
 - name: MohammadAmin Zaheri
   image: mohammadamin.png
   position: PhD
-  website: 
+  website:
 - name: Mouna Dhaouadi
   image: mouna.jpeg
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~dhaouadm/
 - name: Oussama Ben Sghaier
-  image: 
+  image: oussama.jpg
   position: PhD
   website: https://www.linkedin.com/in/oussama-ben-sghaier/
 - name: Sogol Faridmoayer
@@ -48,7 +48,7 @@
   position: PhD
   website: 
 - name: Vasco Sousa
-  image: 
+  image: vasco.jpg
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~dasilvav/
 - name: Zahra Varaminy
