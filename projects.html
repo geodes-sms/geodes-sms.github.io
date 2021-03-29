@@ -1,0 +1,16 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+order: 4
+---
+
+<h1>Recently funded projects</h1>
+
+{% assign fundedProjects = site.data.projects.funded%}
+
+ <table cellspacing="10px" cellpadding="10px" border="0" >
+    {% for project in fundedProjects %}
+        {% include projects/funded-td.html project=project %}
+    {% endfor %}
+</table>
