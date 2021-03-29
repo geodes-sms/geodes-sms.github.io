@@ -19,10 +19,6 @@
   image: chihab.jpg
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~mokaddec/
-- name: Martinez Meriño, Israel Emilio
-  image: emilio.jpg
-  position: PhD
-  website: 
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
   position: PhD
@@ -55,7 +51,11 @@
   image: zahra.jpg
   position: PhD
   website:
-  
+
+- name: Martinez Meriño, Israel Emilio
+  image: emilio.jpg
+  position: MSc
+  website: 
 - name: Sountoura, Amara
   image: 
   position: MSc
