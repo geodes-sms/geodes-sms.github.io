@@ -15,10 +15,12 @@ The list of publications can be found on our <a href="https://scholar.google.be/
 
 {% assign fundedProjects = site.data.projects.funded%}
 
-{% for project in fundedProjects %}
-    {% include projects/funded.html project=project %}
-{% endfor %}
-
+ <table cellspacing="10px" cellpadding="10px" border="0" >
+    {% for project in fundedProjects %}
+        {% include projects/funded-td.html project=project %}
+    {% endfor %}
+</table>
+    
 <hr class="people-separator">
 
 <h1>Tools</h1>
