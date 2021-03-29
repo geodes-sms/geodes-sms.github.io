@@ -7,9 +7,16 @@ order: 4
 
 <h1>Recently funded projects</h1>
 
+<div class="description">
+Our strive for high-quality research would not be possible without (inter)national grants. We also believe a balanced research portfolio can only be sustainable by maintaining strong connections with our industrial partners. 
+In our R&D projects, we contribute innovative techniques, methods, and tools to the state of the art and the state of the practice.
+</div>
+
+<br><br>
+
 {% assign fundedProjects = site.data.projects.funded%}
 
- <table cellspacing="10px" cellpadding="10px" border="0" >
+ <table>
     {% for project in fundedProjects %}
         {% include projects/funded.html project=project %}
     {% endfor %}

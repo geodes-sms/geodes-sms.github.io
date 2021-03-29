@@ -7,10 +7,16 @@ order: 6
 
 <h1>Tools</h1>
 
+<div class="description">
+Our research typically manifests in software tools. Below is a selection of the important ones.
+Several other software projects are available from our <a href="https://github.com/geodes-sms">GitHub organization</a>.
+</div>
+<br><br>
+
 {% assign tools = site.data.projects.tools%}
 
- <table cellspacing="10px" cellpadding="10px" border="0" >
-    {% for tool in tools %}
+{% for tool in tools %}
+    {% if tool.description %}
         {% include projects/tool.html tool=tool %}
-    {% endfor %}
-</table>
+    {% endif %}
+{% endfor %}

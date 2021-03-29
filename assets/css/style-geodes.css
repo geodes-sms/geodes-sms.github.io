@@ -10,3 +10,41 @@
     width:30%;
     float: right;
 }
+
+table {
+    font-size:100%;
+    margin-bottom: 30px;
+    width: 110%;
+    text-align: left;
+    color: #000000;
+    border-collapse: collapse;
+    border: 0px solid #e8e8e8;
+}
+
+table td {
+    border: 0px solid #e8e8e8;
+}
+
+table tr {
+    border: 0px solid #e8e8e8;
+}
+
+table tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+table tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.nameResizeWeight{
+    font-weight: 500;
+}
+
+.nameResize{
+    font-size:110%;
+}
+
+.description{
+    text-align:justify;
+}
