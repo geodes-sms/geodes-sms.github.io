@@ -1,7 +1,7 @@
 - name: AToMPM
   startYear: 2009
   url: https://atompm.github.io
-  logo: https://atompm.github.io/img/AToMPM-no_bg.png
+  logo: atompm.png
   partners: 
   description: AToMPM is the modeling tool we are developing at the University of Montreal in collaboration with McGill University, the University of Antwerp, and the University of Alabama. AToMPM is a research framework from which you can generate domain-specific modeling web-based tools that run on the cloud.  
 
