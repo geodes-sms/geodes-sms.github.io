@@ -1,6 +1,13 @@
 <h1>Master's students</h1>
 <ul>
 {% for person in {{include.mscs}} %}
-  {% include team/printPerson.html %}
+    {% assign names = person.name | split: ", " %}
+    {% assign lastnameUpcase = names[0] | upcase %}
+    {% assign fullname = names[1] | append: " " | append:  lastnameUpcase %}
+    {% if person.website%}
+        <li><a href="{{person.website}}">{{fullname}}</a></li>
+    {% else%}
+        <li>{{fullname}}</a></li>
+    {% endif %}
 {% endfor %}
 </ul>

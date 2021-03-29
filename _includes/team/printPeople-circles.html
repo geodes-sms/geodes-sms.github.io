@@ -17,10 +17,13 @@
         {% endif %}
       {% endif %}
       {% if item.name %}
+        {% assign names = item.name | split: ", " %}
+        {% assign lastnameUpcase = names[0] | upcase %}
+        {% assign fullname = names[1] | append: " " | append: lastnameUpcase %}
         {% if item.website %}
-          <div class="item-name"><a href="{{ item.website }}">{{ item.name }}</a></div>
+          <div class="item-name"><a href="{{ item.website }}">{{ fullname }}</a></div>
         {% else %}
-          <div class="item-name">{{ item.name }}</div>
+          <div class="item-name">{{ fullname }}</div>
         {% endif %}
       {% endif %} 
     </div>
