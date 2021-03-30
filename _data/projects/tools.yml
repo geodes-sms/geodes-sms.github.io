@@ -3,7 +3,7 @@
   url: https://atompm.github.io
   logo: atompm.png
   partners: 
-  description: AToMPM is the modeling tool we are developing at the University of Montreal in collaboration with McGill University, the University of Antwerp, and the University of Alabama. AToMPM is a research framework from which you can generate domain-specific modeling web-based tools that run on the cloud.  
+  description: AToMPM (A Tool for Multi-Paradigm Modeling) is the modeling tool we are developing at the University of Montreal in collaboration with McGill University, the University of Antwerp, and the University of Alabama. AToMPM provides facilities for generating web-based, domain-specific modeling tools tools that run on the cloud.
 
 - name: ReLiS
   startYear: 2017
