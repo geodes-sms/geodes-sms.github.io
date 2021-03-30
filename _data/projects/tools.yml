@@ -10,7 +10,7 @@
   url: http://relis.iro.umontreal.ca/auth.html
   logo: 
   partners: 
-  description: ReLiS (Revue Littéraire Systématique - Systematic Literature Review) aims to improve the productivity of researchers carrying out systematic reviews. Conducting a systematic review involves many steps over a long period of time, and it is typically repetitive and labor-intensive. ReLiS considerably reduce the effort of many of these steps by providing essential software support to reviewers. ReLiS supports planning, conducting and reportig a review, while following a previously defined process, which can be automatically adapted as the project evolves.
+  description: Conducting a systematic review involves many steps over a long period of time, and it is typically repetitive and labor-intensive. ReLiS (Revue Littéraire Systématique - Systematic Literature Review) can considerably reduce the effort of many of these steps by providing essential software support to reviewers. ReLiS supports planning, conducting and reportig a review, while following a previously defined process, which can be automatically adapted as the project evolves.
 
 - name: BiBler
   startYear: 
