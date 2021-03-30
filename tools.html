@@ -16,7 +16,7 @@ Several other software projects are available from our <a href="https://github.c
 {% assign tools = site.data.projects.tools%}
 
 {% for tool in tools %}
-    {% if tool.description %}
+    {% if tool.description and tool.url %}
         {% include projects/tool.html tool=tool %}
     {% endif %}
 {% endfor %}
