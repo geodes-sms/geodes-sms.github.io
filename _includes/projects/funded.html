@@ -5,7 +5,9 @@
     <td>
         <div class="nameResizeWeight">{{ include.project.name }}</div>
         {{include.project.funding}}<br>
-        In partnership with {{include.project.partners}}.<br>
+        {% if include.project.partners %}
+            In partnership with {{include.project.partners}}.<br>
+        {% endif %}
         {{include.project.startYear}}-{{include.project.endYear}}
     </td>
 </tr>
