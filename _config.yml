@@ -68,3 +68,21 @@ site-css:
 - "/assets/css/page-projects.css"
 - "/assets/css/page-tools.css"
 - "/assets/css/page-people.css"
+
+navigation:
+- title: Home
+  url: /
+- title: People
+  url: /people
+- title: Research
+  subpages:
+    - title: publications
+      url: /publications
+    - title: projects
+      url: /projects
+    - title: tools
+      url: /tools
+- title: Teaching
+  url: /teaching
+- title: Contact
+  url: /contact

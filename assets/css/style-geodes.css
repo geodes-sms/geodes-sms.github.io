@@ -77,6 +77,7 @@ table tr:nth-child(odd) {
 }
 
 .labelCell {
+<<<<<<< HEAD
     text-align: center;
     font-size: 90%;
     background-image: linear-gradient(170deg, #FFCF7A, #FEE6AA);
@@ -93,4 +94,92 @@ table tr:nth-child(odd) {
 
 .site-nav__menu-item:not(:last-child) {
     margin-right: 12px;
+=======
+  text-align:center;
+  font-size:90%;
+  
+  background-image: linear-gradient(170deg, #FFCF7A, #FEE6AA);
+  width:25%;
+  padding: 0px;
+}
+
+.navigation {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 6px;
+    list-style-type:none;
+}
+.navigation li {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.navigation li a {
+    color: #333;
+    font-weight: normal;
+    font-size:16px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    display: block;
+    font-weight: 450;
+    white-space: nowrap;
+    line-height:25px;
+}
+.navigation ul li a {
+    border-radius: 0;
+    padding: 5px 10px;
+    margin:5px;
+    font-size:15px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.navigation li > ul {
+    background:white;
+    position:absolute;
+    list-style-type: none;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+    border:2px solid #666;
+    border-radius: 5px;
+    left:0;
+    display: none;
+    min-width: 100%;
+}
+.navigation li:hover > ul {
+    display: block;
+    list-style: none;
+}
+.navigation li ul li {
+    display: block;
+    float: none;
+    margin-left: 0;
+}
+.navigation li ul li a:hover {
+    border-radius: 0;
+    color: #444;
+    background: #eeeeee;
+}
+.navigation > li a:hover, .navigation li > ul:hover + a, .navigation li.current > a {
+    color: #F58634;
+}
+.navigation li.current > a {
+    font-weight: 550
+}
+.navigation li a[href^=http]:after {
+    font-family:"fontello";
+    font-style: normal;
+    font-weight: normal;
+    content:'\e9c8';
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .3em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .3em;
+>>>>>>> a22aef3a5aac25b1e89423089781430dfb179a97
 }
