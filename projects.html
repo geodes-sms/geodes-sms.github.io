@@ -5,19 +5,24 @@ permalink: /projects/
 order: 4
 ---
 
-<h1>Recently funded projects</h1>
+<header>
+    <h1>Recently funded projects</h1>
 
-<div class="description">
-A high-quality research agenda would not be possible without (inter)national grants. We also believe a balanced research portfolio can only be sustainable by maintaining strong connections with our industrial partners. 
-In our R&D projects, we strive to contribute innovative techniques, methods, and tools to the state of the art and the state of the practice.
-</div>
-
-<br><br>
+    <p class="description">
+        A high-quality research agenda would not be possible without (inter)national grants. We also believe a balanced
+        research portfolio can only be sustainable by maintaining strong connections with our industrial partners.
+        In our R&D projects, we strive to contribute innovative techniques, methods, and tools to the state of the art
+        and
+        the state of the practice.
+    </p>
+</header>
 
 {% assign fundedProjects = site.data.projects.funded%}
 
- <table>
+<ul class="bare-list project-list project-list--funded">
     {% for project in fundedProjects %}
-        {% include projects/funded.html project=project %}
+        <li class="project-list-item">
+            {% include projects/funded.html project=project %}
+        </li>
     {% endfor %}
-</table>
+</ul>

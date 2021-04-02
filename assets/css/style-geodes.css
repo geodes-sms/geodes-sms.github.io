@@ -1,22 +1,21 @@
-.home-split-main{
-  @extend .home;
-  text-align:justify;
-
-  width:70%;
-  float:left;
+.home-split-main {
+    @extend .home;
+    text-align: justify;
+    width: 70%;
+    float: left;
 }
 
-.home-split-news{
-    width:30%;
+.home-split-news {
+    width: 30%;
     float: right;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+    font-weight: $base-font-weight;
 }
 
 table {
-    font-size:100%;
+    font-size: 100%;
     margin-bottom: 30px;
     width: 100%;
     text-align: left;
@@ -41,47 +40,57 @@ table tr:nth-child(odd) {
     background-color: #FFFFFF;
 }
 
-.nameResizeWeight{
+.nameResizeWeight {
     font-weight: 500;
 }
 
-.nameResize{
-    font-size:110%;
+.nameResize {
+    font-size: 110%;
 }
 
-.description{
-    text-align:justify;
+.description {
+    text-align: justify;
 }
 
 .numbers {
-  border-collapse: separate;
-  margin-left: auto;
-  margin-right: auto;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .numberCell {
-  text-align:center;
-  font-size:150%;
-  font-weight: 500;
-  color: #EF4E36;
-  width:25%;
-  padding: 0px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    color: #EF4E36;
+    width: 25%;
+    padding: 0px;
 }
 
 .alumniNumberCell {
-  text-align:center;
-  font-size:130%;
-  font-weight: 500;
-  color: #F58634;
-  width:25%;
-  padding: 0px;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 500;
+    color: #F58634;
+    width: 25%;
+    padding: 0px;
 }
 
 .labelCell {
-  text-align:center;
-  font-size:90%;
-  
-  background-image: linear-gradient(170deg, #FFCF7A, #FEE6AA);
-  width:25%;
-  padding: 0px;
+    text-align: center;
+    font-size: 90%;
+    background-image: linear-gradient(170deg, #FFCF7A, #FEE6AA);
+    width: 25%;
+    padding: 0px;
+}
+
+.site-nav__menu {
+    display: flex; flex-direction: row;
+}
+
+.site-nav__menu-item {
+}
+
+.site-nav__menu-item:not(:last-child) {
+    margin-right: 12px;
 }

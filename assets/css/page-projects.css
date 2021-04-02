@@ -1,0 +1,185 @@
+.project-list-item {
+    margin-bottom: 12px;
+}   
+
+.project {
+    display: flex; flex-direction: row; 
+    font-size: 1rem;
+}
+
+    .project-funding {
+        display: flex; flex-direction: column;
+        width: 120px;
+        padding-right: 12px;
+    }
+
+    .project-logo {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 6px;
+    }
+
+    .project-funding-description {
+        font-size: 1.2em;
+        color: #555;
+    }
+
+    .project-funding-infos {
+        display: flex; flex-direction: column;
+    }
+
+        .project-funding-info {
+            font-size: 1.3em;
+        }
+
+            .label {
+                font-weight: bold;
+            }
+                .label:after { content: ": "; }
+
+.project-content {
+    display: flex; flex-direction: column;
+    padding-top: 6px; padding-left: 1%; padding-bottom: 12px;
+    border-left: 4px solid #F24738;
+}
+
+    .project-body {
+        flex-grow: 2;
+        display: flex; flex-direction: column;
+    }
+
+    .project-header {
+        display: flex; flex-direction: row; align-items: center;
+    }
+
+        .project-title {
+            margin-top: 0;
+        }
+     
+        .project-description {
+            font-size: 1.5em;
+        }
+
+    .project-partners-list {
+        display: flex; flex-direction: row;
+    }
+
+        .project-partners-list-item {
+            margin-right: 12px;
+            padding: 12px;
+            background-color: #f5f5f5;
+            text-transform: capitalize;
+        }
+
+    .project-footer {
+        font-size: 1.2em;
+        margin-top: 12px;
+        display: flex; 
+        padding: 6px 2px 12px;
+        border-top: 4px solid #d5d5d5;
+    }
+
+    .conf-venue {
+        display: flex;
+        font-size: 1.3em;
+        color: #555;
+        justify-content: space-between;
+    }
+
+    .conf-venue-place {
+        font-size: 1.1em;
+        color: #222;
+    }
+
+    .conf-venue-date {
+        font-weight: 500;
+    }
+
+    .conf-organizers {
+        display: flex;
+        margin-bottom: 6px;
+    }
+
+    .conf-participants {
+        margin-bottom: 12px;
+    }
+
+    .conf-organizer {
+        display: flex; align-items: center; justify-content: center; flex-direction: column;
+        font-size: 1.3rem;
+        margin-right: 12px;
+    }
+
+        
+    .conf-organizer-title {
+        color: #555;
+        margin-bottom: 4px;
+        font-size: 1.6em;
+    }
+
+    .conf-organizer-name {
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    .conf-organizer-image {
+        display: block;
+        width: 48px;
+        border-radius: 50%;
+    }
+
+    .conf-links {
+        display: flex; 
+        padding: 6px 2px 12px;
+        border-bottom: 4px solid #d5d5d5;
+    }
+
+    .conf-link {
+        position: relative;
+        display: flex; justify-content: center; align-items: center;
+        margin-right: 12px;
+        font-size: 1.5em; font-weight: 500;
+        text-align: center;
+        color: #fff;
+        border-radius: 2px;
+        background-color: #3573DD;
+        /* border-bottom: 4px solid #3573DD; */
+        transition: .2s;
+        overflow: hidden;
+    }
+    .conf-link:last-child {
+        background-color: #F24738;
+        transition: .2s;
+    }
+        .conf-link:after {
+            content: "";
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            background-color: #fff;
+            opacity: 0;
+            transform: translateY(-100%);
+            transition: .2s;
+            z-index: -1;
+        }
+        .conf-link:hover {
+            /* background-color: #2C5EB4; */
+            transform: scale(1.05);
+        }
+            .conf-link:hover:after {
+                opacity: 0.2;
+                transform: translateY(0);
+            }
+
+        .conf-link a {
+            display: block;
+            width: 120px;
+            height: 100%;
+            padding: 12px;
+        }
+        
+
+    .conf-stats {
+        display: flex;
+        justify-content: space-between;
+    }

@@ -61,5 +61,10 @@ plugins:
 #   - vendor/ruby/
 
 site-css:
+- "/assets/css/normalize.css"
+- "/assets/css/base.css"
 - "/assets/css/team.css"
 - "/assets/css/style-geodes.css"
+- "/assets/css/page-projects.css"
+- "/assets/css/page-tools.css"
+- "/assets/css/page-people.css"

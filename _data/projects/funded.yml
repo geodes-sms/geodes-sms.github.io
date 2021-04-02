@@ -3,7 +3,8 @@
   endYear: 2022
   funding: Mitacs Accelerate
   PI: 
-  partners: the National Bank of Canada
+  partners: 
+    - the National Bank of Canada
   logo: mitacs.jpg
   description:
   
@@ -12,7 +13,8 @@
   endYear: 2022
   funding: Mitacs Accelerate
   PI:
-  partners: the Technology Evaluation Centers
+  partners: 
+    - the Technology Evaluation Centers
   logo: mitacs.jpg
   description:
   
@@ -21,7 +23,9 @@
   endYear: 2021
   funding: Recherche, Formation & Innovation en Pays de Loire, AtlanSTIC 2020
   PI:
-  partners: ESEO-Tech and IVADO
+  partners: 
+    - ESEO-Tech
+    - IVADO
   logo: rfi.jpg
   description:
   
@@ -39,7 +43,8 @@
   endYear: 2019
   funding: Relations internationales et francophones Quebec-Bavaria
   PI: 
-  partners: Fortiss
+  partners: 
+    - Fortiss
   logo: rifqb.jpg
   description:
   
@@ -48,7 +53,8 @@
   endYear: 2017
   funding: NSERC Engage Plus Grant
   PI:
-  partners: Fresche Legacy
+  partners: 
+    - Fresche Legacy
   logo: nserc.png
   description:
   
@@ -57,7 +63,8 @@
   endYear: 2016
   funding: NSERC Engage Grant
   PI: 
-  partners: Fresche Legacy
+  partners:
+    - Fresche Legacy
   logo: nserc.png
   description:
   
