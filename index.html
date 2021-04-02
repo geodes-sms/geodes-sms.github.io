@@ -17,23 +17,25 @@ order: 0
 
 <br /><br />
 
+<p>
 GEODES is the software engineering group of the <a href="https://www.umontreal.ca">University of Montreal, Canada</a>,
 as part of the <a href="https://diro.umontreal.ca/english/home">Department of Computer Science and Operational Research
     (DIRO)</a>.<br /><br />
 <!-- There are {{ mscs.size }} master's students, {{ phds.size }} doctoral students, and {{ postdocs.size }} post-doctoral fellows affiliated with the group currently. -->
 
 <i>TODO: research areas, focus. (Normally, a mission statement would come here.)</i> <br /><br />
+</p>
 
 
 
 
-<h1 style="font-size: 1.5em;font-weight:400;margin:0;margin-bottom:15px;">GEODES in numbers</h1>
+<h1>GEODES in numbers</h1>
 
 {% assign gradStudentsCount = phds.size | plus: mscs.size %}
 
 {% assign alumnisize = postdocsAlumni.size | plus: phdsAlumni.size | plus: mscsAlumni.size %}
 
-<table class="numbers">
+<table class="numbers" style="font-size: 1.5em;">
     <tr>
         <td class="numberCell">3</td>
         <td class="numberCell">{{ postdocs.size }}</td>
