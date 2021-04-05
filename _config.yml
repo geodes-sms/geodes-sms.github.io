@@ -34,6 +34,7 @@ address: |-
   Université de Montréal
   C.P. 6128 Succursale Centre-ville
   Montréal (QC) CANADA H3C 3J7
+show_excerpts: true
 
 # Build settings
 theme: minima
