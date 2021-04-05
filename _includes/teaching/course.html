@@ -1,0 +1,5 @@
+{% assign courseName = include.course.code | append:": " | append: include.course.name%}
+<div class="nameResizeWeight nameResize">{{ courseName }}</div>
+<div class="small-data">Credits: {{ include.course.credits }} | Lecturer: {{ include.course.lecturer }} | Language: {{ include.course.language }} | Latest edition: <a href="{{include.course.url}}">{{ include.course.latest }}</a></div>
+<div class="description">{{include.course.description}}</div>
+<br>

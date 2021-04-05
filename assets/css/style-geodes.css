@@ -53,6 +53,10 @@ table tr:nth-child(odd) {
     text-align:justify;
 }
 
+.small-data{
+    font-size:90%;
+}
+
 .numbers {
   border-collapse: separate;
   margin-left: auto;
