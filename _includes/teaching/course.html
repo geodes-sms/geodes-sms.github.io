@@ -1,5 +1,13 @@
 {% assign courseName = include.course.code | append:": " | append: include.course.name%}
+
+{% assign lecturerNames = include.course.lecturer | split: ", " %}
+{% assign lastnameUpcase = lecturerNames[0] | upcase %}
+{% assign lecturerName = lecturerNames[1] | append: " " | append: lastnameUpcase %}
+
+{% assign lecturerInfo = site.data.people.faculty | where: "name", include.course.lecturer %}
+{% assign lecturerLink = lecturerInfo.first.website %}
+
 <div class="nameResizeWeight nameResize">{{ courseName }}</div>
-<div class="small-data">Credits: {{ include.course.credits }} | Lecturer: {{ include.course.lecturer }} | Language: {{ include.course.language }} {% if include.course.latest %}| Latest edition: <a href="{{include.course.url}}">{{ include.course.latest }}</a>{% endif %}</div>
+<div class="small-data">Credits: {{ include.course.credits }} | Lecturer: <a href="{{ lecturerLink }}">{{ lecturerName }}</a> | Language: {{ include.course.language }} {% if include.course.latest %}| Latest edition: <a href="{{include.course.url}}">{{ include.course.latest }}</a>{% endif %}</div>
 <div class="description">{{include.course.description}}</div>
 <br>

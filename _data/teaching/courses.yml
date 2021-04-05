@@ -1,7 +1,7 @@
 - name: Software engineering
   code: IFT 2255
   latest: Fall 2020
-  lecturer: Eugene Syriani
+  lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/24
   language: French
   program: 
@@ -11,7 +11,7 @@
 - name: Software analysis and design
   code: IFT 3911
   latest: Winter 2021
-  lecturer: Eugene Syriani
+  lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/26
   language: French
   program: 
@@ -21,7 +21,7 @@
 - name: Model-based software design
   code: IFT 6253
   latest: Fall 2020
-  lecturer: Eugene Syriani
+  lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/25
   language: French
   program: 
@@ -31,7 +31,7 @@
 - name: Programmation 2
   code: IFT 1025
   latest: Winter 2021
-  lecturer: Michalis Famelis
+  lecturer: Famelis, Michalis
   url: https://michalis.famelis.info/teaching/ift-1025-programmation-2-hiver-2021/
   language: French
   program:
@@ -41,7 +41,7 @@
 - name: Qualité du logiciel et métriques
   code: IFT 3913
   latest: Fall 2020
-  lecturer: Michalis Famelis
+  lecturer: Famelis, Michalis
   url: https://michalis.famelis.info/teaching/ift-3913-qualite-du-logiciel-et-metriques-automne-2020/
   language: French
   program:
@@ -51,7 +51,7 @@
 - name: Analyse du logiciel
   code: IFT 6755
   latest: Winter 2021
-  lecturer: Michalis Famelis
+  lecturer: Famelis, Michalis
   url: https://michalis.famelis.info/teaching/ift-6755-analyse-du-logiciel-hiver-2021/
   language: French
   program:
@@ -61,7 +61,7 @@
 - name: Méthodes empiriques en génie logiciel
   code: IFT 6252
   latest: 
-  lecturer: Houari Sahraoui
+  lecturer: Sahraoui, Houari
   url: https://admission.umontreal.ca/cours-et-horaires/cours/ift-6252/
   language: French
   program:
@@ -71,7 +71,7 @@
 - name: Sujets en génie logiciel
   code: IFT 6251
   latest: 
-  lecturer: Houari Sahraoui
+  lecturer: Sahraoui, Houari
   url: https://admission.umontreal.ca/cours-et-horaires/cours/ift-6251/
   language: French
   program:
