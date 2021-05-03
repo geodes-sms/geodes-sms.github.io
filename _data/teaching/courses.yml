@@ -1,80 +1,80 @@
-- name: Software engineering
+- name: Génie logiciel (Software engineering)
   code: IFT 2255
   latest: Fall 2020
   lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/24
   language: French
-  program: 
+  program: Undergraduate
   credits: 3
   description: "The goal of this course is to introduce students to the software engineering discipline focusing on its techniques and methodologies. Topics include: software processes, software engineering workflows (requirements, analysis, design, implementation, verification, and maintenance), and software modeling with UML. The course covers the theory of software engineering, but also gives students a practical hands-on experience on collaborative development of a software they will build."
   
-- name: Software analysis and design
+- name: Analyse et conception des logiciels (Software analysis and design)
   code: IFT 3911
   latest: Winter 2021
   lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/26
   language: French
-  program: 
+  program: Undergraduate
   credits: 3
   description: "The goal of this course is to give students an in-depth insight in the nature of object-oriented analysis and design. At the end of the course, students will have gained a solid experience in developing non-trivial software. The focus of this course is on design rather than implementation. Topics include: principles of good OO design, UML, code generation, design patterns, evaluation and analysis of software design."
 
-- name: Model-based software design
+- name: Conception basée sur les modèles (Model-based software design)
   code: IFT 6253
   latest: Fall 2020
   lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/25
-  language: French
-  program: 
+  language: English / French
+  program: Masters and Ph.D.
   credits: 4
   description: "The goal of this course is to familiarize students with techniques in modeling at different levels of abstraction, such as in model-driven engineering and in simulation-based design. Topics include: the study of modeling languages and domain-specific languages, techniques for metamodeling, model transformation approaches, analysis techniques on models, and an introduction to modeling & simulation."
 
-- name: Programmation 2
+- name: Programmation 2 (Programming 2)
   code: IFT 1025
   latest: Winter 2021
   lecturer: Famelis, Michalis
   url: https://michalis.famelis.info/teaching/ift-1025-programmation-2-hiver-2021/
   language: French
-  program:
+  program: Undergraduate
   credits: 3
   description: 
   
-- name: Qualité du logiciel et métriques
+- name: Qualité du logiciel et métriques (Software quality and metrics)
   code: IFT 3913
   latest: Fall 2020
   lecturer: Famelis, Michalis
   url: https://michalis.famelis.info/teaching/ift-3913-qualite-du-logiciel-et-metriques-automne-2020/
   language: French
-  program:
+  program: Undergraduate
   credits: 3
   description:
   
-- name: Analyse du logiciel
+- name: Analyse du logiciel (Software analysis)
   code: IFT 6755
   latest: Winter 2021
   lecturer: Famelis, Michalis
   url: https://michalis.famelis.info/teaching/ift-6755-analyse-du-logiciel-hiver-2021/
   language: French
-  program:
+  program: Masters and Ph.D.
   credits: 4
   description:
   
-- name: Méthodes empiriques en génie logiciel
+- name: Méthodes empiriques en génie logiciel (Empirical methods in software engineering)
   code: IFT 6252
-  latest: 
+  latest: Fall 2018
   lecturer: Sahraoui, Houari
   url: https://admission.umontreal.ca/cours-et-horaires/cours/ift-6252/
   language: French
-  program:
+  program: Masters and Ph.D.
   credits: 4
   description:
   
-- name: Sujets en génie logiciel
+- name: Sujets en génie logiciel (Special topics in software engineering
   code: IFT 6251
-  latest: 
+  latest: Winter 2018
   lecturer: Sahraoui, Houari
   url: https://admission.umontreal.ca/cours-et-horaires/cours/ift-6251/
   language: French
-  program:
+  program: Masters and Ph.D.
   credits: 4
   description:
   
