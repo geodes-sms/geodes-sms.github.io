@@ -1,0 +1,60 @@
+---
+layout: page
+title: About
+permalink: /about
+order: 1
+---
+
+{% assign postdocs = site.data.people.people | where_exp: "person", "person.position == 'Postdoc'" %}
+{% assign phds = site.data.people.people | where_exp: "person", "person.position == 'PhD'" %}
+{% assign mscs = site.data.people.people | where_exp: "person", "person.position == 'MSc'" %}
+
+{% assign postdocsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'Postdoc'"%}
+{% assign phdsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'PhD'"%}
+{% assign mscsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'MSc'"%}
+
+GEODES is the software engineering group of the <a href="https://www.umontreal.ca">University of Montreal, Canada</a>, as part of the <a href="https://diro.umontreal.ca/english/home">Department of Computer Science and Operational Research (DIRO)</a>. Our research spans through the software engineering lifecycle, with an special emphasis on the requirements, design, development, and maintenance phases.<br/><br/>
+
+<h3>Focus areas</h3>
+
+<table class="numbers">
+    <tr>
+        <td class="focusAreaCell">Requirements modeling<br/>& Design</td><td class="focusAreaCell">Model-driven engineering<br/>& Simulation</td><td class="focusAreaCell">Machine learning<br/>& Optimization</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td>
+            Goal modeling<br/>
+            Design-time uncertainty<br/>
+            Product lines<br/>
+        </td>
+        <td>
+            Multi-view modeling<br/>
+            Collaborative modeling<br/>
+            Model transformations<br/>
+        </td>
+        <td>
+            Code synthesis<br/>
+            Stakeholder assistance<br/>
+            Pattern mining<br/>
+        </td>
+    </tr>
+</table>
+
+<h3>History</h3>
+
+<!-- {% assign gradStudentsCount = phds.size | plus: mscs.size %}
+
+{% assign alumnisize = postdocsAlumni.size | plus: phdsAlumni.size | plus: mscsAlumni.size %}
+
+<table class="numbers">
+    <tr>
+        <td class="numberCell">3</td><td class="numberCell">{{ postdocs.size }}</td><td class="numberCell">{{ gradStudentsCount }}</td><td class="numberCell">150+</td>
+    </tr>
+    <tr>
+        <td class="labelCell">Faculty members</td><td class="labelCell">Postdocs</td><td class="labelCell">Grad students</td><td class="labelCell">Alumni</td>
+    </tr>
+</table>
+-->
+GEODES was founded as part of DIRO in 1992. Since then, more than thirty students have obtained a PhD degree from the group, and more then a hundred students have graduated with a Master's degree. Many of these students are professors in Quebec, Canada, and around the world (ÉTS, Laval, Polytechnique, UQAM, Ottawa, DePaul, Houston, Indiana, Michigan, United Arab Emirates, etc.), and others hold key positions at large tech companies.<br/>
+The group has developed strong connections with local SMEs and large industrial groups, giving rise to frequent collaborations and projects.<br/>
+We are active members of our extended scientific community. Recently, we have organized the 23rd edition of the <a href="https://conf.researchr.org/home/models-2020">ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)</a>.

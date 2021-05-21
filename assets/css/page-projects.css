@@ -1,0 +1,100 @@
+.project-list {
+    display: flex; flex-direction: column;
+}   
+
+.project-list-item {
+    margin-bottom: 24px;
+}   
+
+.project {
+    display: flex; flex-direction: row; 
+    font-size: 1rem;
+}
+
+    .project-funding {
+        display: flex; flex-direction: column;
+        width: 120px;
+        padding-right: 12px;
+    }
+
+    .project-logo {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 6px;
+    }
+
+    .project-funding-description {
+        font-size: 1.2em;
+        color: #555;
+    }
+
+    .project-funding-infos {
+        display: flex; flex-direction: column;
+    }
+
+        .project-funding-info {
+            font-size: 1.3em;
+        }
+
+            .label {
+                font-weight: bold;
+            }
+                .label:after { content: ": "; }
+
+.project-content {
+    display: flex; flex-direction: column;
+    padding-top: 6px; padding-left: 1%; padding-bottom: 6px;
+    border-left: 4px solid #F24738;
+}
+
+    .project-body {
+        flex-grow: 2;
+        display: flex; flex-direction: column;
+    }
+
+    .project-header {
+        display: flex; flex-direction: row; align-items: center;
+    }
+
+        .project-title {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+     
+        .project-description {
+            font-size: 1.5em;
+        }
+
+        .project-partners-title {
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
+
+    .project-partners-list {
+        display: flex; flex-direction: row;
+    }
+
+        .project-partners-list-item {
+            margin-right: 12px;
+            padding: 12px;
+            font-size: 1.3em; font-weight: 500;
+            border-radius: 2px;
+            background-color: #f5f5f5;
+            text-transform: capitalize;
+
+            cursor: pointer;
+        }
+
+        .project-partners-list-item:hover {
+            color: #fff;
+            background-color: #F27B35;
+        }
+
+    .project-footer {
+        font-size: 1.3em;
+        margin-top: 12px;
+        display: flex; 
+        padding: 12px 2px 6px;
+        border-top: 4px solid #d5d5d5;
+    }

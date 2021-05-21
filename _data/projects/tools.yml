@@ -5,6 +5,13 @@
   partners: 
   description: AToMPM (A Tool for Multi-Paradigm Modeling) is the modeling tool we are developing at the University of Montreal in collaboration with McGill University, the University of Antwerp, and the University of Alabama. AToMPM provides facilities for generating web-based, domain-specific modeling tools tools that run on the cloud.
 
+- name: gentleman
+  startYear: 2019
+  url: https://github.com/geodes-sms/gentleman
+  logo: 
+  partners: 
+  description: Gentleman is a web-based projectional editor generator. It allows you to express and interact with your DSL.
+  
 - name: ReLiS
   startYear: 2017
   url: http://relis.iro.umontreal.ca/auth.html
@@ -19,142 +26,16 @@
   partners: 
   description: BiBler is a software for managing references to scientific articles using BibTeX. Not only is it a fully functional software, the tool has been entirely modeled and synthesized in Python. It is used for educational purposes in order to understand how to generate a complete application from UML models in an agile and test-driven environment.
   
-- name: TxtME
-  startYear: 
-  url: http://www-ens.iro.umontreal.ca/~syriani/files/TxtME.zip
-  logo: 
-  partners: 
-  description: TxtME is a stand-alone web-based customizable domain-specific textual modeling editor. It provides built-in handy IDE features, such as syntax highlighting, automatic text completion, and error detection.
-
-- name: T-Core
-  startYear: 
-  url: https://github.com/geodes-sms/tcore
-  logo: 
-  partners: 
-  description: T-Core is a python framework for building your own domain-specific model transformation languages.
-  
-- name: DSMCompare
-  startYear: 2018
-  url: https://github.com/geodes-sms/DSMCompare
-  logo: 
-  partners: 
-  description:
-
-- name: MIDEAS
-  startYear: 2015
-  url: https://github.com/geodes-sms/DSMEditorGenerator
-  logo: 
-  partners: 
-  description: Modeling Interaction in Itegrated Development Environment Automated Synthesis. A process and set of tools for the generation of graphical modeling editors, with explicit specification of the user interface and its interactions
-  
-- name: ArduinoDSL
-  startYear: 2018
-  url: https://github.com/geodes-sms/ArduinoDSL
-  logo: 
-  partners: 
-  description:
-  
-- name: J-T-Core
-  startYear:
-  url: https://github.com/geodes-sms/j-t-core
-  logo: 
-  partners: 
-  description: J-T-Core is a java framework for building your own domain-specific model transformation languages
-  
-- name: NeoModelingFramework
-  startYear:
-  url: https://github.com/geodes-sms/NeoModelingFramework
-  logo: 
-  partners: 
-  description:
-  
-- name: collabserver-framework
-  startYear: 2017
-  url: https://github.com/geodes-sms/collabserver-framework
-  logo: 
-  partners: 
-  description: Framework for Real-time collaboration on extensive Data Types using Strong Eventual Consistency (SEC)
-  
-- name: gentleman
-  startYear: 2019
-  url: https://github.com/geodes-sms/gentleman
-  logo: 
-  partners: 
-  description: Gentleman is a web-based projectional editor generator. It allows you to express and interact with your DSL.
-
-- name: EModelDistance
-  startYear: 
-  url: https://github.com/geodes-sms/EModelDistance
-  logo: 
-  partners: 
-  description: 
-  
-- name: py-t-core
-  startYear: 
-  url: https://github.com/geodes-sms/py-t-core
-  logo: 
-  partners: 
-  description: Py-T-Core is a python framework for building your own domain-specific model transformation languages.
-
-- name: MU-MMINT
-  startYear: 2015
-  url: https://github.com/adisandro/MMINT
-  logo: 
-  partners: 
-  description: MU-MMINT is a version of the MMINT, an Eclipse-based infrastructure for INTeractive Model Management, that supports May Uncertainty. It was developed by Alessio Di Sandro. 
-
-- name: MetricHistory
-  startYear: 2015
-  url: https://github.com/Thomsch/metric-history
-  logo: 
-  partners: 
-  description: MetricHistory is an extensible tool developed by Thomas Schweizer for collecting and processing software measurements across mutiple versions of a code base. 
-  
-- name: Tyson
-  startYear: 2017
-  url: https://bitbucket.org/Navpreet15/dsl/src/master/
-  logo: 
-  partners: 
-  description: Tyson is a Ecore-based DSML developed by Navpreet Kaur for expressing Software Product Lines with Design Choices.
-
 - name: TAPIR
   startYear: 2019
   url: https://bitbucket.org/ErickFifa/tapir/
   logo: 
   partners: 
   description: TAPIR  is a tool developed by Erick Raelijohn for generating recommendations to developers about correct API usage. At its core, it relies on the representation of API usage patterns as LTL formulars.
-
-- name: Verso
-  startYear: 2013 
-  url: 
-  logo: 
-  partners: 
-  description: 
-
-- name: moref
-  startYear: 2013
-  url: 
-  logo: 
-  partners: 
-  description: 
   
-- name: MOTOE
-  startYear: 2013
-  url: 
+- name: T-Core
+  startYear: 
+  url: https://github.com/geodes-sms/tcore
   logo: 
   partners: 
-  description: The MOTOE project aims to learn model transformation rules from a set of example transformations.
-
-- name: vasco
-  startYear: 2013
-  url: 
-  logo: 
-  partners: 
-  description: 
-
-- name: WebQuality
-  startYear: 2013
-  url: 
-  logo: 
-  partners: 
-  description: The WebQuality project aims to develop methods and tools to assess the quality of web sites.
+  description: T-Core is a python framework for building your own domain-specific model transformation languages.

@@ -1,0 +1,16 @@
+.tool-list {
+    display: flex; flex-direction: column;
+}   
+
+.tool-list-item {
+    margin-bottom: 24px;
+}   
+
+.tool {
+    display: flex; flex-direction: column; 
+    font-size: 1rem;
+}
+
+.tool-description {
+    font-size: 1.5em;
+}
