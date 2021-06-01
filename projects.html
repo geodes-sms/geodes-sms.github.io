@@ -14,10 +14,16 @@ In our R&D projects, we strive to contribute innovative techniques, methods, and
 
 <br><br>
 
-{% assign fundedProjects = site.data.projects.funded | sort: "startYear" | reverse %}
+{% assign fundedProjects = site.data.projects.funded%}
+{% assign endYears = fundedProjects | group_by: "endYear" %}
+{% assign endYearsSorted = endYears | sort:"endYear" %}
+
 
  <table>
-    {% for project in fundedProjects %}
-        {% include projects/funded.html project=project %}
+    {% for y in endYearsSorted %}
+        {% assign projects = y.items | sort:"startYear" | reverse %}
+        {% for p in projects %}
+            {% include projects/funded.html project = p %}
+        {% endfor %}
     {% endfor %}
 </table>
