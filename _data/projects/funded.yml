@@ -11,16 +11,16 @@
   startYear: 2019
   endYear: 2024
   funding: Private philanthropic foundation
-  PI: 
+  PI:
   partners:
-  logo: 
+  logo:
   description:
   
 - name: Detection of microservices for software migration by combining metaheuristic optimization and machine learning
   startYear: 2021
   endYear: 2022
   funding: Recherche, Formation & Innovation en Pays de Loire, AtlanSTIC 2020
-  PI: 
+  PI:
   partners: IVADO
   logo: rfi.jpg
   description:
@@ -31,7 +31,7 @@
   funding: IVADO Postdoctoral Research Funding
   PI: 
   partners:
-  logo: 
+  logo:
   description:
   
 - name: AI to support software-development processes
