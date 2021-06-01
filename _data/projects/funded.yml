@@ -1,3 +1,12 @@
+- name: From examples to knowledge to software engineering support and automation
+  startYear: 2019
+  endYear: 2025
+  funding: NSERC Discovery Grant
+  PI: 
+  partners:
+  logo: nserc.png
+  description:
+
 - name: Optimization of task sequencing and allocation
   startYear: 2021
   endYear: 2022
