@@ -14,7 +14,7 @@ In our R&D projects, we strive to contribute innovative techniques, methods, and
 
 <br><br>
 
-{% assign fundedProjects = site.data.projects.funded%}
+{% assign fundedProjects = site.data.projects.funded | sort: "startYear" | reverse %}
 
  <table>
     {% for project in fundedProjects %}
