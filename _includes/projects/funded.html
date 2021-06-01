@@ -1,6 +1,8 @@
 <tr>
     <td>
-        <img src="/images/logos/{{ include.project.logo }}" style="width:100px;">
+        {% if include.project.logo %}
+            <img src="/images/logos/{{ include.project.logo }}" style="width:100px;">
+        {% endif %}
     </td>
     <td>
         <div class="nameResizeWeight">{{ include.project.name }}</div>
