@@ -89,7 +89,7 @@ table tr:nth-child(odd) {
   text-align:center;
   font-size:150%;
   font-weight: 500;
-  color: #e7673b;
+  color: #EF4E36;
   width:25%;
   padding: 0px;
 }
@@ -107,7 +107,7 @@ table tr:nth-child(odd) {
   text-align:center;
   font-size:90%;
   color:white;
-  background-image: linear-gradient(170deg, #e7673b, #e7673b);
+  background-image: linear-gradient(170deg, #d7673b, #EF4E36);
   width:25%;
   padding: 0px;
 }
@@ -118,14 +118,14 @@ table tr:nth-child(odd) {
   font-size:100%;
   font-weight: 500;
   color:white;
-  background-image: linear-gradient(170deg, #e7673b, #e7673b);
+  background-image: linear-gradient(170deg, #d7673b, #EF4E36);
   width:25%;
   padding: 0px;
 }
 
 
 a:link, a:visited {
-    color: #e7673b;
+    color: #EF4E36;
 }
 
 .navigation {
