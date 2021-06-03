@@ -17,7 +17,7 @@ layout: default
     <h2 style="font-size: 1.5em;font-weight:400;margin:0;margin-bottom:15px;margin-top:25px;">Latest news</h2>
     
     <ul class="post-list">
-      {%- for post in site.posts limit:3 -%}
+      {%- for post in site.posts limit:5 -%}
       <li>
         <h3 style="margin-bottom:0px;">
           <a href="{{ post.url | relative_url }}">
