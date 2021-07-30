@@ -1,7 +1,3 @@
-- name: Alwidian, Sanaa
-  image: sanaa.jpg
-  position: Postdoc
-  website: https://sites.google.com/view/sanaalwidian
 - name: David, Istvan
   image: istvan.jpg
   position: Postdoc
@@ -10,15 +6,7 @@
   image: jessie.png
   position: Postdoc
   website: https://jgalasso.github.io/
-- name: Le Calvar, Théo
-  image: theo.jpg
-  position: Postdoc
-  website: https://theo.lecalvar.fr
   
-- name: Mokaddem, Chihab Eddine
-  image: chihab.jpg
-  position: PhD
-  website: http://www-ens.iro.umontreal.ca/~mokaddec/
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
   position: PhD
@@ -43,20 +31,11 @@
   image: sogol.jpg
   position: PhD
   website: 
-- name: Sousa, Vasco
-  image: vasco.jpg
-  position: PhD
-  website: http://www-ens.iro.umontreal.ca/~dasilvav/
 - name: VaraminyBahnemiry, Zahra
   image: zahra.jpg
   position: PhD
   website:
 
-- name: Martinez Meriño, Israel Emilio
-  image: emilio.jpg
-  position: MSc
-  website: 
-  
 - name: Hornung, Lucas
   image:
   position: MSc
@@ -85,14 +64,8 @@
   image: 
   position: MSc
   website: http://www-ens.iro.umontreal.ca/~lafontle/
-- name: Laraki, Mohamed
-  image: 
-  position: MSc
-  website:
-- name: Hossain, Rifat
-  image: 
-  position: MSc
-  website:
+
+
 - name: Ben Soilihi Boina, Soilihi
   image: 
   position: MSc
@@ -101,10 +74,7 @@
   image: song.jpg
   position: MSc
   website:
-- name: Ehouan, Sébastien
-  image: 
-  position: MSc
-  website:
+
 - name: Nikitchin, Vitaliy
   image: 
   position: MSc

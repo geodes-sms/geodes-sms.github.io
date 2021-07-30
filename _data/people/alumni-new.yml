@@ -1,0 +1,40 @@
+- name: Alwidian, Sanaa
+  image: sanaa.jpg
+  position: Postdoc
+  graduated: 2021
+  website: https://sites.google.com/view/sanaalwidian
+- name: Le Calvar, Théo
+  image: theo.jpg
+  position: Postdoc
+  graduated: 2021
+  website: https://theo.lecalvar.fr
+- name: Mokaddem, Chihab Eddine
+  image: chihab.jpg
+  position: PhD
+  graduated: 2021
+  website: http://www-ens.iro.umontreal.ca/~mokaddec/
+- name: Sousa, Vasco
+  image: vasco.jpg
+  position: PhD
+  graduated: 2021
+  website: http://www-ens.iro.umontreal.ca/~dasilvav/
+- name: Martinez Meriño, Israel Emilio
+  image: emilio.jpg
+  position: MSc
+  graduated: 2021
+  website:
+- name: Laraki, Mohamed
+  image: 
+  position: MSc
+  graduated: 2021
+  website:
+- name: Hossain, Rifat
+  image: 
+  position: MSc
+  graduated: 2021
+  website:
+- name: Ehouan, Sébastien
+  image: 
+  position: MSc
+  graduated: 2021
+  website:
