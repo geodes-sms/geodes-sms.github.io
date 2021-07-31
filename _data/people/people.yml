@@ -1,13 +1,11 @@
-- name: David, Istvan
-  image: istvan.jpg
-  position: Postdoc
-  website: http://istvandavid.com
 - name: Galasso-Carbonnel, Jessie
   image: jessie.png
   position: Postdoc
   website: https://jgalasso.github.io/
-
-Lucas MAES, Aton KAMANDA, and Meriem BEN CHAABEN are starting the Master program. Mohammad Sadegh AALIZADEH is starting a PhD.
+- name: David, Istvan
+  image: istvan.jpg
+  position: Postdoc
+  website: http://istvandavid.com
   
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
@@ -38,9 +36,9 @@ Lucas MAES, Aton KAMANDA, and Meriem BEN CHAABEN are starting the Master program
   position: PhD
   website:
 - name: Aalizadeh, Mohammad Sadegh
-  image: 
+  image:
   position: PhD
-  website: 
+  website:
   
 - name: Ben Chaaben, Meriem
   image:
