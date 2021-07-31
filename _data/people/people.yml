@@ -6,6 +6,8 @@
   image: jessie.png
   position: Postdoc
   website: https://jgalasso.github.io/
+
+Lucas MAES, Aton KAMANDA, and Meriem BEN CHAABEN are starting the Master program. Mohammad Sadegh AALIZADEH is starting a PhD.
   
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
@@ -35,7 +37,23 @@
   image: zahra.jpg
   position: PhD
   website:
-
+- name: Aalizadeh, Mohammad Sadegh
+  image: 
+  position: PhD
+  website: 
+  
+- name: Ben Chaaben, Meriem
+  image:
+  position: MSc
+  website: 
+- name: Kamanda, Aton
+  image:
+  position: MSc
+  website: 
+- name: Maes, Lucas
+  image:
+  position: MSc
+  website: 
 - name: Hornung, Lucas
   image:
   position: MSc
