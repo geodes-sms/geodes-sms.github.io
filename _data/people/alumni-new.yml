@@ -1,40 +1,165 @@
+##### 2021 #####
+
 - name: Alwidian, Sanaa
   image: sanaa.jpg
   position: Postdoc
   graduated: 2021
   website: https://sites.google.com/view/sanaalwidian
+  supervisor: Famelis, Michalis
+  
 - name: Le Calvar, Théo
   image: theo.jpg
   position: Postdoc
   graduated: 2021
   website: https://theo.lecalvar.fr
+  supervisor: Syriani, Eugene
+  
 - name: Mokaddem, Chihab Eddine
   image: chihab.jpg
   position: PhD
   graduated: 2021
   website: http://www-ens.iro.umontreal.ca/~mokaddec/
+  supervisor: Syriani, Eugene
+  
 - name: Sousa, Vasco
   image: vasco.jpg
   position: PhD
   graduated: 2021
   website: http://www-ens.iro.umontreal.ca/~dasilvav/
+  supervisor: Syriani, Eugene
+  
 - name: Martinez Meriño, Israel Emilio
   image: emilio.jpg
   position: MSc
   graduated: 2021
   website:
+  supervisor: Sahraoui, Houari
+  
 - name: Laraki, Mohamed
   image: 
   position: MSc
   graduated: 2021
   website:
+  supervisor:
+  thesis:
+  
 - name: Hossain, Rifat
   image: 
   position: MSc
   graduated: 2021
   website:
+  supervisor:
+  thesis:
+  
 - name: Ehouan, Sébastien
   image: 
   position: MSc
   graduated: 2021
   website:
+  supervisor:
+  thesis:
+  
+- name: Fall, Khady
+  image: 
+  position: MSc
+  graduated: 2021
+  website:
+  supervisor: Syriani, Eugene
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/25100
+  
+##### 2020 #####
+- name: Dhaouadi, Mouna
+  image: 
+  position: MSc
+  graduated: 2020
+  website:
+  supervisor: Famelis, Michalis
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/25098
+
+- name: Considine, Breandan
+  image: 
+  position: MSc
+  graduated: 2020
+  website:
+  supervisor: Famelis, Michalis
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24310
+  
+- name: Schweizer, Thomas
+  image: 
+  position: MSc
+  graduated: 2020
+  website:
+  supervisor: Famelis, Michalis
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24334
+  
+- name: Raelijohn, Erick F.
+  image: 
+  position: MSc
+  graduated: 2020
+  website:
+  supervisor: Famelis, Michalis; Sahraoui, Houari
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24332
+
+##### 2019 #####
+- name: Masson, Constantin
+  image: 
+  position: MSc
+  graduated: 2019
+  website:
+  supervisor: Syriani, Eugene
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/22532
+  
+- name: Kaur, Navpreet
+  image: 
+  position: MSc
+  graduated: 2019
+  website:
+  supervisor: Famelis, Michalis
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/22129
+
+
+##### 2018 #####  
+- name: Bigendako, Brice Michel
+  image: 
+  position: MSc
+  graduated: 2018
+  website:
+  supervisor: Syriani, Eugene
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/20187
+  
+
+##### 2017 #####  
+- name: Luhunu, Lechanceux Kavuya
+  image: 
+  position: MSc
+  graduated: 2017
+  website:
+  supervisor: Syriani, Eugene
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/19110
+  
+- name: Gamboa, Miguel
+  image: 
+  position: MSc
+  graduated: 2017
+  website:
+  supervisor: Syriani, Eugene
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/18758
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
