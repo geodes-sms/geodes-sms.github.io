@@ -1,6 +1,6 @@
 - name: Génie logiciel (Software engineering)
   code: IFT 2255
-  latest: Fall 2020
+  latest: Fall 2021
   lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/24
   language: French
@@ -20,7 +20,7 @@
 
 - name: Conception basée sur les modèles (Model-based software design)
   code: IFT 6253
-  latest: Fall 2020
+  latest: Fall 2021
   lecturer: Syriani, Eugene
   url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/25
   language: English / French
