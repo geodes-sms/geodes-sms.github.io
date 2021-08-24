@@ -1,47 +1,58 @@
 - name: Galasso-Carbonnel, Jessie
   image: jessie.png
   position: Postdoc
+  start: 2020
   website: https://jgalasso.github.io/
 - name: David, Istvan
   image: istvan.png
   position: Postdoc
+  start: 2021
   website: http://istvandavid.com
   
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
   position: PhD
+  start:
   website: https://www.linkedin.com/in/manouchehr-zadahmad/
 - name: Weyssow, Martin
   image: martin.png
   position: PhD
+  start:
   website: https://mweyssow.github.io/
 - name: Zaheri, MohammadAmin
   image: mohammadamin.png
   position: PhD
+  start:
   website: http://zaheri.info/
 - name: Dhaouadi, Mouna
   image: mouna.jpeg
   position: PhD
+  start:
   website: http://www-ens.iro.umontreal.ca/~dhaouadm/
 - name: Ben Sghaier, Oussama
   image: oussama.jpg
   position: PhD
+  start:
   website: https://www.linkedin.com/in/oussama-ben-sghaier/
 - name: Faridmoayer, Sogol
   image: sogol.jpg
   position: PhD
+  start: 2021
   website: https://www.linkedin.com/in/sogol-faridmoayer-88413118a
 - name: VaraminyBahnemiry, Zahra
   image: zahra.jpg
   position: PhD
+  start:
   website:
 - name: Aalizadeh, Sadegh
   image: sadegh.jpg
   position: PhD
+  start: 2021
   website: https://www.linkedin.com/in/sadegh-aalizadeh-b4792218a
 - name: Dougnon, Raïssa Yapan
   image: raissa.jpg
   position: PhD
+  start: 2021
   website: https://www.linkedin.com/in/ra%C3%AFssa-yapan-dougnon-54167ab2
   
 - name: Essadi, Naima
@@ -89,8 +100,6 @@
   image: 
   position: MSc
   website: http://www-ens.iro.umontreal.ca/~lafontle/
-
-
 - name: Ben Soilihi Boina, Soilihi
   image: 
   position: MSc
@@ -99,7 +108,6 @@
   image: song.jpg
   position: MSc
   website:
-
 - name: Nikitchin, Vitaliy
   image: 
   position: MSc
