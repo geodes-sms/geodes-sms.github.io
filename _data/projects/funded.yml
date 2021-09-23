@@ -1,3 +1,12 @@
+- name: Inference of Simulation Models in Digital Twins by Reinforcement Learning
+  startYear: 2022
+  endYear: 2024
+  funding: IVADO Postdoctoral Research Funding
+  PI: 
+  partners:
+  logo: ivado.png
+  description:
+
 - name: From examples to knowledge to software engineering support and automation
   startYear: 2019
   endYear: 2025
@@ -22,7 +31,7 @@
   funding: Private philanthropic foundation
   PI:
   partners:
-  logo:
+  logo: phil.png
   description:
   
 - name: Detection of microservices for software migration by combining metaheuristic optimization and machine learning
