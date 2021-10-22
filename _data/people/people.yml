@@ -49,11 +49,6 @@
   position: PhD
   start:
   website:
-- name: Aalizadeh, Sadegh
-  image: sadegh.jpg
-  position: PhD
-  start: 2021
-  website: https://www.linkedin.com/in/sadegh-aalizadeh-b4792218a
 - name: Dougnon, Raïssa Yapan
   image: raissa.jpg
   position: PhD
@@ -78,10 +73,6 @@
   position: MSc
   website: 
 - name: Hornung, Lucas
-  image:
-  position: MSc
-  website: 
-- name: Belharbi, Khalid (Khaled)
   image:
   position: MSc
   website: 
