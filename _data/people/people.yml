@@ -54,6 +54,10 @@
   position: PhD
   start: 2021
   website: https://www.linkedin.com/in/ra%C3%AFssa-yapan-dougnon-54167ab2
+- name: Lafontant, Louis-Edouard
+  image: 
+  position: PhD
+  website: http://www-ens.iro.umontreal.ca/~lafontle/
   
 - name: Essadi, Naima
   image: naima.jpg
@@ -92,10 +96,6 @@
   image: 
   position: MSc
   website: https://www.linkedin.com/in/hamedkhaldi/
-- name: Lafontant, Louis-Edouard
-  image: 
-  position: MSc
-  website: http://www-ens.iro.umontreal.ca/~lafontle/
 - name: Ben Soilihi Boina, Soilihi
   image: 
   position: MSc
