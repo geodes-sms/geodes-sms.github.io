@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Michalis Famelis joining the editorial board of JOT"
+title:  "Accepted paper in SoSyM on design pattern detection in model transformations"
 date:   2021-11-15 13:00:00 -0400
 categories: news
 excerpt_separator: <!--more-->
