@@ -1,3 +1,4 @@
+
 - name: Hossain, Md Rifat
   image:
   position: MSc
@@ -30,14 +31,6 @@
   supervisor: Syriani, Eugene
   thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/25100
 
-- name: Hossain, Md Rifat
-  image:
-  position: MSc
-  end: 2021
-  website:
-  supervisor: Syriani, Eugene and Sahraoui, Houari
-  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/25465
-
 - name: Dhaouadi, Mouna
   image:
   position: MSc
@@ -69,14 +62,6 @@
   website:
   supervisor: Famelis, Michalis
   thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24334
-
-- name: Raelijohn, Erick F.
-  image:
-  position: MSc
-  end: 2020
-  website:
-  supervisor: Famelis, Michalis and Sahraoui, Houari
-  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24332
 
 - name: Batot, Edouard
   image:
@@ -310,7 +295,7 @@
   supervisor: Sahraoui, Houari and Boukadoum, Mounir
   thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/6844
 
-- name: El Boussaidi, Ghizlane
+- name: El boussaidi, Ghizlane
   image:
   position: PhD
   end: 2010

@@ -1,0 +1,72 @@
+##### 2021 #####
+
+- name: Lafontant, Louis-Edouard
+  image: louis_edouard.jpeg
+  position: MSc
+  end: 2021
+  website: http://www-ens.iro.umontreal.ca/~lafontle/
+  supervisor: Syriani, Eugene
+  thesis:
+  
+- name: Mokaddem, Chihab Eddine
+  image: chihab.jpg
+  position: PhD
+  end: 2021
+  website: http://www-ens.iro.umontreal.ca/~mokaddec/
+  supervisor: Syriani, Eugene
+    
+- name: Martinez Meriño, Israel Emilio
+  image: emilio.jpg
+  position: MSc internship
+  end: 2021
+  website:
+  supervisor: Sahraoui, Houari
+  
+- name: Laraki, Mohamed
+  image: 
+  position: MSc
+  end: 2021
+  website:
+  supervisor:
+  thesis:
+  
+- name: Ehouan, Sébastien
+  image: 
+  position: MSc
+  end: 2021
+  website:
+  supervisor:
+  thesis:
+  
+- name: Badidi, Elarbi
+  image: 
+  position: PhD
+  end: 2000
+  website:
+  supervisor: Keller, Rudolf K.
+  thesis: Architecture and Services for Load Distribution in Distributed Object Systems
+  
+- name: Khriss, Ismaïl
+  image: 
+  position: PhD
+  end: 2000
+  website:
+  supervisor: Keller, Rudolf K.
+  thesis: Towards a Transformational Paradigm in Object-Oriented Software Development
+  
+- name: Elkoutbi, Mohammed
+  image: 
+  position: PhD
+  end: 2000
+  website:
+  supervisor: Keller, Rudolf K.
+  thesis: User Interface Engineering based on Prototyping and Formal Methods
+  
+- name: St-Denis, Guy
+  image: 
+  position: MSc
+  end: 2001
+  website:
+  supervisor: Keller, Rudolf K.
+  thesis: "RCR: A UML Profile for Reverse Engineering, Program Comprehension, and Reengineering"
+  

@@ -1,0 +1,184 @@
+- name: Hassaine, Salima
+  image:
+  position: PhD
+  end: 2013
+  website:
+  supervisor: Gueheneuc, Yann-Gael and Hamel, Sylvie
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/9091
+
+- name: Abbes, Marwen
+  image:
+  position: MSc
+  end: 2011
+  website:
+  supervisor: Gueheneuc, Yann-Gael and Antoniol, Giuliano
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/4636
+
+- name: Tanteri, Julien
+  image:
+  position: MSc
+  end: 2010
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/3711
+  
+- name: Habti, Norddin
+  image:
+  position: MSc
+  end: 2009
+  website:
+  supervisor: Monnier, Stefan and Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/7216
+  
+- name: Uwatowenimana, Jeanne d'Arc
+  image:
+  position: MSc
+  end: 2008
+  website:
+  supervisor: Valtchev, Petko and Aïmeur, Esma
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/7231
+  
+- name: Cepeda Porras, Gerardo
+  image:
+  position: MSc
+  end: 2008
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/7232
+  
+- name: NG, Janice Ka-Yee
+  image:
+  position: MSc
+  end: 2008
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/7205
+  
+- name: Bérubé, Jean-François
+  image:
+  position: PhD
+  end: 2008
+  website:
+  supervisor: Potvin, Jean-Yves and Gendreau, Michel and Vaucher, Jean
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/17886
+  
+- name: Bastien, Frédéric
+  image:
+  position: MSc
+  end: 2007
+  website:
+  supervisor: Aboulhamid, El Mostapha and BOYER, FRANCOIS-R and Vachon, Julie
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/17853
+  
+- name: Bouden, Saliha
+  image:
+  position: MSc
+  end: 2007
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/17856
+  
+- name: Metzger, Michel
+  image:
+  position: MSc
+  end: 2006
+  website:
+  supervisor: Aboulhamid, El Mostapha and Vachon, Julie
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16720
+  
+- name: Rached, Samah
+  image:
+  position: MSc
+  end: 2006
+  website:
+  supervisor: Gueheneuc, Yann-Gael and Valtchev, Petko
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16690
+  
+- name: Kaczor, Olivier
+  image:
+  position: MSc
+  end: 2006
+  website:
+  supervisor: Gueheneuc, Yann-Gael and Hamel, Sylvie
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16726
+  
+
+- name: Guyomarc'h, Jean-Yves
+  image:
+  position: MSc
+  end: 2006
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16730
+
+- name: Khosravi, Khashayar
+  image:
+  position: MSc
+  end: 2006
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16702
+
+- name: Mai, Jian Hua
+  image:
+  position: MSc
+  end: 2006
+  website:
+  supervisor: Vaucher, Jean
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16699
+
+- name: La Madeleine, Sébastien
+  image:
+  position: MSc
+  end: 2005
+  website:
+  supervisor: Vachon, Julie
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16654
+
+- name: Touzani, Mohamed
+  image:
+  position: MSc
+  end: 2005
+  website:
+  supervisor: Valtchev, Petko
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16677
+
+- name: Zuo, Jin
+  image:
+  position: MSc
+  end: 2005
+  website:
+  supervisor: Valtchev, Petko and Nie, Jian-Yun
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16657
+
+- name: Nehme, Kamal
+  image:
+  position: MSc
+  end: 2005
+  website:
+  supervisor: Valtchev, Petko and Godin, Robert
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16655
+
+- name: Jing, Jun
+  image:
+  position: MSc
+  end: 2004
+  website:
+  supervisor: Valtchev, Petko
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/14575
+
+- name: Popov, Alexi Ventzeslavov
+  image:
+  position: MSc
+  end: 2003
+  website:
+  supervisor: Valtchev, Petko
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/14508
+
+- name: Bérubé, Jean-François
+  image:
+  position: MSc
+  end: 2003
+  website:
+  supervisor: Vaucher, Jean and Robert, Jacques
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/14531

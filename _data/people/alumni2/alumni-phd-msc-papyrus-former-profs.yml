@@ -1,0 +1,87 @@
+- name: Maiga, Abdou
+  image:
+  position: PhD
+  end: 2013
+  website:
+  supervisor: Aïmeur, Esma and Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/8878
+
+- name: El Kharraz, Amal
+  image:
+  position: PhD
+  end: 2012
+  website:
+  supervisor: Valtchev, Petko and Mili, Hafedh
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/8432
+
+- name: Khomh, Foutse
+  image:
+  position: PhD
+  end: 2010
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/4601
+
+- name: Bououlid Idrissi, Youssef
+  image:
+  position: PhD
+  end: 2009
+  website:
+  supervisor: Vachon, Julie
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/6438
+
+- name: Adda, Mehdi
+  image:
+  position: PhD
+  end: 2009
+  website:
+  supervisor: Valtchev, Petko
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/6447
+
+- name: Mostefaoui, Farida
+  image:
+  position: PhD
+  end: 2008
+  website:
+  supervisor: Vachon, Julie
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/6453
+
+- name: Moha, Naouel
+  image:
+  position: PhD
+  end: 2008
+  website:
+  supervisor: Gueheneuc, Yann-Gael
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/6458
+
+- name: Rouane Hacene, Mohamed
+  image:
+  position: PhD
+  end: 2007
+  website:
+  supervisor: Valtchev, Petko and Sahraoui, Houari
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/17846
+
+- name: Zhen, Zheng
+  image:
+  position: MSc
+  end: 2005
+  website:
+  supervisor: Vaucher, Jean
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16640
+
+- name: Bassil, Sarita
+  image:
+  position: PhD
+  end: 2005
+  website:
+  supervisor: Keller, Rudolf and KROPF, PETER G.
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/16663
+
+- name: Gerbé, Olivier
+  image:
+  position: PhD
+  end: 2000
+  website:
+  supervisor: Keller, Rudolf and Mineau, Guy
+  thesis: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/6760
