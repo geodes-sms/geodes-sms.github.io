@@ -24,6 +24,7 @@ class PapyrusScraper():
 
     baseURL = 'https://papyrus.bib.umontreal.ca'
     advisors = ["Sahraoui Houari", "Syriani Eugene", "Famelis Michalis"]
+    #advisors = ["Vachon Julie", "Valtchev Petko", "Gueheneuc Yann-Gael", "Vaucher Jean", "Keller Rudolf", "Lustman Francois", "Magnin Laurent", "Dury Arnaud"]
     theses = []
 
     def __init__(self):
@@ -43,7 +44,8 @@ class PapyrusScraper():
         self.theses.sort(key = lambda t: t.date, reverse=True)
             
         for thesis in self.theses:
-            thesis.printThesis('alumni-phd-msc-papyrus.yml')
+            thesis.printThesis('alumni-phd-msc-papyrus-current-profs.yml')
+            #thesis.printThesis('alumni-phd-msc-papyrus-former-profs.yml')
         
     def getTheses(self, advisor):
         url = self.getURL(advisor)
@@ -74,7 +76,9 @@ class PapyrusScraper():
         date = self.unpackDate(date)
         print(date)
         
-        self.theses.append(Thesis(author, level, date, advisors, thesisURL))
+        thesis = Thesis(author, level, date, advisors, thesisURL)
+        if not self.thesisAlreadyFound(thesis):
+            self.theses.append(thesis)
         
     levelCodes = {
         "Doctoral" : "PhD",
@@ -89,6 +93,12 @@ class PapyrusScraper():
     
     def unpackDate(self, dateString):
         return dateString.split(': ')[1].split('-')[0].replace(')', '')
+        
+    def thesisAlreadyFound(self, thesis):
+        for t in self.theses:
+            if t.sameAs(thesis):
+                return True
+        return False
         
 class Thesis():
     def __init__(self, author, level, date, advisors, thesisURL):
@@ -109,6 +119,9 @@ class Thesis():
         f.write('  supervisor: {}\n'.format(self.advisors))
         f.write('  thesis: {}\n'.format(self.thesisURL))
         f.close()
+        
+    def sameAs(self, otherThesis):
+        return self.author == otherThesis.author and self.level == otherThesis.level
 
 if __name__ == "__main__":
     PapyrusScraper().run()
