@@ -6,7 +6,7 @@
 
 {% assign lecturerInfo = site.data.people.faculty | where: "name", include.course.lecturer %}
 {% if lecturerInfo.size == 0 %}
-  {% assign lecturerInfo = site.data.people | where: "name", include.course.lecturer %}
+  {% assign lecturerInfo = site.data.people.people | where: "name", include.course.lecturer %}
 {% endif %}
 {% assign lecturerLink = lecturerInfo.first.website %}
 
