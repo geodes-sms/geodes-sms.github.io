@@ -5,6 +5,9 @@
 {% assign lecturerName = lecturerNames[1] | append: " " | append: lastnameUpcase %}
 
 {% assign lecturerInfo = site.data.people.faculty | where: "name", include.course.lecturer %}
+{% if lecturerInfo.size == 0 %}
+  {% assign lecturerInfo = site.data.people | where: "name", include.course.lecturer %}
+{% endif %}
 {% assign lecturerLink = lecturerInfo.first.website %}
 
 <div class="nameResizeWeight nameResize">{{ courseName }}</div>
