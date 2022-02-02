@@ -1,108 +1,95 @@
-- name: Alwidian, Sanaa
-  image: sanaa.jpg
-  position: Postdoc
-  website: https://sites.google.com/view/sanaalwidian
-- name: David, Istvan
-  image: istvan.jpg
-  position: Postdoc
-  website: http://istvandavid.com
 - name: Galasso-Carbonnel, Jessie
   image: jessie.png
   position: Postdoc
+  start: 2020
   website: https://jgalasso.github.io/
-- name: Le Calvar, Théo
-  image: theo.jpg
+- name: David, Istvan
+  image: istvan.png
   position: Postdoc
-  website: https://theo.lecalvar.fr
+  start: 2021
+  website: http://istvandavid.com
+- name: Oakes, Bentley James
+  image: bentley.png
+  position: Postdoc
+  start: 2021
+  website: http://msdl.cs.mcgill.ca/people/bentley
   
-- name: Mokaddem, Chihab Eddine
-  image: chihab.jpg
-  position: PhD
-  website: http://www-ens.iro.umontreal.ca/~mokaddec/
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
   position: PhD
+  start:
   website: https://www.linkedin.com/in/manouchehr-zadahmad/
 - name: Weyssow, Martin
   image: martin.png
   position: PhD
-  website: https://mweyssow.github.io/
+  start:
+  website: https://martiwey.github.io/
 - name: Zaheri, MohammadAmin
   image: mohammadamin.png
   position: PhD
+  start:
   website: http://zaheri.info/
 - name: Dhaouadi, Mouna
   image: mouna.jpeg
   position: PhD
+  start:
   website: http://www-ens.iro.umontreal.ca/~dhaouadm/
 - name: Ben Sghaier, Oussama
   image: oussama.jpg
   position: PhD
-  website: https://www.linkedin.com/in/oussama-ben-sghaier/
+  start:
+  website: https://oussamasghaier.github.io/
 - name: Faridmoayer, Sogol
   image: sogol.jpg
   position: PhD
-  website: 
-- name: Sousa, Vasco
-  image: vasco.jpg
-  position: PhD
-  website: http://www-ens.iro.umontreal.ca/~dasilvav/
-- name: Varaminy, Zahra
+  start: 2021
+  website: https://www.linkedin.com/in/sogol-faridmoayer-88413118a
+- name: VaraminyBahnemiry, Zahra
   image: zahra.jpg
   position: PhD
-  website:
-
-- name: Martinez Meriño, Israel Emilio
-  image: emilio.jpg
+  start:
+  website: https://www.linkedin.com/in/zahra-varaminy-b9a47376/
+- name: Dougnon, Raïssa Yapan
+  image: raissa.jpg
+  position: PhD
+  start: 2021
+  website: https://www.linkedin.com/in/ra%C3%AFssa-yapan-dougnon-54167ab2
+- name: Lafontant, Louis-Edouard
+  image: louis_edouard.jpeg
+  position: PhD
+  website: http://www-ens.iro.umontreal.ca/~lafontle/
+  
+- name: Essadi, Naima
+  image: naima.jpg
+  position: Collaborator
+  website: https://www.linkedin.com/in/naima-essadi/
+  
+- name: Ben Chaaben, Meriem
+  image:
   position: MSc
   website: 
-  
+- name: Kamanda, Aton
+  image:
+  position: MSc
+  website: 
+- name: Maes, Lucas
+  image:
+  position: MSc
+  website: https://lumaes.org/
 - name: Hornung, Lucas
   image:
   position: MSc
   website: 
-- name: Belharbi, Khalid (Khaled)
-  image:
-  position: MSc
-  website: 
-- name: Sountoura, Amara
-  image: 
-  position: MSc
-  website:
 - name: Ducoin, Aurelien
   image: 
   position: MSc
   website:
-- name: Vandamme, Dorian
-  image: 
-  position: MSc
-  website: http://www-ens.iro.umontreal.ca/~vandammd/
 - name: Khaldi, Hamed
   image: 
   position: MSc
   website: https://www.linkedin.com/in/hamedkhaldi/
-- name: Lafontant, Louis-Edouard
-  image: 
-  position: MSc
-  website: http://www-ens.iro.umontreal.ca/~lafontle/
-- name: Laraki, Mohamed
-  image: 
-  position: MSc
-  website:
-- name: Hossain, Rifat
-  image: 
-  position: MSc
-  website:
-- name: Ben Soilihi Boina, Soilihi
-  image: 
-  position: MSc
-  website:
 - name: Yang, Song
   image: song.jpg
-  position: MSc
-  website:
-- name: Ehouan, Sébastien
-  image: 
   position: MSc
   website:
 - name: Nikitchin, Vitaliy

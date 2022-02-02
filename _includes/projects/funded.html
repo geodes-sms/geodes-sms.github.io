@@ -1,43 +1,15 @@
-<div class="project">
-    <div class="project-funding">
-        <img class="project-logo" title="{{include.project.funding}}" src="/images/logos/{{ include.project.logo }}">
-        <p class="project-funding-description">Mitacs connects Canadian organizations and postsecondary researchers to
-            each other — and the world.</p>
-        <ul class="bare-list project-funding-infos">
-            <li class="project-funding-info fit-content">
-                <span class="label project-funding-info__label">Website</span>
-                <a href="https://www.mitacs.ca/en">https://www.mitacs.ca</a>
-            </li>
-            <li class="project-funding-info fit-content">
-                <span class="label project-funding-info__label">Type</span>
-                Nonprofit
-            </li>
-        </ul>
-    </div>
-    <div class="project-content">
-        <div class="project-body">
-            <h3 class="project-title">{{ include.project.name }}</h3>
-            <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat optio at ullam, aspernatur nobis
-                sed, obcaecati fugiat commodi illo asperiores dignissimos vero adipisci sunt a exercitationem dolor hic
-                ad?
-            </p>
-            {% if include.project.partners %}
-            <div class="project-partners">
-                <h4 class="title project-partners-title">Partners</h4>
-
-                <ul class="bare-list project-partners-list">
-                    {% for partner in include.project.partners %}
-                    <li class="project-partners-list-item">
-                        <span class="project-partner-name">{{ partner}}</span>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endif %}
-        </div>
-        <div class="project-footer">
-            <span>Date: {{include.project.startYear}}-{{include.project.endYear}}</span>
-        </div>
-    </div>
-</div>
+<tr style="background-color:rgba(0, 0, 0, 0);">
+    <td>
+        {% if include.project.logo %}
+            <img src="/images/logos/{{ include.project.logo }}" style="width:100px;">
+        {% endif %}
+    </td>
+    <td>
+        <div class="nameResizeWeight">{{ include.project.name }}</div>
+        {{include.project.funding}}<br>
+        {% if include.project.partners %}
+            In partnership with {{include.project.partners}}.<br>
+        {% endif %}
+        {{include.project.startYear}}-{{include.project.endYear}}
+    </td>
+</tr>

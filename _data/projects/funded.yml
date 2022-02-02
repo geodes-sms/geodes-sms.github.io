@@ -1,3 +1,93 @@
+- name: Inference of Simulation Models in Digital Twins by Reinforcement Learning
+  startYear: 2021
+  endYear: 2024
+  funding: IVADO Postdoctoral Research Funding
+  PI: 
+  partners:
+  logo: ivado.png
+  description:
+
+- name: From examples to knowledge to software engineering support and automation
+  startYear: 2019
+  endYear: 2025
+  funding: NSERC Discovery Grant
+  PI: 
+  partners:
+  logo: nserc.png
+  description:
+  
+- name: Lightweight Formal Support for Software Design
+  startYear: 2017
+  endYear: 2022
+  funding: NSERC Discovery Grant
+  PI: 
+  partners:
+  logo: nserc.png
+  description:
+  
+- name: Artificial intelligence for and by software engineering
+  startYear: 2019
+  endYear: 2024
+  funding: Private philanthropic fund
+  PI:
+  partners:
+  logo: phil.png
+  description:
+  
+- name: Detection of microservices for software migration by combining metaheuristic optimization and machine learning
+  startYear: 2021
+  endYear: 2022
+  funding: Recherche, Formation & Innovation en Pays de Loire, AtlanSTIC 2020
+  PI:
+  partners: IVADO
+  logo: rfi.jpg
+  description:
+  
+- name: Assisting software development in the time of massive data
+  startYear: 2020
+  endYear: 2022
+  funding: IVADO Postdoctoral Research Funding
+  PI: 
+  partners:
+  logo: ivado.png
+  description:
+
+- name: Advanced analytics design at BNC
+  startYear: 2020
+  endYear: 2021
+  funding: Mitacs Accelerate
+  PI: 
+  partners:
+  logo: mitacs.jpg
+  description:
+
+- name: AI to support software-development processes
+  startYear: 2020
+  endYear: 2020
+  funding: Mitacs Accelerate
+  PI: 
+  partners:
+  logo: mitacs.jpg
+  description:
+  
+- name: Learning from examples to improve Automation in Model-Driven Engineering
+  startYear: 2014
+  endYear: 2019
+  funding: NSERC Discovery Grant
+  PI: 
+  partners:
+  logo: nserc.png
+  description:
+  
+- name: Migration of software applications to the cloud
+  startYear: 2017
+  endYear: 2018
+  funding: NSERC Engage Grant
+  PI: 
+  partners:
+  logo: nserc.png
+  description:
+
 - name: Optimization of task sequencing and allocation
   startYear: 2021
   endYear: 2022

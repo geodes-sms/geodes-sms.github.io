@@ -5,7 +5,7 @@ permalink: /projects
 order: 4
 ---
 
-<header>
+<!-- <header>
     <h1>Recently funded projects</h1>
 
     <p class="description">
@@ -15,14 +15,25 @@ order: 4
         and
         the state of the practice.
     </p>
-</header>
+</header> -->
 
-{% assign fundedProjects = site.data.projects.funded%}
+<h3>Recently funded projects</h3>
 
-<ul class="bare-list project-list project-list--funded">
-    {% for project in fundedProjects %}
-        <li class="project-list-item">
-            {% include projects/funded.html project=project %}
-        </li>
+<div class="description">
+    A high-quality research agenda would not be possible without (inter)national grants. We also believe a balanced research portfolio can only be sustainable by maintaining strong connections with our industrial partners. 
+    In our R&D projects, we strive to contribute innovative techniques, methods, and tools to the state of the art and the state of the practice.
+</div>
+
+{% assign fundedProjects = site.data.projects.funded %}
+{% assign fundedProjectsSorted = site.data.projects.funded | sort:"endYear" | reverse %}
+{% assign endYears = fundedProjectsSorted | group_by: "endYear" %}
+{% assign endYearsSorted = endYears | sort:"endYear" %}
+
+<table>
+    {% for y in endYearsSorted %}
+        {% assign projects = y.items | sort:"startYear" | reverse %}
+        {% for p in projects %}
+            {% include projects/funded.html project = p %}
+        {% endfor %}
     {% endfor %}
-</ul>
+</table>

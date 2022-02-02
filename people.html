@@ -9,6 +9,7 @@ order: 2
 {% assign postdocs = site.data.people.people | where_exp: "person", "person.position == 'Postdoc'" | sort: "name"%}
 {% assign visitors = site.data.people.people | where_exp: "person", "person.position == 'visiting'" | sort: "name"%}
 {% assign phds = site.data.people.people | where_exp: "person", "person.position == 'PhD'" | sort: "name"%}
+{% assign collaborators = site.data.people.people | where_exp: "person", "person.position == 'Collaborator'" | sort: "name"%}
 {% assign mscs = site.data.people.people | where_exp: "person", "person.position == 'MSc'" | sort: "name"%}
 
 {% assign postdocsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'Postdoc'"%}
@@ -20,6 +21,8 @@ order: 2
 {% include team/printPeople-circles.html people=postdocs title="Postdoctoral fellows" %}
 <hr class="people-separator">
 {% include team/printPeople-circles.html people=phds title="PhD students" %}
+<hr class="people-separator">
+{% include team/printPeople-circles.html people=collaborators title="Scientific collaborators" %}
 <hr class="people-separator">
 {% include team/printMaster.html mscs=mscs %}
 <hr class="people-separator">

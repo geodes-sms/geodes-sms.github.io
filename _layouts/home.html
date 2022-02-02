@@ -9,28 +9,33 @@ layout: default
 
   {{ content }}
 
-  <!--
+  <!--<hr class="people-separator">-->
+  
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
+    
+    <h2 style="font-size: 1.5em;font-weight:400;margin:0;margin-bottom:15px;margin-top:25px;">Latest news</h2>
+    
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.posts limit:5 -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+        <h3 style="margin-bottom:0px;">
+          <a href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta" style="margin-top:-10px;">{{ post.date | date: date_format }}</span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+        <hr class="people-separator">
       </li>
       {%- endfor -%}
     </ul>
        
   {%- endif -%}
--->
+
 
 </div>
 <div class="home-split-news">

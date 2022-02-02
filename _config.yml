@@ -34,6 +34,7 @@ address: |-
   Université de Montréal
   C.P. 6128 Succursale Centre-ville
   Montréal (QC) CANADA H3C 3J7
+show_excerpts: true
 
 # Build settings
 theme: minima
@@ -61,17 +62,19 @@ plugins:
 #   - vendor/ruby/
 
 site-css:
-- "/assets/css/normalize.css"
-- "/assets/css/base.css"
 - "/assets/css/team.css"
 - "/assets/css/style-geodes.css"
-- "/assets/css/page-projects.css"
-- "/assets/css/page-tools.css"
-- "/assets/css/page-people.css"
+#- "/assets/css/base.css"
+#- "/assets/css/normalize.css"
+#- "/assets/css/page-people.css"
+#- "/assets/css/page-projects.css"
+#- "/assets/css/page-tools.css"
 
 navigation:
 - title: Home
   url: /
+- title: About
+  url: /about
 - title: People
   url: /people
 - title: Research
