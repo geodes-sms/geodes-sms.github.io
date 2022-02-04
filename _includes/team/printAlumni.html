@@ -1,18 +1,43 @@
+{% assign profsAlumni = site.data.people.alumni2.professors | where_exp: "person", "person.position == 'professor'" | sort: "name" %}
+{% assign visitingProfsAlumni = site.data.people.alumni2.professors | where_exp: "person", "person.position == 'visiting professor'" | sort: "name" %}
+{% assign postdocsAlumni = site.data.people.alumni2.postdocs | sort: "name" %}
+{% assign phdsAlumniCurrent = site.data.people.alumni2.alumni-phd-msc-papyrus-current-profs | where_exp: "person", "person.position == 'PhD'" %}
+{% assign mscsAlumniCurrent = site.data.people.alumni2.alumni-phd-msc-papyrus-current-profs | where_exp: "person", "person.position == 'MSc'" %}
+{% assign phdsAlumniFormer = site.data.people.alumni2.alumni-phd-msc-papyrus-former-profs | where_exp: "person", "person.position == 'PhD'" %}
+{% assign mscsAlumniFormer = site.data.people.alumni2.alumni-phd-msc-papyrus-former-profs | where_exp: "person", "person.position == 'MSc'" %}
+{% assign phdsAlumniManual = site.data.people.alumni2.alumni-phd-msc-manual | where_exp: "person", "person.position == 'PhD'" %}
+{% assign mscsAlumniManual = site.data.people.alumni2.alumni-phd-msc-manual | where_exp: "person", "person.position == 'MSc'" %}
+
+{% assign phdsAlumni = phdsAlumniCurrent | concat: phdsAlumniFormer | concat: phdsAlumniManual | uniq | sort: "name" %}
+{% assign mscsAlumni = mscsAlumniCurrent | concat: mscsAlumniFormer | concat: mscsAlumniManual | uniq | sort: "name" %}
+
+
+<h1>Former professors</h1>
+<ul>
+{% for person in {{profsAlumni}} %}
+  {% include team/printAlumniPerson.html printPosition = "on" %}
+{% endfor %}
+{% for person in {{visitingProfsAlumni}} %}
+  {% include team/printAlumniPerson.html printPosition = "on" %}
+{% endfor %}
+</ul>
+
+
 <h1>Alumni</h1>
 <ul>
-{% for person in {{include.postdocs}} %}
-  {% include team/printPerson.html printPosition = "on" %}
+{% for person in {{postdocsAlumni}} %}
+  {% include team/printAlumniPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
 
 <ul>
-{% for person in {{include.phds}} %}
-  {% include team/printPerson.html printPosition = "on" %}
+{% for person in {{phdsAlumni}} %}
+  {% include team/printAlumniPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
 
 <ul>
-{% for person in {{include.mscs}} %}
-  {% include team/printPerson.html printPosition = "on" %}
+{% for person in {{mscsAlumni}} %}
+  {% include team/printAlumniPerson.html printPosition = "on" %}
 {% endfor %}
 </ul>
