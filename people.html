@@ -9,12 +9,8 @@ order: 2
 {% assign postdocs = site.data.people.people | where_exp: "person", "person.position == 'Postdoc'" | sort: "name"%}
 {% assign visitors = site.data.people.people | where_exp: "person", "person.position == 'visiting'" | sort: "name"%}
 {% assign phds = site.data.people.people | where_exp: "person", "person.position == 'PhD'" | sort: "name"%}
-{% assign collaborators = site.data.people.people | where_exp: "person", "person.position == 'Collaborator'" | sort: "name"%}
+{% assign collaborators = site.data.people.people | where_exp: "person", "person.position == 'Collaborator'"%}
 {% assign mscs = site.data.people.people | where_exp: "person", "person.position == 'MSc'" | sort: "name"%}
-
-{% assign postdocsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'Postdoc'"%}
-{% assign phdsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'PhD'"%}
-{% assign mscsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'MSc'"%}
 
 {% include team/printFaculty-circles.html faculty=faculty%}
 <hr class="people-separator">
@@ -22,8 +18,8 @@ order: 2
 <hr class="people-separator">
 {% include team/printPeople-circles.html people=phds title="PhD students" %}
 <hr class="people-separator">
-{% include team/printPeople-circles.html people=collaborators title="Scientific collaborators" %}
+{% include team/printPeople-circles.html people=collaborators title="Visiting Scholars and Scientific collaborators" %}
 <hr class="people-separator">
 {% include team/printMaster.html mscs=mscs %}
 <hr class="people-separator">
-{% include team/printAlumni.html postdocs=postdocsAlumni phds=phdsAlumni mscs=mscsAlumni %}
+{% include team/printAlumni.html %}

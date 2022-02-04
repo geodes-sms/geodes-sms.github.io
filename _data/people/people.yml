@@ -59,10 +59,18 @@
   position: PhD
   website: http://www-ens.iro.umontreal.ca/~lafontle/
   
+- name: Jézéquel, Jean-Marc
+  image: jmjezequel.jpg
+  position: Collaborator
+  website: https://people.irisa.fr/Jean-Marc.Jezequel/
 - name: Essadi, Naima
   image: naima.jpg
   position: Collaborator
   website: https://www.linkedin.com/in/naima-essadi/
+- name: Hernández López, José Antonio
+  image: joseantonio.jpg
+  position: Collaborator
+  website: https://models-lab.github.io/members/joseantonio/
   
 - name: Ben Chaaben, Meriem
   image:
