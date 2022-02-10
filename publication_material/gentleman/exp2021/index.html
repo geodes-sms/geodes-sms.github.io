@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2021: Modelling with a projectional editor</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .color {
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        .color.red { color: red;}
+        .color.yellow { color: #FFD300;}
+        .color.green { color: green;}
+        .color.mode { color: royalblue; }
+        .color.black { color: #111; }
+
+        p {
+            line-height: 1.5;
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
+
+        .behaviours {
+            margin-top: 2px;
+        }
+
+        .mode-spec:not(:last-child) {
+            margin-bottom: 12px;
+        }
+        .ico {
+            font-family: Consolas, 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="page-nav">
+            <div class="page-title-wrapper">
+                <h1 class="page-title">Modelling with a projectional editor</h1>
+                <p class="page-subtitle">Jetbrains MPS and Gentleman</p>
+            </div>
+    
+            <ul class="bare-list assets">
+                <li class="asset">
+                    <a class="asset-link" href="experiment_protocol.pdf" target="_blank">PDF version</a> 
+                </li>
+            </ul>
+        </div>
+      
+
+        <p class="experiment-summary">
+            In this experiment, you will accomplish several modelling tasks using the projectional editors
+            <strong>Gentleman</strong> and <strong>Jetbrains MPS</strong>. <br>
+        </p>
+<!-- 
+        <div class="agreement">
+            <p>
+                By taking part in this experiment, <strong>you give your consent to the recording</strong> of the
+                following:
+            </p>
+            <ul class="agreement-list">
+                <li class="agreement-item">Screen (content) of the monitors used for the experiment.</li>
+                <li class="agreement-item">Audio emitted during the experiment such as out-loud thinking or questions.
+                </li>
+                <li class="agreement-item">Mouse interactions such as moving and clicking.</li>
+                <li class="agreement-item">Keyboard interactions such as pressing a key.</li>
+            </ul>
+            <p>
+                <strong>All recordings will be destroyed within a month following the study.</strong>
+            </p>
+        </div> -->
+
+      
+    </header>
+
+    <main class="page-body">
+        <header class="body-header">
+            <h2 class="section-title">Experiment</h2>
+            <p>
+                In the following tasks, we will create, manipulate and evaluate <strong>traffic light (TL)</strong> configurations.  <br>
+                After the tasks, we will take a short survey to gather some additional feedback regarding your experience.
+            </p>
+        </header>
+
+        <section class="body-section" id="task1">
+            <h3 class="task-title">Task 1: Create a TL model</h3>
+
+            <div class="task-content">
+                <div class="task-content-images">
+                    <img class="task-content-img" src="./../images/traffic_light_class_diagram_task1.svg" alt="">
+                </div>
+                
+                <div class="task-content-main">
+                    <p>
+                        Create a TL model with the following three lights: 
+                        <i class="color green">Go</i> (<code>color</code>) as GREEN (<code>name</code>), 
+                        <i class="color yellow">Hurry</i> as YELLOW and 
+                        <i class="color red">Stop</i> as RED.
+                    </p>
+
+                    <ul class="bare-list task-content__list">
+                        <li class="task-content__list-item">
+                            <i class="color red">Stop</i> behaviours
+                            <ul class="bare-list behaviours">
+                                <li class="dash behaviour font-code">
+                                    [<code>temporal</code>: <span style="color: royalblue"><i>after</i> <b>15 s</b></span>] <i class="ico">--></i> <i class="color green">Go</i> 
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="task-content__list-item">
+                            <i class="color yellow">Hurry</i> behaviours
+                            <ul class="bare-list behaviours">
+                                <li class="dash font-code">
+                                    [<code>temporal</code>: <span style="color: royalblue"><i>after</i> <b>5 s</b></span>] <i class="ico">--></i> <i class="color red">Stop</i>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="task-content__list-item">
+                            <i class="color green">Go</i> behaviours
+                            <ul class="bare-list behaviours">
+                                <li class="dash font-code">
+                                    [<code>temporal</code>: <span style="color: royalblue"><i>after</i> <b>30 s</b></span>] <i class="ico">--></i> <i class="color yellow">Hurry</i>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <p class="task-content__act">Create the corresponding TL model. <span class="task-content__act-time">[Estimated time: 5 minutes]</span></p>
+
+                    <ul class="bare-list task-results">
+                        <li class="task-result task-result--data">
+                            <a class="task-result__link" href="data/task1_gentleman.csv">Gentleman performance (data)</a> 
+                        </li>
+                        <li class="task-result task-result--data">
+                            <a class="task-result__link" href="data/task1_mps.csv">MPS performance (data)</a> 
+                        </li>
+                        <li class="task-result task-result--analysis">
+                            <a class="task-result__link" href="results/task1_results.pdf" target="_blank">Results</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+  
+        </section>
+
+        <section class="body-section" id="task2">
+            <h3 class="task-title">Task 2: Edit a model</h3>
+            
+            <div class="task-content">
+                <div class="task-content-images">
+                    <img class="task-content-img" src="./../images/traffic_light_class_diagram_task2.svg" alt="">
+                </div>
+
+                <div class="task-content-main">
+                    <p>Add the two following modes: Normal and Police</p>
+
+                    <div class="mode-spec">
+                        <p>Mode <i class="color mode">Normal</i> </p> 
+                        <ul class="bare-list">
+                            <li class="dash">
+                                Lights: same as those created in <a class="link inline-link" href="#task1">task 1</a> 
+                            </li>
+                            <li class="dash">
+                                Initial light (start): <i class="color red">Stop</i>
+                            </li>
+                            <li class="dash">
+                                <span class="title">Behaviours</span> 
+                                <ul class="behaviours">
+                                    <li class="font-code">
+                                        [<code>manual</code>: <span style="color: royalblue"><i>On</i> <b>signal</b></span>] <i class="ico">--></i> <i class="color mode">Police</i>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="mode-spec">
+                        <p>Mode <i class="color mode">Police</i> </p> 
+                        <ul class="bare-list">
+                         
+                            <li class="dash">
+                                Lights: <i class="color yellow">ON</i> as YELLOW and <i class="color black">OFF</i> as BLACK
+                                <ul class="">
+                                    <li class="">
+                                        <i class="color yellow">ON</i> behaviours
+                                        <ul class="behaviours">
+                                            <li class="behaviour font-code">
+                                                [<code>temporal</code>: <span style="color: royalblue"><i>after</i> <b>2 s</b></span>] <i class="ico">--></i> <i class="color black">OFF</i>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <i class="color black">OFF</i> behaviours
+                                        <ul class="behaviours">
+                                            <li class="behaviour font-code">
+                                                [<code>temporal</code>: <span style="color: royalblue"><i>after</i> <b>2 s</b></span>] <i class="ico">--></i> <i class="color black">OFF</i>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dash">
+                                Initial light (start): <i class="color yellow">ON</i>
+                            </li>
+                            <li class="dash">
+                                <span class="title">Behaviours</span> 
+                                <ul class="behaviours">
+                                    <li class="font-code">
+                                        [<code>manual</code>: <span style="color: royalblue"><i>On</i> <b>signal</b></span>] <i class="ico">--></i> <i class="color mode">Normal</i>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="task-content__act">
+                        Change the created TL model to respect the new requirements. 
+                        <span class="task-content__act-time">[Estimated time: 5 minutes]</span>
+                    </p>
+
+                    <ul class="bare-list task-results">
+                        <li class="task-result task-result--data">
+                            <a class="task-result__link" href="data/task2_gentleman.csv">Gentleman performance (data)</a> 
+                        </li>
+                        <li class="task-result task-result--data">
+                            <a class="task-result__link" href="data/task2_mps.csv">MPS performance (data)</a> 
+                        </li>
+                        <li class="task-result task-result--analysis">
+                            <a class="task-result__link" href="results/task2_results.pdf" target="_blank">Results</a> 
+                        </li>
+                    </ul>
+                </div>              
+            </div>
+           
+        </section>
+
+        <section class="body-section" id="task3">
+            <h3 class="task-title">Task 3: Evaluate a model</h3>
+
+            <div class="task-content">
+                <div class="task-content-main">
+                    <p>
+                        A friend needs your expertise to evaluate a TL model. He wants to create an automatic mode with the following requirements
+                    </p>
+                    <ul class="bare-list">
+                        <li class="dash">Lights: <i class="color green">GL</i> as GREEN, <i class="color yellow">YL</i> as YELLOW and <i class="color red">RL</i> as RED</li>
+                        <li class="dash">Initial light: <i class="color green">GL</i></li>
+                        <li class="dash"><strong>Allowed behaviours</strong>:  
+                            <ul>
+                                <li>
+                                    <i class="color green">GL</i> <i class="ico">--></i> <i class="color yellow">YL</i>
+                                </li>
+                                <li>
+                                    <i class="color yellow">YL</i> <i class="ico">--></i> <i class="color red">RL</i>
+                                </li>
+                                <li>
+                                    <i class="color red">RL</i> <i class="ico">--></i> <i class="color green">GL</i>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dash"><strong>No manual behaviours</strong></li>
+                    </ul>
+        
+                    <p class="task-content__act">
+                        1. Identify the errors found in the model. <br>
+                        2. Apply the changes to respect the requirements. <br>
+                        <span class="task-content__act-time">[Estimated time: 7 minutes]</span>
+                    </p>
+
+                    <ul class="bare-list task-results">
+                        <li class="task-result task-result--data">
+                            <a class="task-result__link" href="data/task3_gentleman.csv">Gentleman performance (data)</a> 
+                        </li>
+                        <li class="task-result task-result--data">
+                            <a class="task-result__link" href="data/task3_mps.csv">MPS performance (data)</a> 
+                        </li>
+                        <li class="task-result task-result--analysis">
+                            <a class="task-result__link" href="results/task3_results.pdf" target="_blank">Results</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback-section">
+            <h2 class="section-title">Feeback</h2>
+            <p>
+                <strong>Thank you for your participation!</strong> <br>
+                Please answer the questions found in the link below regarding your experience with Gentleman and 
+                MPS during this experiment <br>
+                <a href=""></a>
+            </p>
+            <ul class="bare-list task-results">
+                <li class="task-result task-result--data">
+                    <a class="task-result__link" href="data/participants_profile.csv">Participants profile</a> 
+                </li>
+                <li class="task-result task-result--data">
+                    <a class="task-result__link" href="data/participants_feedback.csv">Gentleman feedback (data)</a> 
+                </li>
+                <li class="task-result task-result--data">
+                    <a class="task-result__link" href="data/participants_feedback.csv">MPS feedback (data)</a> 
+                </li>
+                <li class="task-result task-result--analysis">
+                    <a class="task-result__link" href="results/survey_results.pdf" target="_blank">Results</a> 
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>
+            Last updated: <time datetime="2021-06-21">June 26, 2021</time>
+        </p>
+        <p>
+            &copy; Louis-Edouard LAFONTANT (<a class="bare-link" href="mailto:louis.edouard.lafontant@umontreal.ca">Email</a>)
+        </p>
+    </footer>
+</body>
+
+</html>
