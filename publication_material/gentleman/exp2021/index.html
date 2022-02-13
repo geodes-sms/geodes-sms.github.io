@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiment 2021: Modelling with a projectional editor</title>
     <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .color {
@@ -61,6 +62,14 @@
                 <p class="page-subtitle">Jetbrains MPS and Gentleman</p>
             </div>
     
+            <ul class="bare-list exp-metadatas">
+                <li class="exp-metadata">
+                    <strong>June 2021</strong> (conducted)
+                </li>
+                <li class="exp-metadata">
+                    <strong>22</strong> participants
+                </li>
+            </ul>
             <!-- <ul class="bare-list assets">
                 <li class="asset">
                     <a class="bare-link asset-link" href="data/">Data</a> 
@@ -73,8 +82,9 @@
       
 
         <p class="experiment-summary">
-            In this experiment, you will accomplish several modelling tasks using the projectional editors
+            In this experiment, participants have accomplished several modelling tasks using the projectional editors
             <strong>Gentleman</strong> and <strong>Jetbrains MPS</strong>. <br>
+            This document outlines the content of the experiment and presents the data and analysis collected and produced.
         </p>
         <!-- 
         <div class="agreement">
@@ -98,15 +108,60 @@
 
     <main class="page-body">
         <header class="body-header">
-            <h2 class="section-title">Experiment</h2>
-            <p>
-                In the following tasks, we will create, manipulate and evaluate <strong>traffic light (TL)</strong> configurations. <br>
-                After the tasks, we will take a short survey to gather some additional feedback regarding your experience.
-            </p>
-            <p class="protocol">
-                <!-- <a class="tutorial-link" href="#" target="_blank">Tutorial</a>  -->
-                <a class="protocol-link" href="experiment_protocol.pdf" target="_blank">Protocol (PDF)</a> 
-            </p>
+            <h2 class="experiment-title">Experiment</h2>
+
+            <div class="experiment-outline">
+                <h3 class="result-title">Outline</h3>
+                <p>
+                    This experiment is composed of <strong>three modeling tasks</strong>, performed first with one tool (<em>Gentleman</em> or <em>MPS</em>), 
+                    followed by the other tool. The model manipulated in those tasks represents <strong>Traffic light (TL)</strong> 
+                    configurations. Before starting the tasks, participants are given <strong>hands-on tutorial</strong>, to help them familiarized
+                    themselves with the editor.
+                    At the end of the tasks, participants are invited to complete a <a href="#survey">survey</a>.
+                    It serves to identify their profile and characterize their experience with each tool.
+                </p>
+                <p>
+                    <strong>Tasks</strong>: (1) <a href="#task1">Design a model</a>, (2) <a href="#task2">Evolve a model</a> and (3) <a href="#task3">Evaluate a model</a>.
+                </p>
+                <p>
+                    <strong>Tutorial:</strong> Using an editor (concepts and projections) to manipulate <a href="https://en.wikipedia.org/wiki/Mind_map">mindmaps</a>, define an instance, perform some editing operations (eg: select, copy-pasting, autocompletion, undo/redo).
+                </p>
+                <p style="text-align: right;">
+                    <a class="protocol-link" href="experiment_protocol.pdf" target="_blank">Protocol (PDF)</a> 
+                </p>
+
+                <h3 class="result-title">Preliminary analysis</h3>
+                <p>
+                    The experiment was conducted on two groups, differentiated by order of the tool with which they performed the tasks.
+                    To verify the influence of the order, we performed a preliminary analysis. It compares the means and variance between each group,
+                    using a confidence interval of 95%.
+                </p>
+            </div>
+
+            <div class="experiment-metrics">
+                <h3 class="result-title">Metrics</h3>
+                <!-- <p>The following metrics were collected for the tasks.</p> -->
+                <ul class="bare-list metrics">
+                    <li class="metric"><code class="label">NB_Selection</code> Number of selection (a mouse click or the end of a pressed navigation key).</li>
+                    <li class="metric"><code class="label">NB_Blank</code> Number of blank selection (subset of <code>NB_Selection</code>).</li>
+                    <li class="metric"><code class="label">NB_Miss</code> Number of missed selection (subset of <code>NB_Selection</code>).</li>
+                    <li class="metric"><code class="label">NB_CxtChange</code> Number of tab or window changed in the editor</li>
+                    <li class="metric"><code class="label">T_Idle</code> Idle time. It begins after 2 seconds of inactivity.</li>
+                    <li class="metric"><code class="label">NB_Idle</code> Number of idle occurrences</li>
+                    <li class="metric"><code class="label">T_QA</code> Question and answer (QA) time. It begins after 3 seconds of interaction with the supervisor.</li>
+                    <li class="metric"><code class="label">NB_QA</code> Number of QA occurrences.</li>
+                    <li class="metric"><code class="label">T_Total</code> Total time taken to complete the task.</li>
+                    <li class="metric"><code class="label">RT_Success</code> Success rate.</li>
+                    <li class="metric"><code class="label">NB_Block</code> Number of occurrences when the participant was blocked in his task, and requested some assistance.</li>
+                    <li class="metric"><code class="label">NB_Typos</code> Number of typos (including wrong inputs).</li>
+                    <li class="metric"><code class="label">NB_DesignErr</code> Number of design errors. Occurs when the requirements of a task are not satisfied.</li>
+                    <li class="metric"><code class="label">NB_Bug</code> Number of internal errors.</li>
+                    <li class="metric"><code class="label">Detection</code> Detection rate. Ratio: total number of errors / number of errors found.</li>
+                    <li class="metric"><code class="label">RT_Recover</code> Recovery rate. Ratio: total number of errors / number of errors corrected.</li>
+                    <li class="metric"><code class="label">T_Recover</code> Total time taken to recover from all the errors following their detection.</li>
+                </ul>
+            </div>
+        
         </header>
 
         <section class="body-section" id="task1">
@@ -150,41 +205,31 @@
                     </ul>
                 </div>
                 <div class="task-content-results">
-                    <h4 class="result-title">Results</h4>
-                    <p>
-                        Considering the mean, participants performed better using Gentleman than MPS, but with various degrees.
-                        The most important differences are found in the mechanical effort and completion time. 
-                        <!-- In terms of variability, participants produced a much larger distribution with MPS than with Gentleman,
-                        especially for the mechanical effort variables.  -->
-                    </p>
-                    <ul class="bare-list task-results">
-                        <li class="task-result dash">
-                            <code class="label">NB_Selection</code>: 10 more with MPS than with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">NB_Blank</code>: 3 more with MPS than with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">NB_CtxChange</code>: 8 occurences with MPS and none with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">T_Total</code>: 90 more seconds to complete the task with MPS than with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">NB_Block</code>: 2 occurences with MPS and none with Gentleman.
-                        </li>
-                    </ul>
+                    <h4 class="data-title">Collected data</h4>
 
-                    <h4 class="result-title">Data</h4>
                     <ul class="bare-list task-data-list">
                         <li class="task-data">
-                            <a class="task-data__link" href="data/task1_gentleman.csv">Gentleman (CSV)</a> 
+                            <h5 class="task-data-title">Gentleman <a class="bare-link task-data__link task-data__link--csv" href="data/task1_gentleman.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) during task 1 for Gentleman. <br>
+                                Each record is identified with a <em>timestamp</em> that correspond to a participant.
+                            </span>
                         </li>
                         <li class="task-data">
-                            <a class="task-data__link" href="data/task1_mps.csv">MPS (CSV)</a>
+                            <h5 class="task-data-title">MPS <a class="bare-link task-data__link task-data__link--csv" href="data/task1_mps.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) during task 1 for MPS. <br>
+                                Each record is identified with a <em>timestamp</em> that correspond to a participant.
+                            </span>
                         </li>
-                        <li class="task-result">
-                            <a class="task-result__link" href="results/task1_results.pdf" target="_blank">Results</a> 
+                        <li class="task-data">
+                            <h5 class="task-data-title">Statistical analysis <a class="bare-link task-data__link task-data__link--pdf" href="results/task1_results.pdf">PDF  <i class="ico ico-download"></i></a> </h5>
+                            <span>Statistical analysis (report) produced for task 1 with <a class="inline-link" href="https://www.ibm.com/docs/en/spss-statistics/25.0.0" target="_blank">SPSS version 25</a></span>
+                            <ul class="bare-list">
+                                <li class="dash">Descriptive analysis</li>
+                                <li class="dash">ANOVA test</li>
+                                <li class="dash">Eta-squared test</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -262,39 +307,31 @@
 
                 </div> 
                 <div class="task-content-results">
-                    <h4 class="result-title">Results</h4>
-                    <p>
-                        Except for <code>NB_Miss</code>, every other variable indicated a better performance with Gentleman than MPS.
-                        However, in terms of mechanical effort, the difference between the two has reduced.
-                    </p>
-                    <ul class="bare-list task-results">
-                        <li class="task-result dash">
-                            <code class="label">NB_Selection</code>: 6 more with MPS than with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">NB_Blank</code>: 3 more with MPS than with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">NB_CtxChange</code>: 10 occurences with MPS and 1 with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">T_Total</code>: 60 more seconds to complete the task with MPS than with Gentleman.
-                        </li>
-                        <li class="task-result dash">
-                            <code class="label">NB_Block</code>: 2 occurences with MPS and none with Gentleman.
-                        </li>
-                    </ul>
+                    <h4 class="data-title">Collected data</h4>
 
-                    <h4 class="result-title">Data</h4>
                     <ul class="bare-list task-data-list">
                         <li class="task-data">
-                            <a class="task-data__link" href="data/task2_gentleman.csv">Gentleman (CSV)</a> 
+                            <h5 class="task-data-title">Gentleman <a class="bare-link task-data__link task-data__link--csv" href="data/task2_gentleman.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) during task 2 for Gentleman. <br>
+                                Each record is identified with a <em>timestamp</em> that correspond to a participant.
+                            </span>
                         </li>
                         <li class="task-data">
-                            <a class="task-data__link" href="data/task2_mps.csv">MPS (CSV)</a> 
+                            <h5 class="task-data-title">MPS <a class="bare-link task-data__link task-data__link--csv" href="data/task2_mps.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) during task 2 for MPS. <br>
+                                Each record is identified with a <em>timestamp</em> that correspond to a participant.
+                            </span>
                         </li>
-                        <li class="task-result">
-                            <a class="task-result__link" href="results/task2_results.pdf" target="_blank">Results</a> 
+                        <li class="task-data">
+                            <h5 class="task-data-title">Statistical analysis <a class="bare-link task-data__link task-data__link--pdf" href="results/task2_results.pdf">PDF  <i class="ico ico-download"></i></a> </h5>
+                            <span>Statistical analysis (report) produced for task 2 with <a class="inline-link" href="https://www.ibm.com/docs/en/spss-statistics/25.0.0" target="_blank">SPSS version 25</a></span>
+                            <ul class="bare-list">
+                                <li class="dash">Descriptive analysis</li>
+                                <li class="dash">ANOVA test</li>
+                                <li class="dash">Eta-squared test</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -336,108 +373,99 @@
                     </p>
                 </div>
                 <div class="task-content-results">
-                    <h4 class="result-title">Results</h4>
-                    <p>
-                        There is very little difference between MPS and Gentleman, with most variables giving a slight edge
-                        to Gentleman. During this task, a participant triggered an internal error (<code>NB_Bug</code>) in Gentleman
-                        and none in MPS.
-                    </p>
-                    
-                    <h4 class="result-title">Data</h4>
+                    <h4 class="data-title">Collected data</h4>
+
                     <ul class="bare-list task-data-list">
                         <li class="task-data">
-                            <a class="task-data__link" href="data/task3_gentleman.csv" target="_blank">Gentleman (CSV)</a> 
+                            <h5 class="task-data-title">Gentleman <a class="bare-link task-data__link task-data__link--csv" href="data/task3_gentleman.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) during task 3 for Gentleman. <br>
+                                Each record is identified with a <em>timestamp</em> that correspond to a participant.
+                            </span>
                         </li>
                         <li class="task-data">
-                            <a class="task-data__link" href="data/task3_mps.csv" target="_blank">MPS (CSV)</a> 
+                            <h5 class="task-data-title">MPS <a class="bare-link task-data__link task-data__link--csv" href="data/task3_mps.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) during task 3 for MPS. <br>
+                                Each record is identified with a <em>timestamp</em> that correspond to a participant.
+                            </span>
                         </li>
-                        <li class="task-result">
-                            <a class="task-result__link" href="results/task3_results.pdf" target="_blank">Results</a> 
+                        <li class="task-data">
+                            <h5 class="task-data-title">Statistical analysis <a class="bare-link task-data__link task-data__link--pdf" href="results/task3_results.pdf">PDF  <i class="ico ico-download"></i></a> </h5>
+                            <span>Statistical analysis (report) produced for task 3 with <a class="inline-link" href="https://www.ibm.com/docs/en/spss-statistics/25.0.0" target="_blank">SPSS version 25</a></span>
+                            <ul class="bare-list">
+                                <li class="dash">Descriptive analysis</li>
+                                <li class="dash">ANOVA test</li>
+                                <li class="dash">Eta-squared test</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="feedback-section">
+        <section class="feedback-section" id="survey">
             <h2 class="feedback-title">Feeback survey</h2>
           
             <div class="feedback-content">
                 <div class="feedback-description">
                     <p>
                         With the survey, we've identified the participants background and collected their subjective evaluations of Gentleman and MPS. <br>
-                        <a class="inline-link" href="data/participants_profile.csv">Participants profile</a> 
+                    </p>
+                    <p style="text-align: right;">
+                        <a class="protocol-link" href="experiment_survey.pdf" target="_blank">Survey (PDF)</a> 
                     </p>
                     <h4 class="result-title">Questions &ndash; Modeling experience</h4>
                     <p>
-                        Those questions were answered using a five-point Likert scale with 1 indicating
-                        strong disagreement with the statement and 5 indicating complete agreement.
+                        Those questions (extracted from the survey) were answered for each tool and used as metrics.
                     </p>
-                    <ol>
-                        <li>It is easy to understand the user interface of the editor</li>
-                        <li>It is easy to remember the controls and commands of the editor</li>
-                        <li>It is easy to know the state (values) of the model and whether it is valid</li>
-                        <li>It is easy to navigate through elements of a model with the keyboard</li>
-                        <li>It is easy to navigate through elements of a model with the mouse</li>
-                        <li>It is easy to reuse values across different elements of the model</li>
-                        <li>It is easy to know which element type (concept) is being focused on</li>
-                        <li>It is easy to recover from a mistake</li>
-                        <li>It is easy to know what actions are expected from me or available to me at any point in time</li>
-                        <li>It is easy to execute the necessary steps to realize an action</li>
-                    </ol>
-                </div>
-                <div class="feedback-results">
-                    <h4 class="result-title">Results</h4>
-                    <p>
-                        For Gentleman, most participants strongly agreed with the statements.
-                        The average score is greater than 4.5, and the minimum is between 3 and 4.
-                        For MPS, the average score was a point lower, indicating simple agreement with the statements.
-                        The minimum for MPS mainly oscillated between 2 and 3.
-                    </p>
-
-                    <ul class="bare-list feedback-scores">
-                        <li class="feedback-score dash">
-                            <code class="label">User Interface (Q1)</code>: 
-                            <span class="score score--gent">Gentleman: 4.73</span>
-                            <span class="score score--mps">MPS: 3.95</span>
-                        </li>
-                        <li class="feedback-score dash">
-                            <code class="label">Control (Q2)</code>: 
-                            <span class="score score--gent">Gentleman: 4.77</span>
-                            <span class="score score--mps">MPS: 4.14</span>
-                        </li>
-                        <li class="feedback-score dash">
-                            <code class="label">State (Q3)</code>: 
-                            <span class="score score--gent">Gentleman: 4.73</span>
-                            <span class="score score--mps">MPS: 4.27</span>
-                        </li>
-                        <li class="feedback-score dash">
-                            <code class="label">Mouse Navigation (Q5)</code>: 
-                            <span class="score score--gent">Gentleman: 4.86</span>
-                            <span class="score score--mps">MPS: 4.05</span>
-                        </li>
-                        <li class="feedback-score dash">
-                            <code class="label">Actions (Q9)</code>: 
-                            <span class="score score--gent">Gentleman: 4.73</span>
-                            <span class="score score--mps">MPS: 3.55</span>
-                        </li>
-                        <li class="feedback-score dash">
-                            <code class="label">Executions (Q10)</code>: 
-                            <span class="score score--gent">Gentleman: 4.77</span>
-                            <span class="score score--mps">MPS: 4.05</span>
-                        </li>
+                    <ul class="bare-list">
+                        <li class="dash"><code class="label">User Interface</code> It is easy to understand the user interface of the editor</li>
+                        <li class="dash"><code class="label">Control</code> It is easy to remember the controls and commands of the editor</li>
+                        <li class="dash"><code class="label">State</code> It is easy to know the state (values) of the model and whether it is valid</li>
+                        <li class="dash"><code class="label">Keyboard Navigation</code> It is easy to navigate through elements of a model with the keyboard</li>
+                        <li class="dash"><code class="label">Mouse Navigation</code> It is easy to navigate through elements of a model with the mouse</li>
+                        <li class="dash"><code class="label">Reuse</code> It is easy to reuse values across different elements of the model</li>
+                        <li class="dash"><code class="label">Focus</code> It is easy to know which element type (concept) is being focused on</li>
+                        <li class="dash"><code class="label">Recover</code> It is easy to recover from a mistake</li>
+                        <li class="dash"><code class="label">Actions</code> It is easy to know what actions are expected from me or available to me at any point in time</li>
+                        <li class="dash"><code class="label">Executions</code> It is easy to execute the necessary steps to realize an action</li>
                     </ul>
-    
-                    <h4 class="result-title">Data</h4>
+                </div>
+                <div class="task-content-results">
+                    <h4 class="data-title">Collected data</h4>
+
                     <ul class="bare-list task-data-list">
                         <li class="task-data">
-                            <a class="task-data__link" href="data/participants_feedback.csv">Gentleman feedback (CSV)</a> 
+                            <h5 class="task-data-title">
+                                Participants profile 
+                                <a class="bare-link task-data__link task-data__link--csv" href="data/participants_profile.csv">CSV  <i class="ico ico-download"></i></a>
+                                <a class="bare-link task-data__link task-data__link--pdf" href="data/participants_profile.pdf">PDF  <i class="ico ico-download"></i></a>
+                            </h5>
+                            <span>
+                                Participants answers to the identification questions.
+                            </span>
                         </li>
                         <li class="task-data">
-                            <a class="task-data__link" href="data/participants_feedback.csv">MPS feedback (CSV)</a> 
+                            <h5 class="task-data-title">Gentleman feeback<a class="bare-link task-data__link task-data__link--csv" href="data/participants_feedback.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) for the feeback on Gentleman.
+                            </span>
                         </li>
-                        <li class="task-result">
-                            <a class="task-result__link" href="results/survey_results.pdf" target="_blank">Results</a> 
+                        <li class="task-data">
+                            <h5 class="task-data-title">MPS feeback<a class="bare-link task-data__link task-data__link--csv" href="data/participants_feedback.csv">CSV  <i class="ico ico-download"></i></a> </h5>
+                            <span>
+                                Data collected (records) for the feeback on MPS.
+                            </span>
+                        </li>
+                        <li class="task-data">
+                            <h5 class="task-data-title">Statistical analysis <a class="bare-link task-data__link task-data__link--pdf" href="results/survey_results.pdf">PDF  <i class="ico ico-download"></i></a> </h5>
+                            <span>Statistical analysis produced for the survey with <a class="inline-link" href="https://www.ibm.com/docs/en/spss-statistics/25.0.0" target="_blank">SPSS version 25</a></span>
+                            <ul class="bare-list">
+                                <li class="dash">Descriptive analysis</li>
+                                <li class="dash">ANOVA test</li>
+                                <li class="dash">Eta-squared test</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -448,10 +476,10 @@
 
     <footer class="page-footer">
         <p>
-            Last updated: <time datetime="2021-06-21">June 26, 2021</time>
+            Last updated: <time datetime="2022-02-12">February 12, 2022</time>
         </p>
         <p>
-            &copy; Louis-Edouard LAFONTANT (<a class="bare-link" href="mailto:louis.edouard.lafontant@umontreal.ca">Email</a>)
+            &copy; Louis-Edouard LAFONTANT (<a class="bare-link footer-link" href="mailto:louis.edouard.lafontant@umontreal.ca">Email</a>)
         </p>
     </footer>
 </body>
