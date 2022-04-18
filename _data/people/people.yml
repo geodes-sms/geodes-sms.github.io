@@ -91,7 +91,7 @@
 - name: Maes, Lucas
   image:
   position: MSc
-  website: https://lumaes.org/
+  website: 
 - name: Hornung, Lucas
   image:
   position: MSc
@@ -112,3 +112,15 @@
   image: 
   position: MSc
   website: http://www-ens.iro.umontreal.ca/~nikitchv/
+- name: Wolak, Quentin
+  image: 
+  position: MSc
+  website: 
+- name: Vu, Cong-Vinh
+  image: 
+  position: MSc
+  website: 
+- name: Archambault, Pascal
+  image: 
+  position: MSc
+  website: 
