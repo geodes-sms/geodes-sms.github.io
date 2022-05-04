@@ -85,6 +85,12 @@ navigation:
       url: /projects
     - title: tools
       url: /tools
+- title: Events
+  subpages:
+    - title: seminar
+      url: /events/seminar
+    - title: Research Day
+      url: /events/research-day-and-symposium-2022
 - title: Teaching
   url: /teaching
 - title: Contact
