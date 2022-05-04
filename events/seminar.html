@@ -5,6 +5,8 @@ permalink: /events/seminar
 order: 45
 ---
 
+{% assign seminars = site.data.events.seminars %}
+
 <!-- 
 <br/>
 <div style="background-color:#cc0000;color:white;">
@@ -27,8 +29,13 @@ These events follow an <b>in-person</b> format. By that, we hope to re-establish
 <b>Format</b>: In person<br/>
 <b>Location</b>: Pavillon André-Aisenstadt<br/><br/>
 
-<h3>Talks</h3>
+<h3>Upcoming talks</h3>
 <ul>
-    <li>May 6, 2022. <a href="https://models-lab.github.io/members/joseantonio/">José Antonio Hernández López</a> (Universidad de Murcia, Spain): AST-Probe: Recovering abstract syntax trees from hidden representations of pre-trained language models</li>
-    <li>May 13, 2022. <a href="http://msdl.cs.mcgill.ca/people/bentley">Bentley James Oakes</a>, <a href="https://som-research.uoc.edu/lburgueno/">Lola Burgueño</a> (Universidad de Murcia, Spain): Academic visibility [to be confirmed]</li>
+{% for seminar in seminars %}
+    <li><b>{{seminar.date}}</b>{% if seminar.time %}, {{seminar.time}}{% endif %}<br/>
+    {% if seminar.location %}{{seminar.location}}<br/>{% endif %}
+    {{seminar.presenter}}<br/>
+    <i>{{seminar.title}}</i>
+    </li><br/>
+{% endfor %}
 </ul>
