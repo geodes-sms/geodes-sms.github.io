@@ -3,6 +3,7 @@
   location: PAA3195
   presenter: José Antonio Hernández López (Universidad de Murcia, Spain)
   title: "AST-Probe: Recovering abstract syntax trees from hidden representations of pre-trained language models"
+  status: done
 
 - date: 2022-05-13
   time: 11AM
