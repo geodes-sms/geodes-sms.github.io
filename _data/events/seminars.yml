@@ -1,18 +1,36 @@
 - date: 2022-05-06
-  time: 2:30PM
-  location: PAA3195
-  presenter: José Antonio Hernández López (Universidad de Murcia, Spain)
+  time: 14h30
+  location: 3195, Pav. André-Aisenstadt
   title: "AST-Probe: Recovering abstract syntax trees from hidden representations of pre-trained language models"
+  presenters: 
+    - name: José Antonio Hernández López
+      affiliation: Universidad de Murcia, Spain
+      url: https://models-lab.github.io/members/joseantonio/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/joseantonio.jpg
   status: done
 
 - date: 2022-05-13
-  time: 11AM
-  location: PAA3195
-  presenter: Bentley James Oakes, Lola Burgueño (Open University of Catalonia, Spain)
+  time: 11h
+  location: 3195, Pav. André-Aisenstadt
   title: "Academic visibility"
+  description: ""
+  presenters: 
+    - name: Bentley James Oakes
+      url: http://msdl.cs.mcgill.ca/people/bentley
+      photo: https://geodes.iro.umontreal.ca/images/people/people/bentley.png
+    - name: Lola Burgueño
+      affiliation: Open University of Catalonia, Spain
+      url: https://som-research.uoc.edu/lburgueno/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
   
 - date: 2022-05-20
-  time: 11AM
-  location: PAA3195
-  presenter: Istvan David
-  title: Multi-paradigm modeling of complex heterogeneous systems – Are we there yet? (45')
+  time: 11h
+  duration: 45 minutes
+  location: 3195, Pav. André-Aisenstadt
+  title: Multi-paradigm modeling of complex heterogeneous systems – Are we there yet?
+  description: ""
+  presenters: 
+    - name: Istvan David
+      url: https://istvandavid.com/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
+  

@@ -10,7 +10,7 @@
   url: https://github.com/geodes-sms/gentleman
   logo: 
   partners: 
-  description: Gentleman is a web-based projectional editor generator. It allows you to express and interact with your DSL.
+  description: Gentleman is a web-based projectional editor. It allows you to express and interact with your DSL.
 
 - name: lowkey
   startYear: 2021
@@ -18,8 +18,6 @@
   logo: 
   partners: 
   description: lowkey is a low-level and transparent framework for real-time collaborative framework for multi-level and multi-view modeling. At the bottom layer of the architecture of lowkey, conflict-free replicated data types (CRDT) take care of preventing inconsistencies before they happen. The physical metamodel built on top of these data types allows for defining arbitrary numbers of linguistic models, which are in a type-instance relationship with each other. The framework is available as a Python implementation.
-
-
   
 - name: ReLiS
   startYear: 2017
@@ -40,7 +38,7 @@
   url: https://bitbucket.org/ErickFifa/tapir/
   logo: 
   partners: 
-  description: TAPIR  is a tool developed by Erick Raelijohn for generating recommendations to developers about correct API usage. At its core, it relies on the representation of API usage patterns as LTL formulars.
+  description: TAPIR is a tool developed by Erick Raelijohn for generating recommendations to developers about correct API usage. At its core, it relies on the representation of API usage patterns as LTL formulars.
   
 - name: T-Core
   startYear: 
