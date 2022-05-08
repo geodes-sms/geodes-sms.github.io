@@ -28,7 +28,13 @@
   duration: 45 minutes
   location: 3195, Pav. André-Aisenstadt
   title: Multi-paradigm modeling of complex heterogeneous systems – Are we there yet?
-  description: ""
+  description:
+    "Nowadays engineered systems have reached a previously unprecedented complexity. Systems are becoming faster, more autonomous, and more safety-critical. To cope with this increasing complexity, engineering is best approached through modeling.
+    
+    Throughout the design, engineering, and assembly stages of a system, modeling offers many benefits. For example, the design-space of the system can be explored easily by multiple stakeholders, or properties can be formally verified at the early stages of system construction. Model-driven engineering also enables the partial synthesis of the system, eliminating many sources of human error from the overall process.
+    Multi-paradigm modeling (MPM), specifically, advocates modeling aspects of the system using the most appropriate formalisms. The diverse nature of these formalisms allows for increased descriptive power but complicates coordination between stakeholders. Pertinent examples are cyber-physical and mechatronic systems which feature various mechanical, electrical, and software components. In such settings, a common vocabulary among stakeholders cannot be assumed. This, in turn, gives rise to inconsistencies between stakeholder models, which might result in faulty or suboptimal products.
+    
+    This talk introduces three lines of research addressing major challenges in MPM. First, the PROxIMA inconsistency management framework focuses on optimizing and intelligently orchestrating the overall system engineering process. Second, the Lowkey framework allows for real-time collaborative modeling between heterogeneous stakeholders. Third, a technique for the automated inference of simulation models by reinforcement learning to further automate system engineering tasks."
   presenters: 
     - name: Istvan David
       url: https://istvandavid.com/
