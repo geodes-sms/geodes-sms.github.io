@@ -1,7 +1,6 @@
 .demotalk{
     color: black;
     background-color: #ffb0e9;
-    font-size:80%;
     font-weight: 400;
     display: inline;
 }
@@ -9,7 +8,6 @@
 .technical{
     color: black;
     background-color: #66ffff;
-    font-size:80%;
     font-weight: 400;
     display: inline;
 }
@@ -17,7 +15,10 @@
 .flash{
     color: black;
     background-color: #f2ff00;
-    font-size:80%;
     font-weight: 400;
     display: inline;
+}
+
+.small{
+    font-size:80%;
 }
