@@ -35,7 +35,9 @@ These events follow an <b>in-person</b> format. By that, we hope to re-establish
 {% for seminar in upcoming %}
     <li><b>{{seminar.date}}</b>{% if seminar.time %}, {{seminar.time}}{% endif %}<br/>
     {% if seminar.location %}{{seminar.location}}<br/>{% endif %}
-    {{seminar.presenter}}<br/>
+    {% for presenter in seminar.presenters %}
+    <a href="{{presenter.url}}">{{presenter.name}}</a>{% if presenter.affiliation %} ({{presenter.affiliation}}){% endif %}{% if forloop.last != true %},{% endif %}
+    {% endfor %}<br/>
     <i>{{seminar.title}}</i>
     </li><br/>
 {% endfor %}
@@ -45,7 +47,9 @@ These events follow an <b>in-person</b> format. By that, we hope to re-establish
 <ul>
 {% for seminar in past %}
     <li>{{seminar.date}}<br/>
-    {{seminar.presenter}}<br/>
+    {% for presenter in seminar.presenters %}
+    <a href="{{presenter.url}}">{{presenter.name}}{% if presenter.affiliation %} ({{presenter.affiliation}}){% endif %}</a>{% if forloop.last != true %},{% endif %}
+    {% endfor %}<br/>
     <i>{{seminar.title}}</i>
     </li><br/>
 {% endfor %}
