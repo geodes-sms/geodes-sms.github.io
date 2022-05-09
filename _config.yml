@@ -64,6 +64,7 @@ plugins:
 site-css:
 - "/assets/css/team.css"
 - "/assets/css/style-geodes.css"
+- "/assets/css/events.css"
 #- "/assets/css/base.css"
 #- "/assets/css/normalize.css"
 #- "/assets/css/page-people.css"
