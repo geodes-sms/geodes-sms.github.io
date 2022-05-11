@@ -66,6 +66,7 @@ site-css:
 - "/assets/css/base.css"
 - "/assets/css/team.css"
 - "/assets/css/style-geodes.css"
+- "/assets/css/events.css"
 #- "/assets/css/page-people.css"
 #- "/assets/css/page-projects.css"
 #- "/assets/css/page-tools.css"
