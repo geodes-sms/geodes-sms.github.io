@@ -36,8 +36,6 @@ th { text-align: center; }
     cursor: default;
 }
 
-.font-gentleman { font-family: Garamond, Baskerville, Georgia, 'Times New Roman', Times, serif; }
-
 .font-ui { font-family: 'Segoe UI', 'Droid Sans', Ubuntu, 'Lucida Grande', Arial, sans-serif; }
 
 .font-code { font-family: Consolas, 'Courier New', Courier, monospace; }
@@ -75,43 +73,3 @@ th { text-align: center; }
 .hidden { display: none!important; }
 
 .fit-content { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-
-/* Scrollbar */
-
-/* width */
-::-webkit-scrollbar {
-    width: calc(2px + 1%); max-width: 10px;
-    height: calc(2px + 1%); max-height: 10px;
-}
-  
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f5f5f5;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #c0c0c0;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #a9a9a9;
-}
-
-/* Handle on active */
-::-webkit-scrollbar-thumb:active {
-    background: #808080;
-}
-
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
