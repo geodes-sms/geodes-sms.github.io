@@ -13,7 +13,15 @@
   time: 11h
   location: 3195, Pav. André-Aisenstadt
   title: "Academic visibility"
-  description: ""
+  description:
+    "Visibility is a key success factor in every business, and that includes academia. A particular challenge of academic visibility is that success does not come easy.
+    In the golden age of digital social media, the cost of disrupting a market by positioning oneself as the product---the cause of the desire---is becoming lower and lower.
+    At the same time, due to the increasing pace of information production, search friction increases exponentially.
+    As a result, visibility becomes a Schrödinger phenomenon which one does and does not have at the same time---and one is only able to decide its metaphysical manifestation upon observing visibility.
+    This talk will provide the audience with heuristics for increasing academic visibility.
+    
+    The speakers combine for 918 citations, nearly 10 years of postdoc experience in over five countries and two continents, and at least three confirmed reference frameworks.
+    "
   presenters: 
     - name: Bentley James Oakes
       url: http://msdl.cs.mcgill.ca/people/bentley
