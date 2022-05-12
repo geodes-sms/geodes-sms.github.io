@@ -96,3 +96,12 @@
 .small {
     font-size:80%;
 }
+
+.demo .cell--type {
+    border-right: 0 none;
+}
+
+.demo .cell--topic {
+    border-left: 0 none;
+    border-right: 0 none;
+}

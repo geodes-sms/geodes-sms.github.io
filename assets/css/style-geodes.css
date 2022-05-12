@@ -526,3 +526,28 @@ a:link, a:visited {
 .talk-location {
     color: #555;
 }
+
+@media only screen and (max-width: 40em) { 
+    .talk-photo-img {
+        display: block;
+        min-width: 120px; height: auto;
+        border-radius: 50%;
+    }
+
+    .talk-multiphoto-img {
+        display: block;
+        border-radius: 50%;
+        min-width: 72px; height: auto;
+    }
+}
+
+@media only screen and (max-width: 60em) {
+    .talks {
+        flex-direction: column;
+    }
+
+    .talk {
+        width: 100%;
+        max-width: 100%;
+    }
+}
