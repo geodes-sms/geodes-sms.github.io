@@ -69,7 +69,6 @@ site-css:
 - "/assets/css/events.css"
 #- "/assets/css/page-people.css"
 #- "/assets/css/page-projects.css"
-#- "/assets/css/page-tools.css"
 
 navigation:
 - title: Home

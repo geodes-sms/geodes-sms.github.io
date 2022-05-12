@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects
+id: projects
 order: 4
 ---
 
@@ -17,12 +18,12 @@ order: 4
     </p>
 </header> -->
 
-<h3>Recently funded projects</h3>
+<h3 class="section-title">Recently funded projects</h3>
 
-<div class="description">
+<p class="description">
     A high-quality research agenda would not be possible without (inter)national grants. We also believe a balanced research portfolio can only be sustainable by maintaining strong connections with our industrial partners. 
     In our R&D projects, we strive to contribute innovative techniques, methods, and tools to the state of the art and the state of the practice.
-</div>
+</p>
 
 {% assign fundedProjects = site.data.projects.funded %}
 {% assign fundedProjectsSorted = site.data.projects.funded | sort:"endYear" | reverse %}

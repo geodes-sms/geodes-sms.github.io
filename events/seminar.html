@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: GEODES Seminar Series
 permalink: /events/seminar
 order: 45
@@ -20,100 +20,110 @@ order: 45
 <br/><br/>
 -->
 
-<img src="geodes-seminar.png" style="width:400px;">
+<header class="seminar-header">
+    <div class="seminar-logo">
+        <img class="seminar-logo-img" src="geodes-seminar.png" alt="Seminar logo">
+    </div>
+    
+    <p>
+        The GEODES Seminar aims to bring together members of the group in a semi-formal setting with a semi-regular timing.<br/>
+    
+        We'd especially love to see students at all levels reporting their progress, entertain presentations on core or adjacent topics, host dry-runs before conferences, etc. <br>
+        These events follow an <strong>in-person</strong> format. By that, we hope to re-establish the everyday social aspects of the research group in a post-COVID world.
+    </p>
 
-<br/>
+    <ul class="bare-list">
+        <li>
+            <strong>Format</strong>: In person
+        </li>
+        <li>
+            <strong>Location</strong>: 
+            Pavillon André-Aisenstadt
+        </li>
+    </ul>
+</header>
 
-<p>
-    The GEODES Seminar aims to bring together members of the group in a semi-formal setting with a semi-regular timing.<br/><br/>
+<section class="seminar-section">
+    <h3 class="seminar-section-title">Upcoming talks</h3>
 
-    We'd especially love to see students at all levels reporting their progress, entertain presentations on core or adjacent topics, host dry-runs before conferences, etc.
-    These events follow an <b>in-person</b> format. By that, we hope to re-establish the everyday social aspects of the research group in a post-COVID world.
-</p>
-
-<ul class="bare-list">
-    <li>
-        <strong>Format</strong>: In person
-    </li>
-    <li>
-        <strong>Location</strong>: 
-        Pavillon André-Aisenstadt
-    </li>
-</ul>
-
-<h3>Upcoming talks</h3>
-<ul class="bare-list talks">
-    {% for seminar in upcoming %}
-        <li class="talk">
-            <div class="talk-image" data-length="{{}}">
-                {% if seminar.presenters.size == 1 %}
-                    <img class="talk-photo-img" src="{{seminar.presenters.first.photo}}" alt="Photo of {{seminar.presenters.first.name}}">
-                {% else %}
-                    <ul class="bare-list talk-multiphotos">
+    <ul class="bare-list talks">
+        {% for seminar in upcoming %}
+            <li class="talk">
+                <div class="talk-image">
+                    {% if seminar.presenters.size == 1 %}
+                        <img class="talk-photo-img" src="{{seminar.presenters.first.photo}}" alt="Photo of {{seminar.presenters.first.name}}">
+                    {% else %}
+                        <ul class="bare-list talk-multiphotos">
+                            {% for presenter in seminar.presenters %}
+                                <li class="talk-multiphoto">
+                                    <img class="talk-multiphoto-img" src="{{presenter.photo}}" alt="Photo of {{presenter.name}}">
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                <div class="talk-info">
+                    <span class="talk-title">{{seminar.title}}</span>
+                    <ul class="bare-list talk-presenters">
                         {% for presenter in seminar.presenters %}
-                            <li class="talk-multiphoto">
-                                <img class="talk-multiphoto-img" src="{{presenter.photo}}" alt="Photo of {{presenter.name}}">
+                            <li class="talk-presenter">
+                                <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
+                                {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
                             </li>
                         {% endfor %}
                     </ul>
-                {% endif %}
-            </div>
-            <div class="talk-info">
+                    <p class="talk-description">
+                        {{seminar.short_description}}
+                    </p>
+                    <div class="talk-venue">
+                        <span class="talk-date">
+                            📅 {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
+                        </span>
+                        {% if seminar.location %}
+                            <span class="talk-location">{{seminar.location}}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section class="seminar-section">
+    <h3 class="seminar-section-title">Previous talks</h3>
+
+    <ul class="bare-list previous-talks">
+        {% for seminar in past %}
+            <li class="previous-talk">
                 <span class="talk-title">{{seminar.title}}</span>
                 <ul class="bare-list talk-presenters">
                     {% for presenter in seminar.presenters %}
                         <li class="talk-presenter">
                             <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
-                            {% if presenter.affiliation %}<span class="talk-presenter-affiliation">{{presenter.affiliation}}</span>{% endif %}
+                            {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
                         </li>
                     {% endfor %}
                 </ul>
                 <p class="talk-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illo quibusdam atque sapiente est provident qui rerum, similique nostrum optio labore quas harum molestiae laboriosam illum totam porro magnam voluptates?
+                    {{seminar.description}}
                 </p>
                 <div class="talk-venue">
                     <span class="talk-date">
-                        📅 {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
+                        📅 {{seminar.date}}{% if seminar.time %}<i class="talk-date-time">@{{seminar.time}}</i>{% endif %}
                     </span>
                     {% if seminar.location %}
                         <span class="talk-location">{{seminar.location}}</span>
                     {% endif %}
                 </div>
-            </div>
-        </li>
-    {% endfor %}
-</ul>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
 
-<h3>Previous talks</h3>
-<ul class="bare-list previous-talks">
-    {% for seminar in past %}
-        <li class="previous-talk">
-            <span class="talk-title">{{seminar.title}}</span>
-            <ul class="bare-list talk-presenters">
-                {% for presenter in seminar.presenters %}
-                    <li class="talk-presenter">
-                        <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
-                        {% if presenter.affiliation %}<span class="talk-presenter-affiliation">{{presenter.affiliation}}</span>{% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
-            <p class="talk-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illo quibusdam atque sapiente est provident qui rerum, similique nostrum optio labore quas harum molestiae laboriosam illum totam porro magnam voluptates?
-            </p>
-            <div class="talk-venue">
-                <span class="talk-date">
-                    📅 {{seminar.date}}{% if seminar.time %}<i class="talk-date-time">@{{seminar.time}}</i>{% endif %}
-                </span>
-                {% if seminar.location %}
-                    <span class="talk-location">{{seminar.location}}</span>
-                {% endif %}
-            </div>
-        </li>
-    {% endfor %}
-</ul>
-
-<h3>Contact</h3>
-
-<p>
-    Got an interesting topic you'd like to present? Reach out to your favorite postdoc for details.
-</p>
+<section class="seminar-section">
+    <h3 class="seminar-section-title">Contact</h3>
+    
+    <p>
+        Got an interesting topic you'd like to present? Reach out to your favorite postdoc for details.
+    </p>
+</section>

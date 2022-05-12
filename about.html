@@ -13,36 +13,62 @@ order: 1
 {% assign phdsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'PhD'"%}
 {% assign mscsAlumni = site.data.people.alumni | where_exp: "person", "person.programme == 'MSc'"%}
 
-GEODES is the software engineering group of the <a href="https://www.umontreal.ca">University of Montreal, Canada</a>, as part of the <a href="https://diro.umontreal.ca/english/home">Department of Computer Science and Operational Research (DIRO)</a>. Our research spans through the software engineering lifecycle, with an special emphasis on the requirements, design, development, and maintenance phases.<br/><br/>
+<p>
+    GEODES is the software engineering group of the <a href="https://www.umontreal.ca">University of Montreal, Canada</a>, as part of the 
+    <a href="https://diro.umontreal.ca/english/home">Department of Computer Science and Operational Research (DIRO)</a>. <br>
+    Our research spans through the software engineering lifecycle, with an special emphasis on the requirements, design, development, and maintenance phases.
+</p>
 
-<h3>Focus areas</h3>
+<section>
+    <h3 class="section-title">Focus areas</h3>
+    <ul class="bare-list focus-areas">
+        <li class="focus-area">
+            <span class="focus-area-title">Requirements modeling &amp; Design</span>
+            <ul class="bare-list focus-area-themes">
+                <li class="focus-area-theme">Goal modeling</li>
+                <li class="focus-area-theme">Design-time uncertainty</li>
+                <li class="focus-area-theme">Product lines</li>
+            </ul>
+        </li>
+        <li class="focus-area">
+            <span class="focus-area-title">Model-driven engineering &amp; Simulation</span>
+            
+            <ul class="bare-list focus-area-themes">
+                <li class="focus-area-theme">Domain-specific modeling languages</li>
+                <li class="focus-area-theme">Collaborative modeling</li>
+                <li class="focus-area-theme">Model transformations</li>
+            </ul>
+        </li>
+        <li class="focus-area">
+            <span class="focus-area-title">Machine learning &amp; Optimization</span>
+            <ul class="bare-list focus-area-themes">
+                <li class="focus-area-theme">Code synthesis</li>
+                <li class="focus-area-theme">AI-powered assistance</li>
+                <li class="focus-area-theme">Pattern mining</li>
+            </ul>
+        </li>
+    </ul>
+</section>
 
-<table class="numbers">
-    <tr>
-        <td class="focusAreaCell">Requirements modeling<br/>& Design</td><td class="focusAreaCell">Model-driven engineering<br/>& Simulation</td><td class="focusAreaCell">Machine learning<br/>& Optimization</td>
-    </tr>
-    <tr style="text-align:center;background-color:rgba(0, 0, 0, 0);">
-        <td>
-            Goal modeling<br/>
-            Design-time uncertainty<br/>
-            Product lines<br/>
-        </td>
-        <td>
-            Domain-specific modeling languages<br/>
-            Collaborative modeling<br/>
-            Model transformations<br/>
-        </td>
-        <td>
-            Code synthesis<br/>
-            AI-powered assistance<br/>
-            Pattern mining<br/>
-        </td>
-    </tr>
-</table>
 
 <img src="/images/word_cloud.png" class="center-image"/>
 
-<h3>History</h3>
+<section>
+    <h3 class="section-title">History</h3>
+
+    <p>
+        GEODES was founded as part of DIRO in 1992. It was then called GÉLO and changed to GEODES in 2005. Since then, more than 30 students have obtained a PhD degree from the group, 
+        and more then a 100 students have graduated with a Master's degree. Many of these students are professors in Quebec, Canada, and around the world 
+        (ÉTS, Laval, Polytechnique, UQAM, Ottawa, DePaul, Houston, Indiana, Michigan, United Arab Emirates, etc.), and others hold key positions at large tech companies.
+        <br/>
+        GEODES is very scientifically very active group with over 20 publications per year in journals, conference proceedings and book chapters. 
+        The group has developed strong connections with local SMEs and large industrial groups, giving rise to frequent collaborations and projects.
+        <br/>
+        We are active members of our extended scientific community. Recently, we have organized the 23rd edition of the 
+        <a href="https://conf.researchr.org/home/models-2020">ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)</a>.    
+    </p>
+</section>
+
 
 <!-- {% assign gradStudentsCount = phds.size | plus: mscs.size %}
 
@@ -57,6 +83,3 @@ GEODES is the software engineering group of the <a href="https://www.umontreal.c
     </tr>
 </table>
 -->
-GEODES was founded as part of DIRO in 1992. It was then called GÉLO and changed to GEODES in 2005. Since then, more than 30 students have obtained a PhD degree from the group, and more then a 100 students have graduated with a Master's degree. Many of these students are professors in Quebec, Canada, and around the world (ÉTS, Laval, Polytechnique, UQAM, Ottawa, DePaul, Houston, Indiana, Michigan, United Arab Emirates, etc.), and others hold key positions at large tech companies.<br/>
-GEODES is very scientifically very active group with over 20 publications per year in journals, conference proceedings and book chapters. The group has developed strong connections with local SMEs and large industrial groups, giving rise to frequent collaborations and projects.<br/>
-We are active members of our extended scientific community. Recently, we have organized the 23rd edition of the <a href="https://conf.researchr.org/home/models-2020">ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)</a>.

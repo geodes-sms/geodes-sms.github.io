@@ -2,11 +2,12 @@
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
     <div class="wrapper">
-        <div class="footer-col-wrapper">
-            <div class="footer-col footer-col--address">
-                Département d'informatique et de recherche opérationnelle, Université de Montréal<br/>
-                C.P. 6128 Succursale Centre-ville, Montréal (QC) CANADA H3C 3J7
-            </div>
-        </div>
+        <p class="site-footer-copyright">
+            &copy; {{ site.time | date: '%Y' }}, <strong>GEODES</strong>
+        </p>
+        <p class="site-footer-address">
+            Département d'informatique et de recherche opérationnelle, Université de Montréal<br/>
+            C.P. 6128 Succursale Centre-ville, Montréal (QC) CANADA H3C 3J7
+        </p>
     </div>
 </footer>

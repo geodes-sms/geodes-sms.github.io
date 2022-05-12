@@ -10,7 +10,7 @@
 {% endif %}
 {% assign lecturerLink = lecturerInfo.first.website %}
 
-<div class="nameResizeWeight nameResize">{{ courseName }}</div>
-<div class="small-data">Credits: {{ include.course.credits }} | Lecturer: <a href="{{ lecturerLink }}">{{ lecturerName }}</a> | Language: {{ include.course.language }} {% if include.course.latest %}| Latest edition: <a href="{{include.course.url}}">{{ include.course.latest }}</a>{% endif %}</div>
-<div class="description">{{include.course.description}}</div>
-<br>
+<span class="nameResizeWeight nameResize">{{ courseName }}</span>
+<span class="small-data">Credits: {{ include.course.credits }} | Lecturer: <a href="{{ lecturerLink }}">{{ lecturerName }}</a> | Language: {{ include.course.language }} {% if include.course.latest %}| Latest edition: <a href="{{include.course.url}}">{{ include.course.latest }}</a>{% endif %}</span>
+<span class="description">{{include.course.description}}</span>
+

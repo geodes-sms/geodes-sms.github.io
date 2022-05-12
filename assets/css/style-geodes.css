@@ -1,40 +1,33 @@
 .wrapper{
-    max-width: -webkit-calc(1000px);
-    max-width: calc(1000px);
+    max-width: -webkit-calc(1200px);
+    max-width: calc(1200px);
     margin-right: auto;
     margin-left: auto;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 2%;
+    padding-left: 2%;
     text-align:justify;
 }
 
-.home-split-main{
-  @extend .home;
-  text-align:justify;
 
-  width:70%;
-  float:left;
-}
-
-.home-split-news {
-    width: 30%;
-    float: right;
+.site-header {
+    border-top: 0;
 }
 
 .site-footer {
     border-top: 1px solid #e8e8e8;
-    padding: 0;
+    color: #d5d5d5;
+    line-height: 1.5;
+    background-color: #232524;
 }
 
-.center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+.site-footer-copyright {
+    color: #f5f5f5;
+    margin-bottom: 6px;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: normal;
 }
 
 table {
@@ -216,16 +209,241 @@ a:link, a:visited {
         margin-left: .3em;
     }
 
+/*
+    Home page styling
+---------------------------------------------------------------------------------------------------------------*/
+
+.page-content[data-page="home"] .wrapper {
+    display: flex;
+}
+
+.home-img {
+    position: relative;
+    margin-bottom: 24px
+    /* position: absolute; */
+    /* top: 0; left: 0; right: 0; */
+}
+
+.home-split-main{
+    @extend .home;
+    
+}
+
+.home-split-news {
+    min-width: 30%;
+    margin-left: 24px;
+}
+
+.section-title {
+    font-size: 2.6em;
+    width: 100%;
+}
+
+.post-title {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.post-meta {
+    display: block;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.post p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+
+/*
+    About page styling
+---------------------------------------------------------------------------------------------------------------*/
+
+.focus-areas {
+    display: flex;
+}
+
+.focus-area {
+    flex: 1 1;
+    display: flex; flex-direction: column;
+    font-size: 1.6em;
+}
+
+.focus-area:not(:last-child) {
+    margin-right: 6px;
+}
+
+.focus-area-title {
+    padding: 12px 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em; font-weight: 500;
+    background-color: #EF4E36;
+}
+
+.focus-area-themes {
+    display: flex; flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.focus-area-theme {
+    padding: 2px 4px;
+}
+
+
+.center-image {
+    display: block;
+    margin-left: auto; margin-right: auto;
+    margin-top: 12px;
+    width: 75%;
+}
+
+/*
+    People page styling
+---------------------------------------------------------------------------------------------------------------*/
+
+.master-students {
+    display: flex; flex-wrap: wrap;
+}
+    .master-students li {
+        margin-right: 12px; margin-bottom: 8px;
+        padding: 12px 24px;
+        border-radius: 1px;
+        background-color: #f5f5f5;
+        font-weight: 500;
+    }
+
+    .master-students li:hover {
+        background-color: #e8e8e8;
+        box-shadow: 0 2px 1px -1px #c0c0c0;
+    }
+
+.alumni-section {
+    display: flex; flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.section-group {
+    margin-right: 24px;
+    width: 30%;
+}
+
+.group-title {
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 2px;
+}
+
+.alumnis {
+    display: flex; flex-direction: column;
+    padding: 12px;
+    height: 300px;
+    background-color: #f5f5f5;
+    overflow: auto;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 2px -1px #999;
+}
+
+/* width */
+.alumnis::-webkit-scrollbar {
+    width: calc(6px + 1%); max-width: 10px;
+    height: calc(6px + 1%); max-height: 10px;
+}
+  
+/* Track */
+.alumnis::-webkit-scrollbar-track {
+    background: #dcdcdc;
+}
+
+/* Handle */
+.alumnis::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+}
+    /* Handle on hover */
+    .alumnis::-webkit-scrollbar-thumb:hover {
+        background: #808080;
+    }
+    /* Handle on active */
+    .alumnis::-webkit-scrollbar-thumb:active {
+        background: #555;
+    }
+
+
+/*
+    Teaching page styling
+---------------------------------------------------------------------------------------------------------------*/
+
+.courses {
+    display: flex; flex-direction: column;
+}
+
+.course {
+    display: flex; flex-direction: column;
+    font-size: 1.6em;
+    margin-bottom: 12px;
+}
+
+/*
+    Tools page styling
+---------------------------------------------------------------------------------------------------------------*/
+
+.tool-list {
+    display: flex; flex-direction: column;
+}   
+
+.tool-list-item {
+    margin-bottom: 24px;
+}   
+
+.tool {
+    display: flex;  align-items: center;
+    font-size: 1rem;
+}
+
+.tool-logo {
+    height: 60px;
+    width: auto;
+}
+
+.tool-logo + .tool-info {
+    padding-left: 12px;
+}
+
+.tool-description {
+    font-size: 1.5em;
+}
+
+
+/*
+    Seminar page styling
+---------------------------------------------------------------------------------------------------------------*/
+
+.seminar-header {
+    display: flex; flex-direction: column;
+}
+
+.seminar-logo {
+    display: flex; justify-content: center;
+    margin-bottom: 12px;
+}
+
+.seminar-logo-img {
+    width: 300px;
+    height: auto;
+}
 
 .talks {
-    display: flex;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .talk {
     display: flex;
-    margin-right: 18px;
     margin-bottom: 12px;
-    max-width: 600px;
+    max-width: calc(50% - 12px);
     padding: 12px;
     background-color: #f5f5f5;
     box-shadow: 1px ;
@@ -244,7 +462,7 @@ a:link, a:visited {
 
 .talk-photo-img {
     display: block;
-    min-width: 200px; height: auto;
+    min-width: 180px; height: auto;
     border-radius: 50%;
 }
 
@@ -281,7 +499,7 @@ a:link, a:visited {
 }
 
 .talk-presenter {
-    display: flex; flex-direction: column;
+    display: block;
 }
 
 .talk-presenter-name {
@@ -297,6 +515,8 @@ a:link, a:visited {
 
 .talk-description {
     flex-grow: 2;
+    /* max-height: 120px; */
+    /* overflow: auto; */
 }
 
 .talk-date {

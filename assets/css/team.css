@@ -15,7 +15,8 @@ hr.people-separator{
 /* --- Lists of circles --- */
 
 .list-circles {
-  text-align: center;
+    display: flex; justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -28,66 +29,51 @@ hr.people-separator{
 
 
 .list-circles-faculty {
-  display: inline-block;
-  width: 240px;
-  vertical-align: top;
-  margin: 0;
-  padding: 20px;
+    display: flex; flex-direction: column; align-items: center;
+    margin-right: 24px;
+    padding: 20px;
+    max-width: 200px;
 }
+    .list-circles-faculty:hover { background: #f5f5f5; box-shadow: 0 2px 2px -1px #c0c0c0; }
 
-.list-circles-person{
-  display: inline-block;
-  width: 160px;
-  vertical-align: top;
-  margin: 0;
-  padding: 20px;
-}
+    .list-circles-faculty .item-img,
+    .list-circles-person .item-img {
+        margin-bottom: 6px;
+        max-width: 200px;
+        height: 200px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+    
+    .list-circles-faculty .item-name,
+    .list-circles-person .item-name {
+        text-align: center;
+        font-size: 16px; font-weight: 500;
+    }
 
-.list-circles-faculty:hover {
-  background: #fafafa;
-}
+    .list-circles-faculty .item-desc,
+    .list-circles-person .item-desc {
+        font-size: 16px;
+    }
 
-.list-circles-person:hover {
-  background: #fafafa;
+.list-circles-person {
+    display: flex; flex-direction: column; align-items: center;
+    margin-right: 12px;
+    padding: 20px;
+    max-width: 200px;
 }
+    .list-circles-person:hover { background: #f5f5f5; box-shadow: 0 2px 2px -1px #c0c0c0; }
 
-.list-circles-faculty .item-img {
-  max-width: 200px;
-  height: 200px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.list-circles-person .item-img {
-  max-width: 150px;
-  height: 150px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.list-circles-faculty .item-desc {
-  font-size: 16px;
-}
-
-.list-circles-person .item-desc {
-  font-size: 16px;
-}
-
-.list-circles-faculty .item-name {
-  font-size: 16px;
-  font-weight: 500;
-}
+    .list-circles-person .item-img {
+        max-width: 150px;
+        height: 150px;
+    }
 
 a:link, a:visited {
   color: #D36612;
 }
 
-.list-circles-person .item-name {
-  font-size: 16px;
-  font-weight: 500;
-}
 
 .list-circles-faculty .item-links {
   margin-top: 5px;

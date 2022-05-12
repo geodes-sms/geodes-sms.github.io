@@ -12,32 +12,46 @@
 {% assign mscsAlumni = mscsAlumniCurrent | concat: mscsAlumniFormer | concat: mscsAlumniManual | uniq | sort: "name" %}
 
 
-<h1>Former professors</h1>
-<ul>
-{% for person in {{profsAlumni}} %}
-  {% include team/printAlumniPerson.html printPosition = "on" %}
-{% endfor %}
-{% for person in {{visitingProfsAlumni}} %}
-  {% include team/printAlumniPerson.html printPosition = "on" %}
-{% endfor %}
-</ul>
+<section>
+    <h3 class="section-title">Former professors</h3>
+    <ul class="bare-list prof-alumnis">
+        {% for person in {{profsAlumni}} %}
+            {% include team/printAlumniPerson.html printPosition = "on" %}
+        {% endfor %}
+        {% for person in {{visitingProfsAlumni}} %}
+            {% include team/printAlumniPerson.html printPosition = "on" %}
+        {% endfor %}
+    </ul>
+</section>
 
 
-<h1>Alumni</h1>
-<ul>
-{% for person in {{postdocsAlumni}} %}
-  {% include team/printAlumniPerson.html printPosition = "on" %}
-{% endfor %}
-</ul>
+<section class="alumni-section">
+    <h3 class="section-title">Alumni</h3>
 
-<ul>
-{% for person in {{phdsAlumni}} %}
-  {% include team/printAlumniPerson.html printPosition = "on" %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for person in {{mscsAlumni}} %}
-  {% include team/printAlumniPerson.html printPosition = "on" %}
-{% endfor %}
-</ul>
+    <div class="section-group">
+        <h4 class="group-title">Postdoctoral</h4>
+        <ul class="bare-list alumnis alumnis--postdoc">
+            {% for person in {{postdocsAlumni}} %}
+                {% include team/printAlumniPerson.html printPosition = "on" %}
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <div class="section-group">
+        <h4 class="group-title">PhD</h4>
+        <ul class="bare-list alumnis alumnis--phd">
+            {% for person in {{phdsAlumni}} %}
+                {% include team/printAlumniPerson.html printPosition = "on" %}
+            {% endfor %}
+        </ul>
+    </div>
+ 
+    <div class="section-group">
+        <h4 class="group-title">Master's</h4>
+        <ul class="bare-list alumnis alumnis--master">
+            {% for person in {{mscsAlumni}} %}
+              {% include team/printAlumniPerson.html printPosition = "on" %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

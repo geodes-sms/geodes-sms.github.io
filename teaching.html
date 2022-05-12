@@ -2,21 +2,22 @@
 layout: page
 title: Teaching
 permalink: /teaching
+id: teaching
 order: 8
 ---
 
-<h3>Teaching</h3>
-
-<div class="description">
-We teach courses both on the Bachelor and the Master level. Our currently offered courses are listed below.
-</div>
-
-<br><br>
+<header>
+    <h3>Teaching</h3>
+    
+    <p class="description">
+        We teach courses both on the Bachelor and the Master level. Our currently offered courses are listed below.
+    </p>
+</header>
 
 {% assign courses = site.data.teaching.courses | sort: "name"%}
 
- <table>
+<ul class="bare-list courses">
     {% for course in courses %}
-        {% include teaching/course.html course=course %}
+        <li class="course">{% include teaching/course.html course=course %}</li>
     {% endfor %}
-</table>
+</ul>

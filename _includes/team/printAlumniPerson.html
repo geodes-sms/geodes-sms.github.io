@@ -2,8 +2,12 @@
 {% assign lastnameUpcase = names[0] | upcase %}
 {% assign fullname = names[1] | append: " " | append: lastnameUpcase %}
 
-{% if person.website%}
-    <li><a href="{{person.website}}">{{fullname}}</a>{% if include.printPosition == "on" %} ({{person.position}}){% endif %}</li>
-{% else%}
-    <li>{{fullname}}</a>{% if include.printPosition == "on" %} ({{person.position}}){% endif %}</li>
-{% endif %}
+<li class="alumni">
+    {% if person.website%}
+        <a href="{{person.website}}">{{fullname}}</a>
+    {% else %}
+        <span>{{fullname}}</span>
+    {% endif %}
+    {% if include.printPosition == "on" %}({{person.position}}){% endif %}
+</li>
+

@@ -1,4 +1,14 @@
 <div class="tool">
-    <h3 class="tool-title"><a href="{{include.tool.url}}">{{ include.tool.name }}</a></h3>
-    <p class="tool-description">{{include.tool.description}}</p>
+    <div class="tool-info">
+        <h3 class="tool-title">
+            <a href="{{include.tool.url}}">
+                {% if include.tool.logo %}
+                    <img class="tool-logo" src="/images/logos/{{include.tool.logo}}" alt="">
+                {% else %}
+                    {{ include.tool.name }}
+                {% endif %}
+            </a>
+        </h3>
+        <p class="tool-description">{{include.tool.description}}</p>
+    </div>    
 </div>
