@@ -38,7 +38,7 @@ order: 45
         </li>
         <li>
             <strong>Location</strong>: 
-            Pavillon André-Aisenstadt
+            Pavillon Andre-Aisenstadt
         </li>
     </ul>
 </header>
@@ -77,7 +77,7 @@ order: 45
                     </p>
                     <div class="talk-venue">
                         <span class="talk-date">
-                            📅 {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
+                                {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
                         </span>
                         {% if seminar.location %}
                             <span class="talk-location">{{seminar.location}}</span>
@@ -95,7 +95,7 @@ order: 45
     <ul class="bare-list previous-talks">
         {% for seminar in past %}
             <li class="previous-talk">
-                <span class="talk-title">{{seminar.title}}</span>
+                <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
                 <ul class="bare-list talk-presenters">
                     {% for presenter in seminar.presenters %}
                         <li class="talk-presenter">
@@ -109,7 +109,7 @@ order: 45
                 </p>
                 <div class="talk-venue">
                     <span class="talk-date">
-                        📅 {{seminar.date}}{% if seminar.time %}<i class="talk-date-time">@{{seminar.time}}</i>{% endif %}
+                        {{seminar.date}}{% if seminar.time %}<i class="talk-date-time">@{{seminar.time}}</i>{% endif %}
                     </span>
                     {% if seminar.location %}
                         <span class="talk-location">{{seminar.location}}</span>

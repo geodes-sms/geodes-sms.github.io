@@ -20,9 +20,7 @@
     Visibility is a key success factor for researchers to increase their impact in academica. A particular challenge of academic visibility is that it requires effort over time.
     This talk will provide the audience with motivation and specific recommendations for increasing their academic visibility online.
     Specifically, online 'channels' such as ResearchGate, Google Scholar, and personal websites are discussed, along with best practices and tips for maintaining up-to-date information.
-    This talk is for early-stage and mid-stage researchers who are interested in improving their online presence.
-  status: done
-    
+    This talk is for early-stage and mid-stage researchers who are interested in improving their online presence.  
   presenters: 
     - name: Bentley James Oakes
       url: http://msdl.cs.mcgill.ca/people/bentley
@@ -31,7 +29,8 @@
       affiliation: Open University of Catalonia, Spain
       url: https://som-research.uoc.edu/lburgueno/
       photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
-
+  material: Oakes2022-ImprovingOnlineVisibility.pdf
+  status: done
 
 - date: 2022-05-20
   time: 11h
