@@ -6,7 +6,7 @@ order: 45
 ---
 
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" %}
-{% assign past = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" %}
+{% assign past = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" | sort: 'date' | reverse %}
 
 <!-- 
 <br/>
