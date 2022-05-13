@@ -20,7 +20,7 @@
 - name: lowkey
   startYear: 2021
   url: https://github.com/geodes-sms/lowkey
-  logo: 
+  logo: lowkey-logo.png
   partners: 
   description: 
     lowkey is a low-level and transparent framework for real-time collaborative framework for multi-level and multi-view modeling. 
