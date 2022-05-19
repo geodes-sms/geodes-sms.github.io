@@ -56,7 +56,20 @@
 - date: 2022-06-10
   time: TBA
   location: TBA, Pav. André-Aisenstadt
-  title: TBA
+  title: Fine-grained Analysis of Similar Code Snippets
+  short_description:
+    Code recommendation relies on code snippets extracted from projects to provide suggestions.
+    Thus, extracting and characterizing reusable and recurring code structures is essential.
+    In this work, we characterize recurring code structures through parametrizable code templates.
+    Code templates can outline the common structure in code snippets along with their variation points, hence providing a convenient way to define their structural similarity.
+    We propose an approach leveraging the Pattern Structure framework to highlight and organize groups of similar snippets.
+  description:
+    Code recommendation approaches such as code search or code repair may rely on code snippets or code templates extracted from existing projects to provide these suggestions.
+    In this context, extracting and characterizing reusable and recurring code structures beforehand is thus essential.
+    In this work, we characterize recurring code structures through parametrizable code templates.
+    Code templates can outline the common structure in code snippets along with their variation points, hence providing a convenient way to define their structural similarity. Pattern Structure is a mathematical data analysis framework for organizing objects depending on their similarity&#58; it produces a structure supporting clustering, analysis, and knowledge discovery tasks.
+    We propose an approach leveraging this framework and similarity defined through code templates to highlight and organize groups of similar snippets.
+
   presenters: 
     - name: Jessie Galasso
       url: https://jgalasso.github.io/
