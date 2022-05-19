@@ -11,7 +11,7 @@
 
   
 - date: 2022-05-13
-  time: 11:00
+  time: 11h00
   location: 3195, Pav. André-Aisenstadt
   title: "Improving online visibility for you and your research"
   short_description:
@@ -33,7 +33,7 @@
   status: done
 
 - date: 2022-05-20
-  time: 13:00
+  time: 13h00
   duration: 45 minutes
   location: 3195, Pav. André-Aisenstadt
   title: Multi-paradigm modeling of complex heterogeneous systems – Are we there yet?
