@@ -52,6 +52,23 @@
     - name: Istvan David
       url: https://istvandavid.com/
       photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
+  status: done
+  
+- date: 2022-06-03
+  time: TBA
+  location: TBA, Pav. André-Aisenstadt
+  title: TBA
+  short_description:
+    Stephane Ducasse is a research director at INRIA Lille, leading the RMoD Team. His research focuses on helping companies to support the evolution and maintenance
+    of their large applications, and improving languages to better support evolution. Nicolas Anquetil an Associate Professor at the University of Lille, France
+    and member of the RMod research team. My research interests covers various topics of software maintenance and evolution.
+  presenters: 
+    - name: Stéphane Ducasse
+      url: http://stephane.ducasse.free.fr/
+      photo: https://avatars.githubusercontent.com/u/35808194?v=4
+    - name: Nicolas Anquetil
+      url: http://researchers.lille.inria.fr/~nanqueti/nicolasAnquetil.html
+      photo: http://researchers.lille.inria.fr/~nanqueti/Images/nicolasAnquetil.jpeg
   
 - date: 2022-06-10
   time: TBA
