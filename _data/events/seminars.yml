@@ -66,9 +66,11 @@
     - name: Stéphane Ducasse
       url: http://stephane.ducasse.free.fr/
       photo: https://avatars.githubusercontent.com/u/35808194?v=4
+      affiliation: INRIA Lille, France
     - name: Nicolas Anquetil
       url: http://researchers.lille.inria.fr/~nanqueti/nicolasAnquetil.html
       photo: https://geodes.iro.umontreal.ca/images/people/people/nicolasanquetil.jpg
+      affiliation: University of Lille, France
   
 - date: 2022-06-10
   time: TBA
