@@ -500,7 +500,7 @@ a:link, a:visited {
 .talk-multiphoto-img {
     display: block;
     border-radius: 50%;
-    width: 120px; height: auto;
+    min-width: 120px; width: 120px; height: auto;
 }
 
 .talk-info {
@@ -552,15 +552,13 @@ a:link, a:visited {
 
 @media only screen and (max-width: 42em) { 
     .talk-photo-img {
-        display: block;
-        min-width: 120px; width: 120px; height: auto;
-        border-radius: 50%;
+        min-width: 120px; width: 120px; 
+        height: auto;
     }
 
     .talk-multiphoto-img {
-        display: block;
-        border-radius: 50%;
-        min-width: 72px; width: 72px; height: auto;
+        min-width: 72px; width: 72px; 
+        height: auto;
     }
 }
 
