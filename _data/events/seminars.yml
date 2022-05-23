@@ -53,6 +53,18 @@
       url: https://istvandavid.com/
       photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
   status: done
+
+- date: 2022-05-27
+  time: TBA
+  location: TBA, Pav. André-Aisenstadt
+  title: Reinforcement learning
+  short_description:
+    Reinforcement learning is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward. Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
+  presenters: 
+    - name: Lucas Maes
+      url: 
+      photo: https://geodes.iro.umontreal.ca/images/people/people/lucas.png
+
   
 - date: 2022-06-03
   time: TBA
