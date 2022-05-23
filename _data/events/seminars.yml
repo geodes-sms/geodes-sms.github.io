@@ -57,9 +57,9 @@
 - date: 2022-05-27
   time: 13h00
   location: PA3195, Pav. André-Aisenstadt
-  title: Reinforcement learning
+  title: Introduction to Reinforcement Learning
   short_description:
-    Reinforcement learning is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward. Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
+    Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning. Reinforcement learning has shown promising results in the recent years in the quest for building a general learning agent that act as human do. This seminar provides a gentle introduction to the topic of reinforcement learning, introduces some of the recent advancements, and outlines future challenges.
   presenters: 
     - name: Lucas Maes
       url: 
