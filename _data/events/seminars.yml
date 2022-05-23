@@ -59,7 +59,7 @@
   location: PA3195, Pav. André-Aisenstadt
   title: Introduction to Reinforcement Learning
   short_description:
-    Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning. Reinforcement learning has shown promising results in the recent years in the quest for building a general learning agent that act as human do. This seminar provides a gentle introduction to the topic of reinforcement learning, introduces some of the recent advancements, and outlines future challenges.
+    Reinforcement learning is a mathematical framework to infer and represent knowledge. Reinforcement learning has shown promising results in the recent years in the quest for building a general learning agent that act as human do. This seminar provides a gentle introduction to the topic of reinforcement learning, introduces some of the recent advancements, and outlines future challenges.
   presenters: 
     - name: Lucas Maes
       url: 
