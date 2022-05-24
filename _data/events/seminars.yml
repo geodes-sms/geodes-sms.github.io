@@ -69,11 +69,9 @@
 - date: 2022-06-03
   time: 13h00
   location: PA3195, Pav. André-Aisenstadt
-  title: TBA
+  title: Software modeling and analysis with Moose and FAMIX
   short_description:
-    Stephane Ducasse is a research director at INRIA Lille, leading the RMoD Team. His research focuses on helping companies to support the evolution and maintenance
-    of their large applications, and improving languages to better support evolution. Nicolas Anquetil an Associate Professor at the University of Lille, France
-    and member of the RMod research team. My research interests covers various topics of software maintenance and evolution.
+    This seminar introduces Moose, an extensive platform for software and data analysis, and FAMIX, a metamodel for language-independent representation of object-oriented source code at the program entity level. Moose offers multiple services ranging from importing and parsing data, to modeling, to measuring, querying, mining, and to building interactive and visual analysis tools, and has been used in numerous real-life industrial projects.
   presenters: 
     - name: Stéphane Ducasse
       url: http://stephane.ducasse.free.fr/
