@@ -71,7 +71,8 @@
   location: PA3195, Pav. André-Aisenstadt
   title: Software modeling and analysis with Moose and FAMIX
   short_description:
-    This seminar introduces Moose, an extensive platform for software and data analysis, and FAMIX, a metamodel for language-independent representation of object-oriented source code at the program entity level. Moose offers multiple services ranging from importing and parsing data, to modeling, to measuring, querying, mining, and to building interactive and visual analysis tools, and has been used in numerous real-life industrial projects.
+    Advanced reverse engineering tools are required to cope with the complexity of software systems and the specific requirements of different tasks (re-architecturing, migration, evolution). Consequently, reverse engineering tools should adapt to a wide range of situations. Yet, because they require a large infrastructure investment, being able to reuse these tools is key. Moose is a reverse engineering environment answering these requirements. While Moose started as a research project 20 years ago, it is also used in industrial projects, exposing itself to all these difficulties. In this talk we present the new version of Moose. It revolves around a composable meta-model; interacting micro-tools; and an open architecture supporting the synchronization and interaction of tools per task.
+
   presenters: 
     - name: Stéphane Ducasse
       url: http://stephane.ducasse.free.fr/
