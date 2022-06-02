@@ -85,8 +85,22 @@
       url: http://researchers.lille.inria.fr/~nanqueti/nicolasAnquetil.html
       photo: https://geodes.iro.umontreal.ca/images/people/people/nicolasanquetil.jpg
       affiliation: University of Lille, France
-  
+
 - date: 2022-06-10
+  time: 13h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: TBA
+  short_description:
+    TBA
+  description:
+    TBA
+  presenters: 
+    - name: Dalila Tamzalit
+      url: https://www.univ-nantes.fr/dalila-tamzalit
+      photo: https://geodes.iro.umontreal.ca/images/people/people/dalila.jpg
+
+      
+- date: 2022-06-17
   time: 13h00
   location: PA3195, Pav. André-Aisenstadt
   title: Fine-grained Analysis of Similar Code Snippets
