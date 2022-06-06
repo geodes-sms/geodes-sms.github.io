@@ -105,7 +105,13 @@ order: 45
                     {% endfor %}
                 </ul>
                 <p class="talk-description">
-                    {{seminar.description}}
+                {% if seminar.description %}
+                        {{seminar.description}}
+                {% else %}
+                    {% if seminar.short_description %}
+                        {{seminar.short_description}}
+                    {% endif %}
+                {% endif %}
                 </p>
                 <div class="talk-venue">
                     <span class="talk-date">
