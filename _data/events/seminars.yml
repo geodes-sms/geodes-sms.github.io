@@ -75,7 +75,6 @@
   title: Moose – A modular, composable software analysis environment
   short_description:
     Advanced reverse engineering tools are required to cope with the complexity of software systems and the specific requirements of different tasks (re-architecturing, migration, evolution). Consequently, reverse engineering tools should adapt to a wide range of situations. Yet, because they require a large infrastructure investment, being able to reuse these tools is key. Moose is a reverse engineering environment answering these requirements. While Moose started as a research project 20 years ago, it is also used in industrial projects, exposing itself to all these difficulties. In this talk we present the new version of Moose. It revolves around a composable meta-model; interacting micro-tools; and an open architecture supporting the synchronization and interaction of tools per task.
-
   presenters: 
     - name: Stéphane Ducasse
       url: http://stephane.ducasse.free.fr/
@@ -85,6 +84,7 @@
       url: http://researchers.lille.inria.fr/~nanqueti/nicolasAnquetil.html
       photo: https://geodes.iro.umontreal.ca/images/people/people/nicolasanquetil.jpg
       affiliation: University of Lille, France
+  status: done
 
 - date: 2022-06-10
   time: 13h00
@@ -98,7 +98,6 @@
     - name: Dalila Tamzalit
       url: https://www.univ-nantes.fr/dalila-tamzalit
       photo: https://geodes.iro.umontreal.ca/images/people/people/dalila.jpg
-  status: done
       
 - date: 2022-06-17
   time: 13h00
