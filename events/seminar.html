@@ -5,7 +5,7 @@ permalink: /events/seminar
 order: 45
 ---
 
-{% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" %}
+{% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
 {% assign past = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" | sort: 'date' | reverse %}
 
 <!-- 
