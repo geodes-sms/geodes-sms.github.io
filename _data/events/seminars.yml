@@ -1,36 +1,85 @@
-- date: 2022-05-06
-  time: 14h30
-  location: 3195, Pav. André-Aisenstadt
-  title: "AST-Probe: Recovering abstract syntax trees from hidden representations of pre-trained language models"
+- date: 2022-06-30
+  time: 10h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: TBA (Systematic studies in software engineering)
+  short_description: TBA
+  description:
   presenters: 
-    - name: José Antonio Hernández López
-      affiliation: Universidad de Murcia, Spain
-      url: https://models-lab.github.io/members/joseantonio/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/joseantonio.jpg
-  status: done
+    - name: Eugene Syriani
+      url: https://www-ens.iro.umontreal.ca/~syriani/index.php
+      photo: https://geodes.iro.umontreal.ca/images/people/faculty/eugene.jpg
+
+
+- date: 2022-06-17
+  time: 13h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: Fine-grained Analysis of Similar Code Snippets
+  short_description:
+    Code recommendation relies on code snippets extracted from projects to provide suggestions.
+    Thus, extracting and characterizing reusable and recurring code structures is essential.
+    In this work, we characterize recurring code structures through parametrizable code templates.
+    Code templates can outline the common structure in code snippets along with their variation points, hence providing a convenient way to define their structural similarity.
+    We propose an approach leveraging the Pattern Structure framework to highlight and organize groups of similar snippets.
+  description:
+    Code recommendation approaches such as code search or code repair may rely on code snippets or code templates extracted from existing projects to provide these suggestions.
+    In this context, extracting and characterizing reusable and recurring code structures beforehand is thus essential.
+    In this work, we characterize recurring code structures through parametrizable code templates.
+    Code templates can outline the common structure in code snippets along with their variation points, hence providing a convenient way to define their structural similarity. Pattern Structure is a mathematical data analysis framework for organizing objects depending on their similarity&#58; it produces a structure supporting clustering, analysis, and knowledge discovery tasks.
+    We propose an approach leveraging this framework and similarity defined through code templates to highlight and organize groups of similar snippets.
+  presenters: 
+    - name: Jessie Galasso
+      url: https://jgalasso.github.io/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/jessie.png
+
+
+- date: 2022-06-10
+  time: 13h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: The ongoing problem of reuse and evolution in software architectures&#58; illustration through four research projects
+  short_description:
+    These last years, my research work has been mainly oriented towards the needs of companies and industries, looking for social and economic impacts.
+    I will briefly introduce four different research issues and adopted approaches to address them&#58; 1) Microservice migration,
+    2) Asynchronous business-event choreography, 3) Business-IT Alignment and 4) Eco-design in shipbuilding.
+    The objective of my presentation is not to detail each work but to give you an overview of my current research interests, and, ultimately, to open the discussion with you about a question that has been bothering me for a long time&#58; is it possible to move from craft to industrialization in Software engineering?
+  description:
+  presenters: 
+    - name: Dalila Tamzalit
+      url: https://www.univ-nantes.fr/dalila-tamzalit
+      photo: https://geodes.iro.umontreal.ca/images/people/people/dalila.jpg
 
   
-- date: 2022-05-13
-  time: 11h00
-  location: 3195, Pav. André-Aisenstadt
-  title: "Improving online visibility for you and your research"
+- date: 2022-06-03
+  time: 13h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: Moose – A modular, composable software analysis environment
   short_description:
-    Academic visibility is important for disseminating information about you and your research, which can lead to further citations and professional opportunities. This talk discusses basic 'channels' for such dissemination online, such as ResearchGate, Google Scholar, and personal websites. Examples and suggestions for how to maintain these channels are presented.
-  description:
-    Visibility is a key success factor for researchers to increase their impact in academica. A particular challenge of academic visibility is that it requires effort over time.
-    This talk will provide the audience with motivation and specific recommendations for increasing their academic visibility online.
-    Specifically, online 'channels' such as ResearchGate, Google Scholar, and personal websites are discussed, along with best practices and tips for maintaining up-to-date information.
-    This talk is for early-stage and mid-stage researchers who are interested in improving their online presence.  
+    Advanced reverse engineering tools are required to cope with the complexity of software systems and the specific requirements of different tasks (re-architecturing, migration, evolution). Consequently, reverse engineering tools should adapt to a wide range of situations. Yet, because they require a large infrastructure investment, being able to reuse these tools is key. Moose is a reverse engineering environment answering these requirements. While Moose started as a research project 20 years ago, it is also used in industrial projects, exposing itself to all these difficulties. In this talk we present the new version of Moose. It revolves around a composable meta-model; interacting micro-tools; and an open architecture supporting the synchronization and interaction of tools per task.
   presenters: 
-    - name: Bentley James Oakes
-      url: http://msdl.cs.mcgill.ca/people/bentley
-      photo: https://geodes.iro.umontreal.ca/images/people/people/bentley.png
-    - name: Lola Burgueño
-      affiliation: Open University of Catalonia, Spain
-      url: https://som-research.uoc.edu/lburgueno/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
-  material: Oakes2022-ImprovingOnlineVisibility.pdf
+    - name: Stéphane Ducasse
+      url: http://stephane.ducasse.free.fr/
+      photo: https://avatars.githubusercontent.com/u/35808194?v=4
+      affiliation: INRIA Lille, France
+    - name: Nicolas Anquetil
+      url: http://researchers.lille.inria.fr/~nanqueti/nicolasAnquetil.html
+      photo: https://geodes.iro.umontreal.ca/images/people/people/nicolasanquetil.jpg
+      affiliation: University of Lille, France
   status: done
+
+
+- date: 2022-05-27
+  time: 13h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: Introduction to Reinforcement Learning
+  short_description:
+    Reinforcement learning is a mathematical framework to infer and represent knowledge. Reinforcement learning has shown promising results in the recent years in the quest for building a general learning agent that act as human do. This seminar provides a gentle introduction to the topic of reinforcement learning, introduces some of the recent advancements, and outlines future challenges.
+  description:
+    Reinforcement learning is a mathematical framework to infer and represent knowledge. Reinforcement learning has shown promising results in the recent years in the quest for building a general learning agent that act as human do. This seminar provides a gentle introduction to the topic of reinforcement learning, introduces some of the recent advancements, and outlines future challenges.
+  presenters: 
+    - name: Lucas Maes
+      url: https://geodes.iro.umontreal.ca/people
+      photo: https://geodes.iro.umontreal.ca/images/people/people/lucas.png
+  status: done
+
 
 - date: 2022-05-20
   time: 13h00
@@ -54,70 +103,37 @@
       photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
   status: done
 
-- date: 2022-05-27
-  time: 13h00
-  location: PA3195, Pav. André-Aisenstadt
-  title: Introduction to Reinforcement Learning
+
+- date: 2022-05-13
+  time: 11h00
+  location: 3195, Pav. André-Aisenstadt
+  title: "Improving online visibility for you and your research"
   short_description:
-    Reinforcement learning is a mathematical framework to infer and represent knowledge. Reinforcement learning has shown promising results in the recent years in the quest for building a general learning agent that act as human do. This seminar provides a gentle introduction to the topic of reinforcement learning, introduces some of the recent advancements, and outlines future challenges.
+    Academic visibility is important for disseminating information about you and your research, which can lead to further citations and professional opportunities. This talk discusses basic 'channels' for such dissemination online, such as ResearchGate, Google Scholar, and personal websites. Examples and suggestions for how to maintain these channels are presented.
   description:
-    Reinforcement learning is a mathematical framework to infer and represent knowledge. Reinforcement learning has shown promising results in the recent years in the quest for building a general learning agent that act as human do. This seminar provides a gentle introduction to the topic of reinforcement learning, introduces some of the recent advancements, and outlines future challenges.
+    Visibility is a key success factor for researchers to increase their impact in academica. A particular challenge of academic visibility is that it requires effort over time.
+    This talk will provide the audience with motivation and specific recommendations for increasing their academic visibility online.
+    Specifically, online 'channels' such as ResearchGate, Google Scholar, and personal websites are discussed, along with best practices and tips for maintaining up-to-date information.
+    This talk is for early-stage and mid-stage researchers who are interested in improving their online presence.  
   presenters: 
-    - name: Lucas Maes
-      url: https://geodes.iro.umontreal.ca/people
-      photo: https://geodes.iro.umontreal.ca/images/people/people/lucas.png
+    - name: Bentley James Oakes
+      url: http://msdl.cs.mcgill.ca/people/bentley
+      photo: https://geodes.iro.umontreal.ca/images/people/people/bentley.png
+    - name: Lola Burgueño
+      affiliation: Open University of Catalonia, Spain
+      url: https://som-research.uoc.edu/lburgueno/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
+  material: Oakes2022-ImprovingOnlineVisibility.pdf
   status: done
 
-  
-- date: 2022-06-03
-  time: 13h00
-  location: PA3195, Pav. André-Aisenstadt
-  title: Moose – A modular, composable software analysis environment
-  short_description:
-    Advanced reverse engineering tools are required to cope with the complexity of software systems and the specific requirements of different tasks (re-architecturing, migration, evolution). Consequently, reverse engineering tools should adapt to a wide range of situations. Yet, because they require a large infrastructure investment, being able to reuse these tools is key. Moose is a reverse engineering environment answering these requirements. While Moose started as a research project 20 years ago, it is also used in industrial projects, exposing itself to all these difficulties. In this talk we present the new version of Moose. It revolves around a composable meta-model; interacting micro-tools; and an open architecture supporting the synchronization and interaction of tools per task.
-  presenters: 
-    - name: Stéphane Ducasse
-      url: http://stephane.ducasse.free.fr/
-      photo: https://avatars.githubusercontent.com/u/35808194?v=4
-      affiliation: INRIA Lille, France
-    - name: Nicolas Anquetil
-      url: http://researchers.lille.inria.fr/~nanqueti/nicolasAnquetil.html
-      photo: https://geodes.iro.umontreal.ca/images/people/people/nicolasanquetil.jpg
-      affiliation: University of Lille, France
-  status: done
 
-- date: 2022-06-10
-  time: 13h00
-  location: PA3195, Pav. André-Aisenstadt
-  title: The ongoing problem of reuse and evolution in software architectures&#58; illustration through four research projects
-  short_description:
-    These last years, my research work has been mainly oriented towards the needs of companies and industries, looking for social and economic impacts.
-    I will briefly introduce four different research issues and adopted approaches to address them&#58; 1) Microservice migration,
-    2) Asynchronous business-event choreography, 3) Business-IT Alignment and 4) Eco-design in shipbuilding.
-    The objective of my presentation is not to detail each work but to give you an overview of my current research interests, and, ultimately, to open the discussion with you about a question that has been bothering me for a long time&#58; is it possible to move from craft to industrialization in Software engineering?
-  description:
+- date: 2022-05-06
+  time: 14h30
+  location: 3195, Pav. André-Aisenstadt
+  title: "AST-Probe: Recovering abstract syntax trees from hidden representations of pre-trained language models"
   presenters: 
-    - name: Dalila Tamzalit
-      url: https://www.univ-nantes.fr/dalila-tamzalit
-      photo: https://geodes.iro.umontreal.ca/images/people/people/dalila.jpg
-      
-- date: 2022-06-17
-  time: 13h00
-  location: PA3195, Pav. André-Aisenstadt
-  title: Fine-grained Analysis of Similar Code Snippets
-  short_description:
-    Code recommendation relies on code snippets extracted from projects to provide suggestions.
-    Thus, extracting and characterizing reusable and recurring code structures is essential.
-    In this work, we characterize recurring code structures through parametrizable code templates.
-    Code templates can outline the common structure in code snippets along with their variation points, hence providing a convenient way to define their structural similarity.
-    We propose an approach leveraging the Pattern Structure framework to highlight and organize groups of similar snippets.
-  description:
-    Code recommendation approaches such as code search or code repair may rely on code snippets or code templates extracted from existing projects to provide these suggestions.
-    In this context, extracting and characterizing reusable and recurring code structures beforehand is thus essential.
-    In this work, we characterize recurring code structures through parametrizable code templates.
-    Code templates can outline the common structure in code snippets along with their variation points, hence providing a convenient way to define their structural similarity. Pattern Structure is a mathematical data analysis framework for organizing objects depending on their similarity&#58; it produces a structure supporting clustering, analysis, and knowledge discovery tasks.
-    We propose an approach leveraging this framework and similarity defined through code templates to highlight and organize groups of similar snippets.
-  presenters: 
-    - name: Jessie Galasso
-      url: https://jgalasso.github.io/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/jessie.png
+    - name: José Antonio Hernández López
+      affiliation: Universidad de Murcia, Spain
+      url: https://models-lab.github.io/members/joseantonio/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/joseantonio.jpg
+  status: done
