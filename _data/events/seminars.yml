@@ -2,7 +2,7 @@
   time: 10h00
   location: PA3195, Pav. André-Aisenstadt
   title: Systematic Reviews with ReLiS
-  short_description: Systematic reviews are an important endeavor that shows the maturity of a discipline, research theme, or topic. In this talk, we will understand what systematic reviews are and discuss how they are conducted. As for tool support, we present ReLiS, a tool to automatically install and configure systematic reviews projects to conduct them collaboratively and iteratively on the cloud. Finally, we reflect on lessons learned from conducting systematic reviews in software engineering.
+  short_description: Systematic reviews are an important endeavor that shows the maturity of a discipline, research theme, or topic. In this talk, we will understand what systematic reviews are and discuss how they are conducted. As for tool support, we present ReLiS, a tool to automatically install and configure systematic reviews projects to conduct them collaboratively and iteratively on the cloud. We will also reflect on lessons learned from conducting systematic reviews in software engineering. This seminar ends with an open discussion on conducting a systematic review on the use of reinforcement learning in software engineering.
   description:
   presenters: 
     - name: Eugene Syriani
