@@ -1,8 +1,8 @@
 - date: 2022-06-30
   time: 10h00
   location: PA3195, Pav. André-Aisenstadt
-  title: TBA (Systematic studies in software engineering)
-  short_description: TBA
+  title: Systematic Reviews with ReLiS
+  short_description: Systematic reviews are an important endeavor that shows the maturity of a discipline, research theme, or topic. In this talk, we will understand what systematic reviews are and discuss how they are conducted. As for tool support, we present ReLiS, a tool to automatically install and configure systematic reviews projects to conduct them collaboratively and iteratively on the cloud. Finally, we reflect on lessons learned from conducting systematic reviews in software engineering.
   description:
   presenters: 
     - name: Eugene Syriani
