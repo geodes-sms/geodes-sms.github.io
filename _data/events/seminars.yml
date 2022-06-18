@@ -1,3 +1,14 @@
+- date: 2022-07-08
+  time: 14h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: "Process modeling, analysis and enactment with the FTG+PM formalism"
+  short_description: Originally developed for the sound composition and analysis of model transformation chains, the Transformation Graph + Process Model (FTG+PM) formalism provides versatile means to reason about the properties of complex engineering processes. This talk introduces the formalism in detail, samples from the numerous engineering cases the formalism has been successfully applied in before, and opens up a discussion about a related challenge in our research on digital twins for cyber-biophysical systems.
+  description:
+  presenters: 
+    - name: Istvan David
+      url: https://istvandavid.com/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
+
 - date: 2022-06-30
   time: 10h00
   location: PA3195, Pav. André-Aisenstadt
@@ -8,7 +19,7 @@
     - name: Eugene Syriani
       url: https://www-ens.iro.umontreal.ca/~syriani/index.php
       photo: https://geodes.iro.umontreal.ca/images/people/faculty/eugene.jpg
-
+  material: 20220630-Syriani-SystematicReviews.pdf
 
 - date: 2022-06-17
   time: 13h00
@@ -123,7 +134,7 @@
       affiliation: Open University of Catalonia, Spain
       url: https://som-research.uoc.edu/lburgueno/
       photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
-  material: Oakes2022-ImprovingOnlineVisibility.pdf
+  material: 20220513-OakesBurgueno-ImprovingOnlineVisibility.pdf
   status: done
 
 
