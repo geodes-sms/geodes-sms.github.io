@@ -24,7 +24,7 @@
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
   title: "Process modeling, analysis and enactment with the FTG+PM formalism"
-  short_description: Originally developed for the sound composition and analysis of model transformation chains, the Transformation Graph + Process Model (FTG+PM) formalism provides versatile means to reason about the properties of complex engineering processes. This talk introduces the formalism in detail, samples from the numerous engineering cases the formalism has been successfully applied in before, and opens up a discussion about a related challenge in our research on digital twins for cyber-biophysical systems.
+  short_description: Originally developed for the sound composition and analysis of model transformation chains, the Formalism Transformation Graph + Process Model (FTG+PM) formalism provides versatile means to reason about the properties of complex engineering processes. This talk introduces the formalism in detail, samples from the numerous engineering cases the formalism has been successfully applied in before, and opens up a discussion about a related challenge in our research on digital twins for cyber-biophysical systems.
   description:
   presenters: 
     - name: Istvan David
