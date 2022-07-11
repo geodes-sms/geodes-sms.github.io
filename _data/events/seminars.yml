@@ -13,7 +13,7 @@
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
   title: "Learning from Code Repositories to Recommend Model Classes"
-  short_description: TBA
+  short_description: "With the growing popularity of machine learning algorithms, dramatic advances have been made for code completion, and specifically method-call completion. These advances were also possible thanks to the availability of large code repositories to learn from and to the well-defined boundaries of the method-call completion problem. This is, however, not the case for design completion, where model repositories are scarce and the space of possibilities for design completion is theoretically infinite. We propose in this presentation an approach that learns numeric representations of domain concepts and their relations from code repositories in order to recommend classes for UML class diagrams."
   description:
   presenters: 
     - name: Houari Sahraoui
