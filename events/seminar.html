@@ -8,22 +8,23 @@ order: 45
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
 {% assign past = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" | sort: 'date' | reverse %}
 
-<!-- 
-<br/>
-<div style="background-color:#cc0000;color:white;">
-<br/>
-<center><p style="font-weight:700;">THE EVENT HAS BEEN POSTPONED!</p></center>
-
-<p style="text-align:center;">The event has been postponed indefinitely due to the new COVID outbreak and the related sanitary measures. We will organize the event soon after the restrictions have been lifted. Everyone will be given the chance to revise their previously submitted topics.</p><br/>
-</div>
-
-<br/><br/>
--->
 
 <header class="seminar-header">
     <div class="seminar-logo">
         <img class="seminar-logo-img" src="geodes-seminar.png" alt="Seminar logo">
     </div>
+    
+    <br/>
+        <div style="background-color:#f5f514;color:black;">
+        <br/>
+        <center><p style="font-weight:700;">SUMMER BREAK</p></center>
+
+        <p style="text-align:center;">
+        The seminar takes a summer break of about 3-4 weeks after 22 July.<br/>
+        Thank you all for your talks and presence. We will be back in August.</p><br/>
+        </div>
+    <br/><br/>
+
     
     <p>
         The GEODES Seminar aims to bring together members of the group in a semi-formal setting with a semi-regular timing.<br/>
