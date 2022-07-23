@@ -3,12 +3,12 @@
   location: PA3195, Pav. André-Aisenstadt
   title: Uncertainty in Software Models
   short_description: When designing and operating with software and systems, stakeholders and modelers often face situations in which they need to deal with uncertain data and information. These uncertainties may originate from different reasons such as vagueness, imprecision, incompleteness or inconsistencies. In many cases, neglecting these uncertainties may have disastrous consequences. In this talk, we will explain the different types of uncertainty that can appear when dealing with software models, paying particular attention to measurement uncertainty and belief uncertainty. We will explain an approach to capture, operate and propagate these uncertainties as well as a strategy and methodology to make informed decisions when different stakeholders are involved.
-
   description:
   presenters: 
     - name: Lola Burgueño
       url: https://som-research.uoc.edu/lburgueno/
       photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
+  status: done
 
 - date: 2022-07-15
   time: 14h00
