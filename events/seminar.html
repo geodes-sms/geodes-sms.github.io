@@ -47,7 +47,10 @@ order: 45
 
 <section class="seminar-section">
     <h3 class="seminar-section-title">Upcoming talks</h3>
-
+	
+	{% if upcoming.size == 0 %}
+		There are no upcoming events scheduled currently. Check back later.
+	{% else %}
     <ul class="bare-list talks">
         {% for seminar in upcoming %}
             <li class="talk">
@@ -89,6 +92,7 @@ order: 45
             </li>
         {% endfor %}
     </ul>
+	{% endif %}
 </section>
 
 <section class="seminar-section">
