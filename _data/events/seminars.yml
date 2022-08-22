@@ -1,3 +1,14 @@
+- date: 2022-08-26
+  time: 14h00
+  location: PA3195, Pav. André-Aisenstadt
+  title: TBA
+  short_description: TBA
+  description:
+  presenters: 
+    - name: Tewfik Ziadi
+      url: https://www.lip6.fr/MoVe
+      photo: https://geodes.iro.umontreal.ca/images/people/people/tziadi.png
+
 - date: 2022-07-22
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
