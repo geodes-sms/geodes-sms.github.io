@@ -1,14 +1,3 @@
-- date: 2022-10-07
-  time: 14h00
-  location: PA3195, Pav. André-Aisenstadt
-  title: "End-to-End Rationale Reconstruction"
-  short_description: The logic behind design decisions, called design rationale, is very valuable. In the past, researchers have tried to automatically extract and exploit this information, but prior techniques are only applicable to specific contexts and there is insufficient progress on an end-to-end rationale information extraction pipeline. Here we outline a path towards such a pipeline that leverages several Machine Learning (ML) and Natural Language Processing (NLP) techniques. Our proposed context-independent approach, called  Kantara, produces a knowledge graph representation of decisions and of their rationales, which considers their historical evolution and traceability. We also propose inconsistency checking mechanisms to ensure the correctness of the extracted information and the coherence of the development process. We conducted a preliminary evaluation of our proposed approach on a small example sourced from the Linux Kernel, which shows promising results.
-  description:
-  presenters: 
-    - name: Mouna Dhaouadi
-      url: http://www-ens.iro.umontreal.ca/~dhaouadm/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/mouna.jpeg
-
 - date: 2022-08-26
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt

@@ -1,0 +1,9 @@
+---
+layout: home
+title: Home
+permalink: /
+id: home
+order: 0
+---
+
+<img class="home-img" src="/images/udem.jpg"/>
