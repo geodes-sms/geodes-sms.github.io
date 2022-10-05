@@ -9,17 +9,6 @@
       url: http://www-ens.iro.umontreal.ca/~dhaouadm/
       photo: https://geodes.iro.umontreal.ca/images/people/people/mouna.jpeg
 
-- date: 2022-10-14
-  time: 14h00
-  location: PA3195, Pav. André-Aisenstadt
-  title: "Blended Modeling in Commercial and Open-source Model-Driven Software Engineering Tools: A Systematic Study"
-  short_description: This talk reports on the results of a systematic multivocal study on the emerging topic of blended modeling. Blended modeling aims to improve the user experience of modeling activities by prioritizing the seamless interaction with models through multiple notations over the consistency of the models. To understand the potential of current commercial and open-source modeling tools to support blended modeling, we have reviewed nearly 5,000 academic papers and nearly 1,500 entries of grey literature. We have identified 133 candidate tools, and eventually selected 26 of them to represent the current spectrum of modeling tools. This work has been carried out in collaboration with <a href="https://scholar.google.com/citations?user=ZrPVvi8AAAAJ&hl=en">Malvina Latifaj</a> (Mälardalen University), <a href="https://www.uni-ulm.de/in/sp/team/jakob-pietron/">Jakob Pietron</a> (Universität Ulm), <a href="https://www.chalmers.se/en/staff/Pages/weixing.aspx">Weixing Zhang</a> (Chalmers University of Technology, University of Gothenburg), <a href="https://federicociccozzi.com/">Federico Ciccozzi</a> (Mälardalen University), <a href="https://www.ivanomalavolta.com/">Ivano Malavolta</a> (VU Amsterdam), <a href="https://www.uni-ulm.de/in/sp/team/dr-alexander-raschke/">Alexander Raschke</a> (Universität Ulm), <a href="https://jpsteghofer.net/">Jan-Philipp Steghöfer</a> (Chalmers University of Technology, University of Gothenburg), and <a href="https://www.chalmers.se/en/staff/pages/hebig.aspx">Regina Hebig</a> (Chalmers University of Technology, University of Gothenburg).
-  description:
-  presenters: 
-    - name: Istvan David
-      url: https://istvandavid.com/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
-
 - date: 2022-08-26
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
