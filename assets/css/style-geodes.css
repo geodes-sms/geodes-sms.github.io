@@ -244,6 +244,12 @@ a:link, a:visited {
     width: 100%;
 }
 
+.paragraph-title {
+    font-size: 2em;
+    margin-top: 12px; margin-bottom: 6px;
+    width: 100%;
+}
+
 .post-title {
     font-size: 1.5em;
     font-weight: 400;

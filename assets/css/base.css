@@ -73,3 +73,21 @@ th { text-align: center; }
 .hidden { display: none!important; }
 
 .fit-content { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+/* List special bullets */
+
+.dash:before { 
+    content: '-'; 
+    margin-left: 6px;
+    margin-right: 6px; 
+    font-weight: bold;
+    color: currentColor;
+} 
+
+.check:before {
+    margin-left: 6px;
+    margin-right: 6px; 
+    font-weight: bold;
+    content: '🗸'; 
+    color: currentColor;
+}
