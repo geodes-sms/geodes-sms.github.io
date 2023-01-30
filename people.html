@@ -14,13 +14,26 @@ order: 2
 {% assign mscs = site.data.people.people | where_exp: "person", "person.position == 'MSc'" | sort: "name"%}
 
 {% include team/printFaculty-circles.html faculty=faculty%}
-<hr class="people-separator">
-{% include team/printPeople-circles.html people=postdocs title="Postdoctoral fellows" %}
-<hr class="people-separator">
-{% include team/printPeople-circles.html people=phds title="PhD students" %}
-<hr class="people-separator">
-{% include team/printPeople-circles.html people=collaborators title="Visiting Scholars and Scientific collaborators" %}
-<hr class="people-separator">
-{% include team/printMaster.html mscs=mscs %}
+
+{% if postdocs and postdocs.size != 0 %}
+    <hr class="people-separator">
+	{% include team/printPeople-circles.html people=postdocs title="Postdoctoral fellows" %}
+{% endif %}
+
+{% if phds and phds.size != 0 %}
+	<hr class="people-separator">
+	{% include team/printPeople-circles.html people=phds title="PhD students" %}
+{% endif %}
+
+{% if collaborators and collaborators.size != 0 %}
+	<hr class="people-separator">
+	{% include team/printPeople-circles.html people=collaborators title="Visiting Scholars and Scientific collaborators" %}
+{% endif %}
+
+{% if mscs and mscs.size != 0 %}
+	<hr class="people-separator">
+	{% include team/printMaster.html mscs=mscs %}
+{% endif %}
+
 <hr class="people-separator">
 {% include team/printAlumni.html %}
