@@ -17,10 +17,10 @@
   position: professor
 
 - name: Magnin, Laurent
-  position: professor
+  position: adjunct professor
 
 - name: Dury, Arnaud
-  position: professor
+  position: adjunct professor
 
 - name: Deveaux, Daniel
   position: visiting professor
@@ -34,3 +34,17 @@
 - name: Jézéquel, Jean-Marc
   position: visitor
   website: https://people.irisa.fr/Jean-Marc.Jezequel/
+
+- name: Tamzalit, Dalila
+  image: dalila.jpg
+  position: visiting professor
+  website: https://www.univ-nantes.fr/dalila-tamzalit
+  
+- name: Baysal, Olga
+  position: professor
+  
+- name: Dufour, Bruno
+  position: professor
+  
+- name: Haydar, May
+  position: adjunct professor

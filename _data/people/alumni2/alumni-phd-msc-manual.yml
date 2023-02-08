@@ -1,4 +1,24 @@
 ##### 2022 #####
+- name: Abdelnaim, Mostafa
+  image: 
+  position: MSc
+  website: 
+  
+- name: Nosthe, Wilkens
+  image: 
+  position: MSc
+  website: 
+  
+- name: Mai, Badr
+  image: 
+  position: MSc
+  website: 
+  
+- name: Vandamme, Dorian
+  image: 
+  position: MSc
+  website: 
+
 - name: Nikitchin, Vitaliy
   image: 
   position: MSc
@@ -8,6 +28,19 @@
   image: 
   position: MSc
   website:
+  
+- name: Hornung, Lucas
+  image:
+  position: MSc
+  email: lucas.hornung@umontreal.ca
+  website:
+  
+- name: Yang, Song
+  image: song.jpg
+  position: MSc
+  email: song.yang.1@umontreal.ca
+  end: 2022
+  website: https://www.linkedin.com/in/song-yang-b82a4b17b/
 
 - name: Wolak, Quentin
   image: 
@@ -26,11 +59,6 @@
   position: PhD
   website: https://www.linkedin.com/in/zahra-varaminy-b9a47376/
   end: 2022
-
-- name: Tamzalit, Dalila
-  image: dalila.jpg
-  position: Collaborator
-  website: https://www.univ-nantes.fr/dalila-tamzalit
 
 - name: Burgueño, Lola
   image: lola.jpg
