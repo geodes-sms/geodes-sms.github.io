@@ -1,4 +1,14 @@
 ##### 2022 #####
+- name: Nikitchin, Vitaliy
+  image: 
+  position: MSc
+  website: http://www-ens.iro.umontreal.ca/~nikitchv/
+
+- name: Mbacke, Sokhna Maimouna
+  image: 
+  position: MSc
+  website:
+
 - name: Wolak, Quentin
   image: 
   position: MSc
@@ -31,12 +41,6 @@
   image: joseantonio.jpg
   position: Collaborator
   website: https://models-lab.github.io/members/joseantonio/
-
-- name: Faridmoayer, Sogol
-  image: sogol.jpg
-  position: PhD
-  start: 2021
-  website: https://www.linkedin.com/in/sogol-faridmoayer-88413118a
   
 - name: Essadi, Naima
   image: naima.jpg
