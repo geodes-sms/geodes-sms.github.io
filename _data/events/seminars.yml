@@ -1,4 +1,5 @@
 - date: 2022-08-26
+  season: 1
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
   title: Migrating Enterprise applications into Software Product Lines
@@ -12,6 +13,7 @@
   status: done
 
 - date: 2022-07-22
+  season: 1
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
   title: Uncertainty in Software Models
@@ -25,6 +27,7 @@
   status: done
 
 - date: 2022-07-15
+  season: 1
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
   title: "Learning from Code Repositories to Recommend Model Classes"
@@ -37,6 +40,7 @@
   status: done
 
 - date: 2022-07-08
+  season: 1
   time: 14h00
   location: PA3195, Pav. André-Aisenstadt
   title: "Process modeling, analysis and enactment with the FTG+PM formalism"
@@ -50,6 +54,7 @@
   status: done
 
 - date: 2022-06-30
+  season: 1
   time: 10h00
   location: PA3195, Pav. André-Aisenstadt
   title: Systematic Reviews with ReLiS
@@ -63,6 +68,7 @@
   status: done
 
 - date: 2022-06-17
+  season: 1
   time: 13h00
   location: PA3195, Pav. André-Aisenstadt
   title: Fine-grained Analysis of Similar Code Snippets
@@ -85,6 +91,7 @@
   status: done
 
 - date: 2022-06-10
+  season: 1
   time: 13h00
   location: PA3195, Pav. André-Aisenstadt
   title: The ongoing problem of reuse and evolution in software architectures&#58; illustration through four research projects
@@ -101,6 +108,7 @@
   status: done
   
 - date: 2022-06-03
+  season: 1
   time: 13h00
   location: PA3195, Pav. André-Aisenstadt
   title: Moose – A modular, composable software analysis environment
@@ -119,6 +127,7 @@
 
 
 - date: 2022-05-27
+  season: 1
   time: 13h00
   location: PA3195, Pav. André-Aisenstadt
   title: Introduction to Reinforcement Learning
@@ -134,6 +143,7 @@
 
 
 - date: 2022-05-20
+  season: 1
   time: 13h00
   duration: 45 minutes
   location: 3195, Pav. André-Aisenstadt
@@ -157,6 +167,7 @@
 
 
 - date: 2022-05-13
+  season: 1
   time: 11h00
   location: 3195, Pav. André-Aisenstadt
   title: "Improving online visibility for you and your research"
@@ -180,6 +191,7 @@
 
 
 - date: 2022-05-06
+  season: 1
   time: 14h30
   location: 3195, Pav. André-Aisenstadt
   title: "AST-Probe: Recovering abstract syntax trees from hidden representations of pre-trained language models"
