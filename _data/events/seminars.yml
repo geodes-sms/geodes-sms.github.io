@@ -1,3 +1,16 @@
+- date: 2023-03-15
+  season: current
+  time: 11h00
+  location: Library, Pav. André-Aisenstadt
+  title: TBA
+  short_description: TBA
+  description:
+  presenters: 
+    - name: Oussama Ben Sghaier
+      url: https://oussamasghaier.github.io/
+      photo: https://geodes.iro.umontreal.ca/images/people/people/oussama.jpg
+  status: 
+
 - date: 2022-08-26
   season: 1
   time: 14h00
