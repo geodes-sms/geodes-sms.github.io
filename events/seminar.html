@@ -6,7 +6,8 @@ order: 45
 ---
 
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
-{% assign past = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" | sort: 'date' | reverse %}
+{% assign pastcurrentseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'", "seminar.season == 'current'" | sort: 'date' | reverse %}
+{% assign pastseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'", "seminar.season == 1" | sort: 'date' | reverse %}
 
 
 <header class="seminar-header">
@@ -96,10 +97,10 @@ order: 45
 </section>
 
 <section class="seminar-section">
-    <h3 class="seminar-section-title">Previous talks</h3>
+    <h3 class="seminar-section-title">Previous talks in this season</h3>
 
     <ul class="bare-list previous-talks">
-        {% for seminar in past %}
+        {% for seminar in pastcurrentseason %}
             <li class="previous-talk">
                 <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
                 <ul class="bare-list talk-presenters">
