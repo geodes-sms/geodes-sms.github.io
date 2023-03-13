@@ -7,7 +7,7 @@ order: 45
 
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
 {% assign pastcurrentseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'", "seminar.season == 'current'" | sort: 'date' | reverse %}
-{% assign pastseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'", "seminar.season == 1" | sort: 'date' | reverse %}
+{% assign pastseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'", "seminar.season == '1'" | sort: 'date' | reverse %}
 
 
 <header class="seminar-header">
