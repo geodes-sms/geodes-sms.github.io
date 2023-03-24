@@ -9,21 +9,7 @@
     - name: Jessie Galasso
       url: https://jgalasso.github.io/
       photo: https://geodes.iro.umontreal.ca/images/people/people/jessie.png
-  status: 
-
-- date: 2023-03-24
-  season: current
-  time: 11h00
-  location: Library, Pav. André-Aisenstadt
-  title: Replication, replicability and related comunity standards
-  short_description: After Jessie's talk, Istvan will give an overview on his work on the Replication standard within the ACM Empirical Standards, will introduce the initiative in general, and the standards and tools developed within it.
-  description:
-  presenters: 
-    - name: Istvan David
-      url: https://istvandavid.com/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
-  status: 
-
+  status: done
 
 - date: 2023-03-15
   season: current
