@@ -1,95 +1,255 @@
-- name: Galasso-Carbonnel, Jessie
-  image: jessie.png
-  position: Postdoc
-  start: 2020
-  email: jessie.galasso-carbonnel@umontreal.ca
-  website: https://jgalasso.github.io/
-- name: David, Istvan
-  image: istvan.png
-  position: Postdoc
-  start: 2021
-  email: istvan.david@umontreal.ca
-  website: http://istvandavid.com
-- name: Oakes, Bentley James
-  image: bentley.png
-  position: Postdoc
-  start: 2021
-  email: bentley.oakes@umontreal.ca
-  website: http://bentleyoakes.com
-  
+- name: Di Sipio, Claudio
+  image: claudio.jpg
+  position: Invited researcher
+  category: Postdoc
+  email: crispolitowski@gmail.com
+  website: https://claudiodsi.github.io/
+  start: 2023
+  length: 6 months
+  supervisor: Houari SAHRAOUI
+  research_topic:  
+    I'm interested in developing recommendation systems for software engineering, mining OSS repositories, and applying cutting-edge ML/AI strategies to automate SE tasks.
+  research_areas:
+    - Recommender systems
+    - MDE
+    - Data Mining
+- name: Politowski, Cristiano
+  image: cristiano.jpg
+  position: Postdoctoral fellow
+  category: Postdoc
+  email: crispolitowski@gmail.com
+  website: https://cpoli.live/
+  start: 2023
+  supervisor: Houari Sahraoui and Michalis Famelis
+  research_topic: 
+    I am interested in Artificial Intelligence for Software Engineering (AI4SE), Video Game Software Engineering (VGSE), Software Testing, 
+    Deep Reinforcement Learning, and Empirical Software Engineering.
+  research_areas:
+    - AI4SE
+    - Video Game Development
+    - Software Testing
+
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
   position: PhD
-  start:
+  category: PhD
   email: manouchehr.zadahmad.jafarlou@umontreal.ca
   website: https://www.linkedin.com/in/manouchehr-zadahmad/
+  start: 2017
+  supervisor: Eugene SYRIANI
+  thesis: Domain-specific version control systems
+  research_areas:
+    - MDE
+    - Version control
+    - DSL
 - name: Weyssow, Martin
   image: martin.png
   position: PhD
-  start:
+  category: PhD
   email: martin.weyssow@umontreal.ca
   website: https://martin-wey.github.io/
+  start: 2020
+  thesis: Exploring the adaptability of large language models in software engineering
+  supervisor: Houari SAHRAOUI
+  research_areas:
+    - Deep learning for code
+    - Continual learning
+    - NLP
 - name: Zaheri, MohammadAmin
   image: mohammadamin.png
   position: PhD
-  start:
+  category: PhD
   email: mohammadamin.zaheri@umontreal.ca
   website: http://zaheri.info/
+  start: 2020
+  supervisor: Eugene SYRIANI and Michalis FAMELIS
+  thesis: Managing Model-Data inconsistencies in Low-code applications.
+  research_areas:
+    - MDE
+    - Low-code
+    - Consistency management
 - name: Dhaouadi, Mouna
   image: mouna.jpeg
   position: PhD
-  start:
+  category: PhD
   email: mouna.dhaouadi@umontreal.ca
   website: https://www-labs.iro.umontreal.ca/~dhaouadm/
+  start: 2021
+  supervisor: Michalis Famelis and <a href="http://rali.iro.umontreal.ca/nie-site/jian-yun-nie-en/">Jian-Yun Nie</a>
+  thesis: The extraction and management of rationale in order to assist stakeholders in their tasks.
+  research_areas:
+    - Rationale extraction
+    - Rationale management
 - name: Ben Sghaier, Oussama
   image: oussama.jpg
   position: PhD
-  start:
+  category: PhD
   email: oussama.ben.sghaier@umontreal.ca
   website: https://oussamasghaier.github.io/
+  start: 2021
+  supervisor: Houari SAHRAOUI
+  thesis: Code review automation using deep learning models.
+  research_areas:
+    - Deep learning
+    - NLP
+    - Software maintenance
 - name: Lafontant, Louis-Edouard
-  image: louis_edouard.jpeg
+  image: louis_edouard.jpg
   position: PhD
+  category: PhD
   email: louis.edouard.lafontant@umontreal.ca
+  start: 2022
   website: https://lelafontant.github.io/
-  
-- name: Malak, Christian
-  image:
-  position: MSc
-  email:
-  website: 
+  supervisor: Eugene SYRIANI
+  thesis: Developping a modeling approach that facilitates the creation and evolution of models and languages.
+  research_areas:
+    - MDE
+    - Language workbench
+    - Model co-evolution
 - name: Ben Chaaben, Meriem
-  image:
-  position: MSc
+  image: meriem.jpg
+  position: PhD
+  category: PhD
+  start: 2023
   email: meriem.ben.chaaben@umontreal.ca
-  website: 
-- name: Kamanda, Aton
-  image:
-  position: MSc
-  email: aton.kamanda@umontreal.ca
-  website: 
-- name: Maes, Lucas
-  image:
-  position: MSc
-  email: lucas.maes@umontreal.ca
-  website:  
-- name: Vu, Cong-Vinh
-  image: 
-  position: MSc
-  website: 
+  website: https://meriembenchaaben.github.io/
+  supervisor: Houari SAHRAOUI
+  thesis: Addressing time constraints and domain understanding challenges  found in modeling tasks using AI-based approaches.
+  research_areas:
+    - MDE
+    - AI
+    - Model completion
 - name: Archambault, Pascal
-  image: 
-  position: MSc
-  website: https://www.linkedin.com/in/pascal-archambault/
+  image: pascal.jpg
+  position: PhD
+  category: PhD
+  email: pascal.archambault@umontreal.ca
+  website: https://pascalarchambault.ca/
+  start: 2023
+  supervisor: Eugene Syriani and Houari Sahraoui
+  thesis: Exploring the field of systems engineering, with a keen interest in digital twins for controlled environment agriculture, and focuses on the modeling and co-simulation of cyber-biophysical systems.
+  research_areas:
+    - MDE
+    - Simulation
+- name: Kamanda, Aton
+  image: aton.jpg
+  position: PhD
+  category: PhD
+  email: aton.kamanda@umontreal.ca
+  website: https://atonkamanda.github.io/
+  supervisor: Houari SAHRAOUI
+  start: 2023
+  thesis: Investigating how the process of inference, both in biological brains and artificial intelligence systems, gives rise to complex hierarchical beliefs about the world.
+  research_areas:
+    - AI
+- name: Bigendako, Brice-Michel
+  image: brice.jpg
+  position: PhD
+  category: PhD
+  email: aton.kamanda@umontreal.ca
+  website: https://www.linkedin.com/in/brice-michel-bigendako-6710b565/
+  thesis: Exploring how to improve the process of systematic reviews with gamification.
+  start: 2023
+  research_areas:
+    - Systematic review
+    - Gamification
+  supervisor: Eugene SYRIANI
+
 - name: Barry, Hanifa
-  image: 
+  email: hanifa.barry@umontreal.ca
+  image: hanifa.jpeg
   position: MSc
-  website: 
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/hanifabarry
+  supervisor: Houari Sahraoui
+  research_areas:
+    - AI
+    - Architecture
+    - Optimization
 - name: Li, An
-  image: 
+  email: an.li@umontreal.ca
+  image: an_li.jpg
   position: MSc
-  website: 
-- name: Malakani, Christian Mbambi
-  image: 
+  category: MSc
+  type: internship
+  website: https://www.linkedin.com/in/an--li
+  supervisor: Eugene Syriani
+  internship: Industrial internship
+- name: Malakani, Christian
+  image: christian.jpg
+  email: christian.malakani.mbambi@umontreal.ca
   position: MSc
-  website: 
+  category: MSc
+  type: project
+  website: https://www.linkedin.com/in/christian-malakani-13977b199
+  supervisor: Eugene Syriani
+  project: Refactoring and unit testing ReLiS
+- name: Hamedani, Sarina
+  email: sarina.hamedani@umontreal.ca
+  image: sarina.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/sarina-hamedani-52b3b9169
+  research_areas:
+    - MDE
+  supervisor: Michalis Famelis
+- name: Amiri, Mansoorali
+  email: mansoorali.amiri@umontreal.ca
+  image: mansoorali.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/sarina-hamedani-52b3b9169
+  research_areas:
+    - MDE
+    - Digital twin
+    - Agriculture
+  title: Plant modeling in a digital twin for controlled environment agriculture
+  supervisor: E. Syriani and H. Sahraoui
+- name: Kumar, Gauransh
+  email: gauransh.kumar@umontreal.ca
+  image: gauransh.png
+  position: MSc
+  category: MSc
+  type: research
+  website: https://gauranshkumar.github.io/
+  research_areas:
+    - MDE
+    - NLP
+    - LLM
+  supervisor: E. Syriani and <a href="https://www-labs.iro.umontreal.ca/~liubang/">Bang Liu</a>
+- name: Schepens, Hanz
+  email: hanz.schepens@umontreal.ca
+  image: hanz.jpg
+  position: MSc
+  category: MSc
+  type: project
+  website: https://gauranshkumar.github.io/
+  title: Digital resource library for childcare educators
+  supervisor: Eugene Syriani
+  project: Digital resource library for childcare educators
+- name: Fiyouzi Sabah, Zahra
+  email: zahra.fiyouzisabah@umontreal.ca
+  image: zahra_sabah.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/zahra-sabah-30a8521b4/
+  research_areas:
+    - MDE
+    - Scientific computing
+  supervisor: Michalis Famelis
+- name: Petrenko, Maxime
+  email: maxime.petrenko@umontreal.ca
+  image: maxime.jpg
+  position: MSc
+  category: MSc
+  type: research
+  thesis: Integrating active learning in LLM for code
+  website: https://www.linkedin.com/in/maxime-petrenko-b18081287/
+  research_areas:
+    - Active learning
+    - LLM
+  supervisor: Houari Sahraoui

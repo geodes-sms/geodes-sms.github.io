@@ -1,3 +1,22 @@
+- name: Galasso-Carbonnel, Jessie
+  image: jessie.png
+  position: Postdoc
+  end: 2023
+  website: https://jgalasso.github.io/
+
+- name: David, Istvan
+  image: istvan.png
+  position: Postdoc
+  start: 2023
+  website: http://istvandavid.com
+  
+- name: Oakes, Bentley James
+  image: bentley.png
+  position: Postdoc
+  start: 2023
+  website: http://bentleyoakes.com
+  
+
 - name: Burgueño, Lola
   image: lola.jpg
   position: Postdoc

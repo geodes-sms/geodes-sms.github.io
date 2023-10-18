@@ -18,23 +18,25 @@ order: 4
     </p>
 </header> -->
 
-<h3 class="section-title">Recently funded projects</h3>
-
-<p class="description">
-    A high-quality research agenda would not be possible without (inter)national grants. We also believe a balanced research portfolio can only be sustainable by maintaining strong connections with our industrial partners. 
-    In our R&D projects, we strive to contribute innovative techniques, methods, and tools to the state of the art and the state of the practice.
-</p>
-
-{% assign fundedProjects = site.data.projects.funded %}
-{% assign fundedProjectsSorted = site.data.projects.funded | sort:"endYear" | reverse %}
-{% assign endYears = fundedProjectsSorted | group_by: "endYear" %}
-{% assign endYearsSorted = endYears | sort:"endYear" %}
-
-<table>
-    {% for y in endYearsSorted %}
-        {% assign projects = y.items | sort:"startYear" | reverse %}
-        {% for p in projects %}
-            {% include projects/funded.html project = p %}
+<div class="content-wrapper">
+    <h1 class="section-title">Recently funded projects</h1>
+    
+    <p class="description">
+        A high-quality research agenda would not be possible without (inter)national grants. We also believe a balanced research portfolio can only be sustainable by maintaining strong connections with our industrial partners. 
+        In our R&D projects, we strive to contribute innovative techniques, methods, and tools to the state of the art and the state of the practice.
+    </p>
+    
+    {% assign fundedProjects = site.data.projects.funded %}
+    {% assign fundedProjectsSorted = site.data.projects.funded | sort:"endYear" | reverse %}
+    {% assign endYears = fundedProjectsSorted | group_by: "endYear" %}
+    {% assign endYearsSorted = endYears | sort:"endYear" %}
+    
+    <div class="bare-list project-list">
+        {% for y in endYearsSorted %}
+            {% assign projects = y.items | sort:"startYear" | reverse %}
+            {% for p in projects %}
+                {% include projects/funded.html project = p %}
+            {% endfor %}
         {% endfor %}
-    {% endfor %}
-</table>
+    </div>
+</div>

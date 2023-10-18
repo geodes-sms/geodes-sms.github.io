@@ -6,21 +6,23 @@ permalink: /tools
 order: 6
 ---
 
-<h3 class="section-title">Tools</h3>
-
-<p class="description">
-    Our research typically manifests in software tools, with the most important ones listed below. <br>
-    Several other software projects are available from our <a href="https://github.com/geodes-sms">GitHub organization</a>.
-</p>
-
-{% assign tools = site.data.projects.tools%}
-
-<ul class="bare-list tool-list">
-    {% for tool in tools %}
-        {% if tool.description and tool.url %}
-        <li class="tool-list-item">
-            {% include projects/tool.html tool=tool %}
-        </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+<div class="content-wrapper">
+    <h3 class="section-title">Tools</h3>
+    
+    <p class="description">
+        Our research typically manifests in software tools, with the most important ones listed below. <br>
+        Several other software projects are available from our <a href="https://github.com/geodes-sms">GitHub organization</a>.
+    </p>
+    
+    {% assign tools = site.data.projects.tools%}
+    
+    <ul class="bare-list tool-list">
+        {% for tool in tools %}
+            {% if tool.description and tool.url %}
+            <li class="tool-list-item">
+                {% include projects/tool.html tool=tool %}
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>

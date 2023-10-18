@@ -1,17 +1,39 @@
-<section>
+<section class="content-wrapper master-section">
     <h3 class="section-title">Master's students</h3>
 
     <ul class="bare-list master-students">
         {% for person in {{include.mscs}} %}
-            {% assign names = person.name | split: ", " %}
-            {% assign lastnameUpcase = names[0] | upcase %}
-            {% assign fullname = names[1] | append: " " | append:  lastnameUpcase %}
-
-            {% if person.website%}
-                <li><a href="{{person.website}}">{{fullname}}</a></li>
-            {% else%}
-                <li>{{fullname}}</a></li>
-            {% endif %}
+            <li class="master-student">
+                {% if person.image %}
+                    <img src="/images/people/people/{{ person.image }}" class="item-img" />
+                {% endif %}
+                <div class="master-student-details">
+                    <div class="master-student-details-header">
+                        <h4 class="master-student-name">
+                            {% if person.website%}
+                                <a class="bare-link" href="{{person.website}}">{{person.name|fullName}}</a>
+                            {% else %}
+                                {{person.name|fullName}}
+                            {% endif %}
+                        </h4>
+                        <i class="master-student-type master-student-type--{{person.type}} font-ui">{{person.type}}</i>
+                    </div>
+                    <div class="master-student-supervisor">
+                        <span class="label">Supervisor</span> <strong>{{person.supervisor}}</strong>
+                    </div>
+                    {% if person.type == "research" %}
+                        <ul class="bare-list student-research-areas font-ui">
+                            {% for research_area in {{person.research_areas}} %}
+                                <li class="student-research-area">{{research_area}}</li>
+                            {% endfor %}
+                        </ul>
+                    {% elsif person.type == "project" %}
+                        <p class="bare master-student-project">{{person.project}}</p>
+                    {% elsif person.type == "internship" %}
+                        <p class="bare master-student-internship">{{person.internship}}</p>
+                    {% endif %}
+                </div>
+            </li>
         {% endfor %}
     </ul>
 </section>

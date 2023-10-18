@@ -1,16 +1,37 @@
-{% assign courseName = include.course.code | append:": " | append: include.course.name%}
-
-{% assign lecturerNames = include.course.lecturer | split: ", " %}
-{% assign lastnameUpcase = lecturerNames[0] | upcase %}
-{% assign lecturerName = lecturerNames[1] | append: " " | append: lastnameUpcase %}
-
-{% assign lecturerInfo = site.data.people.faculty | where: "name", include.course.lecturer %}
+{% assign course = include.course %}
+{% assign courseLink = course.code | replace: " ", "-" | downcase %}
+{% assign lecturerInfo = site.data.people.faculty | where: "name", course.lecturer %}
 {% if lecturerInfo.size == 0 %}
-  {% assign lecturerInfo = site.data.people.people | where: "name", include.course.lecturer %}
+    {% assign lecturerInfo = site.data.people.people | where: "name", course.lecturer %}
 {% endif %}
 {% assign lecturerLink = lecturerInfo.first.website %}
 
-<span class="nameResizeWeight nameResize">{{ courseName }}</span>
-<span class="small-data">Credits: {{ include.course.credits }} | Lecturer: <a href="{{ lecturerLink }}">{{ lecturerName }}</a> | Language: {{ include.course.language }} {% if include.course.latest %}| Latest edition: <a href="{{include.course.url}}">{{ include.course.latest }}</a>{% endif %}</span>
-<span class="description">{{include.course.description}}</span>
-
+<div class="course-header">
+    <h3 class="course-title fit-content">
+        <a class="bare-link course-link fit-content" href="https://admission.umontreal.ca/cours-et-horaires/cours/{{courseLink}}/">
+            <span class="course-title-code">{{course.code}}</span>
+            <span class="course-title-name" title="{{course.name.en}}">{{course.name.fr}}</span>
+        </a>
+    </h3>
+    <ul class="bare-list course-metadatas">
+        <li class="course-metadata course-metadata--lecturer" title="{{ course.lecturer | fullName }}">
+            <span class="label">Lecturer</span>
+            <a class="bare-link" href="{{ lecturerLink }}">{{ course.lecturer | fullName }}</a>
+        </li>
+        <li class="course-metadata course-metadata--tools fit-content" title="{{ course.tools }}">
+            <span class="label">Tools and language</span>
+            {{ course.tools }} 
+        </li>
+    </ul>
+</div>
+{% if course.topics.size > 0 %}
+    <!-- <div class="course-topics"> -->
+        <!-- <h4 class="title"></h4> -->
+        <ul class="bare-list course-topics" title="Topics">
+        {% for topic in course.topics %}
+            <li class="course-topic">{{ topic }}</li>
+        {% endfor %}
+        </ul>
+    <!-- </div> -->
+{% endif %}
+<p class="course-description">{{course.description | newline_to_br}}</p>

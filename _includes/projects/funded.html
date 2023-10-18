@@ -1,15 +1,20 @@
-<tr style="background-color:rgba(0, 0, 0, 0);">
-    <td>
-        {% if include.project.logo %}
-            <img src="/images/logos/{{ include.project.logo }}" style="width:100px;">
-        {% endif %}
-    </td>
-    <td>
-        <div class="nameResizeWeight">{{ include.project.name }}</div>
-        {{include.project.funding}}<br>
+<div class="project">
+    <div class="project-funding">
+        <img class="project-logo" title="{{include.project.funding}}" src="/images/logos/{{ include.project.logo }}">
+        <p class="project-funding-description">{{include.project.funding}}</p>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">{{ include.project.name }}</h3>
+        <!-- <p class="project-description"></p> -->
         {% if include.project.partners %}
-            In partnership with {{include.project.partners}}.<br>
+            <p class="bare project-partners">
+                <span class="label">Partners</span>
+                <span class="project-partner-name">{{include.project.partners | join: ", " }}</span>
+            </p>
         {% endif %}
-        {{include.project.startYear}}-{{include.project.endYear}}
-    </td>
-</tr>
+        <p class="bare project-period">
+            <span class="label">Period</span> 
+            <span>{{include.project.startYear}}-{{include.project.endYear}}</span>
+        </p>
+    </div>
+</div>

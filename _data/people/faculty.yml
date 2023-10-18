@@ -2,11 +2,45 @@
   image: houari.jpg
   position: Full Professor
   website: http://www.iro.umontreal.ca/~sahraouh/
+  email: 	sahraoui@iro.umontreal.ca
+  office: 2359, Pav. André-Aisenstadt
+  goal: My main research interests are concerned with automatization in software engineering (SE) and the application of artificial intelligence (AI) techniques to software engineering. 
+  segment: AI & Optimization
+  research_areas:
+    - Automated software engineering
+    - Artificial intelligence
+    - Model-Driven Engineering software visualization
+    - Program comprehension
+    - Re-engineering
+
 - name: Syriani, Eugene
   image: eugene.jpg
-  position: Associate Professor
-  website: http://www-ens.iro.umontreal.ca/~syriani/
+  position: Full Professor
+  website: http://www-labs.iro.umontreal.ca/~syriani/
+  email: syriani@iro.umontreal.ca
+  office: 2345, Pav. André-Aisenstadt
+  goal: My main research goal is to provide tools and techniques for software engineers and experts in other science and engineering disciplines that improve their productivity and help them output artifacts of high quality.
+  segment: Modeling & Simulation
+  research_areas:
+    - Domain-Specific Modeling
+    - Model transformation
+    - Quality concerns in MDE
+    - Methodology
+    - Simulation-Based Design
+    - Application of MDE
+
 - name: Famelis, Michalis
   image: michalis.jpg
-  position: Assistant Professor
+  position: Associate Professor
+  goal: I work to create formal but practical techniques and methods for engineering software. To do this, I draw from disciplines such as formal verification, model-based engineering, and empirical methods. 
   website: https://michalis.famelis.info/
+  email: famelis@iro.umontreal.ca
+  office: 2343, Pav. André-Aisenstadt
+  segment: Requirements & Design
+  research_areas:
+  - Formal methods
+  - Empirical software engineering
+  - Software design
+  - Software analysis
+  - Model-driven engineering
+  - Software product lines

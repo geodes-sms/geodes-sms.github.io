@@ -1,8 +1,45 @@
+{%- if site.posts.size > 0 -%}
+<!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
+
+<h2 class="section-title">Latest news</h2>
+
+<ul class="bare-list post-list">
+    {%- for post in site.posts limit: 3 -%}
+    <li class="post">
+        <h3 class="post-title">
+            <a class="bare-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-date">{{ post.date | date: date_format }}</span>
+
+        {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+        {%- endif -%}
+    </li>
+    {%- endfor -%}
+</ul>
+{%- endif -%}
+
+<!-- 
+<blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">
+        Istvan David presenting our paper &quot;Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned&quot; 
+        <a href="https://twitter.com/modelsconf?ref_src=twsrc%5Etfw">@modelsconf</a>, a nice collaboration between 
+        <a href="https://twitter.com/UMontrealGEODES?ref_src=twsrc%5Etfw">@UMontrealGEODES</a> and 
+        <a href="https://twitter.com/FermeHiver?ref_src=twsrc%5Etfw">@FermeHiver</a> 
+        <a href="https://t.co/hUUjnaX22v">pic.twitter.com/hUUjnaX22v</a>
+    </p>&mdash; Houari Sahraoui (@sahraouh) 
+    <a href="https://twitter.com/sahraouh/status/1709860305491087662?ref_src=twsrc%5Etfw">October 5, 2023</a>
+</blockquote> 
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <div class="twitter-section">
-    <a class="twitter-timeline" href="https://twitter.com/UMontrealGEODES?ref_src=twsrc%5Etfw"
-    data-tweet-limit="2"
-    data-chrome="transparent nofooter"
-    data-width="300"
+    <a class="twitter-timeline" href="https://twitter.com/UMontrealGEODES?s=20"
+    data-tweet-limit="3"
+    data-chrome="transparent nofooter noborders"
     data-lang="en">Tweets by UMontrealGEODES</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+-->

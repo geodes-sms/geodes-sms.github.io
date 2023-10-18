@@ -7,33 +7,50 @@ order: 2
 ---
 
 {% assign faculty = site.data.people.faculty%}
-{% assign postdocs = site.data.people.people | where_exp: "person", "person.position == 'Postdoc'" | sort: "name"%}
-{% assign visitors = site.data.people.people | where_exp: "person", "person.position == 'visiting'" | sort: "name"%}
-{% assign phds = site.data.people.people | where_exp: "person", "person.position == 'PhD'" | sort: "name"%}
-{% assign collaborators = site.data.people.people | where_exp: "person", "person.position == 'Collaborator'"%}
-{% assign mscs = site.data.people.people | where_exp: "person", "person.position == 'MSc'" | sort: "name"%}
+{% assign postdocs = site.data.people.people | where_exp: "person", "person.category == 'Postdoc'" | sort: "name"%}
+{% assign visitors = site.data.people.people | where_exp: "person", "person.category == 'visiting'" | sort: "name"%}
+{% assign phds_by_year = site.data.people.people | where_exp: "person", "person.category == 'PhD'" | group_by: "start" %}
+{% assign collaborators = site.data.people.people | where_exp: "person", "person.category == 'Collaborator'"%}
+{% assign mscs = site.data.people.people | where_exp: "person", "person.category == 'MSc'" | sort: "name"%}
 
-{% include team/printFaculty-circles.html faculty=faculty%}
+<section class="content-wrapper professor-section">
+    <h2 class="section-title">Faculty professors</h2>
+    
+    <div class="bare-list professors">
+        {% for item in {{faculty}} %}
+            {% include team/card-professor.html item=item %}
+        {% endfor %}
+    </div>
+</section>
 
-{% if postdocs and postdocs.size != 0 %}
-    <hr class="people-separator">
-	{% include team/printPeople-circles.html people=postdocs title="Postdoctoral fellows" %}
-{% endif %}
+<section class="content-wrapper postdoc-section">
+    <h2 class="section-title">Postdocs & Researchers</h2>
+    
+    <div class="bare-list postdocs">
+		{% for postdoc in postdocs %}
+			{% include team/card-researcher.html item=postdoc %}
+		{% endfor %}
+    </div>
+</section>
 
-{% if phds and phds.size != 0 %}
-	<hr class="people-separator">
-	{% include team/printPeople-circles.html people=phds title="PhD students" %}
-{% endif %}
+<section class="content-wrapper phd-section">
+	<h2 class="section-title">PhD students</h2>
+	<div class="phd-students">
+	{% for year in phds_by_year %}	
+		{% assign phds = year.items | sort: "name" %}
+		{% for phd in phds %}
+			{% include team/card-student-phd.html item=phd %}
+		{% endfor %}
+	{% endfor %}
+	</div>
+</section>
 
-{% if collaborators and collaborators.size != 0 %}
-	<hr class="people-separator">
+<!-- {% if collaborators and collaborators.size != 0 %}
 	{% include team/printPeople-circles.html people=collaborators title="Visiting Scholars and Scientific collaborators" %}
-{% endif %}
+{% endif %} -->
 
 {% if mscs and mscs.size != 0 %}
-	<hr class="people-separator">
 	{% include team/printMaster.html mscs=mscs %}
 {% endif %}
 
-<hr class="people-separator">
 {% include team/printAlumni.html %}

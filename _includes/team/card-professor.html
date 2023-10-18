@@ -1,0 +1,34 @@
+{% assign professor = include.item %}
+{% assign image_url = professor.image | default: "person.jpg" %}
+
+<div class="professor card">      
+    <div class="card-header">
+        <img src="/images/people/people/{{ image_url }}" class="card-img" />
+        <h3 class="card-name">
+            {% if professor.website%}
+                <a class="link card-name-link" href="{{professor.website}}">{{professor.name|fullName}}</a>
+            {% else %}
+                {{professor.name|fullName}}
+            {% endif %}
+            <span class="card-name-title">{{professor.position}}</span>
+        </h3> 
+        <p class="bare card-contact">
+            <a class="link" href="mailto:{{professor.email}}">{{professor.email}}</a>
+            &bull; {{professor.office}}
+        </p> 
+        <!-- <p class="bare card-title">{{professor.position}}</p> -->
+        <!-- <p class="bare card-address"><span class="label">Office</span> {{professor.office}}</p> -->
+    </div>
+    
+    <p class="card-description">{{professor.goal}}</p>
+
+    
+    <div class="card-details">
+        <h4 class="card-details-title">{{professor.segment}}</h4>
+        <!-- <ul class="bare-list professor-research-areas font-ui">
+            {% for research_area in {{professor.research_areas}} %}
+                <li class="professor-research-area" title="{{research_area}}">{{research_area}}</li>
+            {% endfor %}
+        </ul> -->
+    </div>
+</div>

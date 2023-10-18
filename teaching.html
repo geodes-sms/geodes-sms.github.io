@@ -1,23 +1,33 @@
 ---
-layout: page
+layout: default
 title: Teaching
 permalink: /teaching
 id: teaching
 order: 8
 ---
 
-<header>
-    <h3>Teaching</h3>
+<div class="content-wrapper">
+    <header>
+        <h1>Teaching</h1>
+        
+        <p class="description">
+            We teach undergraduate and graduate courses offered in the DIRO programs.
+        </p>
+    </header>
     
-    <p class="description">
-        We teach courses both on the Bachelor and the Master level. Our currently offered courses are listed below.
-    </p>
-</header>
+    {% assign courses_by_program = site.data.teaching.courses | group_by: "program" %}
 
-{% assign courses = site.data.teaching.courses | sort: "name"%}
+    {% for program in courses_by_program %}    
+        <section class="teaching-section">
+            <h3 class="teaching-section-title">{{program.name}} courses</h3>
 
-<ul class="bare-list courses">
-    {% for course in courses %}
-        <li class="course">{% include teaching/course.html course=course %}</li>
+            {% assign courses = program.items | sort: "code" %}
+            <ul class="bare-list courses">
+                {% for course in courses %}
+                    <li class="course">{% include teaching/course.html course=course %}</li>
+                {% endfor %}
+            </ul>
+        </section>
     {% endfor %}
-</ul>
+    
+</div>

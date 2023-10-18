@@ -9,9 +9,13 @@
 
 - name: Valtchev, Petko
   position: professor
+  start: 2001
+  end: 2006
 
 - name: Guéhéneuc, Yann-Gaël
   position: professor
+  start: 2003
+  end: 2008
 
 - name: Vaucher, Jean
   position: professor
@@ -42,9 +46,14 @@
   
 - name: Baysal, Olga
   position: professor
+  image: olga.png
+  start: 2014
+  end: 2015
   
 - name: Dufour, Bruno
   position: professor
+  start: 2010
+  end: 2013
   
 - name: Haydar, May
   position: adjunct professor

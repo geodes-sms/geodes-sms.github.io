@@ -1,14 +1,25 @@
 html,
 body {
+    width: 100%;
     height: 100%;
     font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Droid Sans', 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
-h1 { font-size: 3em; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
 
-h2 { font-size: 2.4em; }
+h1 { font-size: 3.2em; }
 
-h3 { font-size: 2em; }
+h2 { font-size: 2.8em; }
+
+h3 { font-size: 2.4em; }
 
 h4 { font-size: 1.8em; }
 
@@ -16,11 +27,19 @@ h5 { font-size: 1.7em; }
 
 h6 { font-size: 1.6em; }
 
-p, li, td, th { font-size: 1.5em; }
+p, li, td, th { font-size: 1.5em; line-height: 1.35; }
 
 li li, 
 p li, td li, th li,
 li p, li td, li th { font-size: 1em; }
+
+a:link {
+    color: #EF4E36;
+}
+a:visited {
+    color: #F07037;
+}
+
 
 table, th, td { border: 1px solid #1b1b1b; border-collapse: collapse; }
 
@@ -39,6 +58,11 @@ th { text-align: center; }
 .font-ui { font-family: 'Segoe UI', 'Droid Sans', Ubuntu, 'Lucida Grande', Arial, sans-serif; }
 
 .font-code { font-family: Consolas, 'Courier New', Courier, monospace; }
+
+.label {
+    font-weight: bold;
+}
+    .label:after { content: ": "; }
 
 /* Organization */
 
@@ -62,9 +86,14 @@ th { text-align: center; }
 
 /* Reset */
 
+.bare { margin: 0; padding: 0; }
+
 .bare-list { margin: 0; padding: 0; list-style: none; }
 
 .bare-link { text-decoration: none; color: inherit; }
+
+.link { text-decoration: none; }
+    .link:hover { text-decoration: underline; }
 
 .block { display: block!important; }
 
@@ -91,3 +120,24 @@ th { text-align: center; }
     content: '🗸'; 
     color: currentColor;
 }
+
+
+.helper {
+    position: absolute;
+    top: calc(100% + 2px); left: 0;
+    min-width: 120px;
+    padding: 3px 6px 4px;
+    border-radius: 1px;
+    font-size: 1.2rem; font-style: normal;
+    color: #fff;
+    background-color: rgba(55, 55, 55, 0.95);
+    opacity: 0;
+    transition: .2s;
+    transform: scale(0); transition-property: opacity, transform;
+    z-index: 20;
+}
+    
+    .has-helper:hover > .helper {
+        opacity: 1;   
+        transform: scale(1);
+    }

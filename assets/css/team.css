@@ -20,13 +20,6 @@ hr.people-separator{
 }
 
 
-@media only screen and (min-width: 1200px) {
-  .list-circles {
-    width: 110%;
-    margin-left: -5%;
-  }
-}
-
 
 .list-circles-faculty {
     display: flex; flex-direction: column; align-items: center;
@@ -69,10 +62,6 @@ hr.people-separator{
         max-width: 150px;
         height: 150px;
     }
-
-a:link, a:visited {
-  color: #D36612;
-}
 
 
 .list-circles-faculty .item-links {

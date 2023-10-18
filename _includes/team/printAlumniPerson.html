@@ -1,13 +1,5 @@
-{% assign names = person.name | split: ", " %}
-{% assign lastnameUpcase = names[0] | upcase %}
-{% assign fullname = names[1] | append: " " | append: lastnameUpcase %}
-
-<li class="alumni">
-    {% if person.website%}
-        <a href="{{person.website}}">{{fullname}}</a>
-    {% else %}
-        <span>{{fullname}}</span>
-    {% endif %}
-    {% if include.printPosition == "on" %}({{person.position}}){% endif %}
-</li>
-
+{% if person.website%}
+    <a class="link person-link" href="{{person.website}}">{{person.name|fullName}}</a>
+{% else %}
+    <span>{{person.name|fullName}}</span>
+{% endif %}

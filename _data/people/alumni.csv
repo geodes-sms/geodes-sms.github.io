@@ -1,58 +1,61 @@
-name,programme,status,website,image
-Dorian Vandamme,Msc,a
-Louis-Edouard Lafontant,MSc,a,
-Khalid (Khaled) Belharbi,Msc,a,
-Sanaa Alwidian,Postdoc,a,https://sites.google.com/view/sanaalwidian
-Vasco Sousa,PhD,a,http://www-ens.iro.umontreal.ca/~dasilvav/
-Chihab Eddine Mokaddem,PhD,a
-Théo Le Calvar,Postdoc,a,https://theo.lecalvar.fr
-Israel Emilio Martinez Meriño,MSc,a,
-Sébastien Ehouan,MSc,a,
-Rifat Hossain,MSc,a,
-Mohamed Laraki,MSc,a,
-Mehdi Adda,PhD,a
-Amal El Kharraz,PhD,a,
-Elarbi Badidi,PhD,a,
-Sarita Bassil,PhD,a,
-Morad Benyoucef,PhD,a,
-Youssef Bououlid Idrissi,PhD,a,
-Mohammed Elkoutbi,PhD,a,
-Olivier Gerbé,PhD,a,
-Salima Hassaine,PhD,a,
-Hind Kabaili,PhD,a,
-Foutse Khomh,PhD,a,
-Ismail Khriss,PhD,a,
-Abdou Maiga,PhD,a,
-Naouel Moha,PhD,a,
-Farida Mostefaoui,PhD,a,
+name,programme,status,website,image,year
+Jessie GALASSO-CARBONNEL,Postdoc,a,https://jgalasso.github.io/,jessie.png,2020
+Istvan DAVID,Postdoc,a,http://istvandavid.com,istvan.png,2021
+Bentley James OAKES,Postdoc,a,http://bentleyoakes.com,bentley.png,2021
+Dorian VANDAMME,Msc,a
+Louis-Edouard LAFONTANT,MSc,a,
+Khalid (Khaled) BELHARBI,Msc,a,
+Sanaa ALWIDIAN,Postdoc,a,https://sites.google.com/view/sanaalwidian
+Vasco SOUSA,PhD,a,http://www-ens.iro.umontreal.ca/~dasilvav/
+Chihab Eddine MOKADDEM,PhD,a
+Théo LE CALVAR,Postdoc,a,https://theo.lecalvar.fr
+Israel Emilio Martinez MERIÑO,MSc,a,
+Sébastien EHOUAN,MSc,a,
+Rifat HOSSAIN,MSc,a,
+Mohamed LARAKI,MSc,a,
+Mehdi ADDA,PhD,a
+Amal EL Kharraz,PhD,a,
+Elarbi BADIDI,PhD,a,
+Sarita BASSIL,PhD,a,
+Morad BENYOUCEF,PhD,a,
+Youssef Bououlid IDRISSI,PhD,a,
+Mohammed ELKOUTBI,PhD,a,
+Olivier GERBÉ,PhD,a,
+Salima HASSAINE,PhD,a,
+Hind KABAILI,PhD,a,
+Foutse KHOMH,PhD,a,
+Ismail KHRISS,PhD,a,
+Abdou MAIGA,PhD,a,
+Naouel MOHA,PhD,a,
+Farida MOSTEFAOUI,PhD,a,
 A. Bouchoucha,MSc,a,http://www-etud.iro.umontreal.ca/~bouchoar/
 A. Ndiaye,MSc,a,
 A. Seriai,PhD,a,
 A. Shatnawi,PhD,a,
-Ahmed Sfayhi,MSc,a,
-Ali Ouni,PhD,a,https://sites.google.com/site/ouniaali/home
-Antoine Gagnon,MSc,a,
-Arbi Bouchoucha,MSc,a,
-Aymen Zoghlami,MSc,a,
-Baila Kahn,MSc,a,
-Breandan Considine,MSc,a,
-Brian LaShomb,MSc,a,
-Brice-Michel Bigendako,MSc,a,
-Constantin Masson,MSc,a,
+Ahmed SFAYHI,MSc,a,
+Ali OUNI,PhD,a,https://sites.google.com/site/ouniaali/home
+Antoine GAGNON,MSc,a,
+Arbi BOUCHOUCHA,MSc,a,
+Aymen ZOGHLAMI,MSc,a,
+Baila KAHN,MSc,a,
+Breandan CONSIDINE,MSc,a,
+Brian LASHOMB,MSc,a,
+Brice-Michel BIGENDAKO,MSc,a,
+Constantin MASSON,MSc,a,
 D. Ahumada,MSc,a,
 D. Azar,PhD,a,http://sas.lau.edu.lb/csm/people/danielle-azar.php
 D. Grosser,Postdoc,a,
 D. Haouari,MSc,a,
 D. M. Barburas,MSc,a,
-Dalil Boudraa,MSc,a,
-Dania Isabel Ahumada Pardo,MSc,a,
-Edouard Batot,PhD,a,http://www-ens.iro.umontreal.ca/~batotedo/
-Erick Raelijohn,MSc,a,https://erickfifa.bitbucket.io/
+Dalil BOUDRAA,MSc,a,
+Dania Isabel Ahumada PARDO,MSc,a,
+Edouard BATOT,PhD,a,http://www-ens.iro.umontreal.ca/~batotedo/
+Erick RAELIJOHN,MSc,a,https://erickfifa.bitbucket.io/
 F. Yang,MSc,a,
-Fleur Duseau,MSc,a,
-G. El Boussaidi,PhD,a,http://etsmtl.ca/Professeurs/gelboussaidi/Accueil
+Fleur DUSEAU,MSc,a,
+G. EL BOUSSAIDI,PhD,a,http://etsmtl.ca/Professeurs/gelboussaidi/Accueil
 G. Malek,PhD,a,
-Guillaume Langelier,PhD,a,
+Guillaume LANGELIER,PhD,a,
 H. Aloulou,MSc,a,
 H. Chawiche,MSc,a,
 H. Grati,MSc,a,
@@ -90,8 +93,8 @@ Mouna Lahmed,MSc,a,
 N. Ben Ayed,MSc,a,
 N. Mehio,MSc,a,
 N. Ziani,MSc,a,
-Navpreet Kaur,MSc,a,https://www.linkedin.com/in/navpreet-kaur-379951aa/
-Omar Benomar,PhD,a,
+Navpreet KAUR,MSc,a,https://www.linkedin.com/in/navpreet-kaur-379951aa/
+Omar BENOMAR,PhD,a,
 Q. Chevet,MSc,a,
 S. Allier,PhD,a,
 S. Bouktif,PhD,a,
@@ -100,13 +103,13 @@ S. Hassaine,MSc,a,
 S. Shen,MSc,a,
 S. Vaucher,PhD,a,
 S. Zheng,MSc,a,
-Safaa Allamy,MSc,a,
-Simon Bouvier,MSc,a,
+Safaa ALLAMY,MSc,a,
+Simon BOUVIER,MSc,a,
 T. L. A. Dinh,PhD,a,
 T. V. Pham,PhD,a,
-Thomas Schweizer,MSc,a,https://thomsch.github.io/
-Vilon Saint-Fleurose,MSc,a,
-Wael Kessentini,PhD,a,http://www-ens.iro.umontreal.ca/~kessentw/
-Yaxin Cao,MSc,a,
+Thomas SCHWEIZER,MSc,a,https://thomsch.github.io/
+Vilon SAINT-FLEUROSE,MSc,a,
+Wael KESSENTINI,PhD,a,http://www-ens.iro.umontreal.ca/~kessentw/
+Yaxin CAO,MSc,a,
 Z. Hazim,MSc,a,
-Zakaria Bouchlih,MSc,a,
+Zakaria BOUCHLIH,MSc,a,

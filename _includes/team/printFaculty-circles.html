@@ -1,30 +1,28 @@
-<section>
-    <h3 class="section-title">Faculty</h3>
+<section class="content-wrapper professor-section">
+    <h3 class="section-title">Faculty professors</h3>
     
-    <div class="list-circles">
-      {% for item in {{include.faculty}} %}
-        <div class="list-circles-faculty">      
-          {% if item.image %}
-            {% if item.website %}
-              <a href="{{ item.website }}"><img src="/images/people/faculty/{{ item.image }}" class="item-img" /></a>
-            {% else %}
-              <img src="/images/people/faculty/{{ item.image }}" class="item-img" />
-            {% endif %}
-          {% endif %}
-          {% if item.name %}
-            {% assign names = item.name | split: ", " %}
-            {% assign lastnameUpcase = names[0] | upcase %}
-            {% assign fullname = names[1] | append: " " | append: lastnameUpcase %}
-            {% if item.website %}
-              <div class="item-name"><a href="{{ item.website }}">{{ fullname }}</a></div>
-            {% else %}
-              <div class="item-name">{{ fullname }}</div>
-            {% endif %} 
-          {% endif %} 
-          {% if item.position %}
-            <div class="item-desc">{{ item.position }}</div>
-          {% endif %}
-        </div>
-      {% endfor %}
+    <div class="bare-list professors">
+        {% for item in {{include.faculty}} %}
+            {% include team/card-professor.html item=item %}
+            <!-- <div class="list-circles-faculty">      
+                {% if item.image %}
+                    {% if item.website %}
+                        <a href="{{ item.website }}"><img src="/images/people/faculty/{{ item.image }}" class="item-img" /></a>
+                    {% else %}
+                        <img src="/images/people/faculty/{{ item.image }}" class="item-img" />
+                    {% endif %}
+                {% endif %}
+                {% if item.name %}
+                    {% if item.website %}
+                        <div class="item-name"><a href="{{ item.website }}">{{ item.name|fullName }}</a></div>
+                    {% else %}
+                        <div class="item-name">{{ item.name|fullName }}</div>
+                    {% endif %} 
+                {% endif %} 
+                {% if item.position %}
+                    <div class="item-desc">{{ item.position }}</div>
+                {% endif %}
+            </div> -->
+        {% endfor %}
     </div>
 </section>

@@ -10,66 +10,100 @@ order: 45
 {% assign pastoldseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" | where_exp: "seminar", "seminar.season == 1" | sort: 'date' | reverse %}
 
 
-<header class="seminar-header">
-    <div class="seminar-logo">
-        <img class="seminar-logo-img" src="geodes-seminar.png" alt="Seminar logo">
-    </div>
-    
-    <!-- <br/>
-        <div style="background-color:#f5f514;color:black;">
-        <br/>
-        <center><p style="font-weight:700;">SUMMER BREAK</p></center>
-
-        <p style="text-align:center;">
-        The seminar takes a summer break of about 3-4 weeks after 22 July.<br/>
-        Thank you all for your talks and presence. We will be back in August.</p><br/>
+<div class="content-wrapper">
+    <header class="seminar-header">
+        <div class="seminar-logo">
+            <img class="seminar-logo-img" src="geodes-seminar.png" alt="Seminar logo">
         </div>
-    <br/><br/>
-	-->
-
+        
+        <!-- <br/>
+            <div style="background-color:#f5f514;color:black;">
+            <br/>
+            <center><p style="font-weight:700;">SUMMER BREAK</p></center>
     
-    <p>
-        The GEODES Seminar aims to bring together members of the group in a semi-formal setting with a semi-regular timing.<br/>
+            <p style="text-align:center;">
+            The seminar takes a summer break of about 3-4 weeks after 22 July.<br/>
+            Thank you all for your talks and presence. We will be back in August.</p><br/>
+            </div>
+        <br/><br/>
+        -->
     
-        We'd especially love to see students at all levels reporting their progress, entertain presentations on core or adjacent topics, host dry-runs before conferences, etc. <br>
-        These events follow an <strong>in-person</strong> format. By that, we hope to re-establish the everyday social aspects of the research group in a post-COVID world.
-    </p>
-
-    <ul class="bare-list">
-        <li>
-            <strong>Format</strong>: In person
-        </li>
-        <li>
-            <strong>Location</strong>: 
-            Pavillon Andre-Aisenstadt
-        </li>
-    </ul>
-</header>
-
-<section class="seminar-section">
-    <h1 class="seminar-section-title">Upcoming talks</h1>
-	
-	{% if upcoming.size == 0 %}
-		<p class="talk-description">There are no upcoming events scheduled currently. Check back later.</p>
-	{% else %}
-    <ul class="bare-list talks">
-        {% for seminar in upcoming %}
-            <li class="talk">
-                <div class="talk-image">
-                    {% if seminar.presenters.size == 1 %}
-                        <img class="talk-photo-img" src="{{seminar.presenters.first.photo}}" alt="Photo of {{seminar.presenters.first.name}}">
-                    {% else %}
-                        <ul class="bare-list talk-multiphotos">
+        
+        <p>
+            The GEODES Seminar aims to bring together members of the group in a semi-formal setting with a semi-regular timing.<br/>
+        
+            We'd especially love to see students at all levels reporting their progress, entertain presentations on core or adjacent topics, host dry-runs before conferences, etc. <br>
+            These events follow an <strong>in-person</strong> format. By that, we hope to re-establish the everyday social aspects of the research group in a post-COVID world.
+        </p>
+    
+        <ul class="bare-list">
+            <li>
+                <strong>Format</strong>: In person
+            </li>
+            <li>
+                <strong>Location</strong>: 
+                Pavillon Andre-Aisenstadt
+            </li>
+        </ul>
+    </header>
+    
+    <section class="seminar-section">
+        <h1 class="seminar-section-title">Upcoming talks</h1>
+        
+        {% if upcoming.size == 0 %}
+            <p class="talk-description">There are no upcoming events scheduled currently. Check back later.</p>
+        {% else %}
+        <ul class="bare-list talks">
+            {% for seminar in upcoming %}
+                <li class="talk">
+                    <div class="talk-image">
+                        {% if seminar.presenters.size == 1 %}
+                            <img class="talk-photo-img" src="{{seminar.presenters.first.photo}}" alt="Photo of {{seminar.presenters.first.name}}">
+                        {% else %}
+                            <ul class="bare-list talk-multiphotos">
+                                {% for presenter in seminar.presenters %}
+                                    <li class="talk-multiphoto">
+                                        <img class="talk-multiphoto-img" src="{{presenter.photo}}" alt="Photo of {{presenter.name}}">
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                    <div class="talk-info">
+                        <span class="talk-title">{{seminar.title}}</span>
+                        <ul class="bare-list talk-presenters">
                             {% for presenter in seminar.presenters %}
-                                <li class="talk-multiphoto">
-                                    <img class="talk-multiphoto-img" src="{{presenter.photo}}" alt="Photo of {{presenter.name}}">
+                                <li class="talk-presenter">
+                                    <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
+                                    {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
                                 </li>
                             {% endfor %}
                         </ul>
-                    {% endif %}
-                </div>
-                <div class="talk-info">
-                    <span class="talk-title">{{seminar.title}}</span>
+                        <p class="talk-description">
+                            {{seminar.short_description}}
+                        </p>
+                        <div class="talk-venue">
+                            <span class="talk-date">
+                                    {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
+                            </span>
+                            {% if seminar.location %}
+                                <span class="talk-location">{{seminar.location}}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </section>
+    
+    <section class="seminar-section">
+        <h1 class="seminar-section-title">Previous talks this season</h1>
+    
+        <ul class="bare-list previous-talks">
+            {% for seminar in pastcurrentseason %}
+                <li class="previous-talk">
+                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
                     <ul class="bare-list talk-presenters">
                         {% for presenter in seminar.presenters %}
                             <li class="talk-presenter">
@@ -79,84 +113,52 @@ order: 45
                         {% endfor %}
                     </ul>
                     <p class="talk-description">
-                        {{seminar.short_description}}
+                    {% if seminar.description %}
+                            {{seminar.description}}
+                    {% else %}
+                        {% if seminar.short_description %}
+                            {{seminar.short_description}}
+                        {% endif %}
+                    {% endif %}
                     </p>
                     <div class="talk-venue">
                         <span class="talk-date">
-                                {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
+                            {{seminar.date}}{% if seminar.time %}<i class="talk-date-time">@{{seminar.time}}</i>{% endif %}
                         </span>
                         {% if seminar.location %}
                             <span class="talk-location">{{seminar.location}}</span>
                         {% endif %}
                     </div>
-                </div>
-            </li>
-        {% endfor %}
-    </ul>
-	{% endif %}
-</section>
-
-<section class="seminar-section">
-    <h1 class="seminar-section-title">Previous talks this season</h1>
-
-    <ul class="bare-list previous-talks">
-        {% for seminar in pastcurrentseason %}
-            <li class="previous-talk">
-                <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
-                <ul class="bare-list talk-presenters">
-                    {% for presenter in seminar.presenters %}
-                        <li class="talk-presenter">
-                            <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
-                            {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
-                        </li>
-                    {% endfor %}
-                </ul>
-                <p class="talk-description">
-                {% if seminar.description %}
-                        {{seminar.description}}
-                {% else %}
-                    {% if seminar.short_description %}
-                        {{seminar.short_description}}
-                    {% endif %}
-                {% endif %}
-                </p>
-                <div class="talk-venue">
-                    <span class="talk-date">
-                        {{seminar.date}}{% if seminar.time %}<i class="talk-date-time">@{{seminar.time}}</i>{% endif %}
-                    </span>
-                    {% if seminar.location %}
-                        <span class="talk-location">{{seminar.location}}</span>
-                    {% endif %}
-                </div>
-            </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<section class="seminar-section">
-    <h1 class="seminar-section-title">Previous talks in previous seasons</h1>
-
-    <ul class="bare-list previous-talks">
-        {% for seminar in pastoldseason %}
-            <li class="previous-talk">
-                <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
-                <ul class="bare-list talk-presenters">
-                    {% for presenter in seminar.presenters %}
-                        <li class="talk-presenter">
-                            <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
-                            {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
-                        </li>
-                    {% endfor %}
-                </ul>
-            </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<section class="seminar-section">
-    <h1 class="seminar-section-title">Contact</h1>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
     
-    <p>
-        Got an interesting topic you'd like to present? Reach out to your favorite postdoc for details.
-    </p>
-</section>
+    <section class="seminar-section">
+        <h1 class="seminar-section-title">Previous talks in previous seasons</h1>
+    
+        <ul class="bare-list previous-talks">
+            {% for seminar in pastoldseason %}
+                <li class="previous-talk">
+                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
+                    <ul class="bare-list talk-presenters">
+                        {% for presenter in seminar.presenters %}
+                            <li class="talk-presenter">
+                                <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
+                                {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+    
+    <section class="seminar-section">
+        <h1 class="seminar-section-title">Contact</h1>
+        
+        <p>
+            Got an interesting topic you'd like to present? Reach out to your favorite postdoc for details.
+        </p>
+    </section>
+</div>
