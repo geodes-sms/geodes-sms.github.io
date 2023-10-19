@@ -2,14 +2,24 @@
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
     <div class="content-wrapper">
-        <p class="site-footer-copyright">
-            &copy; {{ site.time | date: '%Y' }}, <strong>GEODES</strong>
+        <p>
+            <img class="site-logo" src="/artwork/geodes-dark.png">
+            
         </p>
         <p class="bare site-footer-address">
-            Département d'informatique et de recherche opérationnelle, Université de Montréal<br/>
-            C.P. 6128 Succursale Centre-ville <br>
-            Montréal (QC) CANADA <br>
-            H3C 3J7
+            <a class="link" href="https://www.umontreal.ca/" target="_blank">Université de Montréal</a> <br>
+            <a class="link" href="https://diro.umontreal.ca/" target="_blank">Département d'informatique et de recherche opérationnelle</a>
         </p>
+      
+        <p class="site-footer-contact">
+            <span class="label">Contact</span> <a href="mailto:geodes@iro.umontreal.ca">geodes@iro.umontreal.ca</a>
+        </p>
+    </div>
+
+    <div class="site-footer-end content-wrapper">
+        <p class="site-footer-maintenance">
+            Maintenu par: Louis-Edouard LAFONTANT (<a class="bare-link footer__link" href="mailto:louis.edouard.lafontant@umontreal.ca" target="_blank">LELAFONTANT</a>)
+        </p>
+        <p class="site-footer-copyright">&copy; {{ site.time | date: '%Y' }}, <strong>GEODES</strong></p>
     </div>
 </footer>

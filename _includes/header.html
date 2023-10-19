@@ -13,10 +13,12 @@
                         {% assign url = page.url|remove:'index.html' %}
                         {% assign hasSubpages = link.subpages != undefined %}
                         <li class="menu-item {% if url==link.url %}current{% endif %}">
-                            <a href="{{link.url}}" class="bare-link menu-link menu-item-link {% if url==link.url %}current{% endif %}">
-                                {{link.title}}
-                            </a>
+                           
                             {% if hasSubpages %}
+                                <span tabindex="-1" class="menu-link parent">
+                                    {{link.title}}
+                                    <button class="btn btn-show" type="button">▼</button>
+                                </span>
                                 <ul class="bare-list submenu">
                                     {% for subpage in link.subpages %}
                                     <li class="submenu-item {% if url==subpage.url %}current{% endif %}">
@@ -24,6 +26,10 @@
                                     </li>
                                     {% endfor %}
                                 </ul>
+                            {% else %}
+                                <a href="{{link.url}}" class="bare-link menu-link menu-item-link {% if url==link.url %}current{% endif %}">
+                                    {{link.title}}
+                                </a>
                             {% endif %}
                         </li>
                     {% endfor %}

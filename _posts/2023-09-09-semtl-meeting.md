@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SEMTL Meeting at Station Biologiques des Laurentides"
+title:  "SEMTL meeting at Station Biologiques des Laurentides"
 date:   2023-09-09 15:28:00 -0400
 categories: news
 excerpt_separator: <!--more-->
@@ -24,8 +24,8 @@ The aim was to encourage contact between institutions in Montreal and ensure tha
 
 ### Day two: GEODES at work (and having fun)
 
-<div style="display: flex">
-    <img src="/assets/images/geodes@laurentides_08.jpg" alt="The GEODES at work in the Laurentides">
-    <img src="/assets/images/geodes@laurentides_09.jpg" alt="The GEODES having fun in the Laurentides">
+<div style="display: flex; max-width: 1000px">
+    <img style="width: 50%; display: block" src="/assets/images/geodes@laurentides_08.jpg" alt="The GEODES at work in the Laurentides">
+    <img style="width: 50%; display: block" src="/assets/images/geodes@laurentides_09.jpg" alt="The GEODES having fun in the Laurentides">
 </div>
 Day two was dedicated to the activities within our group.

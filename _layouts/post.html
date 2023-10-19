@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="content-wrapper">
         <header class="post-header">
-            <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+            <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">
               Published on: 
                 <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -17,7 +17,7 @@ layout: default
                 {%- endif -%}</p>
         </header>
       
-        <div class="post-content e-content" itemprop="articleBody">
+        <div class="post-content" itemprop="articleBody">
           {{ content }}
         </div>
       
