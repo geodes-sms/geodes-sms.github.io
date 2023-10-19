@@ -33,7 +33,7 @@
 
     .page-content {
         position: relative;
-        min-height: calc(100% - 60px);
+        min-height: calc(100% - 49px);
         padding-top: 24px;
         z-index: 5;
     }
@@ -48,9 +48,62 @@
     background-color: #292723;
 }
 
+    .site-footer .content-wrapper {
+        display: flex; flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .site-footer .site-logo {
+        width: 144px;
+        height: auto;
+        margin-bottom: 6px;
+    }
+
+    .site-footer-nav {
+        display: flex; flex-direction: column; justify-content: center;
+        align-items: center;
+    }
+
+        .footer-menu {
+            display: flex;
+            margin-top: 8px;
+        }
+
+        .footer-menu-item {
+            display: flex; align-items: baseline;
+            font-size: 1.4em; font-weight: 500;
+            text-transform: uppercase;
+            color: #F07037;
+            border-radius: 1px;
+            background-color: #333;
+        }
+            .footer-menu-item:not(:last-child) {
+                margin-right: 6px;
+            }
+            .footer-menu-item:hover {
+                background-color: #ec6e5a;
+                color: #fff;
+            }
+            
+        a.footer-menu-link {
+            padding: 6px 12px;
+            color: inherit;
+        }
+
+    .site-footer-external {
+        display: flex; flex-direction: column;
+    }
 
     .site-footer-address {
+        text-align: center;
+        margin-top: 12px;
         font-size: 1.4em;
+        text-wrap: nowrap;
+    }
+
+    .site-footer-contact {
+        line-height: 1.5;
     }
 
     .site-footer-end {
@@ -64,6 +117,7 @@
         font-size: 1.3em;
         margin-top: 0; margin-bottom: 6px;
     }
+    
     .site-footer-copyright {
         margin: 0;
         font-size: 1.4em;
@@ -72,19 +126,43 @@
 
 
 @media only screen and (min-width: 42em) {
-    .site-header .content-wrapper {
-        display: flex; flex-direction: row;
-        align-items: center;
-        justify-content: space-between;    
-    }
-
-    .site-nav {
-        position: relative;
-        z-index: 20;
-    }
     .content-wrapper {
         padding-left: 3%;
         padding-right: 3%;
+    }
+
+    .site-header .content-wrapper {
+        flex-direction: row;
+    }
+
+    .site-footer .content-wrapper {
+        display: block;
+    }
+ 
+    .site-footer .site-logo {
+        width: 144px;
+        margin-bottom: 0
+    }
+
+    .site-footer-nav {
+        flex-direction: row; justify-content: space-between;
+    }
+
+        .footer-menu {
+            margin: 0;
+        }
+
+    .site-footer-external {
+        display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-between; align-items: flex-start;
+    }
+
+    .site-footer-address {
+        margin-right: 12px;
+        text-align: left;
+    }
+
+    .site-footer-contact {
+        text-align: right;
     }
 }
 
@@ -184,9 +262,11 @@ table tr:nth-child(odd) {
         font-size: 1.5rem;
         padding: 6px 5px 4px;
         color: inherit;
-        text-transform: capitalize;
         white-space: nowrap;
         outline: none;
+    }
+    .menu-link.current {
+        font-weight: bold;
     }
     .menu a:link,  
     .menu a:visited {
@@ -218,9 +298,7 @@ table tr:nth-child(odd) {
         .menu-item-link.current {
             color: #F58634;
         }
-        .menu-item-link.current {
-            font-weight: bold;
-        }
+      
 
         .menu-link.parent {
             cursor: default;
@@ -228,12 +306,20 @@ table tr:nth-child(odd) {
             display: flex; align-items: center;
         }
 
-        .menu-link.parent .btn-show {
-            margin-top: 4px; margin-left: 3px;
-            font-size: 0.9rem;
-            padding: 0;
-            color: #555;
+            .menu-link.parent .btn-show {
+                margin-top: 4px; margin-left: 3px;
+                font-size: 0.9rem;
+                padding: 0;
+                color: #555;
+            }
+
+        .menu-link.active {
+            font-weight: bold;
         }
+            
+            .menu-link.active .btn-show {
+                color: #F58634;
+            }
 
             .menu-item:hover .btn-show {
                 color: #f5f5f5;
@@ -337,10 +423,23 @@ table tr:nth-child(odd) {
         background-color: #f5f5f5;
     }
 
+.page-title {
+    margin-top: 0; margin-bottom: 24px;
+    font-size: 3em;
+    width: 100%;
+}
+
 .section-title {
     margin-top: 0; margin-bottom: 24px;
     font-size: 2.6em;
     width: 100%;
+}
+
+.page-intro {
+    max-width: 1000px;
+    font-size: 1.6em;
+    font-style: italic;
+    line-height: 1.5;
 }
 
 .paragraph-title {
@@ -552,6 +651,52 @@ table tr:nth-child(odd) {
     Contact page styling
 ---------------------------------------------------------------------------------------------------------------*/
 
+.contact-section {
+    margin-bottom: 24px;
+}
+
+    .contact-section .section-title {
+        margin-bottom: 18px;
+    }
+
+.contact-professors {
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-professor {
+    display: flex; align-items: center;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+
+.contact-professor-photo {
+    display: block;
+    width: 84px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contact-professor-info {
+    display: flex; flex-direction: column;
+    font-size: 1.4rem;
+    margin-left: 6px;
+}
+
+    .contact-professor-name {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .contact-professor-email,
+    .contact-professor-office {
+        font-weight: 500;
+    }
+
+    .contact-lab {
+        line-height: 1.5;
+    }
+
 .contact-map {
     width: 100%;
 }
@@ -592,6 +737,7 @@ table tr:nth-child(odd) {
 .professor {
     /* flex: 1 1; */
     display: flex; flex-direction: column; align-items: center;
+    margin-bottom: 12px;
     padding: 12px 18px 6px;
     width: 100%;
     border-bottom: 6px solid #F58634;
@@ -637,11 +783,6 @@ table tr:nth-child(odd) {
         text-align: center; 
         text-transform: uppercase;
         color: #777;
-        /* text-shadow: 0 0 1px #c0c0c0; */
-        /* text-shadow: 0 0 1px #F58634; */
-        /* border-radius: 180px;
-        color: #fff;
-        background-color: #F58634; */
     }
 
     .professor-research-areas {
@@ -726,7 +867,7 @@ table tr:nth-child(odd) {
 .phd-student {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1vw;
+    margin-bottom: 8px;
     width: 100%;
     padding: 8px 1% 6px;
     background-color: #eee;
@@ -927,6 +1068,7 @@ table tr:nth-child(odd) {
 @media only screen and (min-width: 42em) {
     .professor {
         width: 32.5%;   
+        margin-bottom: 0;
         margin-right: 0.5%;
     }
         .professor .card-img {
@@ -1154,6 +1296,7 @@ table tr:nth-child(odd) {
 
 .project-list {
     display: flex; flex-direction: column;
+    margin-top: 24px;
     width: 100%;
 }   
 

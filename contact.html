@@ -5,27 +5,55 @@ permalink: /contact
 order: 15
 ---
 
-<div class="content-wrapper">
-    <h2>Address</h2>
-    <p>
-        Département d'informatique et de recherche opérationnelle<br />
-        Université de Montréal<br />
-        <a href="https://plancampus.umontreal.ca/montreal/?tx_udemplancampus_pi1%5Bbuilding%5D=376&tx_udemplancampus_pi1%5Baction%5D=show&tx_udemplancampus_pi1%5Bcontroller%5D=Building&cHash=aebfa68431fc30854cbc9ea4b70a4a23">
-        Pavillon André-Aisenstadt
-        </a><br />
-        C.P. 6128 Succursale Centre-ville<br />
-        Montréal (QC) CANADA H3C 3J7
+<div class="content-wrapper" style="padding-bottom: 24px;">
+    <h1 class="page-title">Contact</h1>
+    <p class="page-intro">
+        You will find us on the <strong>second floor of Pavillon André-Aisenstadt</strong>. Don't be afraid to knock. <br>
+        For a general message, email us at <a href="mailto:geodes@iro.umontreal.ca">geodes@iro.umontreal.ca</a>
     </p>
+
+    <section class="contact-section">
+        <h2 class="section-title">Professors</h2>
+        <ul class="bare-list contact-professors">
+            {% for prof in site.data.people.faculty %}
+                <li class="contact-professor">
+                    <img class="contact-professor-photo" src="/images/people/{{prof.image}}" alt="{{ prof.name | fullName }} photo"> 
+                    <div class="contact-professor-info">
+                        <h3 class="contact-professor-name">
+                            <a class="link card-name-link" href="{{prof.website}}" target="_blank">{{ prof.name | fullName }}</a>
+                        </h3>
+                        <a class="link contact-professor-email" href="mailto:{{prof.email}}">{{prof.email}}</a>
+                        <span class="contact-professor-office">{{ prof.office }}</span>
+                    </div>
+                </li>
+            {% endfor %}
+            
+        </ul>
     
-    <div class="contact-map">
-        <iframe class="contact-map-frame"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.450524571345!2d-73.61796648444137!3d45.501008679101375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919f308df50f9%3A0x1c5cdca60001c62e!2sUniversity%20of%20Montreal%20-%20Andr%C3%A9-Aisenstadt%20Building!5e0!3m2!1sen!2sca!4v1611938763979!5m2!1sen!2sca"
-             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" loading="lazy" tabindex="0"></iframe>
-    </div>
-    
-    <h3>Email</h3>
-    
-    <p>
-        <a href="mailto:geodes@iro.umontreal.ca">geodes@iro.umontreal.ca</a>
-    </p>
+        <h3 class="paragraph-title">Student labs</h3>
+        <ul class="bare-list contact-labs">
+            <li class="contact-lab dash"><span class="label">The <q>small lab</q></span>2352, Pav. André-Aisenstadt</li>
+            <li class="contact-lab dash"><span class="label">The <q>big lab</q></span>2238, Pav. André-Aisenstadt</li>
+        </ul>
+    </section>
+
+
+    <section class="contact-section">
+        <h2 class="section-title">Address</h2>
+        <p>
+            Département d'informatique et de recherche opérationnelle<br />
+            Université de Montréal<br />
+            <a href="https://plancampus.umontreal.ca/montreal/?tx_udemplancampus_pi1%5Bbuilding%5D=376&tx_udemplancampus_pi1%5Baction%5D=show&tx_udemplancampus_pi1%5Bcontroller%5D=Building&cHash=aebfa68431fc30854cbc9ea4b70a4a23">
+            Pavillon André-Aisenstadt
+            </a><br />
+            C.P. 6128 Succursale Centre-ville<br />
+            Montréal (QC) CANADA H3C 3J7
+        </p>
+        
+        <div class="contact-map">
+            <iframe class="contact-map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.450524571345!2d-73.61796648444137!3d45.501008679101375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919f308df50f9%3A0x1c5cdca60001c62e!2sUniversity%20of%20Montreal%20-%20Andr%C3%A9-Aisenstadt%20Building!5e0!3m2!1sen!2sca!4v1611938763979!5m2!1sen!2sca"
+                 frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" loading="lazy" tabindex="0"></iframe>
+        </div>   
+    </section>
 </div>

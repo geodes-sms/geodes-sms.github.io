@@ -3,10 +3,10 @@
 
 <div class="researcher card">      
     <div class="card-header">
-        <img src="/images/people/people/{{ image_url }}" class="card-img" />
+        <img src="/images/people/{{ image_url }}" class="card-img" />
         <h3 class="card-name">
             {% if item.website%}
-                <a class="link card-name__link" href="{{item.website}}">{{item.name|fullName}}</a>
+                <a class="link card-name__link" href="{{item.website}}" target="_blank">{{item.name|fullName}}</a>
             {% else %}
                 {{item.name|fullName}}
             {% endif %}

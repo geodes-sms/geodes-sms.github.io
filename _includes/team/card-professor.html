@@ -3,10 +3,10 @@
 
 <div class="professor card">      
     <div class="card-header">
-        <img src="/images/people/people/{{ image_url }}" class="card-img" />
+        <img src="/images/people/{{ image_url }}" class="card-img" />
         <h3 class="card-name">
             {% if professor.website%}
-                <a class="link card-name-link" href="{{professor.website}}">{{professor.name|fullName}}</a>
+                <a class="link card-name-link" href="{{professor.website}}" target="_blank">{{professor.name|fullName}}</a>
             {% else %}
                 {{professor.name|fullName}}
             {% endif %}

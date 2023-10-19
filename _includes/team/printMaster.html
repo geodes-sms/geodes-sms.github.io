@@ -5,13 +5,13 @@
         {% for person in {{include.mscs}} %}
             <li class="master-student">
                 {% if person.image %}
-                    <img src="/images/people/people/{{ person.image }}" class="item-img" />
+                    <img src="/images/people/{{ person.image }}" class="item-img" />
                 {% endif %}
                 <div class="master-student-details">
                     <div class="master-student-details-header">
                         <h4 class="master-student-name">
                             {% if person.website%}
-                                <a class="bare-link" href="{{person.website}}">{{person.name|fullName}}</a>
+                                <a class="bare-link" href="{{person.website}}" target="_blank">{{person.name|fullName}}</a>
                             {% else %}
                                 {{person.name|fullName}}
                             {% endif %}

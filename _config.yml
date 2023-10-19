@@ -76,15 +76,15 @@ navigation:
   url: /people
 - title: Research
   subpages:
-    - title: publications
+    - title: Publications
       url: /publications
-    - title: projects
+    - title: Projects
       url: /projects
-    - title: tools
+    - title: Tools
       url: /tools
 - title: Events
   subpages:
-    - title: seminar
+    - title: Seminar
       url: /events/seminar
     - title: Research Day
       url: /events/research-day-and-symposium-2022
@@ -92,3 +92,11 @@ navigation:
   url: /teaching
 - title: Contact
   url: /contact
+
+footer_navigation:
+- title: People
+  url: /people
+- title: Seminar
+  url: /events/seminar
+- title: Publications
+  url: /publications

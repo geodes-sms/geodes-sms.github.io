@@ -8,7 +8,7 @@
   presenters: 
     - name: Jessie Galasso
       url: https://jgalasso.github.io/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/jessie.png
+      photo: https://geodes.iro.umontreal.ca/images/people/jessie.png
   status: done
 
 - date: 2023-03-15
@@ -21,7 +21,7 @@
   presenters: 
     - name: Oussama Ben Sghaier
       url: https://oussamasghaier.github.io/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/oussama.jpg
+      photo: https://geodes.iro.umontreal.ca/images/people/oussama.jpg
   status: done
 
 - date: 2022-08-26
@@ -35,7 +35,7 @@
     - name: Tewfik Ziadi
       affiliation: Paris-Sorbonne University, France
       url: https://www.lip6.fr/MoVe
-      photo: https://geodes.iro.umontreal.ca/images/people/people/tziadi.png
+      photo: https://geodes.iro.umontreal.ca/images/people/tziadi.png
   status: done
 
 - date: 2022-07-22
@@ -48,7 +48,7 @@
   presenters: 
     - name: Lola Burgueño
       url: https://som-research.uoc.edu/lburgueno/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
+      photo: https://geodes.iro.umontreal.ca/images/people/lola.jpg
   material: 20220722-LolaBurgueno-Uncertainty.pdf
   status: done
 
@@ -75,7 +75,7 @@
   presenters: 
     - name: Istvan David
       url: https://istvandavid.com/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
+      photo: https://geodes.iro.umontreal.ca/images/people/istvan.png
   material: 20220708-David-FTGPM.pdf
   status: done
 
@@ -113,7 +113,7 @@
   presenters: 
     - name: Jessie Galasso
       url: https://jgalasso.github.io/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/jessie.png
+      photo: https://geodes.iro.umontreal.ca/images/people/jessie.png
   status: done
 
 - date: 2022-06-10
@@ -130,7 +130,7 @@
   presenters: 
     - name: Dalila Tamzalit
       url: https://www.univ-nantes.fr/dalila-tamzalit
-      photo: https://geodes.iro.umontreal.ca/images/people/people/dalila.jpg
+      photo: https://geodes.iro.umontreal.ca/images/people/dalila.jpg
   status: done
   
 - date: 2022-06-03
@@ -147,7 +147,7 @@
       affiliation: INRIA Lille, France
     - name: Nicolas Anquetil
       url: http://researchers.lille.inria.fr/~nanqueti/nicolasAnquetil.html
-      photo: https://geodes.iro.umontreal.ca/images/people/people/nicolasanquetil.jpg
+      photo: https://geodes.iro.umontreal.ca/images/people/nicolasanquetil.jpg
       affiliation: University of Lille, France
   status: done
 
@@ -164,7 +164,7 @@
   presenters: 
     - name: Lucas Maes
       url: https://geodes.iro.umontreal.ca/people
-      photo: https://geodes.iro.umontreal.ca/images/people/people/lucas.png
+      photo: https://geodes.iro.umontreal.ca/images/people/lucas.png
   status: done
 
 
@@ -188,7 +188,7 @@
   presenters: 
     - name: Istvan David
       url: https://istvandavid.com/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/istvan.png
+      photo: https://geodes.iro.umontreal.ca/images/people/istvan.png
   status: done
 
 
@@ -207,11 +207,11 @@
   presenters: 
     - name: Bentley James Oakes
       url: http://msdl.cs.mcgill.ca/people/bentley
-      photo: https://geodes.iro.umontreal.ca/images/people/people/bentley.png
+      photo: https://geodes.iro.umontreal.ca/images/people/bentley.png
     - name: Lola Burgueño
       affiliation: Open University of Catalonia, Spain
       url: https://som-research.uoc.edu/lburgueno/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/lola.jpg
+      photo: https://geodes.iro.umontreal.ca/images/people/lola.jpg
   material: 20220513-OakesBurgueno-ImprovingOnlineVisibility.pdf
   status: done
 
@@ -225,5 +225,5 @@
     - name: José Antonio Hernández López
       affiliation: Universidad de Murcia, Spain
       url: https://models-lab.github.io/members/joseantonio/
-      photo: https://geodes.iro.umontreal.ca/images/people/people/joseantonio.jpg
+      photo: https://geodes.iro.umontreal.ca/images/people/joseantonio.jpg
   status: done
