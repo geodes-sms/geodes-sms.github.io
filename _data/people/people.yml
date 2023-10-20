@@ -253,3 +253,14 @@
     - Active learning
     - LLM
   supervisor: Houari Sahraoui
+- name: Jaoua, Imen
+  email: imen.jaoua@umontreal.ca
+  image: imen.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/imen-jaoua-a727a6206/
+  research_areas:
+    - AI
+    - Software maintenance
+  supervisor: Houari Sahraoui
