@@ -2,7 +2,7 @@
 - name: Archambault, Pascal
   image: 
   position: MSc
-  website: https://www.linkedin.com/in/pascal-archambault/
+  website: https://pascalarchambault.ca/
 
 - name: Maes, Lucas
   image:
@@ -12,26 +12,19 @@
 - name: Vu, Cong-Vinh
   image: 
   position: MSc
-  website: 
+  website: https://lucas-maes.github.io/
   
 - name: Ben Chaaben, Meriem
   image:
   position: MSc
   email: meriem.ben.chaaben@umontreal.ca
-  website: 
+  website: https://meriembenchaaben.github.io/
   
 - name: Kamanda, Aton
   image:
   position: MSc
   email: aton.kamanda@umontreal.ca
-  website: 
-
-- name: Maes, Lucas
-  image:
-  position: MSc
-  email: lucas.maes@umontreal.ca
-  website:  
-  supervisor: Houari SAHRAOUI
+  website: https://atonkamanda.github.io/
 
 ##### 2022 #####
 - name: Abdelnaim, Mostafa
@@ -42,17 +35,17 @@
 - name: Nosthe, Wilkens
   image: 
   position: MSc
-  website: 
+  website: https://www.linkedin.com/in/wilkens-nosthe-17259a64/
   
 - name: Mai, Badr
   image: 
   position: MSc
-  website: 
+  website: https://www.linkedin.com/in/badr-mai-ba481661/
   
 - name: Vandamme, Dorian
   image: 
   position: MSc
-  website: 
+  website: https://www.linkedin.com/in/dorian-vandamme-b83354131/
 
 - name: Nikitchin, Vitaliy
   image: 
@@ -68,7 +61,7 @@
   image:
   position: MSc
   email: lucas.hornung@umontreal.ca
-  website:
+  website: https://www.linkedin.com/in/lucas-hornung/
   
 - name: Yang, Song
   image: song.jpg
@@ -86,7 +79,7 @@
 - name: Ducoin, Aurelien
   image: 
   position: MSc
-  website: https://www.linkedin.com/in/quentinwolak/
+  website: https://www.linkedin.com/in/aur%C3%A9lien-ducoin-218341257/
   end: 2022
 
 - name: VaraminyBahnemiry, Zahra
@@ -111,7 +104,7 @@
   image: louis_edouard.jpeg
   position: MSc
   end: 2021
-  website: http://www-ens.iro.umontreal.ca/~lafontle/
+  website: https://lelafontant.github.io/
   supervisor: Syriani, Eugene
   thesis:
   
