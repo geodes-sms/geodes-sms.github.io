@@ -1,3 +1,21 @@
+- name: Digital Twins for Vertical Farming
+  startYear: 2022
+  endYear: 2024
+  funding: NSERC Alliance
+  PI: 
+  partners: Ferme d''Hiver
+  logo: nserc.png
+  description:
+
+- name: Multi-paradigm digital twin framework for biophysical systems: Application to vertical farming
+  startYear: 2022
+  endYear: 2023
+  funding: Mitacs Accelerate
+  PI: 
+  partners: Ferme d''Hiver
+  logo: mitacs.png
+  description:
+
 - name: Inference of Simulation Models in Digital Twins by Reinforcement Learning
   startYear: 2021
   endYear: 2024
@@ -57,7 +75,7 @@
   endYear: 2021
   funding: Mitacs Accelerate
   PI: 
-  partners:
+  partners: National Bank of Canada
   logo: mitacs.jpg
   description:
 
@@ -93,8 +111,7 @@
   endYear: 2022
   funding: Mitacs Accelerate
   PI: 
-  partners: 
-    - The National Bank of Canada
+  partners: The National Bank of Canada
   logo: mitacs.jpg
   description:
   
@@ -103,8 +120,7 @@
   endYear: 2022
   funding: Mitacs Accelerate
   PI:
-  partners: 
-    - The Technology Evaluation Centers
+  partners:  Technology Evaluation Centers
   logo: mitacs.jpg
   description:
   
