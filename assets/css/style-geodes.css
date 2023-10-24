@@ -1467,20 +1467,20 @@ table tr:nth-child(odd) {
 
 .talks {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .talk {
     display: flex;
     margin-bottom: 12px;
-    width: calc(50% - 8px);
+    width: 100%;
     padding: 12px;
     background-color: #f5f5f5;
     box-shadow: 1px;
     border-bottom: 6px solid #EF4E36;
     border-radius: 4px;
 }
+
 
 .talk-image {}
 
@@ -1492,10 +1492,18 @@ table tr:nth-child(odd) {
 
 .talk-photo-img {
     display: block;
-    min-width: 180px;
-    width: 180px;
+    min-width: 120px;
+    width: 120px;
     height: auto;
     border-radius: 50%;
+}
+
+.talk-multiphoto-img {
+    display: block;
+    min-width: 72px;
+    width: 72px;
+    border-radius: 50%;
+    height: auto;
 }
 
 .talk-multiphotos {
@@ -1507,13 +1515,6 @@ table tr:nth-child(odd) {
     margin-bottom: 6px;
 }
 
-.talk-multiphoto-img {
-    display: block;
-    border-radius: 50%;
-    min-width: 120px;
-    width: 120px;
-    height: auto;
-}
 
 .talk-info {
     flex-grow: 2;
@@ -1566,27 +1567,15 @@ table tr:nth-child(odd) {
     color: #555;
 }
 
-@media only screen and (max-width: 42em) {
+
+@media only screen and (min-width: 65em) {       
     .talk-photo-img {
+        min-width: 180px;
+        width: 180px;    
+    }
+        
+    .talk-multiphoto-img {
         min-width: 120px;
         width: 120px;
-        height: auto;
-    }
-
-    .talk-multiphoto-img {
-        min-width: 72px;
-        width: 72px;
-        height: auto;
-    }
-}
-
-@media only screen and (min-width: 65em) {
-    .talks {
-        flex-direction: column;
-    }
-
-    .talk {
-        width: 100%;
-        max-width: 100%;
     }
 }

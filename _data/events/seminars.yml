@@ -1,3 +1,27 @@
+- date: 2023-10-27
+  season: current
+  time: 11h30
+  location: TBD
+  title: "Video Game Software Engineering: Troubles, Techniques, and Tools"
+  short_description: This seminar presents the research on the software engineering aspects of video game development. In special, the problems (troubles), the game engines (tools), and the testing methods (techniques).
+  description: >
+    The video game industry is saturated with video games. In 2021, the <a class="link" href="https://en.wikipedia.org/wiki/Steam_(service)">Steam platform</a> released close to 12,000 games. 
+    To stand out and avoid players' backlash, game developers must devote much of their time to polishing their games while trying to stay on schedule for their releases. 
+    Creating games is an art but it also requires deep, cutting-edge technical knowledge from developers. 
+    
+    Therefore, game developers have to (a) deliver high-quality video games in terms of game design and technology; 
+    and (b) keep up with tight schedules without burning out the employees. 
+
+
+    This seminar presents the research on the software engineering aspects of video game development. 
+    In special, the problems (troubles), the game engines (tools), and the testing methods (techniques).
+  presenters: 
+    - name: Cristiano POLITOWSKI
+      affiliation: Postdoc
+      url: https://cpoli.live/
+      photo: https://geodes.iro.umontreal.ca/images/people/cristiano.jpg
+  status: announced
+
 - date: 2023-03-24
   season: current
   time: 11h00
@@ -6,7 +30,8 @@
   short_description: Obtaining a relevant dataset is central to conducting empirical studies in software engineering. However, in the context of mining software repositories, the lack of appropriate tooling for large scale mining tasks hinders the creation of new datasets. Moreover, limitations related to data sources that change over time (e.g., code bases) and the lack of documentation of extraction processes make it difficult to reproduce datasets over time. This threatens the quality and reproducibility of empirical studies. In this talk, I will present a tool-supported approach facilitating the creation of large tailored datasets while ensuring their reproducibility. I will discuss limitations researchers face when creating or reproducing datasets and how the proposed approach may help overcoming these limitations.
   description:
   presenters: 
-    - name: Jessie Galasso
+    - name: Jessie GALASSO
+      affiliation: Postdoc
       url: https://jgalasso.github.io/
       photo: https://geodes.iro.umontreal.ca/images/people/jessie.png
   status: done
@@ -19,7 +44,8 @@
   short_description: Modern code review is a process for early detection and reduction of issues, which assists in ensuring the quality of the source code, detecting anomalies, and identifying potential improvements. However, this is a highly manual activity that requires a lot of resources and time.  Recent research has addressed these problems by attempting to entirely automate this task (i.e., generating code reviews). However, we do believe that dismissing the reviewer from this process is not the best option in terms of its optimal functioning, especially considering the high error rates in the proposed approaches. Furthermore, this full automation is still too far to achieve given the complexity of the task that requires human intelligence. In this work, we aim to assist the reviewer in the code review process.  We propose an approach for detecting the type of issue and locating parts of the code that need to be revised by developers.  In the first phase, we propose a meta-learner that combines a learning-based model and a knowledge-based model to predict the type of issue from the review comment.  Then, we use this component to create and label a large dataset composed of quadruplets <original code, review, issue type, revised code>. We use this data set to fine-tune a pre-trained language model to predict the types of issues (e.g., naming, resource handling, etc.), that need to be addressed in the original code snippet.  Furthermore, we fine-tune another pre-trained language model to locate these issues in the source code submitted by developers. We evaluate the performance of our approach using a test set not considered during the training. Our results show that our model accurately locates and predicts the types of issues. 
   description:
   presenters: 
-    - name: Oussama Ben Sghaier
+    - name: Oussama BEN SGHAIER
+      affiliation: PhD student
       url: https://oussamasghaier.github.io/
       photo: https://geodes.iro.umontreal.ca/images/people/oussama.jpg
   status: done
@@ -32,7 +58,7 @@
   short_description: Software Product Lines represent one of the most exciting paradigms shift in software development in the last two decades. The main objective is to improve reuse by focusing not only on the development of a single software product but on a family of related product variants. Over the years, multiple research approaches have been proposed to address the different activities of variability design and manipulation, reusable assets implementation, or product derivation. However, implementing SPL variability is still a major challenge and represents a risk for a company. Indeed, compared to single-system development, SPL variability management implies a methodology that highly impacts the life cycle of the products as well as the processes and roles inside the company. To break these barriers to SPL adoption in the industry, we propose  a new software platform that assists developers in migrating existing applications into SPL. This tool is built with a language-independent engine to support any programming language. In this talk, we present the research foundations related to the implementation of tour platform.  The talk will be guided with live demos on real applications.
   description:
   presenters: 
-    - name: Tewfik Ziadi
+    - name: Tewfik ZIADI
       affiliation: Paris-Sorbonne University, France
       url: https://www.lip6.fr/MoVe
       photo: https://geodes.iro.umontreal.ca/images/people/tziadi.png
@@ -46,7 +72,7 @@
   short_description: When designing and operating with software and systems, stakeholders and modelers often face situations in which they need to deal with uncertain data and information. These uncertainties may originate from different reasons such as vagueness, imprecision, incompleteness or inconsistencies. In many cases, neglecting these uncertainties may have disastrous consequences. In this talk, we will explain the different types of uncertainty that can appear when dealing with software models, paying particular attention to measurement uncertainty and belief uncertainty. We will explain an approach to capture, operate and propagate these uncertainties as well as a strategy and methodology to make informed decisions when different stakeholders are involved.
   description:
   presenters: 
-    - name: Lola Burgueño
+    - name: Lola BURGUEÑO
       url: https://som-research.uoc.edu/lburgueno/
       photo: https://geodes.iro.umontreal.ca/images/people/lola.jpg
   material: 20220722-LolaBurgueno-Uncertainty.pdf
@@ -60,7 +86,7 @@
   short_description: "With the growing popularity of machine learning algorithms, dramatic advances have been made for code completion, and specifically method-call completion. These advances were also possible thanks to the availability of large code repositories to learn from and to the well-defined boundaries of the method-call completion problem. This is, however, not the case for design completion, where model repositories are scarce and the space of possibilities for design completion is theoretically infinite. We propose in this presentation an approach that learns numeric representations of domain concepts and their relations from code repositories in order to recommend classes for UML class diagrams."
   description:
   presenters: 
-    - name: Houari Sahraoui
+    - name: Houari SAHRAOUI
       url: http://www.iro.umontreal.ca/~sahraouh/
       photo: https://geodes.iro.umontreal.ca/images/people/faculty/houari.jpg
   status: done
@@ -73,7 +99,7 @@
   short_description: Originally developed for the sound composition and analysis of model transformation chains, the Formalism Transformation Graph + Process Model (FTG+PM) formalism provides versatile means to reason about the properties of complex engineering processes. This talk introduces the formalism in detail, samples from the numerous engineering cases the formalism has been successfully applied in before, and opens up a discussion about a related challenge in our research on digital twins for cyber-biophysical systems.
   description:
   presenters: 
-    - name: Istvan David
+    - name: Istvan DAVID
       url: https://istvandavid.com/
       photo: https://geodes.iro.umontreal.ca/images/people/istvan.png
   material: 20220708-David-FTGPM.pdf

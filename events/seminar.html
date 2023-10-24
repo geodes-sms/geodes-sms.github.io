@@ -73,13 +73,18 @@ order: 45
                         <ul class="bare-list talk-presenters">
                             {% for presenter in seminar.presenters %}
                                 <li class="talk-presenter">
-                                    <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
+                                    <a href="{{presenter.url}}" class="link talk-presenter-name">{{presenter.name}}</a>
                                     {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
                                 </li>
                             {% endfor %}
                         </ul>
+                        
                         <p class="talk-description">
-                            {{seminar.short_description}}
+                            {% if seminar.description %}
+                                {{seminar.description  | newline_to_br}}
+                            {% elsif seminar.short_description %}
+                                {{seminar.short_description}}
+                            {% endif %}
                         </p>
                         <div class="talk-venue">
                             <span class="talk-date">
