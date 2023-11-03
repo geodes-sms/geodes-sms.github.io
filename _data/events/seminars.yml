@@ -1,8 +1,9 @@
-- date: 
+- date: 2023-12-01
   season: current
   time: 11h30
-  location: 
+  location: 3195, Pav. André-Aisenstadt
   title: Open collaborative data engineering
+  cal_link: seminar-20231201.ics
   short_description: > 
     The <a class="link" href="https://jvalue.org/" target="_blank">JValue project</a> investigates open collaborative data engineering: We are trying to take the world of open-source software engineering to data engineering. 
     In this talk, I will focus on Jayvee, the language, and its integration with JV Hub and JV Cloud.

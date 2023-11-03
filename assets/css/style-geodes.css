@@ -606,7 +606,7 @@ table tr:nth-child(odd) {
 
 
 .news-seminars {
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
 .news-seminar-header {
@@ -1590,12 +1590,17 @@ table tr:nth-child(odd) {
     margin-bottom: 6px;
 }
 
-.talk-presenter {
-    display: block;
-}
+    .talk-presenter {
+        display: block;
+    }
 
-.talk-presenter-name {
-    font-size: 1.1em;
+    .talk-presenter-name {
+        font-size: 1.1em;
+    }
+
+.talk-description {
+    flex-grow: 2;
+    line-height: 1.5;
 }
 
 .talk-venue {
@@ -1603,30 +1608,34 @@ table tr:nth-child(odd) {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    color: #3573DD;
 }
 
+    .talk-venue .cal-link {
+        display: block;
+        color: #EF4E36;
+    }
+        .talk-venue .cal-link:hover {
+            color: #EF4E36;
+        }
 
-.talk-description {
-    flex-grow: 2;
-    line-height: 1.5;
-}
+    .talk-date {
+        font-weight: 500;
+    }
 
-.talk-date {
-    font-weight: 500;
-    color: #F24738;
-}
+    .ico-cal {
+        font-size: 1.3em;
+    }
 
-.talk-date-time {
-    font-weight: bold;
-}
+    .talk-date-time {
+        font-weight: bold;
+    }
 
-.talk-location {
-    color: #333;
-}
+    .talk-location {
+        color: #333;
+    }
 
-.ico-cal {
-    font-size: 1.3em;
-}
+
 
 
 @media only screen and (min-width: 65em) {       

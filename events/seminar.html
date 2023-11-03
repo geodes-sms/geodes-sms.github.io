@@ -92,9 +92,17 @@ order: 45
 
                         <div class="talk-venue">
                             {% if seminar.date %}
-                                <span class="talk-date">
-                                    <i class="ico ico-cal">📆</i>{{seminar.date | date: "%A, %B %d, %Y" }}{% if seminar.time %}<span class="talk-date-time"> &ndash; {{seminar.time}}</span>{% endif %}
-                                </span>
+                                {% if seminar.cal_link %}
+                                    <a class="link cal-link" href="/assets/cals/{{seminar.cal_link}}" title="Add the event to your calendar">
+                                        <span class="talk-date">
+                                            <i class="ico ico-cal">📆</i>{{seminar.date | date: "%A, %B %d, %Y" }}{% if seminar.time %}<span class="talk-date-time"> &ndash; {{seminar.time}}</span>{% endif %}
+                                        </span>
+                                    </a>
+                                {% else %}
+                                    <span class="talk-date">
+                                        <i class="ico ico-cal">📆</i>{{seminar.date | date: "%A, %B %d, %Y" }}{% if seminar.time %}<span class="talk-date-time"> &ndash; {{seminar.time}}</span>{% endif %}
+                                    </span>
+                                {% endif %}
                                 {% if seminar.location %}
                                     <span class="talk-location">{{seminar.location}}</span>
                                 {% endif %}

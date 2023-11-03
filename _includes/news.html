@@ -17,7 +17,7 @@
                                     <a href="{{presenter.url}}" class="link presenter-name">
                                         {{presenter.name}}
                                     </a>
-                                    {% if presenter.affiliation %}<span class="fit-content presenter-affiliation">{{presenter.affiliation}}</span>{% endif %}
+                                    {% if presenter.affiliation %}<span class="fit-content presenter-affiliation" title="{{presenter.affiliation}}">{{presenter.affiliation}}</span>{% endif %}
                                 </li>
                             {% endfor %}
                         </ul>
@@ -41,7 +41,8 @@
         {% endfor %}
     </ul>
 {% endif %}
-<h2 class="section-title">Latest news</h2>
+
+<h2 class="section-title" style="margin-bottom: 18px;">Latest news</h2>
 
 {%- if site.posts.size > 0 -%}
 <ul class="bare-list news-posts">

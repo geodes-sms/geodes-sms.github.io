@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20231201T153000Z
+DTEND:20231201T163000Z
+SUMMARY:GEODES Seminar: Open collaborative data engineering by Prof. Dirk Riehle
+DESCRIPTION:Join us to hear Prof. Dirk Riehle's talk on: "Open collaborative data engineering"\n\nABSTRACT\nThe JValue project investigates open collaborative data engineering: We are trying to take the world of open-source software engineering to data engineering. \nThe main components of the JValue project are Jayvee – The domain-specific language for modeling data pipelines; JV Hub – A software forge for collaboration in data engineering; and JV Cloud – A cloud execution infrastructure for data pipelines modeled using Jayvee.\nIn this talk, I will focus on Jayvee, the language, and its integration with JV Hub and JV Cloud.
+LOCATION:3195, Pav. André-Aisenstadt (Université de Montréal)
+END:VEVENT
+END:VCALENDAR
