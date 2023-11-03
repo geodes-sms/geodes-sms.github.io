@@ -86,21 +86,22 @@ order: 45
                                 {{seminar.short_description}}
                             {% endif %}
                         </div>
-                        <div class="news-seminar-venue">
-                          
-                        </div>
 
                         <div class="talk-venue">
                             {% if seminar.date %}
                                 {% if seminar.cal_link %}
                                     <a class="link cal-link" href="/assets/cals/{{seminar.cal_link}}" title="Add the event to your calendar">
                                         <span class="talk-date">
-                                            <i class="ico ico-cal">📆</i>{{seminar.date | date: "%A, %B %d, %Y" }}{% if seminar.time %}<span class="talk-date-time"> &ndash; {{seminar.time}}</span>{% endif %}
+                                            <img class="ico ico-cal" src="/assets/images/icon-calendar.svg" alt="Calendar icon">
+                                            <span class="talk-date-date">{{seminar.date | date: "%A, %B %d, %Y" }}</span>
+                                            <span class="talk-date-time">@{{seminar.time}}</span>
                                         </span>
                                     </a>
                                 {% else %}
                                     <span class="talk-date">
-                                        <i class="ico ico-cal">📆</i>{{seminar.date | date: "%A, %B %d, %Y" }}{% if seminar.time %}<span class="talk-date-time"> &ndash; {{seminar.time}}</span>{% endif %}
+                                        <img class="ico ico-cal" src="/assets/images/icon-calendar--black.svg" alt="Calendar icon">
+                                        <span class="talk-date-date">{{seminar.date | date: "%A, %B %d, %Y" }}</span>
+                                        <span class="talk-date-time">@{{seminar.time}}</span>
                                     </span>
                                 {% endif %}
                                 {% if seminar.location %}
