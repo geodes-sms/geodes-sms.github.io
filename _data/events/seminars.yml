@@ -51,6 +51,28 @@
       photo: https://geodes.iro.umontreal.ca/images/people/cristiano.jpg
   status: done
 
+- date: 2023-10-20
+  season: current
+  time: 11h30
+  location: 1207, Pav. André-Aisenstadt
+  title: Conceptualization and Development of ML-based Recommender Systems for Software Engineering
+  short_description: >
+    Recommender systems for software engineering (RSSEs) are complex software systems that suggest relevant items of interest according to the application domain.
+    The goal of this talk is twofold. First, I present developed RSSEs for two specific tasks: OSS project categorization and recommendation of modeling artifacts. 
+    Afterward, I discuss an MDE-based tool that simplifies the design, optimization, and deployment of recommender systems, making them more accessible to those without prior expertise. 
+  description: >
+    Recommender systems for software engineering (RSSEs) are complex software systems that suggest relevant items of interest according to the application domain, e.g., code snippets, Q&A posts, and third-party libraries. 
+    The development of RSs encompasses the execution of different steps, including data preprocessing, choice of appropriate algorithms, and item delivery, to name a few. 
+    Though RSs can alleviate the curse of information overload, existing approaches resemble black-box systems, where the end-user is not supposed to customize the overall process.
+    The goal of this talk is twofold. First, I present developed RSSEs for two specific tasks, i.e., OSS project categorization and recommendation of modeling artifacts. Afterward, I discuss an MDE-based tool that simplifies the design, optimization, and deployment of recommender systems, making them more accessible to those without prior expertise. 
+  presenters: 
+    - name: Claudio DI SIPIO
+      affiliation: Invited researcher
+      url: https://claudiodsi.github.io/
+      photo: https://geodes.iro.umontreal.ca/images/people/claudio.jpeg
+  material: 20231020-Claudio-RSSE.pdf
+  status: done
+
 - date: 2023-03-24
   season: current
   time: 11h00

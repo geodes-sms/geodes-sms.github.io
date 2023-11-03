@@ -73,7 +73,7 @@ order: 45
                         <ul class="bare-list talk-presenters">
                             {% for presenter in seminar.presenters %}
                                 <li class="talk-presenter">
-                                    <a href="{{presenter.url}}" class="link talk-presenter-name">{{presenter.name}}</a>
+                                    <a href="{{presenter.url}}" class="link talk-presenter-name" target="_blank">{{presenter.name}}</a>
                                     {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
                                 </li>
                             {% endfor %}
@@ -128,7 +128,7 @@ order: 45
                     <ul class="bare-list talk-presenters">
                         {% for presenter in seminar.presenters %}
                             <li class="talk-presenter">
-                                <a href="{{presenter.url}}" class="talk-presenter-name">{{presenter.name}}</a>
+                                <a href="{{presenter.url}}" class="talk-presenter-name" target="_blank">{{presenter.name}}</a>
                                 {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
                             </li>
                         {% endfor %}
