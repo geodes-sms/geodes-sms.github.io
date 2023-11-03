@@ -35,7 +35,7 @@ order: 45
             <!-- These events follow an <strong>in-person</strong> format. By that, we hope to re-establish the everyday social aspects of the research group in a post-COVID world. -->
         </p>
     
-        <ul class="bare-list">
+        <!-- <ul class="bare-list">
             <li>
                 <strong>Format</strong>: In person
             </li>
@@ -43,7 +43,7 @@ order: 45
                 <strong>Location</strong>: 
                 Pavillon Andre-Aisenstadt
             </li>
-        </ul>
+        </ul> -->
     </header>
     
     <section class="seminar-section">
@@ -79,19 +79,27 @@ order: 45
                             {% endfor %}
                         </ul>
                         
-                        <p class="talk-description">
+                        <div class="talk-description">
                             {% if seminar.description %}
-                                {{seminar.description  | newline_to_br}}
+                                {{seminar.description}}
                             {% elsif seminar.short_description %}
                                 {{seminar.short_description}}
                             {% endif %}
-                        </p>
+                        </div>
+                        <div class="news-seminar-venue">
+                          
+                        </div>
+
                         <div class="talk-venue">
-                            <span class="talk-date">
-                                    {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
-                            </span>
-                            {% if seminar.location %}
-                                <span class="talk-location">{{seminar.location}}</span>
+                            {% if seminar.date %}
+                                <span class="talk-date">
+                                    <i class="ico ico-cal">📆</i>{{seminar.date | date: "%A, %B %d, %Y" }}{% if seminar.time %}<span class="talk-date-time"> &ndash; {{seminar.time}}</span>{% endif %}
+                                </span>
+                                {% if seminar.location %}
+                                    <span class="talk-location">{{seminar.location}}</span>
+                                {% endif %}
+                            {% else %}
+                                <em>The date will be announced soon!</em>
                             {% endif %}
                         </div>
                     </div>
@@ -117,17 +125,15 @@ order: 45
                         {% endfor %}
                     </ul>
                     <p class="talk-description">
-                    {% if seminar.description %}
-                            {{seminar.description}}
-                    {% else %}
-                        {% if seminar.short_description %}
-                            {{seminar.short_description}}
-                        {% endif %}
+                    {% if seminar.short_description %}
+                        {{seminar.short_description}}
+                    {% elsif seminar.description %}
+                        {{seminar.description}}
                     {% endif %}
                     </p>
                     <div class="talk-venue">
                         <span class="talk-date">
-                            {{seminar.date}}{% if seminar.time %}<i class="talk-date-time">@{{seminar.time}}</i>{% endif %}
+                            {{seminar.date}}{% if seminar.time %}<span class="talk-date-time">@{{seminar.time}}</span>{% endif %}
                         </span>
                         {% if seminar.location %}
                             <span class="talk-location">{{seminar.location}}</span>

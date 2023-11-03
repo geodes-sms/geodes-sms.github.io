@@ -64,6 +64,10 @@ th { text-align: center; }
 }
     .label:after { content: ": "; }
 
+.ico {
+    font-style: normal;
+}
+
 /* Organization */
 
 .left { float: left; }

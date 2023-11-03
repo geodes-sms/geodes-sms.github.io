@@ -1,10 +1,20 @@
+- name: A model-driven software development platform for Climate-Sensitive Infectious Disease Modelling
+  url: https://wellcome.org/
+  startYear: 2023
+  endYear: 2028
+  funding: Wellcome Trust
+  PI: 
+  partners: York University
+  logo: wellcome.png
+  description: 
+
 - name: Matériathèque numérique
   startYear: 2022
   endYear: 2023
   funding: Pôle d’enseignement supérieur pour la petite enfance en Montérégie Innovation et développement de Reconnaitre
   PI: 
   partners: CEGEP de Valleyfield
-  logo: 
+  logo: logo_pole_monteregie.jpg
   description:
 
 - name: Digital Twins for Vertical Farming
@@ -22,7 +32,7 @@
   funding: Mitacs Accelerate
   PI: 
   partners: Ferme d''Hiver
-  logo: mitacs.png
+  logo: mitacs.jpg
   description:
 
 - name: Inference of Simulation Models in Digital Twins by Reinforcement Learning
