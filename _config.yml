@@ -44,17 +44,16 @@ plugins:
   - jekyll-polyglot
 
 languages: ["en", "fr"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: false
+sass:
+  sourcemap: never
 
 lang_vars:
   en: English
   fr: Français
 
-default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "public"]
-parallel_localization: false
-
-sass:
-  sourcemap: never
 
 # Exclude from processing.
 # The following items will not be processed, by default.
