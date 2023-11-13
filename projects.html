@@ -6,6 +6,8 @@ id: projects
 order: 4
 ---
 
+{% assign i18n = site.data.projects_page %}
+
 <!-- <header>
     <h1>Recently funded projects</h1>
 
@@ -19,11 +21,10 @@ order: 4
 </header> -->
 
 <div class="content-wrapper">
-    <h1 class="page-title">Recently funded projects</h1>
+    <h1 class="page-title">{{ i18n.title | default: "Recently funded projects" }}</h1>
     
     <p class="page-intro">
-        A high-quality research agenda would not be possible without (inter)national grants. We also believe a balanced research portfolio can only be sustainable by maintaining strong connections with our industrial partners.<br>
-        In our R&D projects, we strive to contribute innovative techniques, methods, and tools to the state of the art and the state of the practice.
+        {{ i18n.intro }}
     </p>
     
     {% assign fundedProjects = site.data.projects.funded %}

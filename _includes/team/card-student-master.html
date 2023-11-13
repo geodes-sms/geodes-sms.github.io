@@ -1,0 +1,34 @@
+{% assign person = include.item %}
+{% assign image_url = person.image | default: "person.jpg" %}
+
+<li class="master-student">
+    {% if person.image %}
+        <img src="/images/people/{{ image_url }}" class="item-img" />
+    {% endif %}
+    <div class="master-student-details">
+        <div class="master-student-details-header">
+            <h4 class="master-student-name">
+                {% if person.website%}
+                    <a class="bare-link" href="{{person.website}}" target="_blank">{{person.name|fullName}}</a>
+                {% else %}
+                    {{person.name|fullName}}
+                {% endif %}
+            </h4>
+            <i class="master-student-type master-student-type--{{person.type}} font-ui">{{person.type}}</i>
+        </div>
+        <div class="master-student-supervisor">
+            <span class="label">Supervisor</span> <strong>{{person.supervisor}}</strong>
+        </div>
+        {% if person.type == "research" %}
+            <ul class="bare-list student-research-areas font-ui">
+                {% for research_area in {{person.research_areas}} %}
+                    <li class="student-research-area">{{research_area}}</li>
+                {% endfor %}
+            </ul>
+        {% elsif person.type == "project" %}
+            <p class="bare master-student-project">{{person.project}}</p>
+        {% elsif person.type == "internship" %}
+            <p class="bare master-student-internship">{{person.internship}}</p>
+        {% endif %}
+    </div>
+</li>

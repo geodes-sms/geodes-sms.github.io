@@ -6,6 +6,9 @@ id: home
 order: 1
 ---
 
+
+{% assign page_data = site.data[site.active_lang].home_page %}
+{% assign page_titles = page_data.titles %}
 {% assign faculty = site.data.people.faculty %}
 {% assign postdocs = site.data.people.people | where_exp: "person", "person.position == 'Postdoc'" %}
 {% assign phds = site.data.people.people | where_exp: "person", "person.position == 'PhD'" %}
@@ -21,52 +24,24 @@ order: 1
         <div class="home-content-section home-content-intro">
             <img class="home-img" src="/assets/images/geodes_group_2023_2024.JPG" />
             <p class="bare">
-                GEODES is the <strong>software engineering</strong> research group of the 
-                <a class="link" href="https://diro.umontreal.ca/english/home">Department of Computer Science and Operations Research (DIRO)</a> at the University of Montreal.
-                Growing in numbers, our group is currently led by <strong>{{faculty|size}} professors</strong>: 
-                {% for prof in faculty %}
-                    <a class="link prof-link" href="{{prof.url}}" target="_blank">{{ prof.name | fullName }}</a>,
-                {% endfor %}
-                and counts {{site.data.people.people | size }} students and researchers.
-                <br>
-                Our research spans through the whole software engineering lifecycle, with a special emphasis on the requirements,
-                design, development, and maintenance phases. 
-                <!-- With the recent advancements in artificial intelligence (AI), we are currently looking at
-                various forms of AI integration in software engineering. -->
+                {% assign ok = "home/home-intro." | append: site.active_lang | append: ".html" %}
+                {% include {{ok}} %}
             </p>
         </div>
 
         <div class="home-content-section home-content-theme">
-            <h3 class="section-title">Focus areas</h3>
+            <h3 class="section-title">{{page_titles.focus_areas}}</h3>
             <ul class="bare-list focus-areas">
+                {% for focus_area in page_data.focus_areas %}
                 <li class="focus-area">
-                    <h4 class="focus-area-title">Requirements &amp; Design</h4>
+                    <h4 class="focus-area-title">{{focus_area.title}}</h4>
                     <ul class="bare-list focus-area-themes">
-                        <li class="focus-area-theme">Goal modeling</li>
-                        <li class="focus-area-theme">Design-time uncertainty</li>
-                        <li class="focus-area-theme">Product lines</li>
-                        <li class="focus-area-theme">Software rationale</li>
+                        {% for theme in focus_area.themes %}
+                        <li class="focus-area-theme">{{theme}}</li>
+                        {% endfor %}
                     </ul>
                 </li>
-                <li class="focus-area">
-                    <h4 class="focus-area-title">Modeling &amp; Simulation</h4>
-
-                    <ul class="bare-list focus-area-themes">
-                        <li class="focus-area-theme">Domain-specific languages</li>
-                        <li class="focus-area-theme">Collaborative modeling</li>
-                        <li class="focus-area-theme">Simulation-based design</li>
-                        <li class="focus-area-theme">Digital twins</li>
-                    </ul>
-                </li>
-                <li class="focus-area">
-                    <h4 class="focus-area-title">AI &amp; Optimization</h4>
-                    <ul class="bare-list focus-area-themes">
-                        <li class="focus-area-theme">Code synthesis</li>
-                        <li class="focus-area-theme">AI-powered assistance</li>
-                        <li class="focus-area-theme">Pattern mining</li>
-                        <li class="focus-area-theme">Recommender systems</li>
-                    </ul>
-                </li>
+                {% endfor %}
             </ul>
             <img src="/images/word_cloud.png" class="img-word-cloud" />
         </div>
@@ -78,23 +53,10 @@ order: 1
 
 <article class="home-about">
     <div class="content-wrapper">
-        <h3 class="section-title">Our history &ndash; <em>the short version</em></h3>
+        <h3 class="section-title">{{page_data.titles.history}}</h3>
     
         <p>
-            GEODES was founded as part of DIRO in 1992. It was then called GÉLO and changed to GEODES in 2005. 
-            Since then, more than 30 students have obtained a PhD degree from the group, and over 100 students
-            have graduated with a Master's degree. Many of these students are professors in Quebec, Canada, and
-            around the world (ÉTS, Laval, Polytechnique, UQAM, Ottawa, DePaul, Houston, Indiana, Michigan, United Arab Emirates, etc.),
-            and others hold key positions at large tech companies.
-            <br />
-            GEODES is a very active research group with over 20 publications per year in journals, conference proceedings, 
-            and book chapters. The group has developed strong connections with local SMEs and large industrial groups, 
-            leading to frequent collaborations and projects.
-            <br />
-            We are active members of our extended scientific community. Recently, we have organized the 23rd and
-            25th editions of the
-            <a class="link" href="http://www.modelsconference.org/">ACM/IEEE International Conference on Model Driven Engineering
-                Languages and Systems (MODELS)</a>.
+            {{page_data.history}}
         </p>
     </div>
 </article>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "SEMTL meeting at Station Biologiques des Laurentides"
+lang: en
 date:   2023-09-09 15:28:00 -0400
 categories: news
 excerpt_separator: <!--more-->

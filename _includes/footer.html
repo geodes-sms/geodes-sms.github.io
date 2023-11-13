@@ -1,3 +1,5 @@
+{%- assign i18n = site.data[site.active_lang].strings -%}
+
 <footer class="site-footer">
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
@@ -8,7 +10,7 @@
                 {% for link in site.footer_navigation %}
                     {% assign url = page.url|remove:'index.html' %}
                     <li class="footer-menu-item">
-                        <a class="bare-link footer-menu-link" href="{{link.url}}">{{link.title}}</a>
+                        <a class="bare-link footer-menu-link" href="{{link.url}}">{{i18n.navigation[link.title] | default: link.title}}</a>
                     </li>
                 {% endfor %}
             </ul>
@@ -22,15 +24,19 @@
             </p>
           
             <p class="site-footer-contact">
-                <span class="label">Contact us at</span> <a href="mailto:geodes@iro.umontreal.ca">geodes@iro.umontreal.ca</a> <br>
-                <span class="label">Follow us on Twitter</span> <a href="https://twitter.com/UMontrealGEODES" target="_blank">@UMontrealGEODES</a>
+                <span class="label">
+                    {{i18n.contact_us | default: "Contact us at"}}
+                </span> <a href="mailto:geodes@iro.umontreal.ca">geodes@iro.umontreal.ca</a> <br>
+                <span class="label">
+                    {{i18n.follow_us | default: "Follow us on"}} Twitter
+                </span> <a href="https://twitter.com/UMontrealGEODES" target="_blank">@UMontrealGEODES</a>
             </p>
         </div>
     </div>
 
     <div class="site-footer-end content-wrapper">
         <p class="site-footer-maintenance">
-            Maintenu par: <a class="bare-link" href="mailto:louis.edouard.lafontant@umontreal.ca" target="_blank">Louis-Edouard LAFONTANT</a>
+            {{i18n.maintained_by | default: "Maintained by"}}: <a class="bare-link" href="mailto:louis.edouard.lafontant@umontreal.ca" target="_blank">Louis-Edouard LAFONTANT</a>
         </p>
         <p class="site-footer-copyright">&copy; {{ site.time | date: '%Y' }}, <strong>GEODES</strong></p>
     </div>

@@ -1,0 +1,37 @@
+titles:
+  upcoming_seminars: Séminaires à venir
+  focus_areas: Champs d'intérêt
+  news: Nouvelles
+  history: Notre histoire &ndash; <em>version courte</em>
+focus_areas:
+  - title: Exigences &amp; Conception
+    themes:
+      - Modélisation de buts
+      - Incertitude durant la conception
+      - Gamme de produits
+      - Justification du logiciel
+  - title: Modélisation &amp; Simulation
+    themes:
+      - Langage dédié
+      - Modélisation collaborative
+      - Conception basée sur la simulation
+      - Jumeau numérique
+  - title: IA &amp; Optimisation
+    themes:
+      - Synthèse de programmes
+      - Assistance basée sur l'IA
+      - Exploration de séquence
+      - Système de recommandation
+history: >
+  Le GEODES a été fondé au sein du DIRO EN 1992. Initialement appelé GÉLO, le groupe changea de nom pour GEODES en 2005.
+  Depuis lors, plus de 30 étudiants ont obtenu leur doctorat, et plus de 100 étudiants
+  ont obtenu leur maitrise. Plusieurs de ces étudiants sont aujourd'hui des professeurs au Québec,
+  au Canada, et ailleurs dans le monde (ÉTS, Laval, Polytechnique, UQAM, Ottawa, DePaul, Houston, Indiana, Michigan, United Arab Emirates, etc),
+  et d'autres occupent des postes clés dans de grandes entreprises de technologie.
+  <br />
+  Le GEODES est un groupe de recherche très actif, publiant plus de 20 articles par année dans des journaux, des conférences,
+  et des chapitres de livre. Le groupe partage aussi des liens étroits avec des PMEs et de grands groupes industriels, donnant souvent lieu à des 
+  collaborations et projets. 
+  <br />
+  Nous sommes aussi des membres actifs dans la grande communauté scientifique. Récemment, nous avons organisés la 23e et 25e édition 
+  de <a class="link" href="http://www.modelsconference.org/">ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)</a>.

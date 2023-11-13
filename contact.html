@@ -5,15 +5,16 @@ permalink: /contact
 order: 15
 ---
 
+{% assign i18n = site.data[site.active_lang].contact_page %}
+
 <div class="content-wrapper" style="padding-bottom: 24px;">
-    <h1 class="page-title">Contact</h1>
+    <h1 class="page-title">{{ i18n.title | default: "Contact" }}</h1>
     <p class="page-intro">
-        You will find us on the <strong>second floor of Pavillon André-Aisenstadt</strong>. Don't be afraid to knock. <br>
-        For a general message, email us at <a href="mailto:geodes@iro.umontreal.ca">geodes@iro.umontreal.ca</a>
+        {{ i18n.intro }}
     </p>
 
     <section class="contact-section">
-        <h2 class="section-title">Professors</h2>
+        <h2 class="section-title">{{ i18n.professor_title | default: "Professors" }}</h2>
         <ul class="bare-list contact-professors">
             {% for prof in site.data.people.faculty %}
                 <li class="contact-professor">
@@ -30,16 +31,16 @@ order: 15
             
         </ul>
     
-        <h3 class="paragraph-title">Student labs</h3>
+        <h3 class="paragraph-title">{{ i18n.student_lab_title | default: "Student labs" }}</h3>
         <ul class="bare-list contact-labs">
-            <li class="contact-lab dash"><span class="label">The <q>big lab</q></span>2238, Pav. André-Aisenstadt</li>
-            <li class="contact-lab dash"><span class="label">The <q>small lab</q></span>2352, Pav. André-Aisenstadt</li>
+            <li class="contact-lab dash"><span class="label">{{ i18n.big_lab }}</span>2238, Pav. André-Aisenstadt</li>
+            <li class="contact-lab dash"><span class="label">{{ i18n.small_lab }}</span>2352, Pav. André-Aisenstadt</li>
         </ul>
     </section>
 
 
     <section class="contact-section">
-        <h2 class="section-title">Address</h2>
+        <h2 class="section-title">{{ i18n.address_title | default: "Address" }}</h2>
         <p>
             Département d'informatique et de recherche opérationnelle<br />
             Université de Montréal<br />

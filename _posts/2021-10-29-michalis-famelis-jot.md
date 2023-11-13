@@ -2,6 +2,7 @@
 layout: post
 title:  "Michalis Famelis joining the editorial board of JOT"
 date:   2021-10-29 13:00:00 -0400
+lang: en
 categories: news
 excerpt_separator: <!--more-->
 ---

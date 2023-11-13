@@ -2,6 +2,7 @@
 layout: post
 title:  "Sanaa Alwidian joining Ontario Tech as tenure-track faculty"
 date:   2021-05-20 19:50:00 -0400
+lang: en
 categories: news
 excerpt_separator: <!--more-->
 ---

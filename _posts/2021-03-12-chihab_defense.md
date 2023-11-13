@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Chihab Mokaddem has successfully defended his PhD thesis"
+title:  Chihab Mokaddem has successfully defended his PhD thesis
 date:   2021-03-12 21:02:07 -0500
+lang: en
 categories: phd-defense
 excerpt_separator: <!--more-->
 ---

@@ -1,0 +1,11 @@
+Le GEODES est le groupe de recherche dédié au <strong>génie logiciel</strong> au 
+<a class="link" href="https://diro.umontreal.ca/english/home">Département d'informatique et de recherche opérationnelle (DIRO)</a> 
+à l'Université de Montréal.
+En pleine croissance, notre groupe est présentement dirigé par <strong>{{faculty|size}} professeurs</strong>: 
+{% for prof in faculty %}
+    <a class="link prof-link" href="{{prof.url}}" target="_blank">{{ prof.name | fullName }}</a>,
+{% endfor %}
+et compte {{site.data.people.people | size }} étudiants and chercheurs.
+<br>
+Nos sujets de recherche couvre tout le spectrum du génie logiciel, avec un emphase sur les exigences,
+la conception, l'implémentation, et les phases de maintenance. 

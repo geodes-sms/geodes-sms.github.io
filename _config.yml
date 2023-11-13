@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -26,22 +26,35 @@ email: genielog@iro.umontreal.ca
 #  C.P. 6128 Succursale Centre-ville
 #  Montréal (QC) CANADA H3C 3J7
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://geodes.iro.umontreal.ca/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: umontrealgeodes
-github_username:  geodes-sms
+github_username: geodes-sms
 address: |-
   Département d'informatique et de recherche opérationnelle
   Université de Montréal
   C.P. 6128 Succursale Centre-ville
   Montréal (QC) CANADA H3C 3J7
 # show_excerpts: true
-
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-polyglot
+
+languages: ["en", "fr"]
+
+lang_vars:
+  en: English
+  fr: Français
+
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: false
+
+sass:
+  sourcemap: never
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -64,39 +77,39 @@ plugins:
 #   - vendor/ruby/
 
 site-css:
-- "/assets/css/normalize.css"
-- "/assets/css/base.css"
-- "/assets/css/style-geodes.css"
-- "/assets/css/events.css"
+  - "/assets/css/normalize.css"
+  - "/assets/css/base.css"
+  - "/assets/css/style-geodes.css"
+  - "/assets/css/events.css"
 
 navigation:
-- title: Home
-  url: /
-- title: People
-  url: /people
-- title: Research
-  subpages:
-    - title: Publications
-      url: /publications
-    - title: Projects
-      url: /projects
-    - title: Tools
-      url: /tools
-- title: Events
-  subpages:
-    - title: Seminar
-      url: /events/seminar
-    - title: Research Day
-      url: /events/research-day-and-symposium-2022
-- title: Teaching
-  url: /teaching
-- title: Contact
-  url: /contact
+  - title: Home
+    url: /
+  - title: People
+    url: /people
+  - title: Research
+    subpages:
+      - title: Publications
+        url: /publications
+      - title: Projects
+        url: /projects
+      - title: Tools
+        url: /tools
+  - title: Events
+    subpages:
+      - title: Seminar
+        url: /events/seminar
+      - title: Research Day
+        url: /events/research-day-and-symposium-2022
+  - title: Teaching
+    url: /teaching
+  - title: Contact
+    url: /contact
 
 footer_navigation:
-- title: People
-  url: /people
-- title: Seminar
-  url: /events/seminar
-- title: Publications
-  url: /publications
+  - title: People
+    url: /people
+  - title: Seminar
+    url: /events/seminar
+  - title: Publications
+    url: /publications

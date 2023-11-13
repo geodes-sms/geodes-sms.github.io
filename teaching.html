@@ -6,12 +6,14 @@ id: teaching
 order: 8
 ---
 
+{% assign i18n = site.data.teaching_page %}
+
 <div class="content-wrapper">
     <header>
-        <h1 class="page-title">Teaching</h1>
+        <h1 class="page-title">{{ i18n.title | default: "Teaching" }}</h1>
         
         <p class="page-intro">
-            We teach undergraduate and graduate courses offered in the DIRO programs.
+            {{ i18n.intro }}
         </p>
     </header>
     
@@ -19,7 +21,8 @@ order: 8
 
     {% for program in courses_by_program %}    
         <section class="teaching-section">
-            <h3 class="teaching-section-title">{{program.name}} courses</h3>
+            {% assign title_key =  program.name | downcase | append: "_title" %}
+            <h3 class="teaching-section-title">{{i18n[title_key]}}</h3>
 
             {% assign courses = program.items | sort: "code" %}
             <ul class="bare-list courses">

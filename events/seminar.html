@@ -5,9 +5,10 @@ permalink: /events/seminar
 order: 45
 ---
 
+{% assign i18n = site.data.seminar_page %}
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
-{% assign pastcurrentseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" | where_exp: "seminar", "seminar.season == 'current'" | sort: 'date' | reverse %}
-{% assign pastoldseason = site.data.events.seminars  | where_exp: "seminar", "seminar.status == 'done'" | where_exp: "seminar", "seminar.season == 1" | sort: 'date' | reverse %}
+{% assign pastcurrentseason = site.data.events.seminars | recent: 200, "date" %}
+{% assign pastoldseason = site.data.events.seminars  | past: 200, "date" | sort: 'date' | reverse %}
 
 
 <div class="content-wrapper">
@@ -30,8 +31,7 @@ order: 45
     
         
         <p class="page-intro">
-            The GEODES Seminar aims to bring together members of the group in a semi-formal setting with a semi-regular timing.<br/>
-            We'd especially love to see students at all levels reporting their progress, entertain presentations on core or adjacent topics, host dry-runs before conferences, etc. <br>
+            {{ i18n.intro }}
             <!-- These events follow an <strong>in-person</strong> format. By that, we hope to re-establish the everyday social aspects of the research group in a post-COVID world. -->
         </p>
     
@@ -47,10 +47,10 @@ order: 45
     </header>
     
     <section class="seminar-section">
-        <h1 class="seminar-section-title">Upcoming talks</h1>
+        <h1 class="seminar-section-title">{{ i18n.upcoming_talk_title | default: "Upcoming talks" }}</h1>
         
         {% if upcoming.size == 0 %}
-            <p class="talk-description">There are no upcoming events scheduled currently. Check back later.</p>
+            <p class="talk-description">{{ i18n.no_events | default: "There are no upcoming events scheduled currently. Check back later."}}</p>
         {% else %}
         <ul class="bare-list talks">
             {% for seminar in upcoming %}
@@ -93,7 +93,7 @@ order: 45
                                     <a class="link cal-link" href="/assets/cals/{{seminar.cal_link}}" title="Add the event to your calendar">
                                         <span class="talk-date">
                                             <img class="ico ico-cal" src="/assets/images/icon-calendar.svg" alt="Calendar icon">
-                                            <span class="talk-date-date">{{seminar.date | date: "%A, %B %d, %Y" }}</span>
+                                            <span class="talk-date-date">{{seminar.date | locale_date: site.active_lang }}</span>
                                             <span class="talk-date-time">@{{seminar.time}}</span>
                                         </span>
                                     </a>
@@ -119,7 +119,7 @@ order: 45
     </section>
     
     <section class="seminar-section">
-        <h1 class="seminar-section-title">Previous talks this season</h1>
+        <h1 class="seminar-section-title">{{ i18n.previous_talk_title | default: "Previous talks this season" }}</h1>
     
         <ul class="bare-list previous-talks">
             {% for seminar in pastcurrentseason %}
@@ -154,7 +154,7 @@ order: 45
     </section>
     
     <section class="seminar-section">
-        <h1 class="seminar-section-title">Previous talks in previous seasons</h1>
+        <h2 class="seminar-section-title">{{ i18n.ancient_talk_title | default: "Previous talks in previous seasons" }}</h2>
     
         <ul class="bare-list previous-talks">
             {% for seminar in pastoldseason %}

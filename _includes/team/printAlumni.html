@@ -1,3 +1,4 @@
+{% assign i18n = site.data[site.active_lang].people_page %}
 {% assign profsAlumni = site.data.people.alumni2.professors | where_exp: "person", "person.position == 'professor'" | sort: "name" %}
 {% assign visitingProfsAlumni = site.data.people.alumni2.professors | where_exp: "person", "person.position == 'visiting professor'" | sort: "name" %}
 {% assign postdocsAlumni = site.data.people.alumni2.postdocs | sort: "name" %}
@@ -13,7 +14,7 @@
 
 <section class="content-wrapper alumni-section">
     <section class="alumni-subsection">
-        <h2 class="section-title">Former professors</h2>
+        <h2 class="section-title">{{ i18n.former_professor_section_title | default: "Former professors" }}</h2>
         <ul class="bare-list prof-alumnis">
             {% for person in {{profsAlumni}} %}
                 <li class="prof-alumni">
@@ -31,10 +32,10 @@
     </section>
     
     <section class="alumni-subsection">
-        <h3 class="section-title">Alumni</h3>
+        <h3 class="section-title">{{ i18n.alumni_section_title | default: "Alumni" }}</h3>
     
         <div class="section-group">
-            <h4 class="group-title">Postdoctoral</h4>
+            <h4 class="group-title">{{ i18n.postdoctoral_title | default: "Postdoctoral" }}</h4>
             <ul class="bare-list student-alumnis student-alumnis--postdoc">
                 {% for person in {{postdocsAlumni}} %}
                     <li class="student-alumni">
@@ -45,7 +46,7 @@
         </div>
         
         <div class="section-group">
-            <h4 class="group-title">PhD</h4>
+            <h4 class="group-title">{{ i18n.phd_title | default: "PhD" }}</h4>
             <ul class="bare-list student-alumnis student-alumnis--phd">
                 {% for person in {{phdsAlumni}} %}
                     <li class="student-alumni">
@@ -56,7 +57,7 @@
         </div>
      
         <div class="section-group">
-            <h4 class="group-title">Master's</h4>
+            <h4 class="group-title">{{ i18n.master_title | default: "Master's" }}</h4>
             <ul class="bare-list student-alumnis student-alumnis--master">
                 {% for person in {{mscsAlumni}} %}
                     <li class="student-alumni">

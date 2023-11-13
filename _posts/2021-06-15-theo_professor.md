@@ -2,6 +2,7 @@
 layout: post
 title:  "Théo La Calvar joining IMT-Atlantique as a permanent associate professor"
 date:   2021-06-15 09:29:00 -0400
+lang: en
 categories: news
 excerpt_separator: <!--more-->
 ---

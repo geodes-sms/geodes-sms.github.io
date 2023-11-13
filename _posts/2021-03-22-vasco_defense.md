@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Vasco Sousa has successfully defended his PhD thesis"
+title:  Vasco Sousa has successfully defended his PhD thesis
 date:   2021-03-22 21:02:07 -0500
+lang: en
 categories: phd-defense
 excerpt_separator: <!--more-->
 ---

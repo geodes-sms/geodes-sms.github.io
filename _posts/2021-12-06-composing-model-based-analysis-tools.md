@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "GEODES contributes two chapters to the book \"Composing Model-Based Analysis Tools\""
+lang: en
 date:   2021-12-06 11:22:00 -0400
 categories: news
 excerpt_separator: <!--more-->

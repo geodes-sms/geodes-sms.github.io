@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Houari Sahraoui received a Ten-year Most Influential Paper award"
+title:  Houari Sahraoui received a Ten-year Most Influential Paper award
 date:   2021-03-05 21:02:07 -0500
+lang: en
 categories: awards
 excerpt_separator: <!--more-->
 ---

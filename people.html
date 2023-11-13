@@ -6,6 +6,7 @@ id: people
 order: 2
 ---
 
+{% assign i18n = site.data[site.active_lang].people_page %}
 {% assign faculty = site.data.people.faculty%}
 {% assign postdocs = site.data.people.people | where_exp: "person", "person.category == 'Postdoc'" | sort: "name"%}
 {% assign visitors = site.data.people.people | where_exp: "person", "person.category == 'visiting'" | sort: "name"%}
@@ -14,7 +15,7 @@ order: 2
 {% assign mscs = site.data.people.people | where_exp: "person", "person.category == 'MSc'" | sort: "name"%}
 
 <section class="content-wrapper professor-section">
-    <h2 class="section-title">Faculty professors</h2>
+    <h2 class="section-title">{{ i18n.professor_section_title | default: "Faculty professors" }}</h2>
     
     <div class="bare-list professors">
         {% for item in faculty %}
@@ -24,7 +25,7 @@ order: 2
 </section>
 
 <section class="content-wrapper postdoc-section">
-    <h2 class="section-title">Postdocs & Researchers</h2>
+    <h2 class="section-title">{{ i18n.postdoc_section_title | default: "Postdocs & Researchers" }}</h2>
     
     <div class="bare-list postdocs">
 		{% for postdoc in postdocs %}
@@ -34,7 +35,7 @@ order: 2
 </section>
 
 <section class="content-wrapper phd-section">
-	<h2 class="section-title">PhD students</h2>
+	<h2 class="section-title">{{ i18n.phd_section_title | default: "PhD students" }}</h2>
 	<div class="phd-students">
 	{% for year in phds_by_year %}	
 		{% assign phds = year.items | sort: "name" %}
@@ -45,12 +46,18 @@ order: 2
 	</div>
 </section>
 
+<section class="content-wrapper master-section">
+	<h2 class="section-title">{{ i18n.master_section_title | default: "Master's students" }}</h2>
+	<ul class="bare-list master-students">
+		{% for msc in mscs %}
+			{% include team/card-student-master.html item=msc %}
+		{% endfor %}
+	</ul>
+</section>
+
 <!-- {% if collaborators and collaborators.size != 0 %}
 	{% include team/printPeople-circles.html people=collaborators title="Visiting Scholars and Scientific collaborators" %}
 {% endif %} -->
 
-{% if mscs and mscs.size != 0 %}
-	{% include team/printMaster.html mscs=mscs %}
-{% endif %}
 
 {% include team/printAlumni.html %}

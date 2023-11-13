@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Recently accepted papers in international journals and conference proceedings"
+lang: en
 date:   2021-12-13 15:28:00 -0400
 categories: news, accepted-papers
 excerpt_separator: <!--more-->

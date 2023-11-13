@@ -1,0 +1,30 @@
+<ul class="bare-list lang-switcher">
+{% for lang in site.languages %}
+    {% assign lang_name = site.lang_vars[lang] %}
+    
+    {% if lang == site.active_lang %}
+    <li class="lang active">
+        <span class="lang-content">
+            <span class="short">{{lang}}</span>
+            <span class="long">{{ lang_name }}</span>
+        </span>
+    </li>
+    {% else %}
+        {% if lang == site.default_lang %}
+            <li class="lang">
+                <a class="bare-link lang-content lang-link" {% static_href %}href="{{site.baseurl}}{{ page.url }}"{% endstatic_href %}>
+                    <span class="short">{{lang}}</span>
+                    <span class="long">{{ lang_name }}</span>
+                </a>
+            </li>
+        {% else %}
+            <li class="lang">
+                <a class="bare-link lang-content lang-link" {% static_href %}href="{{site.baseurl}}/{{ lang }}{{ page.url }}"{% endstatic_href %}>
+                    <span class="short">{{lang}}</span>
+                    <span class="long">{{ lang_name }}</span>
+                </a>
+            </li>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</ul>

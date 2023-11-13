@@ -2,6 +2,7 @@
 layout: post
 title:  "Four accepted papers at the co-located and satellite events of this year's MODELS conference"
 date:   2021-08-31 10:51:00 -0400
+lang: en
 categories: news
 excerpt_separator: <!--more-->
 ---

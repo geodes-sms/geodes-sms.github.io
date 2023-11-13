@@ -2,6 +2,7 @@
 layout: post
 title:  "Two accepted papers for this year's MODELS conference"
 date:   2021-07-12 13:02:00 -0400
+lang: en
 categories: news
 excerpt_separator: <!--more-->
 ---

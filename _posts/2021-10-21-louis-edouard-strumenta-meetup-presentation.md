@@ -2,6 +2,7 @@
 layout: post
 title:  "Louis-Edouard Lafontant's presentation at the Strumenta Community's meetup"
 date:   2021-10-21 10:00:00 -0400
+lang: en
 categories: news
 excerpt_separator: <!--more-->
 ---

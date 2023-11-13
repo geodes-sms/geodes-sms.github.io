@@ -1,0 +1,13 @@
+GEODES is the <strong>software engineering</strong> research group of the 
+<a class="link" href="https://diro.umontreal.ca/english/home">Department of Computer Science and Operations Research (DIRO)</a> 
+at the University of Montreal.
+Growing in numbers, our group is currently led by <strong>{{faculty|size}} professors</strong>: 
+{% for prof in faculty %}
+    <a class="link prof-link" href="{{prof.url}}" target="_blank">{{ prof.name | fullName }}</a>,
+{% endfor %}
+and counts {{site.data.people.people | size }} students and researchers.
+<br>
+Our research spans through the whole software engineering lifecycle, with a special emphasis on the requirements,
+design, development, and maintenance phases. 
+<!-- With the recent advancements in artificial intelligence (AI), we are currently looking at
+                various forms of AI integration in software engineering. -->

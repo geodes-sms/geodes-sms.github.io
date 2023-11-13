@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Accepted paper in SoSyM on design pattern detection in model transformations"
+lang: en
 date:   2021-11-15 13:00:00 -0400
 categories: news
 excerpt_separator: <!--more-->
