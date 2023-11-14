@@ -1,7 +1,7 @@
 {% assign page_titles = site.data[site.active_lang].home_page.titles %}
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
-
+{%- assign i18n = site.data[site.active_lang].strings -%}
 
 {% if upcoming.size > 0 %}
     <h2 class="section-title">{{page_titles.upcoming_seminars | default: "Upcoming seminars" }}</h2>
@@ -62,7 +62,7 @@
             </div>
 
             {% if post.content.size > post.excerpt.size %}
-                <a class="link readmore-link" href="{{ post.url | relative_url }}">Read full post</a>
+                <a class="link readmore-link" href="{{ post.url | relative_url }}">{{i18n.read_more | default: "Read full post"}}</a>
             {% endif %}
         </li>
     {%- endfor -%}
