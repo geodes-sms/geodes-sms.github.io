@@ -1,3 +1,4 @@
+{% assign i18n = site.data[site.active_lang].people_page %}
 {% assign professor = include.item %}
 {% assign image_url = professor.image | default: "person.jpg" %}
 
@@ -10,7 +11,7 @@
             {% else %}
                 {{professor.name|fullName}}
             {% endif %}
-            <span class="card-name-title">{{professor.position}}</span>
+            <span class="card-name-title">{{professor.position[site.active_lang]}}</span>
         </h3> 
         <p class="bare card-contact">
             <a class="link" href="mailto:{{professor.email}}">{{professor.email}}</a>

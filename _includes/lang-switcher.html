@@ -1,5 +1,7 @@
+{% assign languages = site.languages | reverse %}
+
 <ul class="bare-list lang-switcher">
-{% for lang in site.languages %}
+{% for lang in languages %}
     {% assign lang_name = site.lang_vars[lang] %}
     
     {% if lang == site.active_lang %}

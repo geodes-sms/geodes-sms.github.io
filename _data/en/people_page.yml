@@ -4,3 +4,12 @@ postdoc_section_title: Postdocs & Chercheurs
 phd_section_title: Étudiants au doctorat
 master_section_title: Étudiants à la maitrise
 alumni_section_title: Anciens
+
+# Labels
+lbl_supervisor: Supervisor 
+lbl_work_with: Working with 
+
+# Data
+dt_research: Research
+dt_project: Project
+dt_internship: Internship

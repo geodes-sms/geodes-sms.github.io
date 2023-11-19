@@ -1,3 +1,4 @@
+{% assign i18n = site.data[site.active_lang].people_page %}
 {% assign item = include.item %}
 {% assign image_url = item.image | default: "person.jpg" %}
 
@@ -16,7 +17,7 @@
 
     <div class="card-details">
         <span class="master-student-supervisor">
-            <span class="label">Supervisor</span> <strong>{{item.supervisor}}</strong>
+            <span class="label">{{ "Supervisor" | trad: i18n, "lbl" }}</span> <strong>{{item.supervisor}}</strong>
         </span>
 
         <ul class="bare-list student-research-areas font-ui">

@@ -1,6 +1,8 @@
 - name: Sahraoui, Houari
   image: houari.jpg
-  position: Full Professor
+  position: 
+    en: Full Professor
+    fr: Professeur titulaire
   website: http://www.iro.umontreal.ca/~sahraouh/
   email: 	sahraoui@iro.umontreal.ca
   office: 2359, Pav. André-Aisenstadt
@@ -15,7 +17,9 @@
 
 - name: Syriani, Eugene
   image: eugene.jpg
-  position: Full Professor
+  position: 
+    en: Full Professor
+    fr: Professeur titulaire
   website: http://www-labs.iro.umontreal.ca/~syriani/
   email: syriani@iro.umontreal.ca
   office: 2345, Pav. André-Aisenstadt
@@ -31,7 +35,9 @@
 
 - name: Famelis, Michalis
   image: michalis.jpg
-  position: Associate Professor
+  position: 
+    en: Associate Professor
+    fr: Professeur agrégé
   goal: I work to create formal but practical techniques and methods for engineering software. To do this, I draw from disciplines such as formal verification, model-based engineering, and empirical methods. 
   website: https://michalis.famelis.info/
   email: famelis@iro.umontreal.ca

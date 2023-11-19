@@ -353,7 +353,7 @@ table tr:nth-child(odd) {
     display: inline-block;
     cursor: pointer;
     z-index: 10;
-    margin-left: 6px;
+    margin-left: 12px;
 }
 
 .menu-icon {

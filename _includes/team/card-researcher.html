@@ -1,3 +1,4 @@
+{% assign i18n = site.data[site.active_lang].people_page %}
 {% assign item = include.item %}
 {% assign image_url = item.image | default: "person.jpg" %}
 
@@ -10,14 +11,14 @@
             {% else %}
                 {{item.name|fullName}}
             {% endif %}
-            <span class="card-name-title">{{item.position}}</span>
+            <span class="card-name-title">{{ item.position | trad: i18n, "dt" }}</span>
         </h3>
     </div>
     <p class="card-description">{{item.research_topic}}</p>
 
     <div class="card-details">
         <p class="bare researcher-supervisor">
-            <span class="label">Working with</span> <strong>{{item.supervisor}}</strong>
+            <span class="label">{{ "Working with" | trad: i18n, "lbl" }}</span> <strong>{{item.supervisor}}</strong>
         </p>
 
         <ul class="bare-list student-research-areas font-ui">
