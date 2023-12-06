@@ -1,4 +1,15 @@
 ##### 2023 #####
+- name: Zadahmad, Manouchehr
+  image: manouchehr.jpg
+  position: PhD
+  category: PhD
+  email: manouchehr.zadahmad.jafarlou@umontreal.ca
+  website: https://www.linkedin.com/in/manouchehr-zadahmad/
+  start: 2017
+  end: 2023
+  supervisor: Eugene SYRIANI
+  thesis: Domain-specific version control systems
+
 - name: Archambault, Pascal
   image: 
   position: MSc

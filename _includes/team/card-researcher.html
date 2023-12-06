@@ -14,7 +14,7 @@
             <span class="card-name-title">{{ item.position | trad: i18n, "dt" }}</span>
         </h3>
     </div>
-    <p class="card-description">{{item.research_topic}}</p>
+    <p class="card-description">{{item.research_topic[site.active_lang]}}</p>
 
     <div class="card-details">
         <p class="bare researcher-supervisor">

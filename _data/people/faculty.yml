@@ -6,8 +6,12 @@
   website: http://www.iro.umontreal.ca/~sahraouh/
   email: 	sahraoui@iro.umontreal.ca
   office: 2359, Pav. André-Aisenstadt
-  goal: My main research interests are concerned with automatization in software engineering (SE) and the application of artificial intelligence (AI) techniques to software engineering. 
-  segment: AI & Optimization
+  goal: 
+    en: My main research interests are concerned with automatization in software engineering (SE) and the application of artificial intelligence (AI) techniques to software engineering. 
+    fr: Mes principaux intérêts de recherche se concentrent sur l'automatisation dans le génie logiciel (GL) et l'application des techniques d'intelligence artificielle (IA) au génie logiciel.
+  segment: 
+    en: AI & Optimization
+    fr: IA & Optimisation
   research_areas:
     - Automated software engineering
     - Artificial intelligence
@@ -23,8 +27,12 @@
   website: http://www-labs.iro.umontreal.ca/~syriani/
   email: syriani@iro.umontreal.ca
   office: 2345, Pav. André-Aisenstadt
-  goal: My main research goal is to provide tools and techniques for software engineers and experts in other science and engineering disciplines that improve their productivity and help them output artifacts of high quality.
-  segment: Modeling & Simulation
+  goal: 
+    en: My main research goal is to provide tools and techniques for software engineers and experts in other science and engineering disciplines that improve their productivity and help them output artifacts of high quality.
+    fr: Mon objectif de recherche est de fournir des outils et techniques qui augmentent la productivité des ingénieurs logiciel et experts dans d'autres disciplines scientifiques et de génie, et de les aider à produire des artéfacts de haute qualité.
+  segment: 
+    en: Modeling & Simulation
+    fr: Modélisation & Simulation
   research_areas:
     - Domain-Specific Modeling
     - Model transformation
@@ -38,11 +46,15 @@
   position: 
     en: Associate Professor
     fr: Professeur agrégé
-  goal: I work to create formal but practical techniques and methods for engineering software. To do this, I draw from disciplines such as formal verification, model-based engineering, and empirical methods. 
+  goal: 
+    en: I work to create formal but practical techniques and methods for engineering software. To do this, I draw from disciplines such as formal verification, model-based engineering, and empirical methods. 
+    fr: Je travaille à la création de techniques pratiques et de méthodes formelles pour l'ingénierie de logiciels. Pour ce faire, je m'inspire de disciplines telles que la vérification formelle, l'ingénierie dirigée par les modèles et les méthodes empiriques. 
   website: https://michalis.famelis.info/
   email: famelis@iro.umontreal.ca
   office: 2343, Pav. André-Aisenstadt
-  segment: Requirements & Design
+  segment: 
+    en: Requirements & Design
+    fr: Exigences & Conception
   research_areas:
   - Formal methods
   - Empirical software engineering

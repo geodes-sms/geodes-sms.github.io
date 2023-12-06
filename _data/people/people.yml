@@ -8,7 +8,8 @@
   length: 6 months
   supervisor: Houari SAHRAOUI
   research_topic:  
-    I'm interested in developing recommendation systems for software engineering, mining OSS repositories, and applying cutting-edge ML/AI strategies to automate SE tasks.
+    en: I'm interested in developing recommendation systems for software engineering, mining OSS repositories, and applying cutting-edge ML/AI strategies to automate SE tasks.
+    fr: Je m'intéresse au développement de systèmes de recommandation pour le génie logiciel, à la fouille de répertoire <em>open source</em> et à l'application de stratégies de pointe d'IA et d'apprentissage automatique pour automatiser les tâches de génie logiciel.
   research_areas:
     - Recommender systems
     - MDE
@@ -22,26 +23,13 @@
   start: 2023
   supervisor: Houari Sahraoui and Michalis Famelis
   research_topic: 
-    I am interested in Artificial Intelligence for Software Engineering (AI4SE), Video Game Software Engineering (VGSE), Software Testing, 
-    Deep Reinforcement Learning, and Empirical Software Engineering.
+    en: I am interested in Artificial Intelligence for Software Engineering (AI4SE), Video Game Software Engineering (VGSE), Software Testing, Deep Reinforcement Learning, and Empirical Software engineering.
+    fr: Je m'intéresse à l'application de l'intelligence artificielle au génie logiciel (AI4SE), au génie logiciel pour jeux vidéo, aux tests, à l'apprentissage par renforcement profond et au génie logiciel empirique.
   research_areas:
     - AI4SE
     - Video Game Development
     - Software Testing
 
-- name: Zadahmad, Manouchehr
-  image: manouchehr.jpg
-  position: PhD
-  category: PhD
-  email: manouchehr.zadahmad.jafarlou@umontreal.ca
-  website: https://www.linkedin.com/in/manouchehr-zadahmad/
-  start: 2017
-  supervisor: Eugene SYRIANI
-  thesis: Domain-specific version control systems
-  research_areas:
-    - MDE
-    - Version control
-    - DSL
 - name: Weyssow, Martin
   image: martin.png
   position: PhD
