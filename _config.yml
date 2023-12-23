@@ -94,12 +94,13 @@ navigation:
         url: /projects
       - title: Tools
         url: /tools
-  - title: Events
-    subpages:
-      - title: Seminar
-        url: /events/seminar
-      - title: Research Day
-        url: /events/research-day-and-symposium-2022
+  - title: Seminar
+    url: /seminar
+    # subpages:
+    #   - title: Seminar
+    #     url: /events/seminar
+    #   - title: Research Day
+    #     url: /events/research-day-and-symposium-2022
   - title: Teaching
     url: /teaching
   - title: Contact
@@ -109,6 +110,6 @@ footer_navigation:
   - title: People
     url: /people
   - title: Seminar
-    url: /events/seminar
+    url: /seminar
   - title: Publications
     url: /publications
