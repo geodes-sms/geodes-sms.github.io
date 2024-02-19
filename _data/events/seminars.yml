@@ -1,3 +1,17 @@
+- date: 2024-02-23
+  season: current
+  time: 13h00
+  location: 3195, Pav. André-Aisenstadt
+  title: "Large Language Models for Code: Introduction and Recent Breakthroughs"
+  short_description: This seminar explores the application of large language models in coding, covering their introduction and recent advancements. It delves into how these models are revolutionizing coding practices and showcases breakthroughs in the field.
+  description: 
+  presenters: 
+    - name: Martin WEYSSOW
+      affiliation: PhD candidate
+      url: https://martin-wey.github.io/
+      photo: https://geodes.iro.umontreal.ca/images/people/martin.jpg
+  status: announced
+
 - date: 2023-12-01
   season: current
   time: 11h30
