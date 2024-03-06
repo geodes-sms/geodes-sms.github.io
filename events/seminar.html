@@ -7,8 +7,8 @@ order: 45
 
 {% assign i18n = site.data.seminar_page %}
 {% assign upcoming = site.data.events.seminars | where_exp: "seminar", "seminar.status != 'done'" | sort: 'date' %}
-{% assign pastcurrentseason = site.data.events.seminars | recent: 200, "date" %}
-{% assign pastoldseason = site.data.events.seminars  | past: 200, "date" | sort: 'date' | reverse %}
+{% assign pastcurrentseason = site.data.events.seminars | recent: 100, "date" %}
+{% assign pastoldseason = site.data.events.seminars  | past: 100, "date" | sort: 'date' | reverse %}
 
 
 <div class="content-wrapper">

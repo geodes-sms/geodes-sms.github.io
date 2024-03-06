@@ -1,8 +1,22 @@
+- date: 2024-03-15
+  season: current
+  time: 13h00
+  location: 3195, Pav. André-Aisenstadt
+  title: AI-Assisted Automated Programing and Automated Program Repair
+  short_description: Join us for a seminar exploring the potential of automated program repair powered by generative AI. Learn how this technology revolutionizes software debugging while addressing key challenges and envisioning future opportunities in AI-based software development.
+  description: Software has become increasingly pervasive, and so have software bugs. Currently, software debugging remains labor-intensive and costly for software developers. In this talk, we will discuss our research in automated program repair, aiming to alleviate the burden on software developers in debugging and repairing software bugs. Specifically, we will focus on how this research is empowered by the recent advancements in generative AI, incorporating fault localization and test generation techniques, and highlighting the key challenges in project-specific knowledge learning, training networks and meaningfully evaluating effectiveness. Finally, we will introduce potential future opportunities in the AI-based software development process. We will also discuss future work to enhance the trustworthiness of AI for software engineering, as well as the creation of collaborative and executable behavioral specifications to guide AI4SE tasks.
+  presenters: 
+    - name: He Ye
+      affiliation: Postdoctoral researcher
+      url: https://heye.me/
+      photo: https://geodes.iro.umontreal.ca/images/people/heye.jpg
+  status: announced
+
 - date: 2024-02-23
   season: current
   time: 13h00
   location: 3195, Pav. André-Aisenstadt
-  title: "Large Language Models for Code: Introduction and Recent Breakthroughs"
+  title: Large Language Models for Code - Introduction and Recent Breakthroughs
   short_description: This seminar explores the application of large language models in coding, covering their introduction and recent advancements. It delves into how these models are revolutionizing coding practices and showcases breakthroughs in the field.
   description: 
   presenters: 
@@ -40,7 +54,7 @@
   status: done
 
 - date: 2023-10-27
-  season: current
+  season: 1
   time: 11h30
   location: 3195, Pav. André-Aisenstadt
   title: "Video Game Software Engineering: Troubles, Techniques, and Tools"
@@ -66,7 +80,7 @@
   status: done
 
 - date: 2023-10-20
-  season: current
+  season: 1
   time: 11h30
   location: 1207, Pav. André-Aisenstadt
   title: Conceptualization and Development of ML-based Recommender Systems for Software Engineering
@@ -88,7 +102,7 @@
   status: done
 
 - date: 2023-03-24
-  season: current
+  season: 1
   time: 11h00
   location: Library, Pav. André-Aisenstadt
   title: Characterizing and building datasets of software repositories
@@ -110,7 +124,7 @@
   status: done
 
 - date: 2023-03-15
-  season: current
+  season: 1
   time: 11h00
   location: PAA3195, Pav. André-Aisenstadt
   title: A Multi-Step Learning Approach to Assist Code Review
