@@ -10,7 +10,7 @@
       affiliation: Postdoctoral researcher
       url: https://heye.me/
       photo: https://geodes.iro.umontreal.ca/images/people/heye.jpg
-  status: announced
+  status: done
 
 - date: 2024-02-23
   season: current
@@ -27,7 +27,7 @@
   status: done
 
 - date: 2023-12-01
-  season: current
+  season: 1
   time: 11h30
   location: 3195, Pav. André-Aisenstadt
   title: Open collaborative data engineering
