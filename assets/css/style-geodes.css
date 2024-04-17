@@ -1313,7 +1313,7 @@ table tr:nth-child(odd) {
 
 @media only screen and (min-width: 42em) {
     .professor {
-        width: 32.5%;   
+        width: 49.5%;   
         margin-bottom: 0;
         margin-right: 0.5%;
     }
@@ -1364,7 +1364,7 @@ table tr:nth-child(odd) {
 
 @media only screen and (min-width: 65em) {
     .professor {
-        width: 32.5%;   
+        width: 49.5%;   
     }
     .researcher {
         margin-right: 1%; margin-bottom: 1vw;
@@ -1382,6 +1382,9 @@ table tr:nth-child(odd) {
 }
 
 @media only screen and (min-width: 85em) {
+    .professor {
+        width: 24.5%;   
+    }
     .phd-student {
         width: 24.5%;
     }

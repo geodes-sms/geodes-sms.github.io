@@ -47,7 +47,7 @@
 
 {%- if site.posts.size > 0 -%}
 <ul class="bare-list news-posts">
-    {%- for post in site.posts limit: 3 -%}
+    {%- for post in site.posts limit: 5 -%}
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
         <li class="news-post">

@@ -1,15 +1,23 @@
 # Titles
-professor_section_title: Professeurs
-postdoc_section_title: Postdocs & Chercheurs
-phd_section_title: Étudiants au doctorat
-master_section_title: Étudiants à la maitrise
-alumni_section_title: Anciens
+professor_section_title: Professors
+postdoc_section_title: Postdocs & researchers
+phd_section_title: Ph.D. students
+master_section_title: M.Sc. students
+former_professor_section_title: Former professors
+alumni_section_title: Former members
+
+postdoctoral_title: Postdoc
+phd_title: Ph.D.
+master_title: M.Sc.
 
 # Labels
 lbl_supervisor: Supervisor 
-lbl_work_with: Working with 
+lbl_working_with: Working with 
 
 # Data
 dt_research: Research
 dt_project: Project
 dt_internship: Internship
+
+dt_postdoctoral_fellow: Postdoctoral researcher
+dt_invited_researcher: Visiting researcher

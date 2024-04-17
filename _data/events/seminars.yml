@@ -1,3 +1,17 @@
+- date: 2024-04-12
+  season: current
+  time: 13h00
+  location: 3195, Pav. André-Aisenstadt
+  title: Embracing Deep Variability For Reproducibility & Replicability
+  short_description: 
+  description: 
+  presenters: 
+    - name: Benoit Combemale
+      affiliation: Full Professor of Software Engineering at the University of Rennes
+      url: https://people.irisa.fr/Benoit.Combemale/
+      photo: https://geodes.iro.umontreal.ca/images/people/benoitc.jpg
+  status: done
+
 - date: 2024-03-15
   season: current
   time: 13h00
