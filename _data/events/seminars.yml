@@ -1,3 +1,45 @@
+- date: 2024-05-31
+  season: current
+  time: 11h00
+  location: 5441, Pav. André-Aisenstadt
+  title: Recent Progress in Neural Program Repair
+  short_description: Neural Program Repair consists of producing software patches with neural networks and recently large language models. We will present an overview of our recent contributions in the space, highlighting the key challenges in designing representations, training networks and meaningfully evaluating effectiveness.
+  description: 
+  presenters: 
+    - name: Martin Monperrus
+      affiliation: Professor of Software Technology at KTH Royal Institute of Technology
+      url: https://www.monperrus.net/martin/
+      photo: https://geodes.iro.umontreal.ca/images/people/martin-monperrus.jpg
+  status: announced
+
+- date: 2024-05-24
+  season: current
+  time: 13h00
+  location: 3195, Pav. André-Aisenstadt
+  title: "The IDEA of Us: Engineering Socially-Aware AI Systems"
+  short_description: Join us for a presentation on IDEA, an adaptive software architecture that enhances cooperation between humans and AI systems using the social identity approach. By understanding group dynamics and leveraging game-theoretic models, IDEA improves the resilience of communities and emergency services during urban mass emergencies. Discover how this innovative system fosters reliable and trustworthy human-AI collaboration.
+  description: "Artificial Intelligence (AI) systems often require interaction and cooperation with humans to achieve their goals.  However, human behaviour is uncertain and complex, and so it can be difficult to reason about it formally. Specifying, designing, implementing, and deploying AI systems able to cooperate with humans is challenging but crucial for reliability and trustworthiness of those AI systems.  In this talk, I will present IDEA: an adaptive software architecture that enables cooperation between humans and autonomous systems, by leveraging in the social identity approach. This approach establishes that group membership drives human behaviour. Identity and group membership are crucial during emergencies, as they influence cooperation among survivors. IDEA systems infer the social identity of surrounding humans, thereby establishing their group membership. By reasoning about groups, we limit the number of cooperation strategies the system needs to explore. IDEA systems select a strategy from the equilibrium analysis of game-theoretic models, that represent interactions between group members and the IDEA system. I will show how this approach can extend AI systems’ capability to enhance the resilience of local communities and emergency services in the aftermath of a mass emergency in an urban area by facilitating their effective cooperation."
+  presenters: 
+    - name: Amel Bennaceur
+      affiliation: Associate Professor at the Open University, UK
+      url: https://amel.me/
+      photo: https://geodes.iro.umontreal.ca/images/people/amel.jpg
+  status: announced
+
+- date: 2024-05-24
+  season: current
+  time: 14h00
+  location: 3195, Pav. André-Aisenstadt
+  title: Extending Scala for Safe Concurrent Programming
+  short_description: Concurrent programming is notorious for hazards such as data races and deadlocks. At the same time, program executions are difficult to reproduce due to various sources of nondeterminism, complicating the debugging of concurrent programs. These challenges have motivated work on ensuring safety statically using type systems. Type-based prevention of data races is a major challenge in the context of object-oriented programming languages due to pervasive mutation and aliasing. In addition, extending the type systems of existing languages is a challenge, preventing recent advances from practical use.
+  description: 
+  presenters: 
+    - name: Philipp Haller
+      affiliation: Associate professor of computer science at KTH Royal Institute of Technology
+      url: https://people.kth.se/~phaller/
+      photo: https://geodes.iro.umontreal.ca/images/people/philipp-haller.jpg
+  status: announced
+
 - date: 2024-04-12
   season: current
   time: 13h00
