@@ -24,7 +24,7 @@
       affiliation: Associate Professor at the Open University, UK
       url: https://amel.me/
       photo: https://geodes.iro.umontreal.ca/images/people/amel.jpg
-  status: announced
+  status: done
 
 - date: 2024-05-24
   season: current
@@ -38,10 +38,10 @@
       affiliation: Associate professor of computer science at KTH Royal Institute of Technology
       url: https://people.kth.se/~phaller/
       photo: https://geodes.iro.umontreal.ca/images/people/philipp-haller.jpg
-  status: announced
+  status: done
 
 - date: 2024-04-12
-  season: current
+  season: 1
   time: 13h00
   location: 3195, Pav. André-Aisenstadt
   title: Embracing Deep Variability For Reproducibility & Replicability
@@ -55,7 +55,7 @@
   status: done
 
 - date: 2024-03-15
-  season: current
+  season: 1
   time: 13h00
   location: 3195, Pav. André-Aisenstadt
   title: AI-Assisted Automated Programing and Automated Program Repair
@@ -69,7 +69,7 @@
   status: done
 
 - date: 2024-02-23
-  season: current
+  season: 1
   time: 13h00
   location: 3195, Pav. André-Aisenstadt
   title: Large Language Models for Code - Introduction and Recent Breakthroughs
