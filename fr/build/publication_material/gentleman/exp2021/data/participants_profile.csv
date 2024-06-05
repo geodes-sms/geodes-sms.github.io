@@ -1,0 +1,23 @@
+﻿Timestamp,AcademicLvl,Occupation,CS_SE_Expertise,CS_SE_Experience,Design_Expertise,Design_Experience,MDE_Expertise,MDE_Experience,ProjEditors_Expertise,ProjEditing_Experience,StartingTool
+2021/06/08 4:45:04 PM AST,Master,Student,Intermediate,4,Intermediate,2,Intermediate,1,I have extensive experience with it,1,Gentleman
+2021/06/10 2:28:46 PM AST,Master,Student,Intermediate,5,Intermediate,3,None,0,Never heard of it,0,Gentleman
+2021/06/10 4:03:30 PM AST,Doctorate,Researcher/Post-doc,Expert,7,Intermediate,1,Knowledgeable,7,Know about it but not used it,0,MPS
+2021/06/10 6:06:21 PM AST,Master,Student,Knowledgeable,5,Knowledgeable,3,Intermediate,2,Know about it but not used it,0,MPS
+2021/06/14 2:37:17 PM AST,Doctorate,Student,Knowledgeable,20,Intermediate,3,Intermediate,6,Know about it but not used it,0,MPS
+2021/06/14 4:14:06 PM AST,Doctorate,Student,Expert,8,Expert,5,Intermediate,1,Know about it but not used it,0,MPS
+2021/06/15 9:56:44 AM AST,Doctorate,Researcher/Post-doc,Knowledgeable,6,Knowledgeable,6,Knowledgeable,4,I have used it occasionally,1,Gentleman
+2021/06/15 2:30:54 PM AST,Doctorate,Researcher/Post-doc,Expert,15,Expert,15,Expert,10,Know about it but not used it,0,Gentleman
+2021/06/16 8:23:29 PM AST,Doctorate,Student,Intermediate,10,Intermediate,5,Intermediate,3,I have extensive experience with it,4,MPS
+2021/06/17 1:11:18 PM AST,Bachelor,Industry,Intermediate,3,Intermediate,5,None,0,Never heard of it,0,MPS
+2021/06/17 2:50:52 PM AST,Doctorate,Student,Knowledgeable,5,Knowledgeable,4,Expert,4,I have used it occasionally,4,MPS
+2021/06/17 6:28:55 PM AST,Master,Industry,Intermediate,5,Knowledgeable,5,Intermediate,2,Never heard of it,0,MPS
+2021/06/18 3:59:30 PM AST,Master,Industry,Knowledgeable,10,Knowledgeable,6,Intermediate,4,Know about it but not used it,0,Gentleman
+2021/06/21 5:35:54 AM AST,Bachelor,Industry,Knowledgeable,15,None,0,None,0,Never heard of it,0,Gentleman
+2021/06/21 5:27:43 PM AST,Doctorate,Industry,Expert,20,Knowledgeable,10,Expert,18,I have extensive experience with it,4,Gentleman
+2021/06/21 8:01:14 PM AST,Master,Industry,Knowledgeable,3,Intermediate,1,None,0,Know about it but not used it,0,Gentleman
+2021/06/22 5:47:10 PM AST,Doctorate,Researcher/Post-doc,Expert,15,Novice,3,Expert,8,I have extensive experience with it,4,MPS
+2021/06/22 8:50:15 PM AST,Bachelor,Industry,None,0,None,0,None,0,Never heard of it,0,MPS
+2021/06/23 12:54:20 PM AST,Doctorate,Industry,Expert,15,Intermediate,15,Expert,15,I am an expert,12,Gentleman
+2021/06/25 1:21:53 PM AST,Bachelor,Industry,None,0,Novice,1,None,0,Know about it but not used it,0,Gentleman
+2021/06/26 1:45:34 PM AST,Bachelor,Industry,Knowledgeable,10,Intermediate,1,Intermediate,2,I have extensive experience with it,2,Gentleman
+2021/06/26 4:00:04 PM AST,Doctorate,Student,Expert,10,Knowledgeable,4,None,0,Never heard of it,0,MPS
