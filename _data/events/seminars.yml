@@ -1,13 +1,13 @@
 - date: 2024-08-21
-  season: current
+  season: 1
   time: 11h00
   location: 3195, Pav. André-Aisenstadt
   title: Verification of Safety-Critical Systems
-  short_description: We explore advanced methods and tools for ensuring the reliability and safety of critical systems in the field of automotive. We will disciss  about formal verification techniques, testing strategies, and industry standards essential for verifying systems where failure is not an option.
+  short_description: We explore advanced methods and tools for ensuring the reliability and safety of critical systems in the field of automotive. We will discuss about formal verification techniques, testing strategies, and industry standards essential for verifying systems where failure is not an option.
   description: 
   presenters: 
     - name: Daniel Varro
-      affiliation: Professor of Software Engineering at Linköping University
+      affiliation: Professor of Software Engineering at Linkoping University
       url: https://liu.se/en/employee/danva91
       photo: https://liu.se/-/media/employeeimages/91/employee_image_danva91.jpeg
   status: done
@@ -27,7 +27,7 @@
   status: done
 
 - date: 2024-05-24
-  season: current
+  season: 1
   time: 13h00
   location: 3195, Pav. André-Aisenstadt
   title: "The IDEA of Us: Engineering Socially-Aware AI Systems"
