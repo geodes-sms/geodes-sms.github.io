@@ -3,7 +3,7 @@
   time: 11h00
   location: 3195, Pav. André-Aisenstadt
   title: Verification of Safety-Critical Systems
-  short_description: 
+  short_description: We explore advanced methods and tools for ensuring the reliability and safety of critical systems in the field of automotive. We will disciss  about formal verification techniques, testing strategies, and industry standards essential for verifying systems where failure is not an option.
   description: 
   presenters: 
     - name: Daniel Varro
