@@ -1,4 +1,18 @@
-- date: 2024-05-31
+- date: 2024-08-21
+  season: current
+  time: 11h00
+  location: 3195, Pav. André-Aisenstadt
+  title: Verification of Safety-Critical Systems
+  short_description: 
+  description: 
+  presenters: 
+    - name: Daniel Varro
+      affiliation: Professor of Software Engineering at Linköping University
+      url: https://liu.se/en/employee/danva91
+      photo: https://liu.se/-/media/employeeimages/91/employee_image_danva91.jpeg
+  status: done
+  
+  - date: 2024-05-31
   season: current
   time: 11h00
   location: 5441, Pav. André-Aisenstadt
