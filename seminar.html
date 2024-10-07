@@ -124,7 +124,7 @@ order: 45
         <ul class="bare-list previous-talks">
             {% for seminar in pastcurrentseason %}
                 <li class="previous-talk">
-                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
+                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="events/presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
                     <ul class="bare-list talk-presenters">
                         {% for presenter in seminar.presenters %}
                             <li class="talk-presenter">
@@ -159,7 +159,7 @@ order: 45
         <ul class="bare-list previous-talks">
             {% for seminar in pastoldseason %}
                 <li class="previous-talk">
-                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
+                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="events/presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
                     <ul class="bare-list talk-presenters">
                         {% for presenter in seminar.presenters %}
                             <li class="talk-presenter">
