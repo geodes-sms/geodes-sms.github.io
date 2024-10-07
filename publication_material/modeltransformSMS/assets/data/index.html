@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Vasco Sousa">
+
+    <title>AToMPM</title>
+</head>
+<body>
+    <ul id="studentsPostdocs"></ul>
+    <ul id="studentsPhDs"></ul>
+    <ul id="studentsMScs"></ul>
+    <ul id="studentsPostdoca"></ul>
+    <ul id="studentsPhDa"></ul>
+    <ul id="studentsMSca"></ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        jQuery.get('/assets/data/students.csv',function(data){
+            data.split("\n").forEach(bucketAppend);
+        });
+        function bucketAppend(value, index, array) {
+            var line = value.split(";");
+            var program = line[1].trim();
+            var status = line[2].trim();
+            var li = document.createElement('li');
+            var a = document.createElement('a');
+            a.innerHTML = a.innerHTML + line[0]
+            if (line.length == 4) {
+                var web = line[3].trim();
+                if (web != "") {
+                    a.setAttribute('href',web );
+                }
+            }
+            li.appendChild(a);
+            li.innerHTML=li.innerHTML + " (" + program + ")";
+            document.getElementById("students" + program + status).appendChild(li);
+        }
+    </script>
+</body>
+
+</html>
+

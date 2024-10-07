@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication materials</title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <style>
+        .page-header {
+            padding: 18px 5% 12px;
+            display: flex; align-items: center;
+            border-bottom: 4px solid #F27B35;
+        }
+
+        .page-title {
+            margin: 0;
+            margin-left: 12px;
+            font-weight: 300;
+        }
+
+        .page-body {
+            padding-left: 5%; padding-right: 5%;
+            padding-top: 24px;
+            background-color: #fff;
+        }
+
+        section {
+            position: relative;
+            border-bottom: 2px solid #FF984F;
+            z-index: 2;
+        }
+            section:after {
+                content: "";
+                position: absolute;
+                bottom: -12px; 
+                right: 0;
+                width: 24px; height: 24px;
+                border-radius: 50%;
+                background-color: #EF4E36;
+                z-index: 2;
+            }
+        
+        .section-title {
+            margin: 0;
+            padding: 6px 12px;
+            border-left: 4px solid #FF984F;
+            /* border-bottom: 4px solid #F58634; */
+        }
+
+        .directories {
+            padding: 6px 12px 12px;
+            display: flex; flex-direction: column;
+            background-color: #fefefe;
+            border-left: 4px dashed #FF984F;
+            /* border-bottom: 2px solid #FF984F; */
+            
+        }
+
+        .subdirectories {
+            margin-left: 12px;
+            font-size: 0.95em;
+            width: 100%;
+            display: flex; flex-direction: column;
+        }
+
+        .directory {
+            display: flex; align-items: center; flex-wrap: wrap;
+            margin-bottom: 3px;
+        }
+            .directory-link:before {
+                content: "📁";
+                margin-right: 2px;
+            }
+            .directory-link:hover:before {
+                content: "📂";
+            }
+
+        .directory-link {
+            display: flex; align-items: center;
+            padding-top: 3px; padding-bottom: 3px;
+            color: #EF4E36;
+            text-decoration: none;
+            font-weight: 500;
+            margin-right: 6px;
+        }
+
+        .tags {
+            display: flex;
+            font-size: 0.9em;
+        }
+        .tag {
+            margin-right: 6px;
+            color: #555;
+            padding: 3px 6px;
+            background-color: #f5f5f5;
+        }
+        .tag:before {
+            content: "#";
+            margin-right: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header class="page-header">
+        <a class="site-title" href="/">
+            <img src="/artwork/geodes.png" width="160">
+        </a>
+        <h1 class="page-title">Publication materials</h1>
+    </header>
+    <main class="page-body">
+        <section>
+            <h2 class="section-title">Experiments</h2>
+            <ul class="bare-list directories">
+                <li class="directory">
+                    <a class="directory-link" href="./ssd_ext/index.html">Social Semantic Diversity Measure Experiment</a>
+                </li>
+                <li class="directory">
+                    <a class="directory-link" href="./modeltransformSMS/index.html">Model Transformations for Concrete Problems: a Systematic Mapping Study</a>
+                </li>
+                <li class="directory">
+                    <a class="directory-link" href="./gentleman/exp2021/index.html">Modelling with a projectional editor &ndash; User Study (2021)</a>
+                    <ul class="bare-list tags">
+                        <li class="tag fit-content">gentleman</li>
+                        <li class="tag fit-content">mps</li>
+                        <li class="tag fit-content">projectional-editing</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
