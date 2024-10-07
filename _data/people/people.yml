@@ -1,32 +1,5 @@
-- name: Politowski, Cristiano
-  image: cristiano.jpg
-  position: Postdoctoral fellow
-  category: Postdoc
-  email: crispolitowski@gmail.com
-  website: https://cpoli.live/
-  start: 2023
-  supervisor: Houari Sahraoui and Michalis Famelis
-  research_topic: 
-    en: I am interested in Artificial Intelligence for Software Engineering (AI4SE), Video Game Software Engineering (VGSE), Software Testing, Deep Reinforcement Learning, and Empirical Software engineering.
-    fr: Je m'intéresse à l'application de l'intelligence artificielle au génie logiciel (AI4SE), au génie logiciel pour jeux vidéo, aux tests, à l'apprentissage par renforcement profond et au génie logiciel empirique.
-  research_areas:
-    - AI4SE
-    - Video Game Development
-    - Software Testing
 
-- name: Weyssow, Martin
-  image: martin.jpg
-  position: PhD
-  category: PhD
-  email: martin.weyssow@umontreal.ca
-  website: https://martin-wey.github.io/
-  start: 2020
-  thesis: Exploring the adaptability of large language models in software engineering
-  supervisor: Houari SAHRAOUI
-  research_areas:
-    - Deep learning for code
-    - Continual learning
-    - NLP
+
 - name: Zaheri, MohammadAmin
   image: mohammadamin.png
   position: PhD
@@ -90,42 +63,7 @@
   research_areas:
     - MDE
     - Simulation
-- name: Kamanda, Aton
-  image: aton.jpg
-  position: PhD
-  category: PhD
-  email: aton.kamanda@umontreal.ca
-  website: https://atonkamanda.github.io/
-  supervisor: Houari SAHRAOUI
-  start: 2023
-  thesis: Investigating how the process of inference, both in biological brains and artificial intelligence systems, gives rise to complex hierarchical beliefs about the world.
-  research_areas:
-    - AI
-- name: Bigendako, Brice-Michel
-  image: brice.jpg
-  position: PhD
-  category: PhD
-  email: aton.kamanda@umontreal.ca
-  website: https://www.linkedin.com/in/brice-michel-bigendako-6710b565/
-  thesis: Exploring how to improve the process of systematic reviews with gamification.
-  start: 2023
-  research_areas:
-    - Systematic review
-    - Gamification
-  supervisor: Eugene SYRIANI
 
-- name: Barry, Hanifa
-  email: hanifa.barry@umontreal.ca
-  image: hanifa.jpeg
-  position: MSc
-  category: MSc
-  type: research
-  website: https://www.linkedin.com/in/hanifabarry
-  supervisor: Houari Sahraoui
-  research_areas:
-    - AI
-    - Architecture
-    - Optimization
 - name: Li, An
   email: an.li@umontreal.ca
   image: an_li.jpg
@@ -135,24 +73,6 @@
   website: https://www.linkedin.com/in/an--li
   supervisor: Eugene Syriani
   internship: Industrial internship
-- name: LÉCRIVAIN, Matthéo
-  email: mattheo.lecrivain@etu.univ-nantes.fr
-  image: mattheo.jpeg
-  position: MSc
-  category: MSc
-  type: internship
-  website: https://www.linkedin.com/in/mattheo-lecrivain/
-  supervisor: Houari Sahraoui
-  internship: Industrial internship
-- name: Malakani, Christian
-  image: christian.jpg
-  email: christian.malakani.mbambi@umontreal.ca
-  position: MSc
-  category: MSc
-  type: project
-  website: https://www.linkedin.com/in/christian-malakani-13977b199
-  supervisor: Eugene Syriani
-  project: Refactoring and unit testing ReLiS
 - name: Hamedani, Sarina
   email: sarina.hamedani@umontreal.ca
   image: sarina.jpg

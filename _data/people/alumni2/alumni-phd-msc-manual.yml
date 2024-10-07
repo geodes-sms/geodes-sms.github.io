@@ -1,3 +1,33 @@
+##### 2024 #####
+- name: Weyssow, Martin
+  image: martin.jpg
+  position: PhD
+  category: PhD
+  email: martin.weyssow@umontreal.ca
+  website: https://martin-wey.github.io/
+  start: 2020
+  end: 2024
+  supervisor: Houari SAHRAOUI 
+  thesis: Deep learning for code
+
+- name: Barry, Hanifa
+  image: hanifa.jpeg
+  position: MSc
+  email: hanifa.barry@umontreal.ca
+  website: https://www.linkedin.com/in/hanifabarry
+
+- name: Lécrivain, Matthéo
+  image: mattheo.jpeg
+  position: MSc
+  email: mattheo.lecrivain@etu.univ-nantes.fr
+  website: https://www.linkedin.com/in/mattheo-lecrivain/
+
+- name: Malakani, Christian
+  image: christian.jpg
+  position: MSc
+  email: christian.malakani.mbambi@umontreal.ca
+  website: https://www.linkedin.com/in/christian-malakani-13977b199
+
 ##### 2023 #####
 - name: Zadahmad, Manouchehr
   image: manouchehr.jpg
