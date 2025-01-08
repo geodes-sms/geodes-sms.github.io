@@ -64,15 +64,7 @@
     - MDE
     - Simulation
 
-- name: Li, An
-  email: an.li@umontreal.ca
-  image: an_li.jpg
-  position: MSc
-  category: MSc
-  type: internship
-  website: https://www.linkedin.com/in/an--li
-  supervisor: Eugene Syriani
-  internship: Industrial internship
+
 - name: Hamedani, Sarina
   email: sarina.hamedani@umontreal.ca
   image: sarina.jpg
@@ -113,7 +105,7 @@
   image: hanz.jpg
   position: MSc
   category: MSc
-  type: project
+  type: research
   website: 
   title: Digital resource library for childcare educators
   supervisor: Eugene Syriani
