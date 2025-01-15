@@ -1,4 +1,17 @@
-
+- name: Delcourt, Kevin
+  image: kevin.jpg
+  position: Postdoctoral fellow
+  category: Postdoc
+  email: kevin.delcourt@umontreal.ca
+  website: https://fr.linkedin.com/in/kevin-delcourt-18b928261
+  start: 2025
+  supervisor: Houari Sahraoui
+  research_topic: 
+    en: Modeling and simulating cold-plasma-driven chemical reactions for battery manufacturing.
+    fr: Modélisation et simulation des réactions chimiques induites par le plasma froid pour la fabrication de batteries.
+  research_areas:
+    - Simulation
+    - AI
 
 - name: Zaheri, MohammadAmin
   image: mohammadamin.png
@@ -63,6 +76,18 @@
   research_areas:
     - MDE
     - Simulation
+- name: Gamage, Yogya
+  image: yogya.jpg
+  position: PhD
+  category: PhD
+  email: yogya.gamage@umontreal.ca
+  website: https://yogya-gamage.vercel.app/
+  start: 2023
+  supervisor: Benoit Baudry
+  thesis: Hardening and analysing software supply chains
+  research_areas:
+    - Software security
+    - Software reliability 
 
 
 - name: Hamedani, Sarina
@@ -144,3 +169,14 @@
     - AI
     - Software maintenance
   supervisor: Houari Sahraoui
+- name: Gonzalez Fernandez, Nadia
+  email: nadia.gonzalez.fernandez@umontreal.ca
+  image: nadia.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/nadia-glez
+  research_areas:
+    - Software diversity
+    - Software supply chain
+  supervisor: Benoit Baudry
