@@ -1,0 +1,240 @@
+/* ======================================================================
+ * GEODES custom site template
+ *
+ * Author: Bruno Dufour (dufour@iro.umontreal.ca)
+ * ======================================================================
+ */
+/* Configuration */
+/* Mixins */
+.dbg-showBorder {
+  background-color: #f4dfe1;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lato, Helvetica, sans-serif;
+}
+body {
+  font-size: 15px;
+  /* border-top: 2px solid @geodes-orange; */
+
+}
+h2 {
+  margin: 20px 0;
+}
+/* ========== separation in two columns to deal with too many students on page ========== */
+/* ========== by vasco ========== */
+.two-column-list {
+  -webkit-columns: 2 300px;
+  -moz-columns: 2 300px;
+  columns: 2 300px;
+  -webkit-column-gap: 4em;
+  -moz-column-gap: 4em;
+  column-gap: 4em;
+}
+.centered {
+  margin: 0 auto;
+}
+/* ========== Header ========== */
+.geodes-header {
+  margin-bottom: 34px;
+}
+#geodes-langsel {
+  color: #ff8e32;
+  float: right;
+  margin-bottom: 10px;
+}
+.lang-notavail {
+  color: #333333;
+}
+#geodes-sitenav {
+  float: right;
+  height: 56px;
+}
+#geodes-sitenav > ul {
+  list-style: none;
+  margin-top: 8px;
+}
+#geodes-sitenav > ul > li {
+  float: left;
+  margin-right: 10px;
+}
+#geodes-sitenav > ul > li > a {
+  color: #333;
+  background-color: #ffeee0;
+  /* #eeeeee; */
+
+  padding: 10px 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+}
+#geodes-sitenav > ul > li > a:hover,
+#geodes-sitenav > ul > li.active > a {
+  background-color: #ff8e32;
+  color: white;
+}
+#geodes-sitenav > ul > li:last-child {
+  margin-right: 0;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  /* Override menu colors */
+
+  background-color: #ff8e32;
+  background-image: none;
+  /*
+    background-image: -moz-linear-gradient(top,#ff8b02,#F08000);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ff8b02),to(#F08000));
+    background-image: -webkit-linear-gradient(top,#ff8b02,#F08000);
+    background-image: -o-linear-gradient(top,#ff8b02,#F08000);
+    background-image: linear-gradient(to bottom,#ff8b02,#F08000);
+    */
+
+}
+/* ========== Contents ========== */
+.geodes-content > :first-child,
+.geodes-content > div:first-child :first-child {
+  /* Get rid of redundant margin for first content element (e.g. h2) */
+
+  margin-top: 0;
+}
+.geodes-banner {
+  background-color: #f4f4f4;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .geodes-banner {
+    /* TODO: fix navbar for narrow screens */
+  
+    /* Make banner stretch to the end of the screen */
+  
+    margin: 0 -20px;
+    /* Fix content positioning */
+  
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+h2:before {
+  content: "// ";
+  font-weight: 700;
+  color: #ff8e32;
+}
+.proj-gallery .thumbnail img {
+  margin-top: 9px;
+}
+div.thumbnail:hover,
+a.thumbnail:hover {
+  border-color: #ff8e32;
+  -webkit-box-shadow: 0 1px 4px rgba(252, 118, 8, 0.25);
+  -moz-box-shadow: 0 1px 4px rgba(252, 118, 8, 0.25);
+  box-shadow: 0 1px 4px rgba(252, 118, 8, 0.25);
+}
+.thumbnail {
+  position: relative;
+}
+.thumbnail > a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+footer > .logos {
+  float: right;
+}
+footer > .logos img {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+/* --------------------------------------------------
+ *   Bibtex
+ * -------------------------------------------------- */
+.bib-title {
+  font-weight: bold;
+}
+ul.bib-links {
+  margin: 0 0 10px 0;
+}
+ul.bib-links > li {
+  display: inline;
+}
+ul.bib-links > li > a {
+  padding: 0 5px;
+}
+ul.bib-links > li:before {
+  content: " // ";
+  font-weight: 700;
+  color: #ff8e32;
+}
+ul.bib-links > li:first-child > a {
+  padding: 0 5px 0 0;
+}
+ul.bib-links > li:first-child:before {
+  content: " ";
+}
+.bib-details > .field-row > .field-name {
+  font-weight: bold;
+  float: left;
+  width: 100px;
+}
+.bib-details > .field-row {
+  clear: both;
+  margin-bottom: 5px;
+}
+/* ========== Styling ========== */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(255, 139, 2, 0.7);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 139, 2, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 139, 2, 0.5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 139, 2, 0.5);
+}
+/* ========== Responsive layout ========== */
+@media (max-width: 767px) {
+  /* TODO: fix navbar for narrow screens */
+  .geodes-banner {
+    /* Make banner stretch to the end of the screen */
+  
+    margin: 0 -20px;
+    /* Fix content positioning */
+  
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+p {
+  max-width: 600pt;
+  text-align: justify;
+  text-justify: inter-word;
+}
