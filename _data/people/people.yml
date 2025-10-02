@@ -13,6 +13,22 @@
     - Simulation
     - AI
 
+- name: Marchezan, Luciano
+  image: luciano.png
+  position: Postdoctoral fellow
+  category: Postdoc
+  email: luciano.augusto.marchezan.de.paula@umontreal.ca
+  website: https://lucianomarchezan.github.io/
+  start: 2025
+  supervisor: Eugene Syriani and Houari Sahraoui
+  research_topic: 
+    en: Leveraging machine learning for software modernization.
+    fr: Exploiter l'apprentissage automatique pour la modernisation logicielle.
+  research_areas:
+    - Software modernization
+    - MDE
+    - AI
+
 - name: Zaheri, MohammadAmin
   image: mohammadamin.png
   position: PhD
