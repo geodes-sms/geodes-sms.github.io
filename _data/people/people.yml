@@ -106,16 +106,6 @@
     - Software reliability 
 
 
-- name: Hamedani, Sarina
-  email: sarina.hamedani@umontreal.ca
-  image: sarina.jpg
-  position: MSc
-  category: MSc
-  type: research
-  website: https://www.linkedin.com/in/sarina-hamedani-52b3b9169
-  research_areas:
-    - MDE
-  supervisor: Michalis Famelis
 - name: Amiri, Mansoorali
   email: mansoorali.amiri@umontreal.ca
   image: mansoorali.jpg
