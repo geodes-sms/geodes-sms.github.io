@@ -184,3 +184,15 @@
     - MDE
     - Digital twin
   supervisor: Eugene Syriani
+- name: Peña Mendieta, Roxana
+  email: roxana.pena.mendieta@umontreal.ca
+  image: roxana.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/roxana-pe%C3%B1a-mendieta-5a6346215/
+  research_areas:
+    - Software-based art
+    - Preservation
+    - Generative art
+  supervisor: Benoit Baudry
