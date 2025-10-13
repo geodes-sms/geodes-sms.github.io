@@ -3,7 +3,7 @@
   position: Postdoctoral fellow
   category: Postdoc
   email: kevin.delcourt@umontreal.ca
-  website: https://fr.linkedin.com/in/kevin-delcourt-18b928261
+  website: https://kevindelcourt.github.io/
   start: 2025
   supervisor: Houari Sahraoui
   research_topic: 
@@ -196,3 +196,14 @@
     - Software diversity
     - Software supply chain
   supervisor: Benoit Baudry
+- name: Rouatbi, Abdelhamid
+  email: abdelhamid.rouatbi@umontreal.ca
+  image: abdelhamid.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/abdelhamid-rouatbi/
+  research_areas:
+    - MDE
+    - Digital twin
+  supervisor: Eugene Syriani
