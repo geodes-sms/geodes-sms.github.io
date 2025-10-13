@@ -5,6 +5,17 @@
   position: MSc
   website: https://www.linkedin.com/in/sarina-hamedani-52b3b9169
 
+- name: Ben Sghaier, Oussama
+  image: martin.jpg
+  position: PhD
+  category: PhD
+  email: oussama.ben.sghaier@umontreal.ca
+  website: https://oussamasghaier.github.io/
+  start: 2021
+  end: 2025
+  supervisor: Houari SAHRAOUI 
+  thesis: Code review automation using deep learning models
+
 ##### 2024 #####
 - name: Weyssow, Martin
   image: martin.jpg

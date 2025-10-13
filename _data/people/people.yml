@@ -54,19 +54,6 @@
   research_areas:
     - Rationale extraction
     - Rationale management
-- name: Ben Sghaier, Oussama
-  image: oussama.jpg
-  position: PhD
-  category: PhD
-  email: oussama.ben.sghaier@umontreal.ca
-  website: https://oussamasghaier.github.io/
-  start: 2021
-  supervisor: Houari SAHRAOUI
-  thesis: Code review automation using deep learning models.
-  research_areas:
-    - Deep learning
-    - NLP
-    - Software maintenance
 - name: Ben Chaaben, Meriem
   image: meriem.jpg
   position: PhD
