@@ -151,17 +151,21 @@
     - Active learning
     - LLM
   supervisor: Houari Sahraoui
+  
 - name: Jaoua, Imen
   email: imen.jaoua@umontreal.ca
   image: imen.jpg
-  position: MSc
-  category: MSc
+  position: PhD
+  category: PhD
   type: research
+  thesis: Hybrid Code Review by combining Learning and Knowledge based approaches
   website: https://www.linkedin.com/in/imen-jaoua-a727a6206/
   research_areas:
-    - AI
-    - Software maintenance
+    - Code review
+    - LLM
+    - static analyzers
   supervisor: Houari Sahraoui
+
 - name: Gonzalez Fernandez, Nadia
   email: nadia.gonzalez.fernandez@umontreal.ca
   image: nadia.jpg
