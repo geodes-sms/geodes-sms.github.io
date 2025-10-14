@@ -151,7 +151,7 @@
     - Active learning
     - LLM
   supervisor: Houari Sahraoui
-  
+
 - name: Jaoua, Imen
   email: imen.jaoua@umontreal.ca
   image: imen.jpg
@@ -213,3 +213,14 @@
     - AppliedML
     - Deep learning
   supervisor: Houari Sahraoui
+- name: Vennila, Sooben
+  email: vennila.sooben@umontreal.ca
+  image: vennila.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/vennilasooben/
+  research_areas:
+    - LLM
+    - PromptEngineering
+  supervisor: Eugene Syriani
