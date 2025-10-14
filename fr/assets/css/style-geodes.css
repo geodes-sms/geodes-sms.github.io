@@ -1514,11 +1514,10 @@ table tr:nth-child(odd) {
     .course-metadata .metadata {
         width: auto;
     }
-
-    .course-metadata:first-child:after {
+    
+    .course-metadata:not(:last-child):after {
         content: "|";
         margin-left: 2px; margin-right: 3px;
-        font-size: 1.1em;
     }
 }
 
