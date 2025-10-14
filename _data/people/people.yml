@@ -196,3 +196,16 @@
     - Preservation
     - Generative art
   supervisor: Benoit Baudry
+- name: Raoufi, Kasra
+  email: hossein.raoufi@umontreal.ca
+  image: person.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/hossein-raoufi-b9b2791b4
+  research_areas:
+    - AI
+    - LLMs
+    - AppliedML
+    - Deep learning
+  supervisor: Houari Sahraoui
