@@ -12,6 +12,7 @@
             <span class="course-title-code">{{course.code}}</span>
             <span class="course-title-name" title="{{course.name.en}}">{{course.name[site.active_lang]}}</span>
         </a>
+        
     </h3>
     <ul class="bare-list course-metadatas">
         <li class="course-metadata course-metadata--lecturer" title="{{ course.lecturer | fullName }}">
@@ -21,6 +22,18 @@
         <li class="course-metadata course-metadata--tools fit-content" title="{{ course.tools }}">
             <span class="label">Tools and language</span>
             {{ course.tools }} 
+        </li>
+        <li class="course-metadata course-metadata--links fit-content">
+            <span class="label">Links</span> 
+            <a class="bare-link" href="https://admission.umontreal.ca/cours-et-horaires/cours/{{courseLink}}/">
+                UdeM webpage
+            </a>
+            {% if course.url %}
+            •
+            <a class="bare-link" href="{{course.url}}">
+                Official website
+            </a>
+            {% endif %}
         </li>
     </ul>
 </div>

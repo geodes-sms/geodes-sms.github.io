@@ -2,9 +2,8 @@
     fr: Programmation I
     en: Programming I
   code: IFT 1015
-  latest: Winter 2023
   lecturer: Lafontant, Louis-Edouard
-  url: https://ceduni.github.io/udem-ift1015/hiv2023
+  #url: https://ceduni.github.io/udem-ift1015/hiv2023
   program: Undergraduate
   credits: 3
   tools: Codeboot, Python
@@ -25,9 +24,8 @@
     fr: Programmation II
     en: Programming II
   code: IFT 1025
-  latest: Winter 2023
   lecturer: Famelis, Michalis
-  url: https://michalis.famelis.info/teaching/ift-1025-programmation-2-hiver-2021/
+  #url: https://michalis.famelis.info/teaching/ift-1025-programmation-2-hiver-2021/
   program: Undergraduate
   credits: 3
   tools: Java, JavaFX, Git
@@ -50,9 +48,8 @@
     fr: Génie logiciel
     en: Software engineering
   code: IFT 2255
-  latest: Fall 2022
   lecturer: Lafontant, Louis-Edouard
-  url: https://ceduni.github.io/udem-ift2255/
+  #url: https://ceduni.github.io/udem-ift2255/
   program: Undergraduate
   credits: 3
   tools: UML diagrams, Java, JUnit, Git
@@ -72,9 +69,8 @@
     fr: Analyse et conception des logiciels
     en: Software analysis and design
   code: IFT 3911
-  latest: Winter 2022
   lecturer: Syriani, Eugene
-  url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/26
+  #url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/26
   program: Undergraduate
   credits: 3
   tools: UML diagrams, OCL, Yakindu, Java, JUnit, Git
@@ -96,9 +92,8 @@
     fr: Qualité du logiciel et métriques
     en: Software quality and metrics
   code: IFT 3913
-  latest: Fall 2023
-  lecturer: Famelis, Michalis
-  url: https://michalis.famelis.info/teaching/ift-3913-qualite-du-logiciel-et-metriques-automne-2020/
+  lecturer: Baudry, Benoit
+  url: https://github.com/umontreal-diro/IFT3913
   program: Undergraduate
   credits: 3
   tools: Java
@@ -118,9 +113,8 @@
     fr: Conception basée sur les modèles
     en: Model-based software design
   code: IFT 6253
-  latest: Fall 2023
   lecturer: Syriani, Eugene
-  url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/25
+  #url: http://www-ens.iro.umontreal.ca/~syriani/index.php/course/25
   program: Graduate
   credits: 4
   tools: UML, AToMPM, Eclipse, Ecore, ATL, Xtext
@@ -136,12 +130,30 @@
     such as in model-driven engineering and in simulation-based design.
 
 - name:
+    fr: Art algorithmique et logiciel libre
+    en: Algorithmic art and free software
+  code: IFT 6256
+  lecturer: Baudry, Benoit
+  url: https://github.com/rethread-studio/algorithmic-art-course
+  program: Graduate
+  credits: 4
+  tools: Rust, Javascript, Java, Python; Git
+  topics:
+    - The tradition of algorithmic art 
+    - Software environments for generative art
+    - Software environments for live coding
+    - Research in software for art
+  description: >
+    Learn about open source software environments and practices for generative digital art. 
+    Computer science students dive into the technical challenges of algorithmic art, beyond the utilitarian aspects of software. 
+    Artists and designers dive into open source software and the diversity of techniques it offers for algorithmic art.
+
+- name:
     fr: Analyse du logiciel
     en: Software analysis
   code: IFT 6755
-  latest: Winter 2022
   lecturer: Famelis, Michalis
-  url: https://michalis.famelis.info/teaching/ift-6755-analyse-du-logiciel-hiver-2021/
+  #url: https://michalis.famelis.info/teaching/ift-6755-analyse-du-logiciel-hiver-2021/
   program: Graduate
   credits: 4
   tools: Z3, Alloy, NuSMV
