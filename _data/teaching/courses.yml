@@ -137,7 +137,7 @@
   url: https://github.com/rethread-studio/algorithmic-art-course
   program: Graduate
   credits: 4
-  tools: Rust, Javascript, Java, Python; Git
+  tools: Rust, Javascript, Java, Python, Git
   topics:
     - The tradition of algorithmic art 
     - Software environments for generative art
