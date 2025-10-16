@@ -213,7 +213,7 @@
     - AppliedML
     - Deep learning
   supervisor: Houari Sahraoui
-- name: Vennila, Sooben
+- name: Sooben, Vennila
   email: vennila.sooben@umontreal.ca
   image: vennila.jpg
   position: MSc
@@ -224,3 +224,14 @@
     - LLM
     - PromptEngineering
   supervisor: Eugene Syriani
+- name: Hamel, Cassandre
+  email: cassandre.hamel@umontreal.ca
+  image: cassandre.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/cassandre-hamel-9848b3190
+  research_areas:
+    - LLM
+    - PromptEngineering
+  supervisor: E. Syriani and <a href="https://ianarawjo.com/">Ian Arawjo</a>
