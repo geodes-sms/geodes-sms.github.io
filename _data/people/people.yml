@@ -232,6 +232,5 @@
   type: research
   website: https://www.linkedin.com/in/cassandre-hamel-9848b3190
   research_areas:
-    - LLM
-    - PromptEngineering
+    - Optimization
   supervisor: E. Syriani and <a href="https://ianarawjo.com/">Ian Arawjo</a>
