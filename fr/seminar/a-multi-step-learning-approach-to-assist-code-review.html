@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang=" en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Polyglot multi-language SEO tags -->
+  <meta http-equiv="Content-Language" content="fr">
+<link rel="alternate" hreflang="en" href="https://geodes.iro.umontreal.ca"/>
+<link rel="alternate" hreflang="fr" href="https://geodes.iro.umontreal.ca/fr"/>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>A Multi-Step Learning Approach to Assist Code Review | GEODES Research Group</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="A Multi-Step Learning Approach to Assist Code Review" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Modern code review is a process for early detection and reduction of issues, which assists in ensuring the quality of the source code, detecting anomalies, and identifying potential improvements. However, this is a highly manual activity that requires a lot of resources and time. Recent research has addressed these problems by attempting to entirely automate this task (i.e., generating code reviews). However, we do believe that dismissing the reviewer from this process is not the best option in terms of its optimal functioning, especially considering the high error rates in the proposed approaches. Furthermore, this full automation is still too far to achieve given the complexity of the task that requires human intelligence. In this work, we aim to assist the reviewer in the code review process. We propose an approach for detecting the type of issue and locating parts of the code that need to be revised by developers. In the first phase, we propose a meta-learner that combines a learning-based model and a knowledge-based model to predict the type of issue from the review comment. Then, we use this component to create and label a large dataset composed of quadruplets &lt;original code, review, issue type, revised code&gt;. We use this data set to fine-tune a pre-trained language model to predict the types of issues (e.g., naming, resource handling, etc.), that need to be addressed in the original code snippet. Furthermore, we fine-tune another pre-trained language model to locate these issues in the source code submitted by developers. We evaluate the performance of our approach using a test set not considered during the training. Our results show that our model accurately locates and predicts the types of issues." />
+<meta property="og:description" content="Modern code review is a process for early detection and reduction of issues, which assists in ensuring the quality of the source code, detecting anomalies, and identifying potential improvements. However, this is a highly manual activity that requires a lot of resources and time. Recent research has addressed these problems by attempting to entirely automate this task (i.e., generating code reviews). However, we do believe that dismissing the reviewer from this process is not the best option in terms of its optimal functioning, especially considering the high error rates in the proposed approaches. Furthermore, this full automation is still too far to achieve given the complexity of the task that requires human intelligence. In this work, we aim to assist the reviewer in the code review process. We propose an approach for detecting the type of issue and locating parts of the code that need to be revised by developers. In the first phase, we propose a meta-learner that combines a learning-based model and a knowledge-based model to predict the type of issue from the review comment. Then, we use this component to create and label a large dataset composed of quadruplets &lt;original code, review, issue type, revised code&gt;. We use this data set to fine-tune a pre-trained language model to predict the types of issues (e.g., naming, resource handling, etc.), that need to be addressed in the original code snippet. Furthermore, we fine-tune another pre-trained language model to locate these issues in the source code submitted by developers. We evaluate the performance of our approach using a test set not considered during the training. Our results show that our model accurately locates and predicts the types of issues." />
+<link rel="canonical" href="https://geodes.iro.umontreal.ca//fr/seminar/a-multi-step-learning-approach-to-assist-code-review.html" />
+<meta property="og:url" content="https://geodes.iro.umontreal.ca//seminar/a-multi-step-learning-approach-to-assist-code-review.html" />
+<meta property="og:site_name" content="GEODES Research Group" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-15T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="A Multi-Step Learning Approach to Assist Code Review" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-15T00:00:00+00:00","datePublished":"2023-03-15T00:00:00+00:00","description":"Modern code review is a process for early detection and reduction of issues, which assists in ensuring the quality of the source code, detecting anomalies, and identifying potential improvements. However, this is a highly manual activity that requires a lot of resources and time. Recent research has addressed these problems by attempting to entirely automate this task (i.e., generating code reviews). However, we do believe that dismissing the reviewer from this process is not the best option in terms of its optimal functioning, especially considering the high error rates in the proposed approaches. Furthermore, this full automation is still too far to achieve given the complexity of the task that requires human intelligence. In this work, we aim to assist the reviewer in the code review process. We propose an approach for detecting the type of issue and locating parts of the code that need to be revised by developers. In the first phase, we propose a meta-learner that combines a learning-based model and a knowledge-based model to predict the type of issue from the review comment. Then, we use this component to create and label a large dataset composed of quadruplets &lt;original code, review, issue type, revised code&gt;. We use this data set to fine-tune a pre-trained language model to predict the types of issues (e.g., naming, resource handling, etc.), that need to be addressed in the original code snippet. Furthermore, we fine-tune another pre-trained language model to locate these issues in the source code submitted by developers. We evaluate the performance of our approach using a test set not considered during the training. Our results show that our model accurately locates and predicts the types of issues.","headline":"A Multi-Step Learning Approach to Assist Code Review","mainEntityOfPage":{"@type":"WebPage","@id":"https://geodes.iro.umontreal.ca//seminar/a-multi-step-learning-approach-to-assist-code-review.html"},"url":"https://geodes.iro.umontreal.ca//seminar/a-multi-step-learning-approach-to-assist-code-review.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/fr/artwork/favicon.ico" type="image/x-icon"/><link rel="stylesheet" href="/fr/assets/css/normalize.css?v=006"><link rel="stylesheet" href="/fr/assets/css/base.css?v=006"><link rel="stylesheet" href="/fr/assets/css/style-geodes.css?v=006"><link rel="stylesheet" href="/fr/assets/css/events.css?v=006"><link type="application/atom+xml" rel="alternate" href="https://geodes.iro.umontreal.ca//fr/feed.xml" title="GEODES Research Group" /></head>
+<body><input class="nav-trigger" type="checkbox" id="nav-trigger" />
+
+<header class="site-header" role="banner">
+    <div class="content-wrapper">
+        <a class="bare-link site-title" href="/fr/"><img class="site-logo" src="/artwork/geodes.png"></a>        
+
+        <div class="site-toolbar"><nav class="site-nav">
+                <label class="btn-menu" for="nav-trigger">
+                    <span class="menu-icon">
+                        <i class="menu-icon-bar"></i>
+                        <i class="menu-icon-bar"></i>
+                        <i class="menu-icon-bar"></i>
+                    </span>
+                </label>
+                <div class="trigger">
+                    <ul class="bare-list menu">
+                        
+                            
+                            
+                            <li class="menu-item ">
+                                
+                                    <a href="/fr/" class="bare-link menu-link menu-item-link ">
+                                        Accueil
+                                    </a>
+                                
+                            </li>
+                        
+                            
+                            
+                            <li class="menu-item ">
+                                
+                                    <a href="/fr/people" class="bare-link menu-link menu-item-link ">
+                                        Équipe
+                                    </a>
+                                
+                            </li>
+                        
+                            
+                            
+                            <li class="menu-item ">
+                                
+                                    
+                                    <span tabindex="-1" class="menu-link parent ">
+                                        Recherche
+                                        <button class="btn btn-show" type="button">▼</button>
+                                    </span>
+                                    <ul class="bare-list submenu">
+                                        
+                                        <li class="submenu-item ">
+                                            <a class="bare-link menu-link submenu-item-link " href="/publications">
+                                                Publications
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="submenu-item ">
+                                            <a class="bare-link menu-link submenu-item-link " href="/fr/projects">
+                                                Projets
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="submenu-item ">
+                                            <a class="bare-link menu-link submenu-item-link " href="/fr/tools">
+                                                Outils
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                        
+                            
+                            
+                            <li class="menu-item ">
+                                
+                                    <a href="/fr/seminar" class="bare-link menu-link menu-item-link ">
+                                        Séminaire
+                                    </a>
+                                
+                            </li>
+                        
+                            
+                            
+                            <li class="menu-item ">
+                                
+                                    <a href="/fr/teaching" class="bare-link menu-link menu-item-link ">
+                                        Enseignement
+                                    </a>
+                                
+                            </li>
+                        
+                            
+                            
+                            <li class="menu-item ">
+                                
+                                    <a href="/fr/contact" class="bare-link menu-link menu-item-link ">
+                                        Contact
+                                    </a>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+
+<ul class="bare-list lang-switcher">
+
+    
+    
+    
+    <li class="lang active">
+        <span class="lang-content">
+            <span class="short">fr</span>
+            <span class="long">Français</span>
+        </span>
+    </li>
+    
+
+    
+    
+    
+        
+            <li class="lang">
+                <a class="bare-link lang-content lang-link" href="/seminar/a-multi-step-learning-approach-to-assist-code-review.html">
+                    <span class="short">en</span>
+                    <span class="long">English</span>
+                </a>
+            </li>
+        
+    
+
+</ul></div>
+    </div>
+</header>
+<main class="page-content" data-page="" aria-label="Content">
+        
+
+<!--  <header class="post-header">
+    <h1 class="post-title">A Multi-Step Learning Approach to Assist Code Review</h1>
+  </header>-->
+
+<div class="content-wrapper">
+    <header class="seminar-header">
+        <h1 class="seminar-logo page-title">
+            <img class="seminar-logo-img" src="/assets/images/geodes-seminar.png" alt="Seminar logo">
+        </h1>
+    </header>
+    
+    <section class="seminar-section">
+        <ul class="bare-list talks">
+            <li class="talk">        
+                <div class="talk-image">
+                    
+                        <img class="talk-photo-img" src="https://geodes.iro.umontreal.ca/images/people/oussama.jpg" alt="Photo of Oussama BEN SGHAIER">
+                    
+                </div>
+                <div class="talk-info">
+                    <span class="talk-title">A Multi-Step Learning Approach to Assist Code Review</span>
+                    <ul class="bare-list talk-presenters">
+                        
+                            <li class="talk-presenter">
+                                <a href="https://oussamasghaier.github.io/" class="link talk-presenter-name" target="_blank">Oussama BEN SGHAIER</a>
+                                &ndash; PhD student
+                            </li>
+                        
+                    </ul>
+                    
+                    <div class="talk-description">
+                        
+                            Modern code review is a process for early detection and reduction of issues, which assists in ensuring the quality of the source code, detecting anomalies, and identifying potential improvements.  However, this is a highly manual activity that requires a lot of resources and time.   Recent research has addressed these problems by attempting to entirely automate this task (i.e., generating code reviews).  However, we do believe that dismissing the reviewer from this process is not the best option in terms of its optimal functioning, especially considering the high error rates in the proposed approaches.  Furthermore, this full automation is still too far to achieve given the complexity of the task that requires human intelligence.  In this work, we aim to assist the reviewer in the code review process.  We propose an approach for detecting the type of issue and locating parts of the code that need to be revised by developers.   In the first phase, we propose a meta-learner that combines a learning-based model and a knowledge-based model to predict the type of issue from the review comment.   Then, we use this component to create and label a large dataset composed of quadruplets <original code, review, issue type, revised code>.  We use this data set to fine-tune a pre-trained language model to predict the types of issues (e.g., naming, resource handling, etc.), that need to be addressed in the original code snippet.   Furthermore, we fine-tune another pre-trained language model to locate these issues in the source code submitted by developers.  We evaluate the performance of our approach using a test set not considered during the training.  Our results show that our model accurately locates and predicts the types of issues. 
+
+                        
+                    </div>
+
+                    <div class="talk-venue">
+                        
+                            
+                                <span class="talk-date">
+                                    <img class="ico ico-cal" src="/assets/images/icon-calendar--black.svg" alt="Calendar icon">
+                                    <span class="talk-date-date">Wednesday, March 15, 2023</span>
+                                    <span class="talk-date-time">@11h00</span>
+                                </span>
+                            
+                            
+                                <span class="talk-location">PAA3195, Pav. André-Aisenstadt</span>
+                            
+                        
+                    </div>
+                </div>
+            </li>
+        </ul>
+        
+
+
+    </section>
+    
+</div>
+    </main><footer class="site-footer">
+    <data class="u-url" href="/fr/"></data>
+
+    <div class="content-wrapper">
+        <div class="site-footer-nav">
+            <img class="site-logo" src="/artwork/geodes-dark.png">
+            <ul class="bare-list footer-menu">
+                
+                    
+                    <li class="footer-menu-item">
+                        <a class="bare-link footer-menu-link" href="/fr/people">Équipe</a>
+                    </li>
+                
+                    
+                    <li class="footer-menu-item">
+                        <a class="bare-link footer-menu-link" href="/fr/seminar">Séminaire</a>
+                    </li>
+                
+                    
+                    <li class="footer-menu-item">
+                        <a class="bare-link footer-menu-link" href="/publications">Publications</a>
+                    </li>
+                
+            </ul>
+            <!-- <p>Attend our next <a href="/fr/events/seminar">seminar</a></p> -->
+        </div>
+
+        <div class="site-footer-external">
+            <p class="bare site-footer-address">
+                <a class="link" href="https://www.umontreal.ca/" target="_blank">Université de Montréal</a> <br>
+                <a class="link" href="https://diro.umontreal.ca/" target="_blank">Département d'informatique et de recherche opérationnelle</a>
+            </p>
+          
+            <p class="site-footer-contact">
+                <span class="label">
+                    Contactez nous au
+                </span> <a href="mailto:geodes@iro.umontreal.ca">geodes@iro.umontreal.ca</a> <br>
+                <span class="label">
+                    Suivez-nous sur Twitter
+                </span> <a href="https://twitter.com/UMontrealGEODES" target="_blank">@UMontrealGEODES</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="site-footer-end content-wrapper">
+        <!-- <p class="site-footer-maintenance">
+            Maintenu par: <a class="bare-link" href="mailto:louis.edouard.lafontant@umontreal.ca" target="_blank">Louis-Edouard LAFONTANT</a>
+        </p> -->
+        <p class="site-footer-copyright">&copy; 2025, <strong>GEODES</strong></p>
+    </div>
+</footer></body>
+
+</html>

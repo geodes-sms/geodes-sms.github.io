@@ -812,6 +812,10 @@ table tr:nth-child(odd) {
     margin-bottom: 0;
 }
 
+.news-seminar-title a {
+    text-decoration: none
+}
+
 .news-seminar-photo {
     display: block;
     margin-right: 6px;
@@ -1778,6 +1782,12 @@ table tr:nth-child(odd) {
     line-height: 1.35;
     margin-bottom: 6px;
 }
+
+.talk-title a {
+    text-decoration: none
+}
+
+
 
 .talk-presenters {
     display: flex;
