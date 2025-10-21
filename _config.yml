@@ -42,6 +42,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-polyglot
+  - jekyll-datapage-generator
 
 languages: ["en", "fr"]
 default_lang: "en"
@@ -113,3 +114,11 @@ footer_navigation:
     url: /seminar
   - title: Publications
     url: /publications
+
+page_gen-dirs: false
+
+page_gen:
+- data: 'events.seminars'
+  template: 'seminar-page'
+  dir: 'seminar'
+  name: 'title'

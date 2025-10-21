@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GEODES Seminar Series
-permalink: /events/seminar
+permalink: /seminar
 order: 45
 ---
 
@@ -14,21 +14,8 @@ order: 45
 <div class="content-wrapper">
     <header class="seminar-header">
         <h1 class="seminar-logo page-title">
-            <img class="seminar-logo-img" src="geodes-seminar.png" alt="Seminar logo">
+            <img class="seminar-logo-img" src="/assets/images/geodes-seminar.png" alt="Seminar logo">
         </h1>
-        
-        <!-- <br/>
-            <div style="background-color:#f5f514;color:black;">
-            <br/>
-            <center><p style="font-weight:700;">SUMMER BREAK</p></center>
-    
-            <p style="text-align:center;">
-            The seminar takes a summer break of about 3-4 weeks after 22 July.<br/>
-            Thank you all for your talks and presence. We will be back in August.</p><br/>
-            </div>
-        <br/><br/>
-        -->
-    
         
         <p class="page-intro">
             {{ i18n.intro }}
@@ -124,7 +111,7 @@ order: 45
         <ul class="bare-list previous-talks">
             {% for seminar in pastcurrentseason %}
                 <li class="previous-talk">
-                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="events/presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
+                    <span class="talk-title"><a href="/{{ seminar.title | datapage_url: 'seminar' }}">{{seminar.title}}</a>{% if seminar.material %} <a href="events/presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
                     <ul class="bare-list talk-presenters">
                         {% for presenter in seminar.presenters %}
                             <li class="talk-presenter">
@@ -159,7 +146,7 @@ order: 45
         <ul class="bare-list previous-talks">
             {% for seminar in pastoldseason %}
                 <li class="previous-talk">
-                    <span class="talk-title">{{seminar.title}}{% if seminar.material %} <a href="events/presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
+                    <span class="talk-title"><a href="/{{ seminar.title | datapage_url: 'seminar' }}">{{seminar.title}}</a>{% if seminar.material %} <a href="events/presentations/{{seminar.material}}">[presentation]</a>{% endif %}</span>
                     <ul class="bare-list talk-presenters">
                         {% for presenter in seminar.presenters %}
                             <li class="talk-presenter">

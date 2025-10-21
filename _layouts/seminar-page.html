@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+{% assign seminar = page %}
+
+<!--  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>-->
+
+<div class="content-wrapper">
+    <header class="seminar-header">
+        <h1 class="seminar-logo page-title">
+            <img class="seminar-logo-img" src="/assets/images/geodes-seminar.png" alt="Seminar logo">
+        </h1>
+    </header>
+    
+    <section class="seminar-section">
+        <ul class="bare-list talks">
+            <li class="talk">        
+                <div class="talk-image">
+                    {% if seminar.presenters.size == 1 %}
+                        <img class="talk-photo-img" src="{{seminar.presenters.first.photo}}" alt="Photo of {{seminar.presenters.first.name}}">
+                    {% else %}
+                        <ul class="bare-list talk-multiphotos">
+                            {% for presenter in seminar.presenters %}
+                                <li class="talk-multiphoto">
+                                    <img class="talk-multiphoto-img" src="{{presenter.photo}}" alt="Photo of {{presenter.name}}">
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                <div class="talk-info">
+                    <span class="talk-title">{{seminar.title}}</span>
+                    <ul class="bare-list talk-presenters">
+                        {% for presenter in seminar.presenters %}
+                            <li class="talk-presenter">
+                                <a href="{{presenter.url}}" class="link talk-presenter-name" target="_blank">{{presenter.name}}</a>
+                                {% if presenter.affiliation %}&ndash; {{presenter.affiliation}}{% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    
+                    <div class="talk-description">
+                        {% if seminar.description %}
+                            {{seminar.description}}
+                        {% elsif seminar.short_description %}
+                            {{seminar.short_description}}
+                        {% endif %}
+                    </div>
+
+                    <div class="talk-venue">
+                        {% if seminar.date %}
+                            {% if seminar.cal_link %}
+                                <a class="link cal-link" href="/assets/cals/{{seminar.cal_link}}" title="Add the event to your calendar">
+                                    <span class="talk-date">
+                                        <img class="ico ico-cal" src="/assets/images/icon-calendar.svg" alt="Calendar icon">
+                                        <span class="talk-date-date">{{seminar.date | locale_date: site.active_lang }}</span>
+                                        <span class="talk-date-time">@{{seminar.time}}</span>
+                                    </span>
+                                </a>
+                            {% else %}
+                                <span class="talk-date">
+                                    <img class="ico ico-cal" src="/assets/images/icon-calendar--black.svg" alt="Calendar icon">
+                                    <span class="talk-date-date">{{seminar.date | date: "%A, %B %d, %Y" }}</span>
+                                    <span class="talk-date-time">@{{seminar.time}}</span>
+                                </span>
+                            {% endif %}
+                            {% if seminar.location %}
+                                <span class="talk-location">{{seminar.location}}</span>
+                            {% endif %}
+                        {% else %}
+                            <em>The date will be announced soon!</em>
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+        </ul>
+        
+
+
+    </section>
+    
+</div>
