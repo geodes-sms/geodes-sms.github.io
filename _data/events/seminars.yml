@@ -4,7 +4,7 @@
   location: 3195, Pav. André-Aisenstadt
   title: "Agentic AI for Software: Lessons in Trust from AutoCodeRover"
   short_description: >
-    This seminar explores the transformative role of digital twins in modern industrial ecosystems, highlighting their potential, challenges, and emerging frameworks for scalable and reliable implementation.
+    This seminar examines how AI agents are reshaping software engineering, moving beyond code generation to tackle the deeper challenge of understanding developer intent and ensuring trustworthy automation.  
   description: >
     <b>Abstract:</b><br> 
     AI agents have recently shown significant promise in software engineering. Much public attention has been transfixed on the topic of code generation from Large Language Models (LLMs) via a prompt. However, software engineering is much more than programming, and AI agents go far beyond instructions given by a prompt. 
@@ -27,7 +27,7 @@
   location: 3195, Pav. André-Aisenstadt
   title: "Digital twins : use cases, architecture and engineering research"
   short_description: >
-    This seminar examines how AI agents are reshaping software engineering, moving beyond code generation to tackle the deeper challenge of understanding developer intent and ensuring trustworthy automation.  
+    This seminar explores the transformative role of digital twins in modern industrial ecosystems, highlighting their potential, challenges, and emerging frameworks for scalable and reliable implementation.
   description: >
     <b>Abstract:</b><br> 
     Digital twins (DTs) have recently emerged as a key tool to address the needs of software-driven ecosystems.  By decoupling the control system and high-level decision-making from physical operations, DTs offer adaptive, cost-effective and easy-to-evolve solutions. In particular DTs integrate deductive engineering models with inductive data-driven analytics, to fuel powerful simulations, predictions, visualizations and adaptive system management capabilities.
