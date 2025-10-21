@@ -1,3 +1,52 @@
+- date: 2025-11-13
+  season: current
+  time: TBD
+  location: 3195, Pav. André-Aisenstadt
+  title: "Agentic AI for Software: Lessons in Trust from AutoCodeRover"
+  short_description: >
+    This seminar explores the transformative role of digital twins in modern industrial ecosystems, highlighting their potential, challenges, and emerging frameworks for scalable and reliable implementation.
+  description: >
+    <b>Abstract:</b><br> 
+    AI agents have recently shown significant promise in software engineering. Much public attention has been transfixed on the topic of code generation from Large Language Models (LLMs) via a prompt. However, software engineering is much more than programming, and AI agents go far beyond instructions given by a prompt. 
+    Conceptually, the key to successfully developing trustworthy agentic AI-based software workflows will be to resolve the core difficulty in software engineering - the deciphering and clarification of developer intent. Specification inference, or deciphering the intent, thus lies at the heart of many software tasks, including software maintenance and program repair. A successful deployment of agentic technology into software engineering would involve making conceptual progress in such intent inference via agents. We discuss, to some length, the AutoCodeRover agent which embodies such intent inference. The agent has been integrated into the SonarQube static analysis tool, which is used by many enterprise customers. 
+    Trusting the AI agent becomes a key aspect, for coding agents to be put into production. Higher automation also leads to higher volume of code being automatically generated, and then integrated into code-bases. To deal with this explosion, an emerging direction is AI-based verification and validation (V & V) of AI generated code. We posit that agentic software workflows in future will include such AI-based V&V.
+    <br>
+    <b>Bio:</b><br>
+    Abhik Roychoudhury is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS), where he leads a research team on Trustworthy and Secure Software (TSS). He is Senior Advisor at SonarSource, subsequent to the acquisition of his spinoff AutoCodeRover on AI agents for coding. He received his PhD in Computer Science from the Stony Brook University in 2000, and has been a faculty member at NUS School of Computing since 2001. Abhik's group at NUS has focused on symbolic program analysis, along with applications of program analysis to areas such as computer security, agentic AI or cyber-physical systems. These works have been honored with various awards including an International Conference on Software Engineering (ICSE) Most Influential Paper Award (Test-of-time award) for symbolic analysis based program repair, IEEE New Directions Award 2022 (jointly with Cristian Cadar) for contributions to symbolic execution.
+    Abhik was the inaugural recipient of the NUS Outstanding Graduate Mentor Award. Doctoral students graduated from his research team have taken up faculty positions in many top academic institutions, and they have gone on to receive many prestigious early career awards (including ACM-W Rising Star Award given to only one female faculty member in Computing). Abhik has served the software engineering research community in various capacities including as chair of the major conferences (ICSE and FSE), as well as chair of the FSE steering committee. He is the current Editor-in-Chief of the ACM Transactions on Software Engineering and Methodology (TOSEM), and a member of the editorial board of Communications of the ACM. Abhik is a Fellow of the ACM, recognized for contributions to automated program repair and fuzz testing.
+  presenters: 
+    - name: Abhik Roychoudhury
+      affiliation: Professor at National Univ. of Singapore
+      url: https://abhikrc.com/
+      photo: https://geodes.iro.umontreal.ca/images/people/abhik.jpg
+  status: upcoming
+  
+- date: 2025-10-30
+  season: current
+  time: TBD
+  location: 3195, Pav. André-Aisenstadt
+  title: "Digital twins : use cases, architecture and engineering research"
+  short_description: >
+    This seminar explores the transformative role of digital twins in modern industrial ecosystems, highlighting their potential, challenges, and emerging frameworks for scalable and reliable implementation.
+  description: >
+    <b>Abstract:</b><br> 
+    Digital twins (DTs) have recently emerged as a key tool to address the needs of software-driven ecosystems.  By decoupling the control system and high-level decision-making from physical operations, DTs offer adaptive, cost-effective and easy-to-evolve solutions. In particular DTs integrate deductive engineering models with inductive data-driven analytics, to fuel powerful simulations, predictions, visualizations and adaptive system management capabilities.
+    However, DTs are complex software that combine various technologies such as IoT sensor data collection and processing, heterogeneous data organization and storage, machine learning, physics modeling and numerical simulation, 3D technologies, and augmented interfaces. Developing and operating such complex software systems can be challenging and costly for enterprises. For example, there is no consensus on a cross-industry reference architecture model to facilitate digital twin engineering. Thus, despite their promise, current DT implementations often remain fragmented, domain-specific, and expensive to develop and maintain.
+    In this talk, we will present the use cases typology and the generic functional architecture model for DTs, applicable by any industrial company proposed by the French Industry Alliance (AIF). Then we will develop the research agenda of the new national program for a structured and reasoned approach to DT engineering (EDT), initiated by the French Sofware Research Agency (ALU). Our objective is to foster the creation of scalable, reusable,  reliable and eco-friendly digital twins.
+    <br>
+    <b>Bio:</b><br>
+    Pascale Vicat-Blanc is Senior Research Scientist at Inria (french National Institute for Computer Science), where she is "Chargée de Mission pour l’Industrie du Futur".
+    PVB received a Habilitation à Diriger les recherches (HDR) in Computer Science from ENS Lyon, a PhD and Engineering degree in Computer Science from INSA Lyon.
+    She is currently launching with Benoit Combemale, a national program for Engineering Digital Twin (EDT) in the context the National Agency for Computer Science and Software Research (Algorithme Logiciel et Usages - ALU) coordinated by Inria.
+    Expert in Internet protocols, Network virtualization and programming (NFV, SDN), Internet of Things (IoT), her current research interests cover Digital Infrastructure Observability and Digital Twin technology. She has been supervising 15 PhD students, co-authoring 180+ international journals and conferences articles, 2 books and 12 granted FR and US patents. She participated to the development of software (SaaS) products commercialized by the three startups she created and managed in France and the USA.
+    PVB has been Lecturer in Computer Science in various engineering schools in Lyon. She has also been Senior Director Product Development at F5 Networks (USA) where she was head of IoT & Network Analytics product innovation. PVB is member of the Scientific Council of the French Computer Society, of the Scientific Council of the IRT SystemX and at the board of the Ecole Normale Superieure de Lyon. Pascale received the Innovation Prize - Academy of Sciences - INRIA – Dassault System, and the Joliot-Curie Prize - Femme-Entreprise - Ministry of Research. She is also Knight of the Legion of Honor.
+  presenters: 
+    - name: Pascale Vicat-Blanc
+      affiliation: Senior Research Scientist at Inria (french National Institute for Computer Science)
+      url: https://www.linkedin.com/in/pascalevicatblanc
+      photo: https://geodes.iro.umontreal.ca/images/people/pascale.jpeg
+  status: upcoming
+
 - date: 2024-10-04
   season: current
   time: 13h00
