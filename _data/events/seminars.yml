@@ -1,3 +1,23 @@
+- date: 2025-10-28
+  season: current
+  time: 12h00
+  location: 6214, Pav. André-Aisenstadt
+  title: "Making Models Great Again: Model Construction in the Age of Large Language Models"
+  short_description: >
+    This seminar explores how large language models are revitalizing model-driven engineering, examining their potential to make modeling more efficient, practical, and competitive with direct code development.  
+  description: >
+    <b>Abstract:</b><br> 
+    Model-driven engineering is undergoing a major resurgence, driven by advances in large language models (LLMs) that significantly reduce the effort required to create, evolve, and maintain models from natural-language descriptions. In this talk, I draw on two industry collaborations, one with Kinaxis on optimization modelling and another with Ciena on system design, to examine whether LLM-assisted model construction is mature enough to make modelling more efficient and practical in real-world settings. Through these collaborations, we ask not only whether LLMs can create models of sufficient quality, but also, given that LLMs have been exposed to considerably more code than models during pre-training, whether the cost–benefit still favours explicit model building or if code can increasingly serve as a pragmatic substitute. Several empirically grounded observations emerge from our studies: (1) iterative model improvement that combines formal checks with LLM-based semantic refinement consistently yields higher quality models; (2) reasoning LLMs outperform instruction-following ones for tasks involving abstraction and constraint reasoning; and (3) executable models can match code in correctness and executability while offering the inherent advantages of modelling such as abstraction and understandability.
+    <br>
+    <b>Bio:</b><br>
+    Dr. Mehrdad (Mike) Sabetzadeh is a Professor of Software Engineering at the University of Ottawa. His research focuses on applying artificial intelligence and model-driven engineering to improve the quality, compliance, and trustworthiness of complex software-intensive systems. He has published over 100 peer-reviewed papers in leading journals and conferences in the field of software engineering. His work has received several Distinguished or Best Paper Awards and has had a broad impact across academia and industry. Dr. Sabetzadeh has led research projects totaling over C$10 million and has collaborated extensively with industry partners across Canada, Europe, and the United States. He is currently an Associate Editor for IEEE Transactions on Software Engineering and Empirical Software Engineering, and regularly serves on the program and organizing committees of premier conferences such as ICSE, FSE, ASE, MODELS, and RE.
+  presenters: 
+    - name: Mehrdad Sabetzadeh
+      affiliation: Professor at University of Ottawa
+      url: https://msabet.bitbucket.io/
+      photo: https://geodes.iro.umontreal.ca/images/people/mehrdad.jpg
+  status: upcoming
+
 - date: 2025-11-13
   season: current
   time: 15h00
