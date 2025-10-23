@@ -222,7 +222,7 @@
   website: https://www.linkedin.com/in/vennilasooben/
   research_areas:
     - LLM
-    - PromptEngineering
+    - Prompt Engineering
   supervisor: Eugene Syriani
 - name: Hamel, Cassandre
   email: cassandre.hamel@umontreal.ca
@@ -233,4 +233,6 @@
   website: https://www.linkedin.com/in/cassandre-hamel-9848b3190
   research_areas:
     - Optimization
+    - LLM
+    - Prompt Engineering
   supervisor: E. Syriani and <a href="https://ianarawjo.com/">Ian Arawjo</a>
