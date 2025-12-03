@@ -236,3 +236,19 @@
     - LLM
     - Prompt Engineering
   supervisor: E. Syriani and <a href="https://ianarawjo.com/">Ian Arawjo</a>
+
+
+- name: Ali, Hyacinth
+  image: hyacinth.jpg
+  position: Postdoctoral fellow
+  category: Postdoc
+  email: hyacinth.ali@mail.mcgill.ca
+  website: https://hyacinth-ali.github.io/web/
+  start: 2025
+  supervisor: Houari Sahraoui
+  research_topic: 
+    en: Applying software engineering techniques and generative AI to democratize the development of AI models and make them more accessible to a wider range of professionals.
+    fr: Appliquer des techniques de génie logiciel et l’IA générative pour démocratiser le développement de modèles d’IA et les rendre plus accessibles à un plus large éventail de professionnels.
+  research_areas:
+    - MDE
+    - Generative AI
