@@ -94,18 +94,9 @@
     - Agriculture
   title: Plant modeling in a digital twin for controlled environment agriculture
   supervisor: E. Syriani and H. Sahraoui
-- name: Kumar, Gauransh
-  email: gauransh.kumar@umontreal.ca
-  image: gauransh.png
-  position: MSc
-  category: MSc
-  type: research
-  website: https://gauranshkumar.github.io/
-  research_areas:
-    - MDE
-    - NLP
-    - LLM
-  supervisor: E. Syriani and <a href="https://www-labs.iro.umontreal.ca/~liubang/">Bang Liu</a>
+
+
+
 - name: Schepens, Hanz
   email: hanz.schepens@umontreal.ca
   image: hanz.jpg
@@ -153,6 +144,21 @@
     - LLM
     - static analyzers
   supervisor: Houari Sahraoui
+
+- name: Kumar, Gauransh
+  email: gauransh.kumar@umontreal.ca
+  image: gauransh.jpeg
+  position: PhD
+  category: PhD
+  type: research
+  thesis: Designing sustainable, systematic approaches to prompt engineering and optimization for reliable and scalable AI systems.
+  website: https://gauransh.dev/
+  research_areas:
+    - PromptEngineering
+    - SoftwareEngineering
+    - LLM
+    - NLP
+  supervisor: Eugene Syriani and <a href="https://www-labs.iro.umontreal.ca/~liubang/">Bang Liu</a>
 
 - name: Gonzalez Fernandez, Nadia
   email: nadia.gonzalez.fernandez@umontreal.ca

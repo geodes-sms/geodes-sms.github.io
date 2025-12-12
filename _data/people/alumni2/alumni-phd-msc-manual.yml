@@ -31,6 +31,19 @@
     - Low-code
     - Consistency management
 
+- name: Kumar, Gauransh
+  email: gauransh.kumar@umontreal.ca
+  image: gauransh.png
+  position: MSc
+  category: MSc
+  type: research
+  website: https://gauranshkumar.github.io/
+  research_areas:
+    - MDE
+    - NLP
+    - LLM
+  supervisor: E. Syriani and <a href="https://www-labs.iro.umontreal.ca/~liubang/">Bang Liu</a>
+
 ##### 2024 #####
 - name: Weyssow, Martin
   image: martin.jpg
