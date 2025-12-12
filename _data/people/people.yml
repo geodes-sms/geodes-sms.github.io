@@ -29,19 +29,7 @@
     - MDE
     - AI
 
-- name: Zaheri, MohammadAmin
-  image: mohammadamin.png
-  position: PhD
-  category: PhD
-  email: mohammadamin.zaheri@umontreal.ca
-  website: http://zaheri.info/
-  start: 2020
-  supervisor: Eugene SYRIANI and Michalis FAMELIS
-  thesis: Managing Model-Data inconsistencies in Low-code applications.
-  research_areas:
-    - MDE
-    - Low-code
-    - Consistency management
+
 - name: Dhaouadi, Mouna
   image: mouna.jpeg
   position: PhD
