@@ -1183,6 +1183,7 @@ table tr:nth-child(odd) {
 .master-student img {
     width: 96px;
     height: 96px;
+    object-fit: cover;
 }
 
 .master-student-details-header {
