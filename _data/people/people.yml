@@ -236,3 +236,16 @@
     - Software Supply Chain
     - Software Engineering
   supervisor: Benoit Baudry
+
+- name: Porchet, Valentin
+  image: valentin.jpg
+  position: PhD
+  category: PhD
+  email: valentin.porchet@umontreal.ca
+  start: 2026
+  supervisor: Houari Sahraouin and <a href="https://www.linkedin.com/in/richard-clergereaux-18aa94338">Richard Clergereaux</a>
+  thesis: Using automation and digital twins to accelerate the development of multifunctional coatings for space exploration.
+  research_areas:
+    - AI
+    - Simulation
+    - GenAI
