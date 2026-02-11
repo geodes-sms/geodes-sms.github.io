@@ -169,7 +169,7 @@
   website: https://www.linkedin.com/in/nadia-glez
   research_areas:
     - Software diversity
-    - Software supply chain
+    - Software Supply Chain
   supervisor: Benoit Baudry
 - name: Rouatbi, Abdelhamid
   email: abdelhamid.rouatbi@umontreal.ca
@@ -245,3 +245,15 @@
   research_areas:
     - MDE
     - Generative AI
+
+- name: Nasirianfar, Alireza
+  email: alireza.nasirianfar@umontreal.ca
+  image: alireza.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://alireza-nasirian.github.io/
+  research_areas:
+    - Software Supply Chain
+    - Software Engineering
+  supervisor: Benoit Baudry
