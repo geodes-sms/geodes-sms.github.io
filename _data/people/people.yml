@@ -97,27 +97,6 @@
 
 
 
-- name: Schepens, Hanz
-  email: hanz.schepens@umontreal.ca
-  image: hanz.jpg
-  position: MSc
-  category: MSc
-  type: research
-  website: 
-  title: Digital resource library for childcare educators
-  supervisor: Eugene Syriani
-  project: Digital resource library for childcare educators
-- name: Fiyouzi Sabah, Zahra
-  email: zahra.fiyouzisabah@umontreal.ca
-  image: zahra_sabah.jpg
-  position: MSc
-  category: MSc
-  type: research
-  website: https://www.linkedin.com/in/zahra-sabah-30a8521b4/
-  research_areas:
-    - MDE
-    - Scientific computing
-  supervisor: Michalis Famelis
 - name: Petrenko, Maxime
   email: maxime.petrenko@umontreal.ca
   image: maxime.jpeg
