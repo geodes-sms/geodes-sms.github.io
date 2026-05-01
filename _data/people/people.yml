@@ -243,9 +243,21 @@
   category: PhD
   email: valentin.porchet@umontreal.ca
   start: 2026
-  supervisor: Houari Sahraouin and <a href="https://www.linkedin.com/in/richard-clergereaux-18aa94338">Richard Clergereaux</a>
+  supervisor: Houari Sahraoui and <a href="https://www.linkedin.com/in/richard-clergereaux-18aa94338">Richard Clergereaux</a>
   thesis: Using automation and digital twins to accelerate the development of multifunctional coatings for space exploration.
   research_areas:
     - AI
     - Simulation
     - GenAI
+
+- name: Fares, Madjda
+  image: madjda.jpg
+  position: PhD
+  category: PhD
+  email: madjda.fares@umontreal.ca
+  start: 2026
+  supervisor: Benoit Baudry
+  thesis: Securing CI/CD workflows through applied software supply chain security approaches.
+  research_areas:
+    - Software security
+    - CI/CD 
