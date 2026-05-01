@@ -1,5 +1,17 @@
 ##### 2026 #####
 
+- name: Dhaouadi, Mouna
+  image: mouna.jpeg
+  position: PhD
+  category: PhD
+  email: mouna.dhaouadi@umontreal.ca
+  website: https://www-labs.iro.umontreal.ca/~dhaouadm/
+  start: 2021
+  supervisor: Michalis Famelis and <a href="http://rali.iro.umontreal.ca/nie-site/jian-yun-nie-en/">Jian-Yun Nie</a>
+  thesis: The extraction and management of rationale in order to assist stakeholders in their tasks.
+  research_areas:
+    - Rationale extraction
+    - Rationale management
 - name: Schepens, Hanz
   email: hanz.schepens@umontreal.ca
   image: hanz.jpg
