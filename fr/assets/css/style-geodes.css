@@ -1134,9 +1134,10 @@ table tr:nth-child(odd) {
     }
 
     .phd-student .card-img {
-        width: 120px;
-        height: auto;
+        width: 144px;
+        height: 144px;
         border-radius: 50%;
+        object-fit: cover;
     }
 
     .phd-student .card-name {
