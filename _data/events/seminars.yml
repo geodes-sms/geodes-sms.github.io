@@ -1,3 +1,19 @@
+- date: 2026-06-19
+  season: current
+  time: 11h00
+  location: 3155, Pav. André-Aisenstadt
+  title: "Surrogate models for Complex system emulation"
+  short_description: >
+    Complex systems, whether in engineering design or socio-environmental modeling, often rely on expensive and opaque simulations, typically treated as "black boxes." This presentation focuses on the Surrogate Modeling Toolbox (SMT), an open-source Python package designed to train lightweight statistical emulators to bypass these high computational costs. We will detail how SMT handles heterogeneous design spaces, including mixed variables (continuous and categorical) and conditional hierarchical structures. We will then demonstrate how these surrogate models serve as a stepping stone toward Explainable AI (XAI), active learning, and optimization. Finally, we will illustrate these methods with concrete optimization cases and discuss their application to Agent-Based Models (ABM) for policy analysis and the simulation of socio-technical systems.
+  description: >
+    Complex systems, whether in engineering design or socio-environmental modeling, often rely on expensive and opaque simulations, typically treated as "black boxes." This presentation focuses on the Surrogate Modeling Toolbox (SMT), an open-source Python package designed to train lightweight statistical emulators to bypass these high computational costs. We will detail how SMT handles heterogeneous design spaces, including mixed variables (continuous and categorical) and conditional hierarchical structures. We will then demonstrate how these surrogate models serve as a stepping stone toward Explainable AI (XAI), active learning, and optimization. Finally, we will illustrate these methods with concrete optimization cases and discuss their application to Agent-Based Models (ABM) for policy analysis and the simulation of socio-technical systems.
+  presenters: 
+    - name: Paul Saves
+      affiliation: Postdoctoral researcher at the University of Toulouse
+      url: https://paul-saves.github.io/
+      photo: https://geodes.iro.umontreal.ca/images/people/paul3.jpg
+  status: done
+
 - date: 2025-10-29
   season: current
   time: 14h00
