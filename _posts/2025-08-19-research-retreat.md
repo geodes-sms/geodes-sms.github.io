@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GEODES Research Retreat at Station Biologiques des Laurentides"
+title:  "GEODES Research Retreat 2025 at Station Biologiques des Laurentides"
 lang: en
 date: 2025-08-19 13:28:00 -0400
 categories: news
