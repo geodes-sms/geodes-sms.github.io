@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://geodes.iro.umontreal.ca//fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geodes.iro.umontreal.ca//fr/" rel="alternate" type="text/html" /><updated>2026-09-05T22:35:21+00:00</updated><id>https://geodes.iro.umontreal.ca//feed.xml</id><title type="html">GEODES Research Group</title><entry xml:lang="en"><title type="html">GEODES Research Retreat 2026 at Station Biologiques des Laurentides</title><link href="https://geodes.iro.umontreal.ca//fr/news/2026/08/24/retreat2026.html" rel="alternate" type="text/html" title="GEODES Research Retreat 2026 at Station Biologiques des Laurentides" /><published>2026-08-24T15:28:00+00:00</published><updated>2026-08-24T15:28:00+00:00</updated><id>https://geodes.iro.umontreal.ca//news/2026/08/24/retreat2026</id><content type="html" xml:base="https://geodes.iro.umontreal.ca//news/2026/08/24/retreat2026.html"><![CDATA[<p>Our group is organizing a 3-day research retreat at the <a href="https://sbl.umontreal.ca/accueil/">Station Biologique des Laurentides</a> from <strong>Friday, September 11</strong> to <strong>Sunday, September 13</strong>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://geodes.iro.umontreal.ca//fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geodes.iro.umontreal.ca//fr/" rel="alternate" type="text/html" /><updated>2026-09-05T23:18:23+00:00</updated><id>https://geodes.iro.umontreal.ca//feed.xml</id><title type="html">GEODES Research Group</title><entry xml:lang="en"><title type="html">GEODES Research Retreat 2026 at Station Biologiques des Laurentides</title><link href="https://geodes.iro.umontreal.ca//fr/news/2026/08/24/retreat2026.html" rel="alternate" type="text/html" title="GEODES Research Retreat 2026 at Station Biologiques des Laurentides" /><published>2026-08-24T15:28:00+00:00</published><updated>2026-08-24T15:28:00+00:00</updated><id>https://geodes.iro.umontreal.ca//news/2026/08/24/retreat2026</id><content type="html" xml:base="https://geodes.iro.umontreal.ca//news/2026/08/24/retreat2026.html"><![CDATA[<p>Our group is organizing a 3-day research retreat at the <a href="https://sbl.umontreal.ca/accueil/">Station Biologique des Laurentides</a> from <strong>Friday, September 11</strong> to <strong>Sunday, September 13</strong>.</p>
 
 <p><img src="/assets/images/SBL_with_Geodes_logo_2026.jpg" alt="Station Biologique des Laurentides" /></p>
 
@@ -151,7 +151,69 @@
       <td>15 min + Q&amp;A</td>
     </tr>
   </tbody>
-</table>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[Our group is organizing a 3-day research retreat at the Station Biologique des Laurentides from Friday, September 11 to Sunday, September 13.]]></summary></entry><entry xml:lang="en"><title type="html">GEODES Research Retreat 2025 at Station Biologiques des Laurentides</title><link href="https://geodes.iro.umontreal.ca//fr/news/2025/08/19/research-retreat.html" rel="alternate" type="text/html" title="GEODES Research Retreat 2025 at Station Biologiques des Laurentides" /><published>2025-08-19T17:28:00+00:00</published><updated>2025-08-19T17:28:00+00:00</updated><id>https://geodes.iro.umontreal.ca//news/2025/08/19/research-retreat</id><content type="html" xml:base="https://geodes.iro.umontreal.ca//news/2025/08/19/research-retreat.html"><![CDATA[<p>Our group is organizing a 3-day research retreat at the <a href="https://sbl.umontreal.ca/accueil/">Station Biologique des Laurentides</a> from <strong>Friday, September 5</strong> to <strong>Sunday, September 7</strong>.</p>
+</table>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[Our group is organizing a 3-day research retreat at the Station Biologique des Laurentides from Friday, September 11 to Sunday, September 13.]]></summary></entry><entry xml:lang="en"><title type="html">GEODES@FSE2026</title><link href="https://geodes.iro.umontreal.ca//fr/news/2026/07/15/fse2026.html" rel="alternate" type="text/html" title="GEODES@FSE2026" /><published>2026-07-15T17:28:00+00:00</published><updated>2026-07-15T17:28:00+00:00</updated><id>https://geodes.iro.umontreal.ca//news/2026/07/15/fse2026</id><content type="html" xml:base="https://geodes.iro.umontreal.ca//news/2026/07/15/fse2026.html"><![CDATA[<p>This July, <a href="https://conf.researchr.org/home/fse-2026">FSE 2026</a> came to Montréal, and saw many members of GEODES throughout the program.</p>
+
+<p><img src="/assets/images/fse26benoit.jpg" alt="FSE2026 Keynote" /></p>
+
+<!--more-->
+
+<h2 id="punking-up-dependency-hell">Punking up dependency hell</h2>
+
+<p>The main conference opened on Tuesday morning with a keynote by <a href="https://softwarediversity.eu/">Benoit Baudry</a>, <strong><a href="https://conf.researchr.org/info/fse-2026/keynotes">“Punking Up Dependency Hell”</a></strong>.</p>
+
+<p>The talk looked at a problem that is now unavoidable in modern software: dependencies. 
+Reuse and modularity have given us extraordinarily rich software ecosystems, but they have also created sprawling software supply chains whose risks are increasingly difficult to understand and manage. From vulnerabilities and protestware to unnecessary code bloat, Benoit used the keynote to look at the many forms that “dependency hell” can take today, and at the research trying to make software supply chains more reliable.</p>
+
+<h2 id="a-vision-for-engineering-agentic-digital-twins">A Vision for Engineering Agentic Digital Twins</h2>
+
+<p><img src="/assets/images/fse26eugene.jpg" alt="FSE2026 Eugene" /></p>
+
+<p>FSE week also included a large set of co-located workshops. Among them was <a href="https://se4es.uibk.ac.at/">SE4ES 2026</a>, the <strong>2nd International Workshop on Software Engineering for Engineering Simulations, and Simulation Engineering for Engineering Software</strong>.</p>
+
+<p><a href="https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in18930/">Eugene Syriani</a> gave the keynote <strong><a href="https://se4es.uibk.ac.at/">“A Vision for Engineering Agentic Digital Twins”</a></strong>. The talk presented a vision of simulations as long-lived software-intensive systems that can support digital twins throughout their lifecycle. From there, Eugene pushed the idea further toward <em>agentic</em> digital twins: twins that can reason, adapt, and collaborate while remaining grounded in models, simulations, validity assumptions, and human oversight.</p>
+
+<h2 id="on-the-utility-of-domain-modeling-assistance-with-large-language-models">On the Utility of Domain Modeling Assistance with Large Language Models</h2>
+
+<p><img src="/assets/images/fse26meriem.jpg" alt="FSE2026 Meriem" /></p>
+
+<p>In the FSE Journal-First track, <a href="https://meriembenchaaben.github.io/">Meriem Ben Chaaben</a> presented <strong><a href="https://doi.org/10.1145/3744920">“On the Utility of Domain Modeling Assistance with Large Language Models”</a></strong>, co-authored with <a href="https://lolaburgueno.github.io/">Lola Burgueño</a>, <a href="https://istvandavid.com/">Istvan David</a>, and <a href="https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in15076/">Houari Sahraoui</a>.</p>
+
+<p>The paper studies how useful LLM-based assistance actually is during domain modeling. Using the MAGDA modeling assistant and a user study, the work looks at the contribution of suggestions to the final model, solution diversity, and the modelers’ own experience.</p>
+
+<p>The paper was published in <strong>ACM Transactions on Software Engineering and Methodology (TOSEM), Volume 35, Issue 4, Article 112 (2026)</strong>. DOI: <strong><a href="https://doi.org/10.1145/3744920">10.1145/3744920</a></strong>.</p>
+
+<h2 id="codeultrafeedback-an-llm-as-a-judge-dataset-for-aligning-large-language-models-to-coding-preferences">CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences</h2>
+
+<p><a href="https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in15076/">Houari Sahraoui</a> also presented a Journal-First paper: <strong><a href="https://doi.org/10.1145/3736407">“CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences”</a></strong>, co-authored with <a href="https://www.linkedin.com/in/martin-weyssow/">Martin Weyssow</a>, <a href="https://atonkamanda.github.io/">Aton Kamanda</a>, <a href="https://xin-zhou-smu.github.io/">Xin Zhou</a>, and <a href="https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in15076/">Houari Sahraoui</a>.</p>
+
+<p>CodeUltraFeedback tackles an important question for code-generating LLMs: generated code also needs to follow instructions and preferences around readability, style, explanations, complexity, and efficiency. The work introduces a large preference dataset and an LLM-as-a-Judge framework for evaluating and improving alignment with those coding preferences.</p>
+
+<p>The paper was published in <strong>ACM Transactions on Software Engineering and Methodology (TOSEM), Volume 35, Issue 3, Article 68 (2026)</strong>. DOI: <strong><a href="https://doi.org/10.1145/3736407">10.1145/3736407</a></strong>.</p>
+
+<h2 id="automated-extraction-and-analysis-of-developers-rationale-in-open-source-software">Automated Extraction and Analysis of Developer’s Rationale in Open Source Software</h2>
+
+<p><a href="https://michalis.famelis.info/">Michalis Famelis</a> presented <strong><a href="https://doi.org/10.1145/3729383">“Automated Extraction and Analysis of Developer’s Rationale in Open Source Software”</a></strong>, co-authored with <a href="https://mouna-dhaouadi.github.io/">Mouna Dhaouadi</a> and <a href="https://bentleyoakes.com/">Bentley Oakes</a>, in FSE’s <strong>Re-routed Presentations from Past Years</strong> track.</p>
+
+<p>The paper looks at a problem familiar to anyone who has tried to understand the history of a long-lived software project: the reasons behind old design decisions are often buried across commit messages and other project history. The work proposes an automated approach, using pre-trained models and LLMs, to extract and analyze developer rationale and identify potential conflicts between new changes and past reasoning.</p>
+
+<p>The paper was originally published in <strong>Proceedings of the ACM on Software Engineering, Volume 2, FSE, Article FSE113 (2025), pp. 2548–2570</strong>. DOI: <strong><a href="https://doi.org/10.1145/3729383">10.1145/3729383</a></strong>.</p>
+
+<h2 id="a-student-research-competition">A Student Research Competition</h2>
+
+<p><img src="/assets/images/fse26imenroxie.jpg" alt="FSE2026 Research competition" /></p>
+
+<p>The best part of the week for us was the <a href="https://conf.researchr.org/track/fse-2026/fse-2026-student-research-competition">ACM Student Research Competition</a>. The SRC gives students a chance to present their research first as a poster and then as a short research talk, with winners selected based on both the research contribution and the quality of the presentation. GEODES was very well represented.</p>
+
+<ul>
+  <li>
+    <p><a href="https://www.linkedin.com/in/imen-jaoua-a727a6206/">Imen Jaoua</a> presented <strong><a href="https://doi.org/10.1145/3803437.3804441">“Integrating Static Analysis with Learning-Based Systems for Automated Code Review”</a></strong>. Her work explores how the precision of static analysis can be combined with the broader, context-sensitive capabilities of learning-based systems for automated code review. <strong>Imen won 1st place in the ACM Student Research Competition!</strong> The abstract appears in the FSE 2026 Companion Proceedings, DOI: <strong><a href="https://doi.org/10.1145/3803437.3804441">10.1145/3803437.3804441</a></strong>.</p>
+  </li>
+  <li>
+    <p><a href="https://www.roxypm10.net/">Roxana Peña Mendieta</a> presented <strong><a href="https://doi.org/10.1145/3803437.3804440">“An Empirical Study of Public Generative Art Repositories”</a></strong>. Her project studies generative art as software, analyzing public repositories to characterize their developers, technical patterns and tools, as well as the reproducibility of software-based artworks. <strong>Roxana won 3rd place!</strong> The abstract appears in the FSE 2026 Companion Proceedings, DOI: <strong><a href="https://doi.org/10.1145/3803437.3804440">10.1145/3803437.3804440</a></strong>.</p>
+  </li>
+</ul>
+
+<p>&lt;!— <a href="https://mouna-dhaouadi.github.io/">Mouna Dhaouadi</a> presented <strong><a href="https://conf.researchr.org/track/fse-2026/fse-2026-student-research-competition">“Understanding Developers’ Experiences in Seeking Similar Rationale Information in Commit Messages”</a></strong>, continuing her work on how developers find and use rationale information embedded in software histories.</p>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[This July, FSE 2026 came to Montréal, and saw many members of GEODES throughout the program.]]></summary></entry><entry xml:lang="en"><title type="html">GEODES Research Retreat 2025 at Station Biologiques des Laurentides</title><link href="https://geodes.iro.umontreal.ca//fr/news/2025/08/19/research-retreat.html" rel="alternate" type="text/html" title="GEODES Research Retreat 2025 at Station Biologiques des Laurentides" /><published>2025-08-19T17:28:00+00:00</published><updated>2025-08-19T17:28:00+00:00</updated><id>https://geodes.iro.umontreal.ca//news/2025/08/19/research-retreat</id><content type="html" xml:base="https://geodes.iro.umontreal.ca//news/2025/08/19/research-retreat.html"><![CDATA[<p>Our group is organizing a 3-day research retreat at the <a href="https://sbl.umontreal.ca/accueil/">Station Biologique des Laurentides</a> from <strong>Friday, September 5</strong> to <strong>Sunday, September 7</strong>.</p>
 
 <p><img src="/assets/images/SBL_with_Geodes_logo.jpg" alt="Station Biologique des Laurentides" /></p>
 
@@ -259,25 +321,4 @@ a remporté le prix <strong>Best practice track paper</strong>.</p>
 
 <!--more-->
 
-<p><img src="/assets/images/geodes_models_2023_award.jpg" alt="The GEODES group 2023-2024" /></p>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[Plusieurs membres de notre groupe ont présenté leurs travaux à la conférence MODELS 2023. Notre article Digital Twins for Cyber-Biophysical Systems: Challenges et Lessons Learned de Istvan David, Pascal Archambault, Quentin Wolak, Cong Vinh Vu, Timothé Lalonde, Kashif Riaz, Houari Sahraoui et Eugene Syriani a remporté le prix Best practice track paper.]]></summary></entry><entry xml:lang="fr"><title type="html">Rencontre SEMTL à la Station Biologiques des Laurentides</title><link href="https://geodes.iro.umontreal.ca//fr/news/2023/09/09/semtl-meeting.html" rel="alternate" type="text/html" title="Rencontre SEMTL à la Station Biologiques des Laurentides" /><published>2023-09-09T19:28:00+00:00</published><updated>2023-09-09T19:28:00+00:00</updated><id>https://geodes.iro.umontreal.ca//news/2023/09/09/semtl-meeting</id><content type="html" xml:base="https://geodes.iro.umontreal.ca//news/2023/09/09/semtl-meeting.html"><![CDATA[<p><img src="/assets/images/semtl_laurentides_2023.jpg" alt="The GEODES group 2023-2024" /></p>
-
-<p>Nous avons organisé une <a href="https://semtl.github.io/">rencontre SEMTL</a> à la <a href="https://sbl.umontreal.ca/accueil/">Station Biologiques des Laurentides</a> afin que tous ceux et celles qui font de la recherche en génie logiciel puissent partager leurs travaux et trouvailles. Ce rassemblement nous a permis de penser à de nouvelles idées de recherche et a débouché sur de nouvelles collaborations.</p>
-
-<!--more-->
-
-<p>La rencontre SEMTL faisait partie d’une retraite scientifique s’étalant sur deux jours (8 sept 2023 – 9 sept 2023).</p>
-
-<h2 id="retraite-scientifique">Retraite scientifique</h2>
-
-<h3 id="jour-1-rencontre-semtl">Jour 1: Rencontre SEMTL</h3>
-
-<p>La première journée fut consacrée à la rencontre SEMTL, commençant avec un discours d’ouverture, suivi de courtes présentations, et se clôturant par une activité sociale. 
-Le but était d’encourager le contact et la mise en relation des diverses institutions de recherche situés à Montréal et fournir aux chercheurs une autre plateforme pour partager leurs travaux et initier des collaborations.</p>
-
-<h3 id="jour-2-geodes-au-travail-et-samusant">Jour 2: GEODES au travail (et s’amusant)</h3>
-
-<div style="display: flex; max-width: 1000px">
-    <img style="width: 50%; display: block" src="/assets/images/geodes@laurentides_08.jpg" alt="The GEODES at work in the Laurentides" />
-    <img style="width: 50%; display: block" src="/assets/images/geodes@laurentides_09.jpg" alt="The GEODES having fun in the Laurentides" />
-</div>
-<p>La deuxième journée fut consacrée aux activités au sein de notre groupe.</p>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[Nous avons organisé une rencontre SEMTL à la Station Biologiques des Laurentides afin que tous ceux et celles qui font de la recherche en génie logiciel puissent partager leurs travaux et trouvailles. Ce rassemblement nous a permis de penser à de nouvelles idées de recherche et a débouché sur de nouvelles collaborations.]]></summary></entry></feed>
+<p><img src="/assets/images/geodes_models_2023_award.jpg" alt="The GEODES group 2023-2024" /></p>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[Plusieurs membres de notre groupe ont présenté leurs travaux à la conférence MODELS 2023. Notre article Digital Twins for Cyber-Biophysical Systems: Challenges et Lessons Learned de Istvan David, Pascal Archambault, Quentin Wolak, Cong Vinh Vu, Timothé Lalonde, Kashif Riaz, Houari Sahraoui et Eugene Syriani a remporté le prix Best practice track paper.]]></summary></entry></feed>
