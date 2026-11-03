@@ -249,3 +249,17 @@
   research_areas:
     - Software security
     - CI/CD 
+
+- name: Hassici, Rayan Zakaria
+  image: rayan.jpg
+  position: PhD
+  category: PhD
+  start: 2026
+  email: rayan.zakaria.hassici@umontreal.ca
+  website: https://rayanzak.com/
+  supervisor: Houari SAHRAOUI
+  thesis: Making AI coding agents more reliable, trustworthy and cost-efficient by using smaller, specialized LLMs as agents. I evaluate and benchmark open-source and proprietary agents to understand their trade-offs.
+  research_areas:
+    - AI4SE
+    - LLM
+    - Trustworthiness
