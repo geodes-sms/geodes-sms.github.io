@@ -1,3 +1,9 @@
+- name: Ali, Hyacinth
+  image: hyacinth.jpg
+  position: Postdoc
+  website: https://hyacinth-ali.github.io/web/
+  start: 2026
+
 - name: Di Sipio, Claudio
   image: claudio.jpeg
   position: Postdoc

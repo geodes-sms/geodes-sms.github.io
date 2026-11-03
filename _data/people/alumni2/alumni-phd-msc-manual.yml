@@ -1,5 +1,47 @@
 ##### 2026 #####
 
+
+
+- name: Gonzalez Fernandez, Nadia
+  email: nadia.gonzalez.fernandez@umontreal.ca
+  image: nadia.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/nadia-glez
+  research_areas:
+    - Software diversity
+    - Software Supply Chain
+  supervisor: Benoit Baudry
+
+- name: Petrenko, Maxime
+  email: maxime.petrenko@umontreal.ca
+  image: maxime.jpeg
+  position: MSc
+  category: MSc
+  type: research
+  thesis: Integrating active learning in LLM for code
+  website: https://www.linkedin.com/in/maxime-petrenko-b18081287/
+  research_areas:
+    - Active learning
+    - LLM
+  supervisor: Houari Sahraoui
+
+
+- name: Amiri, Mansoorali
+  email: mansoorali.amiri@umontreal.ca
+  image: mansoorali.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/mansoorali-amiri-452a01207/
+  research_areas:
+    - MDE
+    - Digital twin
+    - Agriculture
+  title: Plant modeling in a digital twin for controlled environment agriculture
+  supervisor: E. Syriani and H. Sahraoui
+
 - name: Dhaouadi, Mouna
   image: mouna.jpeg
   position: PhD

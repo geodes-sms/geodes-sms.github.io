@@ -69,34 +69,9 @@
     - Software reliability 
 
 
-- name: Amiri, Mansoorali
-  email: mansoorali.amiri@umontreal.ca
-  image: mansoorali.jpg
-  position: MSc
-  category: MSc
-  type: research
-  website: https://www.linkedin.com/in/mansoorali-amiri-452a01207/
-  research_areas:
-    - MDE
-    - Digital twin
-    - Agriculture
-  title: Plant modeling in a digital twin for controlled environment agriculture
-  supervisor: E. Syriani and H. Sahraoui
 
 
 
-- name: Petrenko, Maxime
-  email: maxime.petrenko@umontreal.ca
-  image: maxime.jpeg
-  position: MSc
-  category: MSc
-  type: research
-  thesis: Integrating active learning in LLM for code
-  website: https://www.linkedin.com/in/maxime-petrenko-b18081287/
-  research_areas:
-    - Active learning
-    - LLM
-  supervisor: Houari Sahraoui
 
 - name: Jaoua, Imen
   email: imen.jaoua@umontreal.ca
@@ -127,17 +102,7 @@
     - NLP
   supervisor: Eugene Syriani
 
-- name: Gonzalez Fernandez, Nadia
-  email: nadia.gonzalez.fernandez@umontreal.ca
-  image: nadia.jpg
-  position: MSc
-  category: MSc
-  type: research
-  website: https://www.linkedin.com/in/nadia-glez
-  research_areas:
-    - Software diversity
-    - Software Supply Chain
-  supervisor: Benoit Baudry
+
 - name: Rouatbi, Abdelhamid
   email: abdelhamid.rouatbi@umontreal.ca
   image: abdelhamid.jpg
@@ -198,20 +163,7 @@
     - Prompt Engineering
   supervisor: E. Syriani and <a href="https://ianarawjo.com/">Ian Arawjo</a>
 
-- name: Ali, Hyacinth
-  image: hyacinth.jpg
-  position: Postdoctoral fellow
-  category: Postdoc
-  email: hyacinth.ali@mail.mcgill.ca
-  website: https://hyacinth-ali.github.io/web/
-  start: 2025
-  supervisor: Houari Sahraoui
-  research_topic: 
-    en: Applying software engineering techniques and generative AI to democratize the development of AI models and make them more accessible to a wider range of professionals.
-    fr: Appliquer des techniques de génie logiciel et l’IA générative pour démocratiser le développement de modèles d’IA et les rendre plus accessibles à un plus large éventail de professionnels.
-  research_areas:
-    - MDE
-    - Generative AI
+
 
 - name: Nasirianfar, Alireza
   email: alireza.nasirianfar@umontreal.ca
