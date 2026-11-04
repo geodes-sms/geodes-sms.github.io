@@ -215,3 +215,28 @@
     - AI4SE
     - LLM
     - Trustworthiness
+
+- name: Poldo Silva, Yamir
+  email: yamir.alejandro.poldo.silva@umontreal.ca
+  image: yamir.png
+  position: MSc
+  category: MSc
+  type: research
+  website: https://yamires.github.io
+  research_areas:
+    - MDE
+    - Software Evolution
+  supervisor: Michalis Famelis
+
+- name: Mancas, Alessandra
+  email: alessandra.thais.mancas@umontreal.ca
+  image: alessandra.jpg
+  position: MSc
+  category: MSc
+  type: research
+  website: https://www.linkedin.com/in/amancas/
+  research_areas:
+    - MDE
+    - Reverse Engineering
+    - LLM
+  supervisor: Houari Sahraoui
